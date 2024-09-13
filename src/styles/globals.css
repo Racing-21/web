@@ -32,6 +32,9 @@ body {
     transform: scale(1.05);
     transition: all ease-in-out 200ms;
   }
+  .underline {
+    border-color: #8C030E;
+  }
 }
 
 /* Color Theme Swatches in Hex */
