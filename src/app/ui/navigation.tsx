@@ -19,15 +19,9 @@ import {
 	ChartPieIcon,
 	CursorArrowRaysIcon,
 	FingerPrintIcon,
-	SquaresPlusIcon,
 	XMarkIcon,
 } from "@heroicons/react/24/outline";
-import {
-	ChevronDownIcon,
-	PhoneIcon,
-	PlayCircleIcon,
-	RectangleGroupIcon,
-} from "@heroicons/react/20/solid";
+import { ChevronDownIcon } from "@heroicons/react/20/solid";
 
 const about = [
 	{
@@ -72,7 +66,7 @@ export default function Navigation() {
 						className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
 					>
 						<span className="sr-only">Open main menu</span>
-						<Bars3Icon aria-hidden="true" className="h-6 w-6" />
+						<Bars3Icon aria-hidden="true" className="h-6 w-6 text-white" />
 					</button>
 				</div>
 				<PopoverGroup className="hidden lg:flex lg:gap-x-12 bg-grayPrimary">
@@ -132,7 +126,7 @@ export default function Navigation() {
 				<DialogPanel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-grayPrimary sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
 					<div className="flex items-center justify-between px-6 py-6">
 						<a href="#" className="-m-1.5 p-1.5">
-							<span className="sr-only">Your Company</span>
+							<span className="sr-only">Racing21</span>
 							<Image alt="" src={logo} className="h-8 w-auto" />
 						</a>
 						<button
