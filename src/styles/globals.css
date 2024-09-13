@@ -3,8 +3,9 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #000000;
+  --foreground: #ffffff;
+  --redPrimary: #8C030E;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -25,3 +26,11 @@ body {
     text-wrap: balance;
   }
 }
+
+/* Color Theme Swatches in Hex */
+.redPrimary { color: #8C030E; }
+.red-smoke-on-a-black-background-2-hex { color: #73020C; }
+.red-smoke-on-a-black-background-3-hex { color: #400101; }
+.red-smoke-on-a-black-background-4-hex { color: #260101; }
+.blackPrimary { color: #0D0D0D; }
+
