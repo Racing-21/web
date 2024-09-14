@@ -80,13 +80,15 @@ const TeamMemberProfile = ({ person }: { person: Person }) => {
 		<>
 			<li
 				key={person.name}
-				className={"bg-black rounded-xl p-6"}
+				className={
+					"bg-black rounded-xl p-6 hover:bg-grayPrimary cursor-pointer shadow-black shadow-md"
+				}
 				onClick={() => handleToggleDialog()}
 			>
 				<Image
 					alt={person.name}
 					src={person.image}
-					className="mx-auto h-52 w-52  rounded-full grayscale-0"
+					className="mx-auto h-52 w-52 rounded-full grayscale"
 				/>
 				<h3 className="mt-6 text-base font-semibold leading-7 tracking-tight text-gray-100">
 					{person.name}
