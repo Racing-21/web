@@ -95,9 +95,9 @@ const TeamMemberProfile = ({ person }: { person: Person }) => {
 			</li>
 			<Dialog open={isOpen} onClose={() => handleToggleDialog()} className="relative z-50">
 				<DialogBackdrop className="fixed inset-0 bg-black/50" />
-				<div className="fixed inset-0 flex w-screen items-center justify-center p-4">
+				<div className="fixed inset-0 flex w-screen items-center justify-center p-4 overflow-y-auto">
 					<DialogPanel className="max-w-screen-lg space-y-4 rounded-xl bg-grayPrimary p-12 shadow-gray-400">
-						<div className={"flex justify-start "}>
+						<div className={"flex justify-start flex-col md:flex-row "}>
 							<Image
 								alt={person.name}
 								src={person.image}
