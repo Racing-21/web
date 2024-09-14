@@ -48,7 +48,7 @@ export default function Navigation() {
 	const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
 	return (
-		<header className="relative isolate z-10 bg-grayPrimary">
+		<header className="relative isolate z-10 bg-black">
 			<nav
 				aria-label="Global"
 				className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
@@ -69,13 +69,13 @@ export default function Navigation() {
 						<Bars3Icon aria-hidden="true" className="h-6 w-6 text-white" />
 					</button>
 				</div>
-				<PopoverGroup className="hidden lg:flex lg:gap-x-12 bg-grayPrimary">
-					<Popover>
+				<PopoverGroup className="hidden lg:flex lg:gap-x-12 bg-black main-menu">
+					<Popover className={"group"}>
 						<PopoverButton className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-50">
 							Náš tým
 							<ChevronDownIcon
 								aria-hidden="true"
-								className="h-5 w-5 flex-none text-gray-200"
+								className="h-5 w-5 flex-none text-gray-200  group-data-[open]:rotate-180"
 							/>
 						</PopoverButton>
 
@@ -87,22 +87,24 @@ export default function Navigation() {
 								{about.map((item) => (
 									<div
 										key={item.name}
-										className="group relative rounded-lg p-6 text-sm leading-6 hover:bg-gray-50"
+										className="group/item relative rounded-lg p-6 text-sm leading-6 hover:bg-gray-50"
 									>
-										<div className="flex h-11 w-11 items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
+										<div className="flex h-11 w-11 items-center justify-center rounded-lg bg-gray-50 group-hover/item:bg-black">
 											<item.icon
 												aria-hidden="true"
-												className="h-6 w-6 text-gray-600 group-hover:text-indigo-600"
+												className="h-6 w-6 text-gray-600 group-hover/item:text-red-600"
 											/>
 										</div>
 										<a
 											href={item.href}
-											className="mt-6 block font-semibold text-gray-900"
+											className="mt-6 block font-semibold text-gray-100 group-hover/item:text-red-900"
 										>
 											{item.name}
 											<span className="absolute inset-0" />
 										</a>
-										<p className="mt-1 text-gray-600">{item.description}</p>
+										<p className="mt-1 text-gray-200  group-hover/item:text-gray-800">
+											{item.description}
+										</p>
 									</div>
 								))}
 							</div>
