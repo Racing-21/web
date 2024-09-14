@@ -22,6 +22,7 @@ import {
 	XMarkIcon,
 } from "@heroicons/react/24/outline";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
+import Link from "next/link";
 
 const about = [
 	{
@@ -111,15 +112,18 @@ export default function Navigation() {
 						</PopoverPanel>
 					</Popover>
 
-					<a href="#" className="text-sm font-semibold leading-6 text-gray-50">
+					<Link
+						href={"/autodilna"}
+						className="text-sm font-semibold leading-6 text-gray-50"
+					>
 						Autodílna
-					</a>
-					<a href="#" className="text-sm font-semibold leading-6 text-gray-50">
+					</Link>
+					<Link href="#" className="text-sm font-semibold leading-6 text-gray-50">
 						Shop
-					</a>
-					<a href="#" className="text-sm font-semibold leading-6 text-gray-50">
+					</Link>
+					<Link href="#" className="text-sm font-semibold leading-6 text-gray-50">
 						Pronájem
-					</a>
+					</Link>
 				</PopoverGroup>
 				<div className="hidden lg:flex lg:flex-1 lg:justify-end"></div>
 			</nav>
