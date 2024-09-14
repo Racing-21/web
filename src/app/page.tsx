@@ -1,5 +1,5 @@
 import Image from "next/image";
-import headerImage from "@/images/homepage/header.jpg";
+import headerImage from "@/images/homepage/header.webp";
 import serviceCardImage from "@/images/homepage/serviceCard.webp";
 import rallyTeamCardImage from "@/images/homepage/rallyTeamCard.webp";
 import rentalCardImage from "@/images/homepage/rentalCard.webp";
