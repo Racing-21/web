@@ -170,16 +170,7 @@ export default function Home() {
 					</div>
 				</div>
 			</div>
-			{/*<div className="relative overflow-hidden px-6 py-[18rem] sm:py-[16rem] lg:px-8">*/}
-			{/*	<div className="absolute left-0 text-center w-full ">*/}
-			{/*		<h2 className="text-5xl font-bold tracking-tight text-white sm:text-6xl">*/}
-			{/*			Racing21*/}
-			{/*		</h2>*/}
-			{/*		<p className="mt-6 text-lg leading-8 text-gray-300"></p>*/}
-			{/*	</div>*/}
-			{/*	<Image alt="" src={headerImage} layout={"fill"} objectFit={"cover"} />*/}
-			{/*	<div className="absolute inset-0 bg-black opacity-20 h-full w-full"></div>*/}
-			{/*</div>*/}
+
 			<div className="w-full px-6 py-6 mt-6">
 				<h2 className={"text-2xl capitalize font-bold mb-2"}>Racing 21</h2>
 				<div className={"grid grid-cols-1 md:grid-cols-3 gap-4 rounded-lg"}>
