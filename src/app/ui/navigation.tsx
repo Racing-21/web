@@ -230,12 +230,27 @@ export default function Navigation() {
 										))}
 									</DisclosurePanel>
 								</Disclosure>
-								<a
-									href="#"
-									className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-								>
-									Autodílna
-								</a>
+								<Disclosure as="div" className="-mx-3">
+									<DisclosureButton className="group flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+										Autodílna
+										<ChevronDownIcon
+											aria-hidden="true"
+											className="h-5 w-5 flex-none group-data-[open]:rotate-180"
+										/>
+									</DisclosureButton>
+									<DisclosurePanel className="mt-2 space-y-2">
+										{[...service].map((item) => (
+											<DisclosureButton
+												key={item.name}
+												as="a"
+												href={item.href}
+												className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+											>
+												{item.name}
+											</DisclosureButton>
+										))}
+									</DisclosurePanel>
+								</Disclosure>
 								<a
 									href="#"
 									className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
