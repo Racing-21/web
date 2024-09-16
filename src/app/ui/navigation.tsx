@@ -20,6 +20,8 @@ import {
 	CursorArrowRaysIcon,
 	FingerPrintIcon,
 	XMarkIcon,
+	WrenchScrewdriverIcon,
+	CurrencyEuroIcon,
 } from "@heroicons/react/24/outline";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
 import Link from "next/link";
@@ -42,6 +44,33 @@ const about = [
 		description: "Přehled úspěchů týmu Racing 21 v závodech v české republice i ve světě",
 		href: "/o-nas/tym",
 		icon: FingerPrintIcon,
+	},
+];
+
+const service = [
+	{
+		name: "Soutěžní a závodní vozy",
+		description: "Servis závodních vozů a příprava vozů před soutěží",
+		href: "/autodilna/servis-zavodnich-aut",
+		icon: WrenchScrewdriverIcon,
+	},
+	{
+		name: "Sportovní vozy",
+		description: "Mechanické práce na sportovních vozech",
+		href: "/autodilna/servis-sportovnich-aut",
+		icon: WrenchScrewdriverIcon,
+	},
+	{
+		name: "Renovace veteránů a youngtimerů",
+		description: "Kompletní renovace historických vozů a youngtimerů",
+		href: "/autodilna/renovace",
+		icon: WrenchScrewdriverIcon,
+	},
+	{
+		name: "Nákup veteránů a youngtimerů",
+		description: "Nákup a poradenství v oblasti investičních vozů",
+		href: "/autodilna/nakup-investicnich-vozu",
+		icon: CurrencyEuroIcon,
 	},
 ];
 
@@ -111,13 +140,46 @@ export default function Navigation() {
 							</div>
 						</PopoverPanel>
 					</Popover>
+					<Popover className={"group"}>
+						<PopoverButton className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-50">
+							Autodílna
+							<ChevronDownIcon
+								aria-hidden="true"
+								className="h-5 w-5 flex-none text-gray-200  group-data-[open]:rotate-180"
+							/>
+						</PopoverButton>
 
-					<Link
-						href={"/autodilna"}
-						className="text-sm font-semibold leading-6 text-gray-50"
-					>
-						Autodílna
-					</Link>
+						<PopoverPanel
+							transition
+							className="absolute inset-x-0 top-0 -z-10 bg-grayPrimary pt-14 shadow-lg ring-1 ring-gray-900/5 transition data-[closed]:-translate-y-1 data-[closed]:opacity-0 data-[enter]:duration-200 data-[leave]:duration-150 data-[enter]:ease-out data-[leave]:ease-in"
+						>
+							<div className="mx-auto grid max-w-7xl grid-cols-4 gap-x-4 px-6 py-10 lg:px-8 xl:gap-x-8">
+								{service.map((item) => (
+									<div
+										key={item.name}
+										className="group/item relative rounded-lg p-6 text-sm leading-6 hover:bg-gray-50"
+									>
+										<div className="flex h-11 w-11 items-center justify-center rounded-lg bg-gray-50 group-hover/item:bg-black">
+											<item.icon
+												aria-hidden="true"
+												className="h-6 w-6 text-gray-600 group-hover/item:text-red-600"
+											/>
+										</div>
+										<a
+											href={item.href}
+											className="mt-6 block font-semibold text-gray-100 group-hover/item:text-red-900"
+										>
+											{item.name}
+											<span className="absolute inset-0" />
+										</a>
+										<p className="mt-1 text-gray-200  group-hover/item:text-gray-800">
+											{item.description}
+										</p>
+									</div>
+								))}
+							</div>
+						</PopoverPanel>
+					</Popover>
 					<Link href="#" className="text-sm font-semibold leading-6 text-gray-50">
 						Shop
 					</Link>

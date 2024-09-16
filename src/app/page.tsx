@@ -6,6 +6,7 @@ import rentalCardImage from "@/images/homepage/rentalCard.webp";
 import { Metadata } from "next";
 import { Card } from "@/app/ui/Card";
 import { StaticImport } from "next/dist/shared/lib/get-img-props";
+import Link from "next/link";
 
 export const metadata: Metadata = {
 	title: "Racing21",
@@ -15,15 +16,18 @@ const ServiceCard = ({
 	image,
 	title,
 	altImageText,
+	link,
 }: {
 	image: string | StaticImport;
 	title: string;
 	altImageText: string;
+	link: string;
 }) => {
 	return (
-		<div
+		<Link
+			href={link}
 			className={
-				"w-full overflow-hidden px-5 py-5 bg-grayPrimary rounded-lg flex-col content-center items-center card  hover:cursor-pointer"
+				"group w-full overflow-hidden px-5 py-5 bg-grayPrimary rounded-lg flex-col content-center items-center card hover:cursor-pointer"
 			}
 		>
 			<Card
@@ -43,10 +47,10 @@ const ServiceCard = ({
 				</div>
 				<h3 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-center md:whitespace-nowrap text-3xl font-bold z-10">
 					{title}
-					<div className="relative border-b-2 border-red-500 mt-1 underline"></div>
+					<div className="relative mt-1 border-transparent border-b-2 group-hover:border-red-500 underline"></div>
 				</h3>
 			</Card>
-		</div>
+		</Link>
 	);
 };
 
@@ -128,7 +132,7 @@ export default function Home() {
 				<div className="bg-grayPrimary">
 					<div className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
 						<p className="text-center text-base font-semibold text-gray-500">
-							Produkty, které nám pomáhají v tom co děláme
+							Produkty, které nám pomáhají, v tom co děláme
 						</p>
 						<div className="mt-6 grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
 							<div className="relative col-span-1 flex justify-center md:col-span-2 lg:col-span-1 h-12">
@@ -175,16 +179,19 @@ export default function Home() {
 				<h2 className={"text-2xl capitalize font-bold mb-2"}>Racing 21</h2>
 				<div className={"grid grid-cols-1 md:grid-cols-3 gap-4 rounded-lg"}>
 					<ServiceCard
+						link={"o-nas/tym"}
 						title={"Závodní tým"}
 						altImageText={"Sekce o závodním týmu Racing 21"}
 						image={rallyTeamCardImage}
 					/>
 					<ServiceCard
-						title={"Servis vozidel"}
+						link={"autodilna"}
+						title={"Autodílna"}
 						altImageText={"Servis vozidel"}
 						image={serviceCardImage}
 					/>
 					<ServiceCard
+						link={"pronajem"}
 						title={"Pronájem vozidel a prostor"}
 						altImageText={"Sekce o pronájmu vozidel a prostor"}
 						image={rentalCardImage}

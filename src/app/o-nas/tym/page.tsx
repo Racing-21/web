@@ -50,7 +50,7 @@ const people = [
 	{
 		name: "Veronika Havelková",
 		image: havelkovaImage,
-		role: "navigátor",
+		role: "navigátorka",
 		about: "Již dlouholetá navigátorka, hlavní profesí zdravotnický záchranář ve Středočeském kraji.",
 		achievements: [
 			{
@@ -81,15 +81,19 @@ const TeamMemberProfile = ({ person }: { person: Person }) => {
 			<li
 				key={person.name}
 				className={
-					"bg-black rounded-xl p-6 hover:bg-grayPrimary cursor-pointer shadow-black shadow-md"
+					"relative bg-black rounded-xl p-6 hover:bg-grayPrimary cursor-pointer shadow-black shadow-md"
 				}
 				onClick={() => handleToggleDialog()}
 			>
 				<Image
 					alt={person.name}
 					src={person.image}
-					className="mx-auto h-52 w-52 rounded-full grayscale"
+					width={150}
+					height={150}
+					objectFit={"contain"}
+					className="mx-auto h-[150px] w-[150] rounded-full grayscale object-cover"
 				/>
+
 				<h3 className="mt-6 text-base font-semibold leading-7 tracking-tight text-gray-100">
 					{person.name}
 				</h3>
@@ -162,7 +166,7 @@ export default function Page() {
 				<h2 className={"text-2xl capitalize font-bold mb-2"}>
 					Členové závodního týmu racing 21
 				</h2>
-				<div className={" md:grid-cols-3 gap-4 rounded-lg bg-grayPrimary p-6"}>
+				<div className={"md:grid-cols-3 gap-4 rounded-lg bg-grayPrimary p-6"}>
 					<ul
 						role="list"
 						className="w-full mx-auto grid grid-cols-1 gap-x-8 gap-y-16 text-center md:grid-cols-3 "
