@@ -191,8 +191,8 @@ export default function Home() {
 						image={rallyTeamCardImage}
 					/>
 					<ServiceCard
-						link={"autodilna"}
-						title={"Autodílna"}
+						link={"sluzby"}
+						title={"Naše služby"}
 						altImageText={"Servis vozidel"}
 						image={serviceCardImage}
 					/>
