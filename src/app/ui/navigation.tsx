@@ -51,25 +51,25 @@ const service = [
 	{
 		name: "Soutěžní a závodní vozy",
 		description: "Servis závodních vozů a příprava vozů před soutěží",
-		href: "/autodilna/servis-zavodnich-aut",
+		href: "/sluzby/servis-zavodnich-aut",
 		icon: WrenchScrewdriverIcon,
 	},
 	{
 		name: "Sportovní vozy",
 		description: "Mechanické práce na sportovních vozech",
-		href: "/autodilna/servis-sportovnich-aut",
+		href: "/sluzby/servis-sportovnich-aut",
 		icon: WrenchScrewdriverIcon,
 	},
 	{
 		name: "Renovace veteránů a youngtimerů",
 		description: "Kompletní renovace historických vozů a youngtimerů",
-		href: "/autodilna/renovace",
+		href: "/sluzby/renovace",
 		icon: WrenchScrewdriverIcon,
 	},
 	{
 		name: "Nákup veteránů a youngtimerů",
 		description: "Nákup a poradenství v oblasti investičních vozů",
-		href: "/autodilna/nakup-investicnich-vozu",
+		href: "/sluzby/nakup-investicnich-vozu",
 		icon: CurrencyEuroIcon,
 	},
 ];
@@ -142,7 +142,7 @@ export default function Navigation() {
 					</Popover>
 					<Popover className={"group"}>
 						<PopoverButton className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-50">
-							Autodílna
+							Naše služby
 							<ChevronDownIcon
 								aria-hidden="true"
 								className="h-5 w-5 flex-none text-gray-200  group-data-[open]:rotate-180"
