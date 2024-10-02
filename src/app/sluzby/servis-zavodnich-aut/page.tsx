@@ -5,7 +5,12 @@ import { Metadata } from "next";
 import RaceCarServiceInfo from "@/app/ui/RaceCarServiceInfo";
 
 export const metadata: Metadata = {
-	assets: ["https://cdn.jsdelivr.net/npm/pagedone@1.2.2/src/css/pagedone.css "],
+	title: "Racing 21 - Servis závodních aut",
+	openGraph: {
+		type: "website",
+		title: "Racing 21 - Servis závodních aut",
+		description: "Nabízíme širokou nabídku služeb v oblasti servisu závodních aut",
+	},
 };
 
 export default function Page() {

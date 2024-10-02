@@ -9,7 +9,13 @@ import { StaticImport } from "next/dist/shared/lib/get-img-props";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-	title: "Racing21",
+	title: "Racing 21",
+	openGraph: {
+		type: "website",
+		title: "Racing 21",
+		description:
+			"Kromě samotného závodění se Tým Racing 21 věnuje servisu a pronájmu závodních aut, servisu sportovních aut a pronájmu konferenčních prostor v Praze ",
+	},
 };
 
 const ServiceCard = ({
