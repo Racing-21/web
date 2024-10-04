@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "../styles/globals.css";
-import Navigation from "@/app/ui/navigation";
+import Navigation from "@/app/ui/Navigation";
 import Footer from "@/app/ui/Footer";
 
 // If loading a variable font, you don't need to specify the font weight

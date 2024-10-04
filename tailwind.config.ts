@@ -21,6 +21,7 @@ const config: Config = {
 		fontFamily: {
 			sans: ["Inter var"],
 		},
+		fontSize: {},
 	},
 	plugins: [],
 };
