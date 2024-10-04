@@ -7,6 +7,7 @@ import { Metadata } from "next";
 import { Card } from "@/app/ui/Card";
 import { StaticImport } from "next/dist/shared/lib/get-img-props";
 import Link from "next/link";
+import Services from "./ui/Services";
 
 export const metadata: Metadata = {
 	title: "Racing 21",
@@ -118,7 +119,7 @@ export default function Home() {
 							</div>
 							<div className="relative px-6 py-16 sm:py-24 lg:px-8 lg:py-32">
 								<h1 className="text-center text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
-									<span className="block text-white">Racing21</span>
+									<span className="text-4xl block text-white">Racing21</span>
 									<span className="block text-red-600">
 										Nejen závodní rally tým
 									</span>
@@ -180,7 +181,6 @@ export default function Home() {
 					</div>
 				</div>
 			</div>
-
 			<div className="w-full px-6 py-6 mt-6">
 				<h2 className={"text-2xl capitalize font-bold mb-2"}>Racing 21</h2>
 				<div className={"grid grid-cols-1 md:grid-cols-3 gap-4 rounded-lg"}>
@@ -203,6 +203,10 @@ export default function Home() {
 						image={rentalCardImage}
 					/>
 				</div>
+			</div>
+			<div className="w-full px-6 py-6 mt-6">
+				<h2 className={"text-2xl capitalize font-bold mb-2"}>Nejen závodní tým</h2>
+				<Services />
 			</div>
 			<div className="w-full px-6 py-6 mt-6">
 				<h2 className={"text-2xl capitalize font-bold mb-2"}>Aktuality</h2>
