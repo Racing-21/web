@@ -1,11 +1,18 @@
 import headerImage from "@/images/autodilna/header.webp";
 import Image from "next/image";
-import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from "@heroicons/react/16/solid";
+import {
+	CloudArrowUpIcon,
+	EnvelopeIcon,
+	ExclamationCircleIcon,
+	LockClosedIcon,
+	ServerIcon,
+} from "@heroicons/react/16/solid";
 import raceCarServiceImage from "@/images/autodilna/zavodni-vozy.webp";
 import racePrepImage from "@/images/autodilna/priprava-na-zavody.webp";
 import { StaticImport } from "next/dist/shared/lib/get-img-props";
 import { ComponentType, SVGProps } from "react";
 import Link from "next/link";
+import { ContactForm } from "@/app/ui/ContactForm";
 
 type Feature = {
 	name: string;
@@ -33,26 +40,7 @@ const serviceItems = [
 		 i v zahraničí. Aktuálně nabízíme k pronájmů několik vozů různých kategorií pro automobilové soutěže.`,
 		image: racePrepImage,
 		link: "/autodilna/servis-zavodnich-aut",
-		features: [
-			{
-				name: "Push to deploy.",
-				description:
-					"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
-				icon: CloudArrowUpIcon,
-			},
-			{
-				name: "SSL certificates.",
-				description:
-					"Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.",
-				icon: LockClosedIcon,
-			},
-			{
-				name: "Database backups.",
-				description:
-					"Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
-				icon: ServerIcon,
-			},
-		],
+		features: [],
 	},
 	{
 		title: "Servis sportovních vozů",
@@ -67,26 +55,7 @@ const serviceItems = [
 					vozy, tak i obytné vozy většiny značek.`,
 		image: raceCarServiceImage,
 		link: "/autodilna/servis-sportovnich-aut",
-		features: [
-			{
-				name: "Push to deploy.",
-				description:
-					"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
-				icon: CloudArrowUpIcon,
-			},
-			{
-				name: "SSL certificates.",
-				description:
-					"Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.",
-				icon: LockClosedIcon,
-			},
-			{
-				name: "Database backups.",
-				description:
-					"Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
-				icon: ServerIcon,
-			},
-		],
+		features: [],
 	},
 ];
 
@@ -98,8 +67,8 @@ const ServiceItem = ({
 	imagePosition: "RIGHT" | "LEFT";
 }) => {
 	return (
-		<div className="w-full px-6 py-6 mt-6 flex-col">
-			<div className="overflow-hidden bg-grayPrimary rounded-xl py-18 sm:py-24 mt-6">
+		<div className="w-full px-6 mt-6 flex-col">
+			<div className="overflow-hidden bg-grayPrimary rounded-xl py-16 sm:py-16 mt-6">
 				<div className="mx-auto px-6 lg:px-8">
 					<div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
 						<div
@@ -140,7 +109,7 @@ const ServiceItem = ({
 								</dl>
 								<Link
 									href={item.link}
-									className="inline-block mt-4 rounded bg-red-600 px-3 py-2 text-2xl font-semibold text-white shadow-sm hover:bg-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-900        "
+									className="inline-block mt-4 rounded-lg bg-red-600 px-3 py-2 text-xl font-semibold text-white shadow-sm hover:bg-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-900        "
 								>
 									Více informací
 								</Link>
@@ -184,6 +153,7 @@ export default function Page() {
 			</div>
 			<ServiceItem item={serviceItems[0]} imagePosition={"RIGHT"} />
 			<ServiceItem item={serviceItems[1]} imagePosition={"LEFT"} />
+			<ContactForm />
 		</>
 	);
 }
