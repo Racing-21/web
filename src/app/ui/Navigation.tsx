@@ -111,7 +111,7 @@ const navigation = [
 	},
 	{
 		title: "Média",
-		topLink: "media",
+		topLink: "media/partneri",
 		links: [
 			{
 				name: "Partneři",

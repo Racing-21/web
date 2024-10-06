@@ -1,15 +1,15 @@
 import racePrepImage from "@/images/autodilna/priprava-na-zavody.webp";
 import Testimonials from "@/app/ui/Testimonials";
 import { Metadata } from "next";
-import RaceCarServiceInfo from "@/app/ui/RaceCarServiceInfo";
 import { HeroSection } from "@/app/ui/HeroSection";
 
 export const metadata: Metadata = {
-	title: "Racing 21 - Servis sportovních vozů",
+	title: "Racing 21 - O nás",
 	openGraph: {
 		type: "website",
-		title: "Racing 21 - Servis sportovních vozů",
-		description: "Váš sportovní vůz si zaslouží tu nejlepší péči. My mu jí poskytneme.",
+		title: "Racing 21 - O nás",
+		description:
+			"Náš tým zkušených mechaniků dostane vašeho veterána nebo youngtimera zpátky do skvělé kondice.",
 	},
 };
 
@@ -20,15 +20,16 @@ export default function Page() {
 				{/* Hero card */}
 				<HeroSection
 					image={racePrepImage}
-					title={"Servis "}
-					subtitle={"sportovních vozů"}
-					content={"Váš sportovní vůz si zaslouží tu nejlepší péči. My mu jí poskytneme."}
+					title={"Racing 21"}
+					content={"Detailní informace o našem týmu"}
 				/>
 			</div>
 			<div className="w-full px-6 py-6 mt-6 flex-col">
-				<RaceCarServiceInfo />
+				<section className="bg-grayPrimary py-20 sm:py-120 rounded-lg">
+					<p>Rozcetník na jednotlivé eshopy</p>
+				</section>
 			</div>
-			<div className="w-full px-6 py-6 mt-6 flex-col">
+			<div className="w-full px-6 py-3 mt-6 flex-col">
 				<h2 className={"text-2xl font-bold mb-2"}>Řekli o nás</h2>
 				<Testimonials />
 			</div>

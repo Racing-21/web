@@ -73,9 +73,13 @@ export default function Services() {
 	return (
 		<div className="md:grid-cols-3 gap-4 rounded-lg bg-grayPrimary p-6">
 			<div className={"p-4"}>
-				<p className={"text-center"}>
-					Kromě toho, že rádi závodíme, nabízíme i širovkou paletu služeb, které ůžeme
-					nabídnout.
+				<p className={"text-center mb-2"}>
+					Vojtěch Štajf, jezdec a manažer týmu ACCR Racing21, má téměř 30 let zkušeností v
+					motoristickém sportu s úspěchy na domácí i zahraniční scéně. Racing21 nabízí
+					mechanické opravy, repase a úpravy motorů, stavbu, servis a pronájem závodních
+					vozů. Naše moderně vybavená dílna v Červeném Újezdě, kousek od pražského
+					letiště, je připravena poskytnout profesionální služby nejen pro soutěžní týmy a
+					sportovní vozy, ale i youngtimery.
 				</p>
 			</div>
 			<div className="divide-y divide-black overflow-hidden rounded-lg bg-white sm:grid sm:grid-cols-2 sm:gap-px sm:divide-y-0 border-transparent">

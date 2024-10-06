@@ -13,6 +13,21 @@ const inter = Inter({
 export const metadata: Metadata = {
 	title: "Racing21",
 	description: "Web závodního týmu Racing21",
+	// Icons
+	icons: {
+		icon: "/favicon.ico",
+		shortcut: "/favicon-16x16.png",
+		apple: "/apple-touch-icon.png",
+		other: [
+			{
+				rel: "apple-touch-icon-precomposed",
+				url: "/apple-touch-icon-precomposed.png",
+			},
+		],
+	},
+
+	// Manifest
+	manifest: "/site.webmanifest",
 };
 
 export default function RootLayout({
