@@ -1,12 +1,5 @@
 import headerImage from "@/images/autodilna/header.webp";
 import Image from "next/image";
-import {
-	CloudArrowUpIcon,
-	EnvelopeIcon,
-	ExclamationCircleIcon,
-	LockClosedIcon,
-	ServerIcon,
-} from "@heroicons/react/16/solid";
 import raceCarServiceImage from "@/images/autodilna/zavodni-vozy.webp";
 import racePrepImage from "@/images/autodilna/priprava-na-zavody.webp";
 import { StaticImport } from "next/dist/shared/lib/get-img-props";
