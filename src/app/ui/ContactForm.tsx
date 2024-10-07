@@ -49,7 +49,20 @@ export const ContactForm = () => {
 		formState: { errors },
 	} = useForm<FormValues>({ resolver });
 	const [selectedService, setSelectedService] = useState(services[0]);
-	const onSubmit = handleSubmit((data) => console.log(data));
+
+	const submitForm = async (data: FormValues) => {
+		await fetch("/__forms.html", {
+			method: "POST",
+			headers: { "Content-Type": "application/x-www-form-urlencoded" },
+			body: new URLSearchParams(data).toString(),
+		});
+	};
+
+	const onSubmit = handleSubmit((data) => {
+		submitForm(data).catch((e) => {
+			console.log(e);
+		});
+	});
 
 	return (
 		<div className="w-full px-6 mt-6 flex-col gap-2">
@@ -57,6 +70,7 @@ export const ContactForm = () => {
 				<div className="mx-auto px-6 lg:px-8">
 					<form
 						onSubmit={onSubmit}
+						name={"contactForm"}
 						data-netlify="true"
 						method="POST"
 						className={"grid grid-cols-2 gap-2 contact-form w-2/3 mx-auto"}
