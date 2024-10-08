@@ -55,7 +55,7 @@ export const ContactForm = () => {
 		const myForm = event.target as HTMLFormElement;
 		const formData = new FormData(myForm);
 
-		fetch("/__forms.html", {
+		fetch("/__forms", {
 			method: "POST",
 			headers: { "Content-Type": "application/x-www-form-urlencoded" },
 			body: new URLSearchParams(formData.toString()),
