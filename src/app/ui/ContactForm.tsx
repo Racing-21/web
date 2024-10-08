@@ -51,7 +51,7 @@ export const ContactForm = () => {
 	const [selectedService, setSelectedService] = useState(services[0]);
 
 	const submitForm = async (data: FormValues) => {
-		await fetch("/", {
+		await fetch("/__form.html", {
 			method: "POST",
 			headers: { "Content-Type": "application/x-www-form-urlencoded" },
 			body: new URLSearchParams(data).toString(),
