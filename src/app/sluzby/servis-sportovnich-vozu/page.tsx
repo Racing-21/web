@@ -3,6 +3,7 @@ import Testimonials from "@/app/ui/Testimonials";
 import { Metadata } from "next";
 import RaceCarServiceInfo from "@/app/ui/RaceCarServiceInfo";
 import { HeroSection } from "@/app/ui/HeroSection";
+import { PageLayout } from "@/app/ui/layout/PageLayout";
 
 export const metadata: Metadata = {
 	title: "Racing 21 - Servis sportovních vozů",
@@ -25,13 +26,15 @@ export default function Page() {
 					content={"Váš sportovní vůz si zaslouží tu nejlepší péči. My mu jí poskytneme."}
 				/>
 			</div>
-			<div className="w-full px-6 py-6 mt-6 flex-col">
-				<RaceCarServiceInfo />
-			</div>
-			<div className="w-full px-6 py-6 mt-6 flex-col">
-				<h2 className={"text-2xl font-bold mb-2"}>Řekli o nás</h2>
-				<Testimonials />
-			</div>
+			<PageLayout>
+				<div className="w-full px-6 py-6 mt-6 flex-col">
+					<RaceCarServiceInfo />
+				</div>
+				<div className="w-full px-6 py-6 mt-6 flex-col">
+					<h2 className={"text-2xl font-bold mb-2"}>Řekli o nás</h2>
+					<Testimonials />
+				</div>
+			</PageLayout>
 		</>
 	);
 }

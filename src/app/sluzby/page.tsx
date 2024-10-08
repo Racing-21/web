@@ -6,6 +6,7 @@ import { StaticImport } from "next/dist/shared/lib/get-img-props";
 import { ComponentType, SVGProps } from "react";
 import Link from "next/link";
 import { ContactForm } from "@/app/ui/ContactForm";
+import { PageLayout } from "@/app/ui/layout/PageLayout";
 
 type Feature = {
 	name: string;
@@ -60,8 +61,8 @@ const ServiceItem = ({
 	imagePosition: "RIGHT" | "LEFT";
 }) => {
 	return (
-		<div className="w-full px-6 mt-6 flex-col">
-			<div className="overflow-hidden bg-grayPrimary rounded-xl py-16 sm:py-16 mt-6">
+		<div className="w-full flex flex-col">
+			<div className="overflow-hidden bg-grayPrimary rounded-xl py-8 mt-6">
 				<div className="mx-auto px-6 lg:px-8">
 					<div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
 						<div
@@ -144,9 +145,11 @@ export default function Page() {
 					</div>
 				</div>
 			</div>
-			<ServiceItem item={serviceItems[0]} imagePosition={"RIGHT"} />
-			<ServiceItem item={serviceItems[1]} imagePosition={"LEFT"} />
-			<ContactForm />
+			<PageLayout>
+				<ServiceItem item={serviceItems[0]} imagePosition={"RIGHT"} />
+				<ServiceItem item={serviceItems[1]} imagePosition={"LEFT"} />
+				<ContactForm />
+			</PageLayout>
 		</>
 	);
 }

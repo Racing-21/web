@@ -8,6 +8,8 @@ import havelkovaImage from "@/images/team/veronikaHavelkova.webp";
 import { StaticImport } from "next/dist/shared/lib/get-img-props";
 import { useState } from "react";
 import { Description, Dialog, DialogBackdrop, DialogPanel, DialogTitle } from "@headlessui/react";
+import { PageLayout } from "@/app/ui/layout/PageLayout";
+import { HeroSection } from "@/app/ui/HeroSection";
 
 type Achievement = {
 	name: string;
@@ -138,45 +140,29 @@ export default function Page() {
 		<>
 			<div>
 				{/* Hero card */}
-				<div className="relative  pb-10">
-					<div className="absolute inset-x-0 bottom-0 h-2/3 bg-grayPrimary" />
-					<div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
-						<div className="relative shadow-xl sm:overflow-hidden sm:rounded-2xl">
-							<div className="absolute inset-0 ">
-								<Image
-									alt="Fotografie týmu Racing 21"
-									src={headerImage}
-									className="h-full w-full object-cover"
-								/>
-								<div className="absolute inset-0 bg-grayPrimary opacity-50 mix-blend-multiply" />
-							</div>
-							<div className="relative px-6 py-16 sm:py-24 lg:px-8 lg:py-32 h-[500px]">
-								<h1 className="text-center text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
-									<span className="block text-white">Racing21</span>
-									<span className="block text-red-600">
-										Nejen závodní rally tým
-									</span>
-								</h1>
-							</div>
-						</div>
+				<HeroSection
+					image={headerImage}
+					title={"Racing21"}
+					subtitle={"Nejen závodní rally tým"}
+				/>
+			</div>
+			<PageLayout>
+				<div className="w-full">
+					<h2 className={"text-2xl capitalize font-bold mb-2"}>
+						Členové závodního týmu racing 21
+					</h2>
+					<div className={"flex rounded-lg bg-grayPrimary p-6"}>
+						<ul
+							role="list"
+							className="w-full mx-auto grid grid-cols-1 gap-x-8 gap-y-16 text-center md:grid-cols-3 "
+						>
+							{people.map((person) => (
+								<TeamMemberProfile person={person} key={`${person.name}-profile`} />
+							))}
+						</ul>
 					</div>
 				</div>
-			</div>
-			<div className="w-full px-6 py-6 mt-6">
-				<h2 className={"text-2xl capitalize font-bold mb-2"}>
-					Členové závodního týmu racing 21
-				</h2>
-				<div className={"md:grid-cols-3 gap-4 rounded-lg bg-grayPrimary p-6"}>
-					<ul
-						role="list"
-						className="w-full mx-auto grid grid-cols-1 gap-x-8 gap-y-16 text-center md:grid-cols-3 "
-					>
-						{people.map((person) => (
-							<TeamMemberProfile person={person} key={`${person.name}-profile`} />
-						))}
-					</ul>
-				</div>
-			</div>
+			</PageLayout>
 		</>
 	);
 }

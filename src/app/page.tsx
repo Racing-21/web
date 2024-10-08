@@ -8,6 +8,7 @@ import { UpcomingEventsCard } from "@/app/ui/UpcomingEventCard";
 import { ServiceNavigationCard } from "@/app/ui/ServiceNavigationCard";
 import { HomepageLogoCloud } from "@/app/ui/HomepageLogoCloud";
 import { HeroSection } from "@/app/ui/HeroSection";
+import { PageLayout } from "@/app/ui/layout/PageLayout";
 
 export const metadata: Metadata = {
 	title: "Racing 21",
@@ -38,56 +39,58 @@ export default function Home() {
 			/>
 			{/* Logo cloud */}
 			<HomepageLogoCloud />
-			<div className="w-full px-6 py-6 mt-6">
-				<h2 className={"text-2xl capitalize font-bold mb-2"}>Nejen závodní tým</h2>
-				<Services />
-			</div>
-			<div className="w-full px-6 py-6 mt-6">
-				<h2 className={"text-2xl capitalize font-bold mb-2"}>Racing 21</h2>
-				<div className={"grid grid-cols-1 md:grid-cols-3 gap-4 rounded-lg"}>
-					<ServiceNavigationCard
-						link={"o-nas/tym"}
-						title={"Závodní tým"}
-						altImageText={"Sekce o závodním týmu Racing 21"}
-						image={rallyTeamCardImage}
-					/>
-					<ServiceNavigationCard
-						link={"sluzby"}
-						title={"Naše služby"}
-						altImageText={"Servis vozidel"}
-						image={serviceCardImage}
-					/>
-					<ServiceNavigationCard
-						link={"pronajem"}
-						title={"Pronájem vozidel a prostor"}
-						altImageText={"Sekce o pronájmu vozidel a prostor"}
-						image={rentalCardImage}
-					/>
+			<PageLayout>
+				<div className="w-full">
+					<h2 className={"text-2xl capitalize font-bold mb-2"}>Nejen závodní tým</h2>
+					<Services />
 				</div>
-			</div>
-			<div className="w-full px-6 py-6 mt-6">
-				<h2 className={"text-2xl capitalize font-bold mb-2"}>Aktuality</h2>
-				<div className={"grid grid-cols-1 md:grid-cols-3 gap-4 rounded-lg"}>
-					<UpcomingEventsCard
-						title={"Závodní tým"}
-						altImageText={"Sekce o závodním týmu Racing 21"}
-						image={rallyTeamCardImage}
-						description={"Lorem ipsum et donor"}
-					/>
-					<UpcomingEventsCard
-						title={"Servis vozidel"}
-						altImageText={"Servis vozidel"}
-						image={serviceCardImage}
-						description={"Lorem ipsum et donor"}
-					/>
-					<UpcomingEventsCard
-						title={"Pronájem vozidel a prostor"}
-						altImageText={"Sekce o pronájmu vozidel a prostor"}
-						image={rentalCardImage}
-						description={"Lorem ipsum et donor"}
-					/>
+				<div className="w-full">
+					<h2 className={"text-2xl capitalize font-bold mb-2"}>Racing 21</h2>
+					<div className={"grid grid-cols-1 md:grid-cols-3 gap-4 rounded-lg"}>
+						<ServiceNavigationCard
+							link={"o-nas/tym"}
+							title={"Závodní tým"}
+							altImageText={"Sekce o závodním týmu Racing 21"}
+							image={rallyTeamCardImage}
+						/>
+						<ServiceNavigationCard
+							link={"sluzby"}
+							title={"Naše služby"}
+							altImageText={"Servis vozidel"}
+							image={serviceCardImage}
+						/>
+						<ServiceNavigationCard
+							link={"pronajem"}
+							title={"Pronájem vozidel a prostor"}
+							altImageText={"Sekce o pronájmu vozidel a prostor"}
+							image={rentalCardImage}
+						/>
+					</div>
 				</div>
-			</div>
+				<div className="w-full">
+					<h2 className={"text-2xl capitalize font-bold mb-2"}>Aktuality</h2>
+					<div className={"grid grid-cols-1 md:grid-cols-3 gap-4 rounded-lg"}>
+						<UpcomingEventsCard
+							title={"Závodní tým"}
+							altImageText={"Sekce o závodním týmu Racing 21"}
+							image={rallyTeamCardImage}
+							description={"Lorem ipsum et donor"}
+						/>
+						<UpcomingEventsCard
+							title={"Servis vozidel"}
+							altImageText={"Servis vozidel"}
+							image={serviceCardImage}
+							description={"Lorem ipsum et donor"}
+						/>
+						<UpcomingEventsCard
+							title={"Pronájem vozidel a prostor"}
+							altImageText={"Sekce o pronájmu vozidel a prostor"}
+							image={rentalCardImage}
+							description={"Lorem ipsum et donor"}
+						/>
+					</div>
+				</div>
+			</PageLayout>
 		</>
 	);
 }

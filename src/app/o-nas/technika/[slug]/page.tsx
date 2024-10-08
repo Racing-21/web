@@ -3,6 +3,7 @@ import { VEHICLES } from "@/app/o-nas/technika/vehicles";
 import VehicleInformationDetail from "@/app/ui/VehicleInformationDetail";
 import { Breadcrumbs } from "@/app/ui/Breadcrumbs";
 import type { Metadata } from "next";
+import { PageLayout } from "@/app/ui/layout/PageLayout";
 
 export const metadata: Metadata = {
 	title: "Racing21 - Technika",
@@ -43,12 +44,14 @@ export default function Page({ params }: { params: { slug: string } }) {
 					</div>
 				</div>
 			</div>
-			<div className={"px-6  mt-4"}>
-				<Breadcrumbs />
-			</div>
-			<div className="w-full px-6 py-6 mt-2">
-				<VehicleInformationDetail vehicle={vehicle} />
-			</div>
+			<PageLayout>
+				<div className={"px-6  mt-4"}>
+					<Breadcrumbs />
+				</div>
+				<div className="w-full px-6 py-6 mt-2">
+					<VehicleInformationDetail vehicle={vehicle} />
+				</div>
+			</PageLayout>
 		</>
 	);
 }

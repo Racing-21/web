@@ -2,6 +2,7 @@ import headerImage from "@/images/team/header.webp";
 import Image from "next/image";
 import { VEHICLES } from "@/app/o-nas/technika/vehicles";
 import { ServiceNavigationCard } from "@/app/ui/ServiceNavigationCard";
+import { PageLayout } from "@/app/ui/layout/PageLayout";
 
 export default function Page() {
 	return (
@@ -30,20 +31,22 @@ export default function Page() {
 					</div>
 				</div>
 			</div>
-			<div className="w-full px-6 py-6 mt-6">
-				<h2 className={"text-2xl capitalize font-bold mb-2"}>Naše technika</h2>
-				<div className={"grid grid-cols-1 md:grid-cols-3 gap-4 rounded-lg"}>
-					{VEHICLES.map((vehicle) => (
-						<ServiceNavigationCard
-							key={vehicle.slug}
-							link={`technika/${vehicle.slug}`}
-							title={vehicle.name}
-							altImageText={vehicle.name}
-							image={vehicle.images[0]}
-						/>
-					))}
+			<PageLayout>
+				<div className="w-full flex flex-col">
+					<h2 className={"w-full text-2xl capitalize font-bold mb-2"}>Naše technika</h2>
+					<div className={"flex flex-col gap-4 rounded-lg md:flex-row"}>
+						{VEHICLES.map((vehicle) => (
+							<ServiceNavigationCard
+								key={vehicle.slug}
+								link={`technika/${vehicle.slug}`}
+								title={vehicle.name}
+								altImageText={vehicle.name}
+								image={vehicle.images[0]}
+							/>
+						))}
+					</div>
 				</div>
-			</div>
+			</PageLayout>
 		</>
 	);
 }

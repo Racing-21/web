@@ -65,7 +65,7 @@ export const ContactForm = () => {
 	});
 
 	return (
-		<div className="w-full px-6 mt-6 flex-col gap-2">
+		<div className="w-full flex flex-col gap-2">
 			<div className="overflow-hidden bg-grayPrimary rounded-xl py-16 sm:py-16 mt-6 gap">
 				<div className="mx-auto px-6 lg:px-8">
 					<form

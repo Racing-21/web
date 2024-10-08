@@ -9,11 +9,11 @@ export type HeroSectionProps = {
 
 export const HeroSection = ({ image, title, subtitle, content }: HeroSectionProps) => {
 	return (
-		<div className="relative">
-			<div className="absolute inset-x-0 bottom-0 h-1/2 bg-grayPrimary" />
-			<div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
-				<div className="relative shadow-xl sm:overflow-hidden sm:rounded-2xl">
-					<div className="absolute inset-0">
+		<div className="relative pb-6 pt-6">
+			<div className="absolute inset-x-0 bottom-0 h-2/3 bg-grayPrimary pb-6" />
+			<div className="mx-auto max-w-7xl">
+				<div className="relative shadow-xl sm:overflow-hidden sm:rounded-2xl pb-6">
+					<div className="absolute inset-0 ">
 						<Image
 							alt="People working on laptops"
 							src={image}
@@ -26,11 +26,9 @@ export const HeroSection = ({ image, title, subtitle, content }: HeroSectionProp
 							<span className="text-4xl block text-white">{title}</span>
 							{subtitle && <span className="block text-red-600">{subtitle}</span>}
 						</h1>
-						{content && (
-							<p className="mx-auto mt-6 max-w-lg text-center text-xl text-white sm:max-w-3xl">
-								{content}
-							</p>
-						)}
+						<p className="mx-auto mt-6 max-w-lg text-center text-xl text-white sm:max-w-3xl">
+							{content ? content : " "}
+						</p>
 					</div>
 				</div>
 			</div>
