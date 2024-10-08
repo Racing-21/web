@@ -40,14 +40,14 @@ const navigation = [
 			{
 				name: "Technika",
 				description: "Specifikace našich závodních speciálů a vybavení",
-				href: "/o-nas/tym",
+				href: "/o-nas/technika",
 				icon: CursorArrowRaysIcon,
 			},
 			{
 				name: "Výsledky",
 				description:
 					"Přehled úspěchů týmu Racing 21 v závodech v české republice i ve světě",
-				href: "/o-nas/tym",
+				href: "/o-nas/vysledky",
 				icon: FingerPrintIcon,
 			},
 		],

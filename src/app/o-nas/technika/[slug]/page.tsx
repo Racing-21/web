@@ -1,9 +1,15 @@
-import headerImage from "@/images/team/header.webp";
 import Image from "next/image";
 import { VEHICLES } from "@/app/o-nas/technika/vehicles";
-import { ServiceNavigationCard } from "@/app/ui/ServiceNavigationCard";
+import VehicleInformationDetail from "@/app/ui/VehicleInformationDetail";
+import { Breadcrumbs } from "@/app/ui/Breadcrumbs";
 
-export default function Page() {
+export default function Page({ params }: { params: { slug: string } }) {
+	const vehicle = VEHICLES.find((vehicle) => vehicle.slug === params.slug);
+
+	if (!vehicle) {
+		return null;
+	}
+
 	return (
 		<>
 			<div>
@@ -15,7 +21,8 @@ export default function Page() {
 							<div className="absolute inset-0 ">
 								<Image
 									alt="Fotografie týmu Racing 21"
-									src={headerImage}
+									src={vehicle.images[0]}
+									fill={true}
 									className="h-full w-full object-cover"
 								/>
 								<div className="absolute inset-0 bg-grayPrimary opacity-50 mix-blend-multiply" />
@@ -23,26 +30,19 @@ export default function Page() {
 							<div className="relative px-6 py-16 sm:py-24 lg:px-8 lg:py-32 h-[500px]">
 								<h1 className="text-center text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
 									<span className="block text-white">Racing21</span>
-									<span className="block text-red-600">S čím závodíme</span>
+									<span className="block text-red-600">{vehicle.name}</span>
 								</h1>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div className="w-full px-6 py-6 mt-6">
-				<h2 className={"text-2xl capitalize font-bold mb-2"}>Naše technika</h2>
-				<div className={"grid grid-cols-1 md:grid-cols-3 gap-4 rounded-lg"}>
-					{VEHICLES.map((vehicle) => (
-						<ServiceNavigationCard
-							key={vehicle.slug}
-							link={`technika/${vehicle.slug}`}
-							title={vehicle.name}
-							altImageText={vehicle.name}
-							image={vehicle.images[0]}
-						/>
-					))}
-				</div>
+			<div className={"px-6  mt-4"}>
+				<Breadcrumbs />
+			</div>
+
+			<div className="w-full px-6 py-6 mt-2">
+				<VehicleInformationDetail vehicle={vehicle} />
 			</div>
 		</>
 	);
