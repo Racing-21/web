@@ -11,6 +11,7 @@ export type Vehicle = {
 	images: string[];
 	general: {
 		length: string;
+		height?: string;
 		width: string;
 		wheelbase: string;
 		weight: string;
@@ -21,7 +22,7 @@ export type Vehicle = {
 		volume: string;
 		power: string;
 		torque: string;
-		bore: string;
+		bore?: string;
 		restrictor?: string;
 		controlUnit?: string;
 		compressRatio?: string;
@@ -32,14 +33,18 @@ export type Vehicle = {
 		clutch?: string;
 	};
 	brakes: {
-		discs: string;
-		dimensions: {
+		type?: {
+			front: string;
+			rear: string;
+		};
+		discs?: string;
+		dimensions?: {
 			front: string;
 			rear: string;
 		};
 		calipers?: string;
 	};
-	suspension: {
+	suspension?: {
 		front: string;
 		rear: string;
 		drive: string;
@@ -210,33 +215,49 @@ export default function VehicleInformationDetail({ vehicle }: { vehicle: Vehicle
 							</h3>
 						</div>
 						<dl className="divide-y divide-gray-100">
+							<InformationItem
+								name={"Brzdy vpředu"}
+								value={vehicle.brakes.type?.front}
+							/>
+							<InformationItem
+								name={"Brzdy vzadu"}
+								value={vehicle.brakes.type?.rear}
+							/>
 							<InformationItem name={"Kotouče"} value={vehicle.brakes.discs} />
 							<InformationItem
 								name={"Rozměr vpředu"}
-								value={vehicle.brakes.dimensions.front}
+								value={vehicle.brakes.dimensions?.front}
 							/>
 							<InformationItem
 								name={"Rozměr vzadu"}
-								value={vehicle.brakes.dimensions.rear}
+								value={vehicle.brakes.dimensions?.rear}
 							/>
 							<InformationItem name={"Třmeny"} value={vehicle.brakes.calipers} />
 						</dl>
-						<div className="px-4 py-3 sm:px-6">
-							<h3 className="text-base font-semibold leading-7 text-gray-900">
-								Podvozek
-							</h3>
-						</div>
-						<dl className="divide-y divide-gray-100">
-							<InformationItem
-								name={"Náprava vpředu"}
-								value={vehicle.suspension.front}
-							/>
-							<InformationItem
-								name={"Náprava vzadu"}
-								value={vehicle.suspension.rear}
-							/>
-							<InformationItem name={"Řízení"} value={vehicle.suspension.drive} />
-						</dl>
+						{vehicle.suspension && (
+							<>
+								<div className="px-4 py-3 sm:px-6">
+									<h3 className="text-base font-semibold leading-7 text-gray-900">
+										Podvozek
+									</h3>
+								</div>
+
+								<dl className="divide-y divide-gray-100">
+									<InformationItem
+										name={"Náprava vpředu"}
+										value={vehicle.suspension.front}
+									/>
+									<InformationItem
+										name={"Náprava vzadu"}
+										value={vehicle.suspension.rear}
+									/>
+									<InformationItem
+										name={"Řízení"}
+										value={vehicle.suspension.drive}
+									/>
+								</dl>
+							</>
+						)}
 						<div className="px-4 py-3 sm:px-6">
 							<h3 className="text-base font-semibold leading-7 text-gray-900">
 								Disky

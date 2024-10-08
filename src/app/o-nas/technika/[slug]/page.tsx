@@ -2,6 +2,12 @@ import Image from "next/image";
 import { VEHICLES } from "@/app/o-nas/technika/vehicles";
 import VehicleInformationDetail from "@/app/ui/VehicleInformationDetail";
 import { Breadcrumbs } from "@/app/ui/Breadcrumbs";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+	title: "Racing21 - Technika",
+	description: "Přehled soutěžních vozů týmu Racing 21",
+};
 
 export default function Page({ params }: { params: { slug: string } }) {
 	const vehicle = VEHICLES.find((vehicle) => vehicle.slug === params.slug);
@@ -40,7 +46,6 @@ export default function Page({ params }: { params: { slug: string } }) {
 			<div className={"px-6  mt-4"}>
 				<Breadcrumbs />
 			</div>
-
 			<div className="w-full px-6 py-6 mt-2">
 				<VehicleInformationDetail vehicle={vehicle} />
 			</div>
