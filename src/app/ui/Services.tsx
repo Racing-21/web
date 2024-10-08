@@ -71,7 +71,7 @@ function classNames(...classes: string[]) {
 
 export default function Services() {
 	return (
-		<div className="md:grid-cols-3 gap-4 rounded-lg bg-grayPrimary p-6">
+		<div className="md:grid-cols-3 gap-4 rounded-lg bg-grayPrimary p-2 md:p-6">
 			<div className={"p-4"}>
 				<p className={"text-center mb-2"}>
 					Vojtěch Štajf, jezdec a manažer týmu ACCR Racing21, má téměř 30 let zkušeností v
@@ -93,7 +93,7 @@ export default function Services() {
 							actionIdx === services.length - 1
 								? "rounded-bl-lg rounded-br-lg sm:rounded-bl-none"
 								: "",
-							"flex group relative bg-grayPrimary px-6 py-4 border-1 border-grayPrimary focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500 hover:bg-gray-50",
+							"flex group relative bg-grayPrimary px-2 md:px-6 py-4 border-1 border-grayPrimary flex-col md:flex-row focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500 hover:bg-gray-50",
 						)}
 					>
 						<div>
@@ -104,10 +104,10 @@ export default function Services() {
 									"inline-flex rounded-lg p-3 ring-4 ring-white",
 								)}
 							>
-								<action.icon aria-hidden="true" className="h-6 w-6" />
+								<action.icon aria-hidden="true" className="h-3 w-3 md:h-6 md:w-6" />
 							</span>
 						</div>
-						<div className="mt-1 ml-6 mr-6 mb-3">
+						<div className="mt-2 md:mt-1 md:ml-6 md:mr-6 mb-3">
 							<h3 className="text-base font-semibold leading-6 text-gray-50 group-hover:text-red-600">
 								<a href={action.href} className="focus:outline-none">
 									{/* Extend touch target to entire panel */}
