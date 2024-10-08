@@ -39,15 +39,18 @@ export default function Page() {
 									className={"group overflow-hidden relative flex flex-col"}
 									target={"_blank"}
 								>
-									<div className="rounded-full p-1 e h-[100px] w-[100px] flex items-center justify-center">
-										<Image
-											key={partner.link}
-											alt={partner.name}
-											src={partner.logo}
-											objectFit={"cover"}
-											width={80}
-											height={80}
-										/>
+									<div className={"flex items-center"}>
+										<div className="rounded-full p-1 e h-[100px] w-[100px] flex items-center justify-center">
+											<Image
+												key={partner.link}
+												alt={partner.name}
+												src={partner.logo}
+												objectFit={"cover"}
+												width={80}
+												height={80}
+											/>
+										</div>
+										<h4>{partner.name}</h4>
 									</div>
 
 									<div className={"flex-col items-center justify-between mb-2"}>
