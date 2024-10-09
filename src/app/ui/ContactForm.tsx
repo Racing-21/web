@@ -53,12 +53,12 @@ export const ContactForm = () => {
 		event.preventDefault();
 
 		try {
-			const myForm = event.target;
+			const myForm = event.target as HTMLFormElement;
 			const formData = new FormData(myForm);
 			const res = await fetch("/__forms.html", {
 				method: "POST",
 				headers: { "Content-Type": "application/x-www-form-urlencoded" },
-				body: new URLSearchParams(formData).toString(),
+				body: new URLSearchParams(formData as never),
 			});
 			if (res.status === 200) {
 				console.log("submitted");
