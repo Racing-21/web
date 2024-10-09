@@ -55,6 +55,7 @@ export const ContactForm = () => {
 		try {
 			const myForm = event.target as HTMLFormElement;
 			const formData = new FormData(myForm);
+			formData.append("selectedService", selectedService.value);
 			const res = await fetch("/forms", {
 				method: "POST",
 				headers: { "Content-Type": "application/x-www-form-urlencoded" },
