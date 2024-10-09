@@ -55,7 +55,7 @@ export const ContactForm = () => {
 		try {
 			const myForm = event.target as HTMLFormElement;
 			const formData = new FormData(myForm);
-			const res = await fetch("/__forms.html", {
+			const res = await fetch("/", {
 				method: "POST",
 				headers: { "Content-Type": "application/x-www-form-urlencoded" },
 				body: new URLSearchParams(formData as never),
@@ -81,6 +81,7 @@ export const ContactForm = () => {
 						method="post"
 						className={"grid grid-cols-2 gap-2 contact-form w-2/3 mx-auto"}
 					>
+						<input type="hidden" name="form-name" value="contactForm" />
 						<div>
 							<label
 								htmlFor="firstName"
