@@ -49,19 +49,25 @@ export const ContactForm = () => {
 	} = useForm<FormValues>({ resolver });
 	const [selectedService, setSelectedService] = useState(services[0]);
 
-	const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
+	const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
 		event.preventDefault();
 
-		const myForm = event.target as HTMLFormElement;
-		const formData = new FormData(myForm);
-
-		fetch("/__forms", {
-			method: "POST",
-			headers: { "Content-Type": "application/x-www-form-urlencoded" },
-			body: new URLSearchParams(formData.toString()),
-		})
-			.then((e) => console.log(e))
-			.catch((error) => alert(error));
+		try {
+			const myForm = event.target;
+			const formData = new FormData(myForm);
+			const res = await fetch("/__forms.html", {
+				method: "POST",
+				headers: { "Content-Type": "application/x-www-form-urlencoded" },
+				body: new URLSearchParams(formData).toString(),
+			});
+			if (res.status === 200) {
+				console.log("submitted");
+			} else {
+				console.log("not submitted");
+			}
+		} catch (e) {
+			console.log(e);
+		}
 	};
 
 	return (
