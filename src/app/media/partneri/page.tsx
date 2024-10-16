@@ -54,7 +54,9 @@ export default function Page() {
 													height={80}
 												/>
 											</div>
-											<h4>{partner.name}</h4>
+											<h4 className={"group-hover:text-gray-800"}>
+												{partner.name}
+											</h4>
 										</div>
 
 										<div
@@ -74,6 +76,7 @@ export default function Page() {
 									</Link>
 								</div>
 							))}
+							{PARTNERS.length % 2 === 1 && <div></div>}{" "}
 						</div>
 					</div>
 				</div>

@@ -22,6 +22,6 @@ const config: Config = {
 			sans: ["Inter var"],
 		},
 	},
-	plugins: [],
+	plugins: [require("@tailwindcss/forms")],
 };
 export default config;
