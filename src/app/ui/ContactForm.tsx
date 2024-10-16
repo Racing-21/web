@@ -133,7 +133,7 @@ export const ContactForm = () => {
 						</div>
 						<div>
 							<label
-								htmlFor="email"
+								htmlFor="team"
 								className="block text-sm font-medium leading-6 text-gray-50"
 							>
 								Tým
@@ -142,6 +142,39 @@ export const ContactForm = () => {
 								<input
 									{...register("team")}
 									placeholder="Tým"
+									className="block w-full rounded-md border-0 py-1.5 px-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+								/>
+							</div>
+							{errors?.firstName && <p>{errors.firstName.message}</p>}
+						</div>
+						<div>
+							<label
+								htmlFor="email"
+								className="block text-sm font-medium leading-6 text-gray-50"
+							>
+								E-mail
+							</label>
+							<div className="mt-2">
+								<input
+									{...register("email")}
+									placeholder="E-mail"
+									className="block w-full rounded-md border-0 py-1.5 px-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+								/>
+							</div>
+							{errors?.firstName && <p>{errors.firstName.message}</p>}
+						</div>
+						<div>
+							<label
+								htmlFor="phone"
+								className="block text-sm font-medium leading-6 text-gray-50"
+							>
+								Telefon
+							</label>
+							<div className="mt-2">
+								<input
+									{...register("phone")}
+									type={"tel"}
+									placeholder="Telefon"
 									className="block w-full rounded-md border-0 py-1.5 px-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
 								/>
 							</div>
@@ -225,7 +258,7 @@ export const ContactForm = () => {
 							<input
 								type="submit"
 								className={
-									"bg-red-600 text-gray-50 mx-auto px-3 py-3 rounded-lg font-bold"
+									"bg-red-600 text-gray-50 mx-auto px-3 py-3 rounded-lg font-bold hover:bg-black hover:cursor-pointer active:shadow-white"
 								}
 							/>
 						</div>
