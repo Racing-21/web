@@ -7,7 +7,6 @@ import {
 	TeamMembersTeamMember,
 	TeamMembersTeamMemberAchievements,
 } from "../../../../../tina/__generated__/types";
-import { uuidV4 } from "mongodb/src/utils";
 
 const Achievement = ({ achievement }: { achievement: TeamMembersTeamMemberAchievements }) => {
 	return (
@@ -75,7 +74,7 @@ export const TeamMemberProfile = ({ person }: { person: TeamMembersTeamMember })
 										item ? (
 											<Achievement
 												achievement={item}
-												key={uuidV4().toString()}
+												key={(Math.random() * 10000).toString()}
 											/>
 										) : null,
 									)}

@@ -1,7 +1,4 @@
 import headerImage from "@/images/team/header.webp";
-import janecekImage from "@/images/team/karelJanecek.webp";
-import stajfImage from "@/images/team/vojtechStajf.webp";
-import havelkovaImage from "@/images/team/veronikaHavelkova.webp";
 import { PageLayout } from "@/app/ui/layout/PageLayout";
 import { HeroSection } from "@/app/ui/HeroSection";
 import { TeamMemberProfile } from "@/app/o-nas/tym/components/TeamMemberProfile";

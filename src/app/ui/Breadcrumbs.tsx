@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export const Breadcrumbs = () => {
 	const pathname = usePathname();
-	const segments = pathname.split("/").filter((item) => item !== "");
+	const segments = pathname?.split("/").filter((item) => item !== "");
 
 	return (
 		<nav aria-label="Breadcrumb" className="flex">
@@ -19,7 +19,7 @@ export const Breadcrumbs = () => {
 						</a>
 					</div>
 				</li>
-				{segments.map((page, index) =>
+				{segments?.map((page, index) =>
 					index === 0 || index === segments.length - 1 ? null : (
 						<li key={page}>
 							<div className="flex items-center">

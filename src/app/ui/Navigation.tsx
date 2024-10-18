@@ -51,11 +51,11 @@ export default function Navigation() {
 					{NAVIGATION.map((navigationItem, i) => (
 						<Menu key={`navigation_${i}`}>
 							<div
-								className={`group flex rounded-md  p-1 ${pathname.includes(navigationItem.topLink) ? "bg-gray-200 text-black" : ""} navigationItem`}
+								className={`group flex rounded-md  p-1 ${pathname?.includes(navigationItem.topLink) ? "bg-gray-200 text-black" : ""} navigationItem`}
 							>
 								<Link
 									href={`/${navigationItem.topLink}`}
-									className={`ml-1 mr-1  ${pathname.includes(navigationItem.topLink) ? "text-black" : "text-gray-50"} navigationItem-topLink`}
+									className={`ml-1 mr-1  ${pathname?.includes(navigationItem.topLink) ? "text-black" : "text-gray-50"} navigationItem-topLink`}
 								>
 									{navigationItem.title}
 								</Link>
