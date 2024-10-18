@@ -24,6 +24,12 @@ export const NAVIGATION = [
 				href: "/o-nas/vysledky",
 				icon: FingerPrintIcon,
 			},
+			{
+				name: "Partneři",
+				description: "Přehled partnerů závodního týmu Racing 21",
+				href: "/o-nas/partneri",
+				icon: ChartPieIcon,
+			},
 		],
 	},
 	{
@@ -85,14 +91,7 @@ export const NAVIGATION = [
 	},
 	{
 		title: "Média",
-		topLink: "media/partneri",
-		links: [
-			{
-				name: "Partneři",
-				description: "Informace o členech závodního týmu Racing 21",
-				href: "/media/partneri",
-				icon: ChartPieIcon,
-			},
-		],
+		topLink: "media",
+		links: [],
 	},
 ];

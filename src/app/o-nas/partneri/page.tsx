@@ -2,7 +2,7 @@ import racePrepImage from "@/images/autodilna/priprava-na-zavody.webp";
 import Testimonials from "@/app/ui/Testimonials";
 import { Metadata } from "next";
 import { HeroSection } from "@/app/ui/HeroSection";
-import { PARTNERS } from "@/app/media/partneri/partners";
+import { PARTNERS } from "@/app/o-nas/partneri/partners";
 import Image from "next/image";
 import Link from "next/link";
 import { PageLayout } from "@/app/ui/layout/PageLayout";
