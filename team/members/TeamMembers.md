@@ -1,5 +1,10 @@
 ---
 teamMember:
+  - name: Test
+    role:
+      - navigator
+    about: |
+      Test
   - name: Jan Dudek
     role:
       - driver
