@@ -1,7 +1,7 @@
 import Image, { StaticImageData } from "next/image";
 
 export type HeroSectionProps = {
-	image: StaticImageData;
+	image: StaticImageData | string;
 	title: string;
 	subtitle?: string;
 	content?: string;
@@ -18,6 +18,7 @@ export const HeroSection = ({ image, title, subtitle, content }: HeroSectionProp
 							alt="People working on laptops"
 							src={image}
 							className="h-full w-full object-cover"
+							fill
 						/>
 						<div className="absolute inset-0 bg-grayPrimary opacity-50 mix-blend-multiply" />
 					</div>

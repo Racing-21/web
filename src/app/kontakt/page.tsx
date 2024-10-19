@@ -21,7 +21,7 @@ export default function Page() {
 		<>
 			<div>
 				{/* Hero card */}
-				<HeroSection image={racePrepImage} title={"Racing 21"} content={"Media servis"} />
+				<HeroSection image={racePrepImage} title={"Racing 21"} subtitle={"Kontakt"} />
 			</div>
 			<PageLayout>
 				<div className="w-full px-6 py-3 mt-6 flex-col">

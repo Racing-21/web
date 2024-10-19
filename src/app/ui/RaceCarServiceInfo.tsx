@@ -15,7 +15,7 @@ export default function RaceCarServiceInfo() {
 						<div className="relative overflow-hidden rounded-3xl bg-gray-900 px-6 pb-9 pt-64 shadow-2xl sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10">
 							<Image
 								alt=""
-								src="https://storage.byznys21.net/apps/files_sharing/publicpreview/g9e5bxCyq3EWL7g?file=/Rallye%20auta/Rally_Pa%C4%8Dejov_23-7316-2.jpg&fileId=77985&x=1920&y=1200&a=true"
+								src="https://storage.byznys21.net/apps/files_sharing/publicpreview/g9e5bxCyq3EWL7g?file=/Rallye%20auta/DSC_0178.jpg&fileId=77874&x=1920&y=1200&a=true"
 								className="absolute inset-0 h-full w-full object-cover brightness-125 grayscale-1"
 								fill
 							/>
@@ -101,7 +101,7 @@ export default function RaceCarServiceInfo() {
 						</dl>
 						<div className="mt-10 flex">
 							<Link
-								href="#kontakt"
+								href="/kontakt"
 								className="text-base font-semibold leading-7 text-indigo-600"
 							>
 								Pokud chcete vlastní závodní vůz, kontaktujte nás{" "}
