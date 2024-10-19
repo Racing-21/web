@@ -41,7 +41,11 @@ const services = [
 	},
 ];
 
-export const ContactForm = () => {
+export const ContactForm = ({
+	backgroundColor = "bg-grayPrimary",
+}: {
+	backgroundColor?: string;
+}) => {
 	const {
 		control,
 		register,
@@ -73,7 +77,9 @@ export const ContactForm = () => {
 
 	return (
 		<div className="w-full flex flex-col gap-2">
-			<div className="overflow-hidden bg-grayPrimary rounded-xl py-16 sm:py-16 mt-6 gap">
+			<div
+				className={`overflow-hidden  rounded-xl py-16 sm:py-16 mt-6 gap ${backgroundColor}`}
+			>
 				<div className="mx-auto px-6 lg:px-8">
 					<form
 						onSubmit={(e) => handleSubmit(e)}
@@ -260,6 +266,7 @@ export const ContactForm = () => {
 								className={
 									"bg-red-600 text-gray-50 mx-auto px-3 py-3 rounded-lg font-bold hover:bg-black hover:cursor-pointer active:shadow-white"
 								}
+								value={"Odeslat"}
 							/>
 						</div>
 					</form>

@@ -33,7 +33,7 @@ const serviceItems = [
 		 materiálního zajištění a nutných administrativních úkonů, a to na všech sportovních podnicích v České republice
 		 i v zahraničí. Aktuálně nabízíme k pronájmů několik vozů různých kategorií pro automobilové soutěže.`,
 		image: racePrepImage,
-		link: "/autodilna/servis-zavodnich-aut",
+		link: "/sluzby/servis-zavodnich-aut",
 		features: [],
 	},
 	{
@@ -48,7 +48,7 @@ const serviceItems = [
 					výkonových parametrů pohonných jednotek, a to jak pro osobní
 					vozy, tak i obytné vozy většiny značek.`,
 		image: raceCarServiceImage,
-		link: "/autodilna/servis-sportovnich-aut",
+		link: "/sluzby/servis-sportovnich-aut",
 		features: [],
 	},
 ];

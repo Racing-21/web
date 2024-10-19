@@ -9,47 +9,44 @@ import {
 
 const services = [
 	{
-		title: "Servis závodních vozů",
+		title: "Servis a správa závodních vozů",
 		href: "/sluzby/servis-zavodnich-aut",
-		description:
-			"Náš tým zkušených techniků dostane váš vůz před závody to té nejlepší kondice.",
+		description: "Naši zkušení mechanici dostanou váš závodní vůz do té nejlepší kondice",
 		icon: ClockIcon,
 		iconForeground: "text-teal-700",
 		iconBackground: "bg-teal-50",
 	},
 	{
-		title: "Servis sportovních vozů",
+		title: "Servis a úpravy sportovních vozů",
 		href: "/sluzby/servis-sportovnich-vozu",
 		description:
-			"Váš sportovní vůz si zaslouší tu nejlepší péči. Naši technici se zkušenostmi z mezinárodních závodů mu ji poskytnou",
+			"Váš sportovní vůz si zaslouší tu nejlepší péči. Naši technici se zkušenostmi z mezinárodních závodů mu ji dopřejí.",
 		icon: CheckBadgeIcon,
 		iconForeground: "text-purple-700",
 		iconBackground: "bg-purple-50",
 	},
 	{
-		title: "Renovace veteránů a youngtimerů",
+		title: "Renovace youngtimerů",
 		href: "/sluzby/renovace-veteranu",
 		description:
-			"Pořídili jste si vysněného veterána, ale nemáte čas na renovaci? Máme mnohaleté zkušenosti se renovací vozidel značek z celého světa",
-
+			"Pořídili jste si vysněné auto, které by potřebovalo trochu či více péče? Svěřte ho do péče našeho zkušeného týmu.",
 		icon: UsersIcon,
 		iconForeground: "text-sky-700",
 		iconBackground: "bg-sky-50",
 	},
 	{
-		title: "Nákup veteránů a yountimerů",
+		title: "Poradenství v nákupu vozidel",
 		href: "/sluzby/nakup-veteranu",
 		description:
-			"Máte vysněného veterána, ale nechcete se při nákupo spálit? Náš nákupní tým vám pomůže vybrat vůz bez obav.",
-
+			"Nakupujete auto na investici nebo jen chcete žihadlo na víkendové svezení. Svěřte nám Vaše přání a my Vám pomůžeme s výběrem vozu bez obav",
 		icon: BanknotesIcon,
 		iconForeground: "text-yellow-700",
 		iconBackground: "bg-yellow-50",
 	},
 	{
-		title: "Pronájem techniky a vozů",
+		title: "Pronájem techniky a vozů na závody",
 		href: "/pronajem/pronajem-techniky-a-vozu",
-		description: "Nabízíme pronájem závodní techniky a vozů",
+		description: "Nabízíme pronájem mobilního zázemí servisu a závodní techniky",
 		icon: ReceiptRefundIcon,
 		iconForeground: "text-rose-700",
 		iconBackground: "bg-rose-50",
@@ -57,8 +54,7 @@ const services = [
 	{
 		title: "Pronájem konferenčních prostor",
 		href: "/pronajem/pronajem-konferencnich-prostor",
-		description: "Máme k dispozici rozsáhlé prostory k pronájmu na Praze západ",
-
+		description: "Konference či oslava ve stylových prostorech Racing 21 na Praze západ",
 		icon: AcademicCapIcon,
 		iconForeground: "text-indigo-700",
 		iconBackground: "bg-indigo-50",
@@ -74,12 +70,13 @@ export default function Services() {
 		<div className="md:grid-cols-3 gap-4 rounded-lg bg-grayPrimary p-2 md:p-6">
 			<div className={"p-4"}>
 				<p className={"text-center mb-2"}>
-					Vojtěch Štajf, jezdec a manažer týmu ACCR Racing21, má téměř 30 let zkušeností v
-					motoristickém sportu s úspěchy na domácí i zahraniční scéně. Racing21 nabízí
-					mechanické opravy, repase a úpravy motorů, stavbu, servis a pronájem závodních
+					Vojtěch Štajf, jezdec a jednatel týmu ACCR Racing21, má téměř 30 let zkušeností
+					v motoristickém sportu s úspěchy na domácí i zahraniční scéně. Racing21 nabízí
+					mechanické opravy, úpravy, stavbu, servis a pronájem závodních a sportovních
 					vozů. Naše moderně vybavená dílna v Červeném Újezdě, kousek od pražského
 					letiště, je připravena poskytnout profesionální služby nejen pro soutěžní týmy a
-					sportovní vozy, ale i youngtimery.
+					sportovní vozy, ale i youngtimery a další vozy, kterým chcete dopřát
+					nadstandartní péči.
 				</p>
 			</div>
 			<div className="divide-y divide-black overflow-hidden rounded-lg bg-white sm:grid sm:grid-cols-2 sm:gap-px sm:divide-y-0 border-transparent">

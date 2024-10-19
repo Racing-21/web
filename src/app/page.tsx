@@ -33,13 +33,29 @@ export default function Home() {
 				image={headerImage}
 				title={"Racing 21"}
 				subtitle={"Nejen závodní rally tým"}
-				content={
-					"Spojuje nás vášeň pro automobily. Kromě vlastního rally týmu provozujeme také autodílnu, ve které dostaneme váš závodní vůz do perfektního stavu. Kromě závodních speciálů se zaměřujeme také na restaurování veteránů a youngtimerů."
-				}
 			/>
 			{/* Logo cloud */}
 			<HomepageLogoCloud />
 			<PageLayout>
+				<div className="bg-grayPrimary rounded-lg">
+					<div className="mx-auto max-w-7xl py-12 sm:px-2 sm:py-16 lg:px-4">
+						<div className="mx-auto max-w-2xl px-4 lg:max-w-none">
+							<div className="w-full">
+								<h2 className="text-4xl font-bold tracking-tight text-red-600 text-center">
+									Závodní tým k Vašim služám
+								</h2>
+								<p className="mt-4 text-gray-100 text-center">
+									Spojuje nás vášeň pro automobily. Dveře našeho servisu jsou
+									otevřeny i Vám, kterým srdce při zvuku spalovacího motoru
+									zaplesá, tak jako nám. Naši zkušení mechanici se postarají i o
+									Vaše vozidlo. Mimo závodní speciály se postaráme i o sportovní
+									vozy a youngtimery. Od drobných oprav přes úpravy až po
+									kompletní renovaci se o Vaši čtyřkolovou radost postaráme.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
 				<div className="w-full">
 					<h2 className={"text-2xl capitalize font-bold mb-2"}>Nejen závodní tým</h2>
 					<Services />

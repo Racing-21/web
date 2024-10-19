@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const stats = [
 	{ label: "Postaveno závodních speciálů", value: "12" },
@@ -12,10 +13,11 @@ export default function RaceCarServiceInfo() {
 				<div className="mx-auto grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-16 sm:gap-y-24 lg:mx-0 lg:max-w-none lg:grid-cols-2">
 					<div className="lg:pr-4">
 						<div className="relative overflow-hidden rounded-3xl bg-gray-900 px-6 pb-9 pt-64 shadow-2xl sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10">
-							<img
+							<Image
 								alt=""
-								src="https://images.unsplash.com/photo-1630569267625-157f8f9d1a7e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2669&q=80"
+								src="https://storage.byznys21.net/apps/files_sharing/publicpreview/g9e5bxCyq3EWL7g?file=/Rallye%20auta/Rally_Pa%C4%8Dejov_23-7316-2.jpg&fileId=77985&x=1920&y=1200&a=true"
 								className="absolute inset-0 h-full w-full object-cover brightness-125 grayscale-1"
+								fill
 							/>
 							<div className="absolute inset-0 bg-gray-900 mix-blend-multiply" />
 							<div
@@ -27,7 +29,7 @@ export default function RaceCarServiceInfo() {
 										clipPath:
 											"polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)",
 									}}
-									className="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#8C030E] to-[#FFFFFF] opacity-40"
+									className="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#dc2626] to-[#FFFFFF] opacity-40"
 								/>
 							</div>
 							<figure className="relative isolate">
@@ -43,23 +45,23 @@ export default function RaceCarServiceInfo() {
 									/>
 									<use x={86} href="#0ef284b8-28c2-426e-9442-8655d393522e" />
 								</svg>
-								<img
-									alt=""
-									src="https://tailwindui.com/img/logos/workcation-logo-white.svg"
-									className="h-12 w-auto"
-								/>
+								{/*<Image*/}
+								{/*	alt=""*/}
+								{/*	src="https://tailwindui.com/img/logos/workcation-logo-white.svg"*/}
+								{/*	className="h-12 w-auto"*/}
+								{/*	fill*/}
+								{/*/>*/}
 								<blockquote className="mt-6 text-xl font-semibold leading-8 text-white">
 									<p>
-										“Amet amet eget scelerisque tellus sit neque faucibus non
-										eleifend. Integer eu praesent at a. Ornare arcu gravida
-										natoque erat et cursus tortor.”
+										“Vojta se svým týmem připravili naše auto úplně perfektně. V
+										podstatě stačilo přijít, nastartovat a mohlo se závodit.”
 									</p>
 								</blockquote>
 								<figcaption className="mt-6 text-sm leading-6 text-gray-300">
 									<strong className="font-semibold text-white">
-										Judith Rogers,
+										Radek Brzda
 									</strong>{" "}
-									CEO at Workcation
+									Racing Team XY
 								</figcaption>
 							</figure>
 						</div>
@@ -74,29 +76,14 @@ export default function RaceCarServiceInfo() {
 							</h1>
 							<div className="max-w-xl">
 								<p className="mt-6 text-white">
-									S vysoce profesionálním týmem techniků a mechaniků se zaměřujeme
-									na kompletní stavbu nebo přestavbu sportovních vozů pro všechny
-									disciplíny motorsportu, včetně jejich pravidelné servisní
-									údržby. Současně dokážeme poskytnout kompletní servisní zázemí
-									s doprovodem včetně přípravy vozů naším personálem, materiálního
-									zajištění a nutných administrativních úkonů, a to na všech
-									sportovních podnicích v České republice i v zahraničí. Aktuálně
-									nabízíme k pronájmů několik vozů různých kategorií pro
-									automobilové soutěže.
-								</p>
-								<p className="mt-6 text-white">
-									Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis
-									odio id et. Id blandit molestie auctor fermentum dignissim.
-									Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate
-									et ultrices hac adipiscing egestas. Iaculis convallis ac tempor
-									et ut. Ac lorem vel integer orci.
-								</p>
-								<p className="mt-6 text-white">
-									Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis
-									odio id et. Id blandit molestie auctor fermentum dignissim.
-									Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate
-									et ultrices hac adipiscing egestas. Iaculis convallis ac tempor
-									et ut. Ac lorem vel integer orci.
+									S našimi vysoce profesionálním týmem mechaniků se věnujeme
+									kompletní stavbě, přestavbě a údržbě závodních speciálů pro
+									rallye. Současně poskytujeme kompletní servisní služby pro Vaši
+									závodní techniku od přípravy na závod, zajištění servisního
+									zázemí a servisu vozu až po pozávodní servis včetně uskladnění
+									Vašeho vozu. Služby nabízíme pro území ČR, ale i pro zahraniční
+									závody, se kterými máme také bohatou zkušenost včetně
+									administrativních požadavků pro závody v zahraničí.
 								</p>
 							</div>
 						</div>

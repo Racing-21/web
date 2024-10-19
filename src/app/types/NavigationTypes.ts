@@ -94,4 +94,9 @@ export const NAVIGATION = [
 		topLink: "media",
 		links: [],
 	},
+	{
+		title: "Kontakt",
+		topLink: "kontakt",
+		links: [],
+	},
 ];

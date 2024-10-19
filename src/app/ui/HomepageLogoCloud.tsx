@@ -5,7 +5,7 @@ export const HomepageLogoCloud = () => {
 		<div className="bg-grayPrimary">
 			<div className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
 				<p className="text-center text-base font-semibold text-gray-500">
-					Produkty, které nám pomáhají, v tom co děláme
+					Partnerské produkty, které jsou našim důležitým pomocníkem
 				</p>
 				<div className="mt-6 grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
 					<div className="relative col-span-1 flex justify-center md:col-span-2 lg:col-span-1 h-12">
