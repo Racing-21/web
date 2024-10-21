@@ -30,11 +30,11 @@ export default defineConfig({
 			{
 				name: "teamMembers",
 				label: "Členové týmu",
-				path: "team/members",
+				path: "tym",
 				fields: [
 					{
 						name: "teamMember",
-						label: "Team member",
+						label: "Člen týmu",
 						type: "object",
 						list: true,
 						ui: {
@@ -47,7 +47,7 @@ export default defineConfig({
 							{
 								type: "string",
 								name: "name",
-								label: "Name",
+								label: "Jméno",
 								isTitle: true,
 								required: true,
 							},
@@ -59,15 +59,15 @@ export default defineConfig({
 								options: [
 									{
 										value: "driver",
-										label: "Driver",
+										label: "Řidič",
 									},
 									{
 										value: "navigator",
-										label: "Navigator",
+										label: "Navigátor/ka",
 									},
 									{
 										value: "mechanic",
-										label: "Mechanic",
+										label: "Mechanik",
 									},
 								],
 							},
@@ -107,7 +107,7 @@ export default defineConfig({
 							{
 								type: "rich-text",
 								name: "about",
-								label: "About",
+								label: "Bio",
 							},
 							{
 								type: "image",
