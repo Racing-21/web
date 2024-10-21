@@ -118,6 +118,49 @@ export default defineConfig({
 					},
 				],
 			},
+			{
+				name: "sluzby",
+				label: "Služby",
+				path: "sluzby",
+				fields: [
+					{
+						name: "sluzba",
+						label: "Služba",
+						type: "object",
+						list: true,
+						ui: {
+							itemProps: (item) => {
+								// Field values are accessed by item?.<Field name>
+								return { label: item?.name };
+							},
+						},
+						fields: [
+							{
+								type: "string",
+								name: "name",
+								label: "Název služby",
+								isTitle: true,
+								required: true,
+							},
+							{
+								type: "string",
+								name: "shortDescription",
+								label: "Krátký popis",
+							},
+							{
+								type: "string",
+								name: "longDescription",
+								label: "Popis služby",
+							},
+							{
+								type: "image",
+								name: "image",
+								label: "Obrázek",
+							},
+						],
+					},
+				],
+			},
 		],
 	},
 });
