@@ -29,7 +29,7 @@ export default defineConfig({
 			TinaUserCollection,
 			{
 				name: "teamMembers",
-				label: "Team members",
+				label: "Členové týmu",
 				path: "team/members",
 				fields: [
 					{
@@ -37,6 +37,12 @@ export default defineConfig({
 						label: "Team member",
 						type: "object",
 						list: true,
+						ui: {
+							itemProps: (item) => {
+								// Field values are accessed by item?.<Field name>
+								return { label: item?.name };
+							},
+						},
 						fields: [
 							{
 								type: "string",
