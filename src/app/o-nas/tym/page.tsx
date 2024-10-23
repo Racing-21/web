@@ -5,7 +5,7 @@ import { TeamMemberProfile } from "@/app/o-nas/tym/components/TeamMemberProfile"
 import client from "../../../../tina/__generated__/client";
 
 export default async function Page() {
-	const { data } = await client.queries.teamMembers({ relativePath: "TeamMembers.md" });
+	const { data } = await client.queries.teamMembers({ relativePath: "ClenoveTymu.md" });
 
 	if (!data) {
 		return null;

@@ -1,5 +1,5 @@
 "use client";
-
+import { TinaMarkdown } from "tinacms/dist/rich-text";
 import { useState } from "react";
 import Image from "next/image";
 import { Description, Dialog, DialogBackdrop, DialogPanel, DialogTitle } from "@headlessui/react";
@@ -40,14 +40,22 @@ export const TeamMemberProfile = ({ person }: { person: TeamMembersTeamMember })
 						src={person.image}
 						width={150}
 						height={150}
-						objectFit={"contain"}
+						objectFit={"cover"}
 						className="mx-auto h-[150px] w-[150] rounded-full grayscale object-cover"
 					/>
 				)}
 				<h3 className="mt-6 text-base font-semibold leading-7 tracking-tight text-gray-100">
 					{person.name}
 				</h3>
-				<p className="text-sm leading-6 text-red-600 font-bold uppercase">{person.role}</p>
+				{person.role &&
+					person.role.map((role) => (
+						<p
+							key={`${person.name}_${role}`}
+							className="text-sm leading-6 text-red-600 font-bold uppercase"
+						>
+							{role}
+						</p>
+					))}
 			</li>
 			<Dialog open={isOpen} onClose={() => handleToggleDialog()} className="relative z-50">
 				<DialogBackdrop className="fixed inset-0 bg-black/50" />
@@ -58,12 +66,18 @@ export const TeamMemberProfile = ({ person }: { person: TeamMembersTeamMember })
 								<Image
 									alt={person.name}
 									src={person.image}
-									className="mr-6 h-52 w-52  rounded-lg grayscale-0"
+									className="mr-6 h-52 w-52 rounded-lg grayscale-0 object-cover"
+									height={300}
+									width={400}
+									objectFit={"cover"}
 								/>
 							)}
+
 							<div className={"flex flex-col"}>
 								<DialogTitle className="font-bold">{person.name}</DialogTitle>
-								<Description>{person.about}</Description>
+								<Description>
+									<TinaMarkdown content={person.about} />
+								</Description>
 							</div>
 						</div>
 						{person.achievements && person.achievements.length > 0 && (
