@@ -12,7 +12,7 @@ export default function Footer() {
 				<div className="xl:grid xl:grid-cols-3 xl:gap-8">
 					<Image alt="Company name" src={logo} />
 					<div className="mt-16 grid grid-cols-1 gap-2 xl:col-span-2 xl:mt-0">
-						<div className="md:grid md:grid-cols-5 md:gap-1">
+						<div className="md:grid md:grid-cols-6 md:gap-1">
 							{NAVIGATION.map((item, index) => (
 								<div key={`${item}_${index}`}>
 									<h3 className="text-sm font-semibold leading-6 text-white">

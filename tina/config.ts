@@ -396,6 +396,58 @@ export default defineConfig({
 					},
 				],
 			},
+			{
+				name: "pronajem",
+				label: "Pronájem prostor",
+				path: "pronajem",
+				fields: [
+					{
+						name: "prostory",
+						label: "Prostory",
+						type: "object",
+						list: true,
+						ui: {
+							itemProps: (item) => {
+								// Field values are accessed by item?.<Field name>
+								return { label: item?.name };
+							},
+						},
+						fields: [
+							{
+								type: "string",
+								name: "name",
+								label: "Název prostoru",
+								isTitle: true,
+								required: true,
+							},
+							{
+								type: "string",
+								name: "shortDescription",
+								label: "Krátký popis",
+								required: true,
+							},
+							{
+								type: "rich-text",
+								name: "longDescription",
+								label: "Popis služby",
+								required: true,
+							},
+							{
+								type: "image",
+								name: "image",
+								label: "Obrázek",
+								required: true,
+							},
+							{
+								type: "image",
+								name: "gallery",
+								list: true,
+								label: "Fotogalerie",
+							},
+						],
+					},
+				],
+			},
 		],
 	},
 });

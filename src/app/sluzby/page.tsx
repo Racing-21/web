@@ -2,26 +2,9 @@ import headerImage from "@/images/autodilna/header.webp";
 import Image from "next/image";
 import raceCarServiceImage from "@/images/autodilna/zavodni-vozy.webp";
 import racePrepImage from "@/images/autodilna/priprava-na-zavody.webp";
-import { StaticImport } from "next/dist/shared/lib/get-img-props";
-import { ComponentType, SVGProps } from "react";
-import Link from "next/link";
 import { ContactForm } from "@/app/ui/ContactForm";
 import { PageLayout } from "@/app/ui/layout/PageLayout";
-
-type Feature = {
-	name: string;
-	description: string;
-	icon: ComponentType<SVGProps<SVGSVGElement>>;
-};
-
-type ServiceItem = {
-	title: string;
-	headline: string;
-	description: string;
-	link: string;
-	image: StaticImport;
-	features: Feature[];
-};
+import { ContentItem } from "@/app/ui/ContentItem";
 
 const serviceItems = [
 	{
@@ -53,69 +36,6 @@ const serviceItems = [
 	},
 ];
 
-const ServiceItem = ({
-	item,
-	imagePosition,
-}: {
-	item: ServiceItem;
-	imagePosition: "RIGHT" | "LEFT";
-}) => {
-	return (
-		<div className="w-full flex flex-col">
-			<div className="overflow-hidden bg-grayPrimary rounded-xl py-8 mt-6">
-				<div className="mx-auto px-6 lg:px-8">
-					<div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
-						<div
-							className={`flex items-start justify-center order-first ${imagePosition === "RIGHT" ? "md:justify-start lg:order-last" : " md:justify-end"}`}
-						>
-							<Image
-								alt="Servis závodních vozů"
-								src={item.image}
-								width={2432}
-								height={500}
-								className="max-h-[500px] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:w-[64rem]"
-							/>
-						</div>
-						<div className=" pb-10 md:pb-0 lg:ml-auto lg:pl-4 lg:pt-4">
-							<div className="lg:max-w-screen-lg">
-								<h2 className="text-base font-semibold leading-7 text-red-600">
-									{item.title}
-								</h2>
-								<p className="mt-2 text-3xl font-bold tracking-tight text-gray-100 sm:text-4xl">
-									{item.headline}
-								</p>
-								<p className="mt-6 text-lg leading-8 text-gray-100">
-									{item.description}
-								</p>
-								<dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-100 lg:max-w-none">
-									{item.features.map((feature) => (
-										<div key={feature.name} className="relative pl-9">
-											<dt className="inline font-semibold text-red-600">
-												<feature.icon
-													aria-hidden="true"
-													className="absolute left-1 top-1 h-5 w-5 text-gray-400"
-												/>
-												{feature.name}
-											</dt>{" "}
-											<dd className="inline">{feature.description}</dd>
-										</div>
-									))}
-								</dl>
-								<Link
-									href={item.link}
-									className="inline-block mt-4 rounded-lg bg-red-600 px-3 py-2 text-xl font-semibold text-white shadow-sm hover:bg-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-900        "
-								>
-									Více informací
-								</Link>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	);
-};
-
 export default function Page() {
 	return (
 		<>
@@ -146,8 +66,8 @@ export default function Page() {
 				</div>
 			</div>
 			<PageLayout>
-				<ServiceItem item={serviceItems[0]} imagePosition={"RIGHT"} />
-				<ServiceItem item={serviceItems[1]} imagePosition={"LEFT"} />
+				<ContentItem item={serviceItems[0]} imagePosition={"RIGHT"} />
+				<ContentItem item={serviceItems[1]} imagePosition={"LEFT"} />
 				<ContactForm />
 			</PageLayout>
 		</>

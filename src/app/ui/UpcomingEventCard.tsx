@@ -3,7 +3,7 @@ import { Card } from "@/app/ui/Card";
 import Image from "next/image";
 
 export type UpcomingEventCardProps = {
-	image: string | StaticImport;
+	image?: string | StaticImport | null;
 	title: string;
 	altImageText: string;
 	description: string;
@@ -27,13 +27,15 @@ export const UpcomingEventsCard = ({
 				}
 			>
 				<div className="absolute inset-0 overflow-hidden ">
-					<Image
-						alt={altImageText}
-						src={image}
-						layout={"fill"}
-						objectFit={"cover"}
-						className="transition-transform duration-200 ease-in-out transform hover:scale-105 "
-					/>
+					{image && (
+						<Image
+							alt={altImageText}
+							src={image}
+							layout={"fill"}
+							objectFit={"cover"}
+							className="transition-transform duration-200 ease-in-out transform hover:scale-105 "
+						/>
+					)}
 					<div className="absolute inset-0 bg-black opacity-60 h-full w-full "></div>
 				</div>
 			</Card>
