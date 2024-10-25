@@ -32,6 +32,7 @@ export const ServiceNavigationCard = ({
 					<Image
 						alt={altImageText ?? ""}
 						src={image}
+						priority
 						layout={"fill"}
 						objectFit={"cover"}
 						className="transition-transform duration-200 ease-in-out transform hover:scale-105 "

@@ -11,7 +11,7 @@ const nextConfig = {
 				hostname: "storage.byznys21.net",
 			},
 		],
-		domains: ["assets.tina.io"],
+		domains: ["assets.tina.io", "res.cloudinary.com"],
 	},
 };
 
