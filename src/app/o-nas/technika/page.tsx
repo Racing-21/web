@@ -1,10 +1,31 @@
 import headerImage from "@/images/team/header.webp";
 import Image from "next/image";
-import { VEHICLES } from "@/app/o-nas/technika/vehicles";
 import { ServiceNavigationCard } from "@/app/ui/ServiceNavigationCard";
 import { PageLayout } from "@/app/ui/layout/PageLayout";
+import client from "../../../../tina/__generated__/client";
+import { MaybeString } from "@/app/ui/VehicleInformationDetail";
 
-export default function Page() {
+export function parseVehicleImages(images: MaybeString | (string | null)[]) {
+	if (Array.isArray(images)) {
+		return images.filter((image) => image !== null);
+	} else if (images !== null && images !== undefined) {
+		return [images];
+	} else {
+		return [];
+	}
+}
+
+export default async function Page() {
+	const { data } = await client.queries.technika({ relativePath: "Technika.md" });
+
+	if (!data) {
+		return null;
+	}
+	const vehicles = data.technika.technika?.map((vehicle) => ({
+		...vehicle,
+		images: parseVehicleImages(vehicle?.images),
+	}));
+
 	return (
 		<>
 			<div>
@@ -35,7 +56,7 @@ export default function Page() {
 				<div className="w-full flex flex-col">
 					<h2 className={"w-full text-2xl capitalize font-bold mb-2"}>Naše technika</h2>
 					<div className={"flex flex-col gap-4 rounded-lg md:flex-row"}>
-						{VEHICLES.map((vehicle) => (
+						{vehicles?.map((vehicle) => (
 							<ServiceNavigationCard
 								key={vehicle.slug}
 								link={`technika/${vehicle.slug}`}

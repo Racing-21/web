@@ -1,12 +1,12 @@
-import { StaticImport } from "next/dist/shared/lib/get-img-props";
 import Link from "next/link";
 import { Card } from "@/app/ui/Card";
 import Image from "next/image";
+import { MaybeString } from "@/app/ui/VehicleInformationDetail";
 
 export type ServiceNavigationCardProps = {
-	image: string | StaticImport;
-	title: string;
-	altImageText: string;
+	image: string;
+	title?: MaybeString;
+	altImageText?: MaybeString;
 	link: string;
 };
 
@@ -30,7 +30,7 @@ export const ServiceNavigationCard = ({
 			>
 				<div className="absolute inset-0 overflow-hidden ">
 					<Image
-						alt={altImageText}
+						alt={altImageText ?? ""}
 						src={image}
 						layout={"fill"}
 						objectFit={"cover"}
