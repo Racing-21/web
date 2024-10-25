@@ -35,22 +35,12 @@ technika:
       dimensions_front: Pirelli 195/65 R16
       dimensions_rear: Pirelli 195/65 R16
     images:
-      - /uploads/technika/toyota/toyota_1.webp
-      - /uploads/technika/toyota/toyota_2.webp
-      - /uploads/technika/toyota/toyota_3.webp
-      - /uploads/technika/toyota/toyota_4.webp
-      - /uploads/technika/toyota/toyota_5.webp
-      - /uploads/technika/toyota/toyota_6.webp
-      - /uploads/technika/toyota/toyota_7.webp
-      - /uploads/technika/toyota/toyota_8.webp
-      - /uploads/technika/toyota/toyota_9.webp
-      - /uploads/technika/toyota/toyota_10.webp
-      - /uploads/technika/toyota/toyota_11.webp
-      - /uploads/technika/toyota/toyota_12.webp
-      - /uploads/technika/toyota/toyota_13.webp
-      - /uploads/technika/toyota/toyota_14.webp
-      - /uploads/technika/toyota/toyota_15.webp
-      - /uploads/technika/toyota/toyota_16.webp
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1729847701/toyota_6_zukcni.webp
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1729847738/toyota_8_uefkim.webp
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1729847879/toyota_12_tso8wo.webp
   - name: Opel Kadett C GT/E
     slug: opel-kadett-C-GT-E
     general:
