@@ -80,12 +80,5 @@ technika:
     tires:
       dimensions_front: Pirelli 225/45-R13
       dimensions_rear: Pirelli 225/45-R13
-    images:
-      - >-
-        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1729847047/cadet_4_r8j64u.webp
-      - >-
-        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1729847047/cadet_4_r8j64u.webp
-      - >-
-        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1729847073/cadet_1_kz9pjf.webp
 ---
 
