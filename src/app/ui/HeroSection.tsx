@@ -19,6 +19,7 @@ export const HeroSection = ({ image, title, subtitle, content }: HeroSectionProp
 							src={image}
 							className="h-full w-full object-cover"
 							fill
+							priority
 						/>
 						<div className="absolute inset-0 bg-grayPrimary opacity-50 mix-blend-multiply" />
 					</div>

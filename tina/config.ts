@@ -433,6 +433,41 @@ export default defineConfig({
 								required: true,
 							},
 							{
+								type: "object",
+								name: "price",
+								label: "Cena",
+								required: true,
+								list: true,
+								fields: [
+									{
+										type: "number",
+										name: "price",
+										label: "Cena",
+										required: true,
+									},
+									{
+										type: "string",
+										name: "unit",
+										label: "Jednotka",
+										required: true,
+										options: [
+											{
+												value: "hour",
+												label: " / hod",
+											},
+											{
+												value: "day",
+												label: " / den",
+											},
+											{
+												value: "halfDay",
+												label: " / 1/2 dne (4 hod)",
+											},
+										],
+									},
+								],
+							},
+							{
 								type: "image",
 								name: "image",
 								label: "Obrázek",
