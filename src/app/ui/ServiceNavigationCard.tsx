@@ -1,10 +1,10 @@
 import Link from "next/link";
 import { Card } from "@/app/ui/Card";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import { MaybeString } from "@/app/ui/VehicleInformationDetail";
 
 export type ServiceNavigationCardProps = {
-	image: string;
+	image: StaticImageData | string;
 	title?: MaybeString;
 	altImageText?: MaybeString;
 	link: string;

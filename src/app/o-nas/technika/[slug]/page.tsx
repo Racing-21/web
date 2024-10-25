@@ -4,7 +4,8 @@ import { Breadcrumbs } from "@/app/ui/Breadcrumbs";
 import type { Metadata } from "next";
 import { PageLayout } from "@/app/ui/layout/PageLayout";
 import client from "../../../../../tina/__generated__/client";
-import { parseVehicleImages } from "@/app/o-nas/technika/page";
+
+import { parseVehicleImages } from "@/utils/utils";
 
 export const metadata: Metadata = {
 	title: "Racing21 - Technika",

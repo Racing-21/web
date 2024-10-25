@@ -3,17 +3,7 @@ import Image from "next/image";
 import { ServiceNavigationCard } from "@/app/ui/ServiceNavigationCard";
 import { PageLayout } from "@/app/ui/layout/PageLayout";
 import client from "../../../../tina/__generated__/client";
-import { MaybeString } from "@/app/ui/VehicleInformationDetail";
-
-export function parseVehicleImages(images: MaybeString | (string | null)[]) {
-	if (Array.isArray(images)) {
-		return images.filter((image) => image !== null);
-	} else if (images !== null && images !== undefined) {
-		return [images];
-	} else {
-		return [];
-	}
-}
+import { parseVehicleImages } from "@/utils/utils";
 
 export default async function Page() {
 	const { data } = await client.queries.technika({ relativePath: "Technika.md" });
