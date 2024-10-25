@@ -81,9 +81,9 @@ technika:
       dimensions_front: Pirelli 225/45-R13
       dimensions_rear: Pirelli 225/45-R13
     images:
-      - /uploads/technika/opelCadet/cadet_1.webp
-      - /uploads/technika/opelCadet/cadet_2.webp
-      - /uploads/technika/opelCadet/cadet_3.webp
-      - /uploads/technika/opelCadet/cadet_4.webp
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1729847047/cadet_4_r8j64u.webp
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1729847073/cadet_1_kz9pjf.webp
 ---
 
