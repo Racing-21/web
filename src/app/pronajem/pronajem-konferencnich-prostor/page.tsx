@@ -1,4 +1,3 @@
-import racePrepImage from "@/images/autodilna/priprava-na-zavody.webp";
 import Testimonials from "@/app/ui/Testimonials";
 import { Metadata } from "next";
 import { HeroSection } from "@/app/ui/HeroSection";
@@ -31,7 +30,9 @@ export default async function Page() {
 			<div>
 				{/* Hero card */}
 				<HeroSection
-					image={racePrepImage}
+					image={
+						"https://res.cloudinary.com/dkhdp7qmd/image/upload/v1729865376/05_tqrjra"
+					}
 					title={"Prostory k pronájmu"}
 					content={"Pro vaše firemní i soukromé akce"}
 				/>
@@ -82,6 +83,131 @@ export default async function Page() {
 							)}
 						</TabPanels>
 					</TabGroup>
+				</div>
+				<div className="w-full flex flex-col">
+					<h2 className={"text-2xl capitalize font-bold mb-2"}>Doplňkové služby</h2>
+					<section className="bg-grayPrimary py-10 sm:py-120 rounded-lg px-6">
+						<div>
+							<h3 className={"text-xl font-bold mb-2"}>Cofee break</h3>
+							<div className="grid grid-cols-1 md:grid-cols-2 gap-4 rounded-lg">
+								<div
+									className={"bg-black rounded-lg px-6 py-3 h-full flex flex-col"}
+								>
+									<h4 className={"mb-2 font-bold "}>CB I</h4>
+									<ul className={"ml-2"}>
+										<li>Káva, čaj, voda (včetně servisu)</li>
+										<li>Muffiny nebo minizákusky (1 ks/os)</li>
+										<li>Ovocná mísa (50g/os)</li>
+									</ul>
+									<div className={"mt-auto w-full flex flex-row"}>
+										<p className={"ml-auto font-bold"}>160 Kč/os</p>
+									</div>
+								</div>
+								<div className={"bg-black rounded-lg px-6 py-3"}>
+									<h4 className={"mb-2 font-bold"}>CB II</h4>
+									<ul className={"ml-2"}>
+										<li>Káva, čaj, voda, domácí limonády</li>
+										<li>Tiramisu (1ks/os)</li>
+										<li>Ovocné špízy (1ks/os)</li>
+										<li>Minizákusky (1ks/os)</li>
+									</ul>
+									<div className={"mt-auto w-full flex flex-row"}>
+										<p className={"ml-auto  font-bold"}>285 Kč/os</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div>
+							<h3 className={"text-xl font-bold mb-2 mt-2"}>Catering</h3>
+							<div className="grid grid-cols-1 md:grid-cols-2 gap-4 rounded-lg">
+								<div
+									className={"bg-black rounded-lg px-6 py-3 h-full flex flex-col"}
+								>
+									<h4 className={"mb-2 font-bold "}>Česká klasika</h4>
+									<ul className={"ml-2"}>
+										<li>Hovězí vývar s játrovými knedlíčky</li>
+										<li>
+											Hlavní jídlo dle Vašeho výběru <br />
+											(Guláš/Řízek s bramborem/Španělský ptáček)
+										</li>
+										<li>Salát</li>
+										<li>Jablečný závin</li>
+									</ul>
+									<div className={"mt-auto w-full flex flex-row"}>
+										<p className={"ml-auto font-bold"}>
+											{new Intl.NumberFormat("cs-CZ", {
+												style: "currency",
+												currency: "CZK",
+												maximumFractionDigits: 0,
+											}).format(450)}
+											/os
+										</p>
+									</div>
+								</div>
+								<div className={"bg-black rounded-lg px-6 py-3"}>
+									<h4 className={"mb-2 font-bold"}>Menu I</h4>
+									<ul className={"ml-2"}>
+										<li>Carpaccio ze žluté řepy s rukolou a parmezánem</li>
+										<li>Prkénko masa a sýrů z udírny</li>
+										<li>Studené kuřecí roládky</li>
+										<li>Domácí paštika s brusinkami</li>
+										<li>Kanapky</li>
+									</ul>
+									<div className={"mt-auto w-full flex flex-row"}>
+										<p className={"ml-auto  font-bold"}>
+											{new Intl.NumberFormat("cs-CZ", {
+												style: "currency",
+												currency: "CZK",
+												maximumFractionDigits: 0,
+											}).format(650)}
+											/os
+										</p>
+									</div>
+								</div>
+								<div className={"bg-black rounded-lg px-6 py-3"}>
+									<h4 className={"mb-2 font-bold"}>Menu II</h4>
+									<ul className={"ml-2"}>
+										<li>Domácí paštika s brusinkami</li>
+										<li>Marinovaný losos na salátku s bagetkou</li>
+										<li>Caesar salát s kuřecím prsem</li>
+										<li>Vepřová panenka s batátovým pyré</li>
+										<li>Smažený řízek s petrželovým bramborem</li>
+									</ul>
+									<div className={"mt-auto w-full flex flex-row"}>
+										<p className={"ml-auto  font-bold"}>
+											{new Intl.NumberFormat("cs-CZ", {
+												style: "currency",
+												currency: "CZK",
+												maximumFractionDigits: 0,
+											}).format(1100)}
+											/os
+										</p>
+									</div>
+								</div>
+								<div className={"bg-black rounded-lg px-6 py-3"}>
+									<h4 className={"mb-2 font-bold"}>Menu III</h4>
+									<ul className={"ml-2"}>
+										<li>Kanapky</li>
+										<li>Hovězí carpaccio s rukolou a parmezánem</li>
+										<li>Marinovaný losos na salátku</li>
+										<li>Hovězí roastbeef s omáčkou</li>
+										<li>Miniřízečky a grilovaná zelenina</li>
+										<li>Pečená kachna s knedlíkem a zelím</li>
+									</ul>
+									<div className={"mt-auto w-full flex flex-row"}>
+										<p className={"ml-auto  font-bold"}>
+											{new Intl.NumberFormat("cs-CZ", {
+												style: "currency",
+												currency: "CZK",
+												maximumFractionDigits: 0,
+											}).format(1320)}
+											/os
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
 				</div>
 				<div className="w-full flex flex-col">
 					<h2 className={"text-2xl capitalize font-bold mb-2"}>Kontaktní formulář</h2>

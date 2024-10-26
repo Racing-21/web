@@ -7,6 +7,7 @@ export type UpcomingEventCardProps = {
 	title: string;
 	altImageText: string;
 	description: string;
+	cardClassName?: string;
 };
 
 export const UpcomingEventsCard = ({
@@ -14,6 +15,7 @@ export const UpcomingEventsCard = ({
 	title,
 	altImageText,
 	description,
+	cardClassName,
 }: UpcomingEventCardProps) => {
 	return (
 		<div
@@ -22,9 +24,7 @@ export const UpcomingEventsCard = ({
 			}
 		>
 			<Card
-				className={
-					"h-[200px] flex-col content-center items-center relative w-full overflow-hidden rounded-lg shadow-lg  "
-				}
+				className={`h-[200px] flex-col content-center items-center relative w-full overflow-hidden rounded-lg shadow-lg ${cardClassName}`}
 			>
 				<div className="absolute inset-0 overflow-hidden ">
 					{image && (
