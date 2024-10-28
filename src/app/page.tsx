@@ -1,4 +1,3 @@
-import headerImage from "@/images/homepage/header.webp";
 import serviceCardImage from "@/images/homepage/serviceCard.webp";
 import rallyTeamCardImage from "@/images/homepage/rallyTeamCard.webp";
 import rentalCardImage from "@/images/homepage/rentalCard.webp";
@@ -30,7 +29,9 @@ export default function Home() {
 		<>
 			{/* Hero card */}
 			<HeroSection
-				image={headerImage}
+				image={
+					"https://res.cloudinary.com/dkhdp7qmd/image/upload/v1729847729/toyota_1_hhratb.webp"
+				}
 				title={"Racing 21"}
 				subtitle={"Nejen závodní rally tým"}
 			/>

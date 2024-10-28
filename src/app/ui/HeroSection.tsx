@@ -18,10 +18,11 @@ export const HeroSection = ({ image, title, subtitle, content }: HeroSectionProp
 							alt="People working on laptops"
 							src={image}
 							className="h-full w-full object-cover"
-							fill
+							height={450}
+							width={800}
 							priority
 						/>
-						<div className="absolute inset-0 bg-grayPrimary opacity-50 mix-blend-multiply" />
+						<div className="absolute inset-0 bg-black opacity-70 mix-blend-multiply" />
 					</div>
 					<div className="relative px-6 py-16 sm:py-24 lg:px-8 lg:py-32">
 						<h1 className="text-center text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
