@@ -75,7 +75,18 @@ aktuality:
       [fiamotorsportgames.com](https://www.fiamotorsportgames.com/).
     image: >-
       https://res.cloudinary.com/dkhdp7qmd/image/upload/v1730130363/192rc21-2024-16-01_zutqew.webp
-    gallery: >-
-      https://res.cloudinary.com/dkhdp7qmd/image/upload/v1730130363/192rc21-2024-16-05_ghfdez.webp
+    gallery:
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1730130363/192rc21-2024-16-03_rhzo4q.webp
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1730130363/192rc21-2024-16-01_zutqew.webp
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1730130363/192rc21-2024-16-05_ghfdez.webp
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1730130363/192rc21-2024-16-07_p086yb.webp      
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1730130363/192rc21-2024-16-02_nfupqm.webp      
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1730130363/192rc21-2024-16-06_dwb7vo.webp
 ---
 

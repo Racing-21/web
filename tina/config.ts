@@ -606,6 +606,7 @@ export default defineConfig({
 								type: "datetime",
 								name: "date",
 								label: "Datum",
+								required: true,
 							},
 							{
 								type: "string",
@@ -629,6 +630,7 @@ export default defineConfig({
 								type: "image",
 								name: "gallery",
 								label: "Fotogalerie",
+								list: true,
 							},
 						],
 					},

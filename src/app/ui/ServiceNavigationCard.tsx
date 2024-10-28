@@ -39,7 +39,7 @@ export const ServiceNavigationCard = ({
 					/>
 					<div className="absolute inset-0 bg-black opacity-60 h-full w-full "></div>
 				</div>
-				<h3 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-center md:whitespace-nowrap text-3xl font-bold z-10 w-full">
+				<h3 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-center text-3xl font-bold z-10 w-full px-2">
 					{title}
 					<div className="relative mt-1 border-transparent border-b-2 group-hover:border-red-500 underline"></div>
 				</h3>

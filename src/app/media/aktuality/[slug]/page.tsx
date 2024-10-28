@@ -5,6 +5,7 @@ import { PageLayout } from "@/app/ui/layout/PageLayout";
 import client from "../../../../../tina/__generated__/client";
 import { TinaMarkdown } from "tinacms/dist/rich-text";
 import { AktualityAktuality } from "../../../../../tina/__generated__/types";
+import { PhotoGallery } from "@/app/ui/PhotoGallery";
 
 export const metadata: Metadata = {
 	title: "Racing21 - Technika",
@@ -24,6 +25,17 @@ export default async function Page({ params }: { params: { slug: string } }) {
 	if (!post) {
 		return null;
 	}
+
+	const postImages = post.gallery
+		? post.gallery
+				?.filter((image) => image !== null)
+				.map((image) => {
+					return {
+						src: image,
+						alt: post.name,
+					};
+				})
+		: [];
 
 	return (
 		<>
@@ -55,10 +67,11 @@ export default async function Page({ params }: { params: { slug: string } }) {
 					<Breadcrumbs />
 				</div>
 
-				<div className="w-full px-6 py-6 mt-2 blogPost">
+				<div className="w-full px-6 py-6 mt-2 blogPost max-w-[1200px] m-auto">
 					<h1 className=" text-5xl font-bold tracking-tight mb-4">{post?.name}</h1>
 					<p>{post.date && Intl.DateTimeFormat("cs-CZ").format(new Date(post.date))}</p>
 					<TinaMarkdown content={post.longDescription} />
+					<PhotoGallery images={postImages} fullwidth />
 				</div>
 			</PageLayout>
 		</>

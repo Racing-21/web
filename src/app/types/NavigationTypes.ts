@@ -1,4 +1,9 @@
-import { ChartPieIcon, CursorArrowRaysIcon, FingerPrintIcon } from "@heroicons/react/24/outline";
+import {
+	ChartPieIcon,
+	CursorArrowRaysIcon,
+	FingerPrintIcon,
+	NewspaperIcon,
+} from "@heroicons/react/24/outline";
 
 export const NAVIGATION = [
 	{
@@ -92,7 +97,14 @@ export const NAVIGATION = [
 	{
 		title: "Média",
 		topLink: "media",
-		links: [],
+		links: [
+			{
+				name: "Aktuality",
+				description: "Veškeré novinky o našem týmu na jednom místě.",
+				href: "/media/aktuality",
+				icon: NewspaperIcon,
+			},
+		],
 	},
 	{
 		title: "Kontakt",

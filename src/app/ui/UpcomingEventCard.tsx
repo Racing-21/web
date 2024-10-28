@@ -37,8 +37,15 @@ export const UpcomingEventsCard = ({ post, cardClassName }: UpcomingEventCardPro
 						<div className="absolute inset-0 bg-black opacity-60 h-full w-full "></div>
 					</div>
 				</Card>
-				<p className="mt-3 left-0 w-full text-white font-bold ">{post.name}</p>
-				<p className="left-0 w-full text-gray-400 text-sm">{post.shortDescription}</p>
+				<p className="mt-3 left-0 w-full text-white font-bold h-[60px] line-clamp-2">
+					{post.name}
+				</p>
+				<p className="mt-3 left-0 w-full text-white text-sm mb-1 ">
+					{Intl.DateTimeFormat("cs-CZ").format(new Date(post.date))}
+				</p>
+				<p className="left-0 w-full text-gray-400 text-sm line-clamp-2">
+					{post.shortDescription}
+				</p>
 			</div>
 		</Link>
 	);
