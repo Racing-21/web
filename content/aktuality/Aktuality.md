@@ -8,10 +8,10 @@ aktuality:
       přesunul do španělské Valencie, aby během nadcházejícího víkendu bojoval v
       českých národních barvách o medaile na FIA Motorsport Games.
     longDescription: >
-      Soutěžní tým ACCR Racing21 má v těchto dnech ve svém sportovním programu
+      **Soutěžní tým ACCR Racing21 má v těchto dnech ve svém sportovním programu
       napilno. Po evropském klání historiků na Sanremo Rallye Storico se celý
       tým přesunul do španělské Valencie, aby během nadcházejícího víkendu
-      bojoval v českých národních barvách o medaile na FIA Motorsport Games. O
+      bojoval v českých národních barvách o medaile na FIA Motorsport Games.** O
       minulém víkendu startovala posádka Vojtěch Štajf a Veronika Havelková s
       vozem Toyota Celica GT-Four na předposledním podniku seriálu FIA European
       Historic Rally Championship v italském Sanremu. V silné konkurenci a po
@@ -19,10 +19,10 @@ aktuality:
       silné mlhy na rychlostních zkouškách dokázali Štajf s Havelkovou v neděli
       celkově zrychlit. Po jedenácti rychlostních zkouškách 39. ročníku Sanremo
       Rally Storico obsadili nakonec celkové páté místo v klasifikaci FIA EHRC a
-      čtvrtou příčku v kategorii 4. „Za situace, kdy jsme zde startovali s
+      čtvrtou příčku v kategorii 4. **„Za situace, kdy jsme zde startovali s
       Veronikou poprvé, je páté místo v evropské klasifikaci této soutěže
       solidním výsledkem a jsme moc rádi za dosažené body pro průběžnou
-      klasifikaci celého šampionátu,“ zhodnotil soutěž v okolí italského
+      klasifikaci celého šampionátu,“** zhodnotil soutěž v okolí italského
       přímořského letoviska Sanremo jezdec Vojtěch Štajf.
 
 
@@ -41,26 +41,26 @@ aktuality:
       republiky.
 
 
-      „Do Valencie jsme přijeli především s cílem prezentovat tím nejlepším
+      **„Do Valencie jsme přijeli především s cílem prezentovat tím nejlepším
       možným způsobem úroveň motorsportu v České republice, a to nejen v rally.
       Náš reprezentační tým má zde zastoupení i v dalších disciplínách
       automobilového sportu a věřím, že se nám podaří nějaké medaile domů
       přivézt. My jsme dnes absolvovali přejímky a po volném tréninku
       následovala kvalifikační rychlostní zkouška na zdejším okruhu ´Ricardo
-      Tormo´,“ přibližuje první momenty ve Valencii Vojtěch Štajf a dodává: „V
-      kvalifikaci, která se konala na asfaltovém okruhu, jsme s Veronikou zajeli
-      šestý nejrychlejší čas mezi historiky. Vzhledem k tomu, že pro kvalifikaci
-      jsme museli mít na autě šotolinový podvozek i pneumatiky, rozhodl jsem se
-      trochu pošetřit techniku na zítřejší souboje. Ascona zde funguje zatím bez
-      problémů. Logicky ale cítím určitý hendikep oproti čtyřkolce Audi Itala
-      Zippa i lehčím a výkonnějším vozům Brita Bena Mellorse s Toyotou 2000 GT
-      RA45 či Fordu Escort Ernieho Grahama, a nakonec i proti výkonnému Porsche
-      911 SC Španěla Antonia Sainze. My jsme zvolili Opel Ascona především
-      proto, že k němu máme k dispozici dva podvozky právě na odlišné povrchy
-      tratí. V náš prospěch by naopak měla hovořit univerzálnost Ascony a také
-      její proslulá „africká“ odolnost, a to především zítra na šotolině.
-      Každopádně máme s Veronikou odhodlání jet, pokud možno, na limitu našeho
-      auta.“
+      Tormo´,“** přibližuje první momenty ve Valencii Vojtěch Štajf a dodává:**
+      „V kvalifikaci, která se konala na asfaltovém okruhu, jsme s Veronikou
+      zajeli šestý nejrychlejší čas mezi historiky. Vzhledem k tomu, že pro
+      kvalifikaci jsme museli mít na autě šotolinový podvozek i pneumatiky,
+      rozhodl jsem se trochu pošetřit techniku na zítřejší souboje. Ascona zde
+      funguje zatím bez problémů. Logicky ale cítím určitý hendikep oproti
+      čtyřkolce Audi Itala Zippa i lehčím a výkonnějším vozům Brita Bena
+      Mellorse s Toyotou 2000 GT RA45 či Fordu Escort Ernieho Grahama, a nakonec
+      i proti výkonnému Porsche 911 SC Španěla Antonia Sainze. My jsme zvolili
+      Opel Ascona především proto, že k němu máme k dispozici dva podvozky právě
+      na odlišné povrchy tratí. V náš prospěch by naopak měla hovořit
+      univerzálnost Ascony a také její proslulá „africká“ odolnost, a to
+      především zítra na šotolině. Každopádně máme s Veronikou odhodlání jet,
+      pokud možno, na limitu našeho auta.“**
 
 
       Vojtěch Štajf a Veronika Havelková mohou s vozem Opel Ascona A soupeřit v

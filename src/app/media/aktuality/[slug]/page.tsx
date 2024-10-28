@@ -45,12 +45,7 @@ export default async function Page({ params }: { params: { slug: string } }) {
 
 								<div className="absolute inset-0 bg-grayPrimary opacity-50 mix-blend-multiply" />
 							</div>
-							<div className="relative px-6 py-16 sm:py-24 lg:px-8 lg:py-32 h-[500px]">
-								<h1 className="text-center text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
-									<span className="block text-white">Racing21</span>
-									<span className="block text-red-600">{post?.name}</span>
-								</h1>
-							</div>
+							<div className="relative px-6 py-16 sm:py-24 lg:px-8 lg:py-32 h-[500px]"></div>
 						</div>
 					</div>
 				</div>
@@ -59,7 +54,10 @@ export default async function Page({ params }: { params: { slug: string } }) {
 				<div className={"px-6  mt-4"}>
 					<Breadcrumbs />
 				</div>
+
 				<div className="w-full px-6 py-6 mt-2 blogPost">
+					<h1 className=" text-5xl font-bold tracking-tight mb-4">{post?.name}</h1>
+					<p>{post.date && Intl.DateTimeFormat("cs-CZ").format(new Date(post.date))}</p>
 					<TinaMarkdown content={post.longDescription} />
 				</div>
 			</PageLayout>

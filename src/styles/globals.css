@@ -71,3 +71,15 @@ body {
   list-style: square;
 }
 
+.blogPost p {
+  margin-bottom: 0.75rem;
+}
+
+.blogPost a {
+  color: #dc2626;
+}
+
+.blogPost a:hover {
+  color: #ffffff;
+}
+
