@@ -575,7 +575,7 @@ export default defineConfig({
 			{
 				name: "aktuality",
 				label: "Aktuality",
-				path: "aktuality",
+				path: "content/aktuality",
 				fields: [
 					{
 						name: "aktuality",
