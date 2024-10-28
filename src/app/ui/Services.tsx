@@ -1,9 +1,8 @@
 import {
-	AcademicCapIcon,
-	BanknotesIcon,
-	CheckBadgeIcon,
-	ClockIcon,
 	ReceiptRefundIcon,
+	CogIcon,
+	WrenchScrewdriverIcon,
+	BuildingStorefrontIcon,
 	UsersIcon,
 } from "@heroicons/react/24/outline";
 
@@ -12,52 +11,52 @@ const services = [
 		title: "Servis a správa závodních vozů",
 		href: "/sluzby/servis-zavodnich-aut",
 		description: "Naši zkušení mechanici dostanou váš závodní vůz do té nejlepší kondice",
-		icon: ClockIcon,
-		iconForeground: "text-teal-700",
-		iconBackground: "bg-teal-50",
+		icon: WrenchScrewdriverIcon,
+		iconForeground: "text-red-600",
+		iconBackground: "bg-black",
 	},
 	{
 		title: "Servis a úpravy sportovních vozů",
 		href: "/sluzby/servis-sportovnich-vozu",
 		description:
 			"Váš sportovní vůz si zaslouší tu nejlepší péči. Naši technici se zkušenostmi z mezinárodních závodů mu ji dopřejí.",
-		icon: CheckBadgeIcon,
-		iconForeground: "text-purple-700",
-		iconBackground: "bg-purple-50",
+		icon: CogIcon,
+		iconForeground: "text-red-600",
+		iconBackground: "bg-black",
 	},
 	{
 		title: "Renovace youngtimerů",
 		href: "/sluzby/renovace-veteranu",
 		description:
 			"Pořídili jste si vysněné auto, které by potřebovalo trochu či více péče? Svěřte ho do péče našeho zkušeného týmu.",
-		icon: UsersIcon,
-		iconForeground: "text-sky-700",
-		iconBackground: "bg-sky-50",
+		icon: CogIcon,
+		iconForeground: "text-red-600",
+		iconBackground: "bg-black",
 	},
 	{
 		title: "Poradenství v nákupu vozidel",
 		href: "/sluzby/nakup-veteranu",
 		description:
 			"Nakupujete auto na investici nebo jen chcete žihadlo na víkendové svezení. Svěřte nám Vaše přání a my Vám pomůžeme s výběrem vozu bez obav",
-		icon: BanknotesIcon,
-		iconForeground: "text-yellow-700",
-		iconBackground: "bg-yellow-50",
+		icon: UsersIcon,
+		iconForeground: "text-red-600",
+		iconBackground: "bg-black",
 	},
 	{
 		title: "Pronájem techniky a vozů na závody",
 		href: "/pronajem/pronajem-techniky-a-vozu",
 		description: "Nabízíme pronájem mobilního zázemí servisu a závodní techniky",
 		icon: ReceiptRefundIcon,
-		iconForeground: "text-rose-700",
-		iconBackground: "bg-rose-50",
+		iconForeground: "text-red-600",
+		iconBackground: "bg-black",
 	},
 	{
 		title: "Pronájem konferenčních prostor",
 		href: "/pronajem/pronajem-konferencnich-prostor",
 		description: "Konference či oslava ve stylových prostorech Racing 21 na Praze západ",
-		icon: AcademicCapIcon,
-		iconForeground: "text-indigo-700",
-		iconBackground: "bg-indigo-50",
+		icon: BuildingStorefrontIcon,
+		iconForeground: "text-red-600",
+		iconBackground: "bg-black",
 	},
 ];
 
@@ -112,7 +111,7 @@ export default function Services() {
 									{action.title}
 								</a>
 							</h3>
-							<p className="mt-2 text-sm text-gray-500">{action.description}</p>
+							<p className="mt-2 text-sm text-gray-300">{action.description}</p>
 						</div>
 						<span
 							aria-hidden="true"
