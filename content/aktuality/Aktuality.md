@@ -47,20 +47,20 @@ aktuality:
       automobilového sportu a věřím, že se nám podaří nějaké medaile domů
       přivézt. My jsme dnes absolvovali přejímky a po volném tréninku
       následovala kvalifikační rychlostní zkouška na zdejším okruhu ´Ricardo
-      Tormo´,“** přibližuje první momenty ve Valencii Vojtěch Štajf a dodává:**
-      „V kvalifikaci, která se konala na asfaltovém okruhu, jsme s Veronikou
-      zajeli šestý nejrychlejší čas mezi historiky. Vzhledem k tomu, že pro
-      kvalifikaci jsme museli mít na autě šotolinový podvozek i pneumatiky,
-      rozhodl jsem se trochu pošetřit techniku na zítřejší souboje. Ascona zde
-      funguje zatím bez problémů. Logicky ale cítím určitý hendikep oproti
-      čtyřkolce Audi Itala Zippa i lehčím a výkonnějším vozům Brita Bena
+      Tormo´,“** přibližuje první momenty ve Valencii Vojtěch Štajf a
+      dodává:\*\* „V kvalifikaci, která se konala na asfaltovém okruhu, jsme s
+      Veronikou zajeli šestý nejrychlejší čas mezi historiky. Vzhledem k tomu,
+      že pro kvalifikaci jsme museli mít na autě šotolinový podvozek i
+      pneumatiky, rozhodl jsem se trochu pošetřit techniku na zítřejší souboje.
+      Ascona zde funguje zatím bez problémů. Logicky ale cítím určitý hendikep
+      oproti čtyřkolce Audi Itala Zippa i lehčím a výkonnějším vozům Brita Bena
       Mellorse s Toyotou 2000 GT RA45 či Fordu Escort Ernieho Grahama, a nakonec
       i proti výkonnému Porsche 911 SC Španěla Antonia Sainze. My jsme zvolili
       Opel Ascona především proto, že k němu máme k dispozici dva podvozky právě
       na odlišné povrchy tratí. V náš prospěch by naopak měla hovořit
       univerzálnost Ascony a také její proslulá „africká“ odolnost, a to
       především zítra na šotolině. Každopádně máme s Veronikou odhodlání jet,
-      pokud možno, na limitu našeho auta.“**
+      pokud možno, na limitu našeho auta.“\*\*
 
 
       Vojtěch Štajf a Veronika Havelková mohou s vozem Opel Ascona A soupeřit v
@@ -73,5 +73,9 @@ aktuality:
       šotolinovým povrchem. Průběh soubojů ve všech motoristických disciplínách
       na letošním ročníku FIA Motorsport Games můžete sledovat na
       [fiamotorsportgames.com](https://www.fiamotorsportgames.com/).
+    image: >-
+      https://res.cloudinary.com/dkhdp7qmd/image/upload/v1730130363/192rc21-2024-16-01_zutqew.webp
+    gallery: >-
+      https://res.cloudinary.com/dkhdp7qmd/image/upload/v1730130363/192rc21-2024-16-05_ghfdez.webp
 ---
 
