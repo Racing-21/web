@@ -23,7 +23,7 @@ export default defineConfig({
 			return pack.TinaCloudCloudinaryMediaStore;
 		},
 	},
-	// See docs on content modeling for more info on how to setup new content models: https://tina.io/docs/schema/
+	// See docs on content modeling for more info on how to set up new content models: https://tina.io/docs/schema/
 	schema: {
 		collections: [
 			TinaUserCollection,
