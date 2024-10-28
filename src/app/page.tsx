@@ -4,11 +4,11 @@ import rallyTeamCardImage from "@/images/homepage/rallyTeamCard.webp";
 import rentalCardImage from "@/images/homepage/rentalCard.webp";
 import { Metadata } from "next";
 import Services from "./ui/Services";
-import { UpcomingEventsCard } from "@/app/ui/UpcomingEventCard";
 import { ServiceNavigationCard } from "@/app/ui/ServiceNavigationCard";
 import { HomepageLogoCloud } from "@/app/ui/HomepageLogoCloud";
 import { HeroSection } from "@/app/ui/HeroSection";
 import { PageLayout } from "@/app/ui/layout/PageLayout";
+import { NewsSection } from "@/app/ui/NewsSection";
 
 export const metadata: Metadata = {
 	title: "Racing 21",
@@ -85,26 +85,7 @@ export default function Home() {
 				</div>
 				<div className="w-full">
 					<h2 className={"text-2xl capitalize font-bold mb-2"}>Aktuality</h2>
-					<div className={"grid grid-cols-1 md:grid-cols-3 gap-4 rounded-lg"}>
-						<UpcomingEventsCard
-							title={"Závodní tým"}
-							altImageText={"Sekce o závodním týmu Racing 21"}
-							image={rallyTeamCardImage}
-							description={"Lorem ipsum et donor"}
-						/>
-						<UpcomingEventsCard
-							title={"Servis vozidel"}
-							altImageText={"Servis vozidel"}
-							image={serviceCardImage}
-							description={"Lorem ipsum et donor"}
-						/>
-						<UpcomingEventsCard
-							title={"Pronájem vozidel a prostor"}
-							altImageText={"Sekce o pronájmu vozidel a prostor"}
-							image={rentalCardImage}
-							description={"Lorem ipsum et donor"}
-						/>
-					</div>
+					<NewsSection />
 				</div>
 			</PageLayout>
 		</>

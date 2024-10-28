@@ -3,9 +3,9 @@ import Testimonials from "@/app/ui/Testimonials";
 import { Metadata } from "next";
 import { HeroSection } from "@/app/ui/HeroSection";
 import { PageLayout } from "@/app/ui/layout/PageLayout";
-import { UpcomingEventsCard } from "@/app/ui/UpcomingEventCard";
 import { ContactForm } from "@/app/ui/ContactForm";
 import Link from "next/link";
+import { RentalCategoryCard } from "../ui/RentalCategoryCard";
 
 export const metadata: Metadata = {
 	title: "Racing 21 - O nás",
@@ -43,25 +43,22 @@ export default function Page() {
 
 					<div className={"grid grid-cols-1 md:grid-cols-2 gap-4 rounded-lg"}>
 						<Link href={"/pronajem/pronajem-konferencnich-prostor"}>
-							<UpcomingEventsCard
-								title={"Pronájem konferenčních prostorů"}
-								altImageText={"Obrázek konferenční místnosti"}
-								image={
-									"https://res.cloudinary.com/dkhdp7qmd/image/upload/v1729865376/08_ebvm4p.webp"
-								}
-								description={"Uspořádejte akci v jedinečné atmosféře"}
-								cardClassName={"h-[300px]"}
+							<RentalCategoryCard
+								category={{
+									name: "Pronájem konferenčních prostorů",
+									image: "https://res.cloudinary.com/dkhdp7qmd/image/upload/v1729865376/08_ebvm4p.webp",
+									shortDescription: "Uspořádejte akci v jedinečné atmosféře",
+								}}
 							/>
 						</Link>
 						<Link href={"/pronajem/pronajem-techniky-a-vozu"}>
-							<UpcomingEventsCard
-								title={"Pronájem prémiových přívěsů Turatello"}
-								altImageText={"Převážejte svůj automobil bezpečně a spolehlivě"}
-								image={
-									"https://res.cloudinary.com/dkhdp7qmd/image/upload/v1729865376/IMG_3702_k79bmj.webp"
-								}
-								description={"Převážejte svůj automobil bezpečně a spolehlivě"}
-								cardClassName={"h-[300px]"}
+							<RentalCategoryCard
+								category={{
+									name: "Pronájem prémiových přívěsů Turatello",
+									image: "https://res.cloudinary.com/dkhdp7qmd/image/upload/v1729865376/IMG_3702_k79bmj.webp",
+									shortDescription:
+										"Převážejte svůj automobil bezpečně a spolehlivě",
+								}}
 							/>
 						</Link>
 					</div>

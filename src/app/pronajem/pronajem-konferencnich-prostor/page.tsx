@@ -2,11 +2,11 @@ import Testimonials from "@/app/ui/Testimonials";
 import { Metadata } from "next";
 import { HeroSection } from "@/app/ui/HeroSection";
 import { PageLayout } from "@/app/ui/layout/PageLayout";
-import { UpcomingEventsCard } from "@/app/ui/UpcomingEventCard";
 import { Tab, TabGroup, TabList, TabPanels } from "@headlessui/react";
 import client from "../../../../tina/__generated__/client";
 import { ContactForm } from "@/app/ui/ContactForm";
 import { VenueDetail } from "@/app/ui/venues/VenueDetail";
+import { RentalCategoryCard } from "@/app/ui/RentalCategoryCard";
 
 export const metadata: Metadata = {
 	title: "Racing 21 - O nás",
@@ -24,6 +24,8 @@ export default async function Page() {
 	if (!data) {
 		return null;
 	}
+
+	const venues = data.pronajem.prostory;
 
 	return (
 		<>
@@ -56,15 +58,16 @@ export default async function Page() {
 					<TabGroup className="flex flex-col">
 						<TabList>
 							<div className={"grid grid-cols-1 md:grid-cols-3 gap-4 rounded-lg"}>
-								{data.pronajem?.prostory?.map(
+								{venues?.map(
 									(prostor) =>
 										prostor && (
 											<Tab key={prostor.name}>
-												<UpcomingEventsCard
-													title={prostor.name}
-													altImageText={"Obrázek konferenční místnosti"}
-													image={prostor?.image}
-													description={prostor.shortDescription}
+												<RentalCategoryCard
+													category={{
+														name: prostor.name,
+														shortDescription: prostor.shortDescription,
+														image: prostor.image,
+													}}
 												/>
 											</Tab>
 										),
@@ -72,7 +75,7 @@ export default async function Page() {
 							</div>
 						</TabList>
 						<TabPanels className="mt-6">
-							{data.pronajem?.prostory?.map(
+							{venues?.map(
 								(prostor) =>
 									prostor && (
 										<VenueDetail
