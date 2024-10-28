@@ -400,7 +400,7 @@ export default defineConfig({
 				name: "pronajem",
 				label: "Pronájem prostor",
 				path: "pronajem",
-				match: { include: "Prostory.md" },
+				match: { include: "Prostory", exclude: "Technika" },
 				fields: [
 					{
 						name: "prostory",
@@ -488,7 +488,7 @@ export default defineConfig({
 				name: "pronajemTechniky",
 				label: "Pronájem prostor",
 				path: "pronajem",
-				match: { include: "Technika.md" },
+				match: { include: "Technika", exclude: "Prostory" },
 				fields: [
 					{
 						name: "technika",
