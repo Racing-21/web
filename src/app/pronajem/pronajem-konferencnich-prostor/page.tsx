@@ -2,11 +2,9 @@ import Testimonials from "@/app/ui/Testimonials";
 import { Metadata } from "next";
 import { HeroSection } from "@/app/ui/HeroSection";
 import { PageLayout } from "@/app/ui/layout/PageLayout";
-import { Tab, TabGroup, TabList, TabPanels } from "@headlessui/react";
 import client from "../../../../tina/__generated__/client";
 import { ContactForm } from "@/app/ui/ContactForm";
 import { VenueDetail } from "@/app/ui/venues/VenueDetail";
-import { RentalCategoryCard } from "@/app/ui/RentalCategoryCard";
 
 export const metadata: Metadata = {
 	title: "Racing 21 - O nás",
@@ -52,40 +50,15 @@ export default async function Page() {
 						</p>
 					</section>
 				</div>
-				<div className="w-full">
+				<div className="w-full flex flex-col gap-4">
 					<h2 className={"text-2xl capitalize font-bold mb-2"}>Dostupné prostory</h2>
 
-					<TabGroup className="flex flex-col">
-						<TabList>
-							<div className={"grid grid-cols-1 md:grid-cols-3 gap-4 rounded-lg"}>
-								{venues?.map(
-									(prostor) =>
-										prostor && (
-											<Tab key={prostor.name}>
-												<RentalCategoryCard
-													category={{
-														name: prostor.name,
-														shortDescription: prostor.shortDescription,
-														image: prostor.image,
-													}}
-												/>
-											</Tab>
-										),
-								)}
-							</div>
-						</TabList>
-						<TabPanels className="mt-6">
-							{venues?.map(
-								(prostor) =>
-									prostor && (
-										<VenueDetail
-											venue={prostor}
-											key={`${prostor.name}-detailTab`}
-										/>
-									),
-							)}
-						</TabPanels>
-					</TabGroup>
+					{venues?.map(
+						(prostor) =>
+							prostor && (
+								<VenueDetail venue={prostor} key={`${prostor.name}-detailTab`} />
+							),
+					)}
 				</div>
 				<div className="w-full flex flex-col">
 					<h2 className={"text-2xl capitalize font-bold mb-2"}>Doplňkové služby</h2>

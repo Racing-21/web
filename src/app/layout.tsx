@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import "../styles/globals.css";
 import Navigation from "@/app/ui/Navigation";
@@ -28,6 +28,11 @@ export const metadata: Metadata = {
 
 	// Manifest
 	manifest: "/site.webmanifest",
+};
+
+export const viewport: Viewport = {
+	width: "device-width",
+	initialScale: 1.0,
 };
 
 export default function RootLayout({

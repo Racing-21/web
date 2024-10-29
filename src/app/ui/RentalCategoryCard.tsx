@@ -18,7 +18,7 @@ export const RentalCategoryCard = ({
 			}
 		>
 			<Card
-				className={`h-[300px] flex-col content-center items-center relative w-full overflow-hidden rounded-lg shadow-lg}`}
+				className={`h-[100px] flex-col content-center items-center relative w-full overflow-hidden rounded-lg shadow-lg}`}
 			>
 				<div className="absolute inset-0 overflow-hidden ">
 					{category.image && (
@@ -26,6 +26,7 @@ export const RentalCategoryCard = ({
 							alt={category.name ?? " "}
 							src={category.image}
 							fill
+							objectFit={"cover"}
 							priority
 							className="transition-transform duration-200 ease-in-out transform hover:scale-105 "
 						/>
@@ -33,7 +34,7 @@ export const RentalCategoryCard = ({
 					<div className="absolute inset-0 bg-black opacity-20 h-full w-full "></div>
 				</div>
 			</Card>
-			<p className="mt-3 left-0 w-full text-white font-bold line-clamp-2 h-[60px]">
+			<p className="mt-3 left-0 w-full text-white font-bold line-clamp-2 h-[30px]">
 				{category.name}
 			</p>
 			<p className="left-0 w-full text-gray-400 text-sm line-clamp-2">
