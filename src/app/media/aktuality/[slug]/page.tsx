@@ -71,7 +71,7 @@ export default async function Page({ params }: { params: { slug: string } }) {
 					<h1 className=" text-5xl font-bold tracking-tight mb-4">{post?.name}</h1>
 					<p>{post.date && Intl.DateTimeFormat("cs-CZ").format(new Date(post.date))}</p>
 					<TinaMarkdown content={post.longDescription} />
-					<PhotoGallery images={postImages} fullwidth />
+					<PhotoGallery images={postImages} />
 				</div>
 			</PageLayout>
 		</>

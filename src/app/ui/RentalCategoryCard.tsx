@@ -18,7 +18,7 @@ export const RentalCategoryCard = ({
 			}
 		>
 			<Card
-				className={`h-[100px] flex-col content-center items-center relative w-full overflow-hidden rounded-lg shadow-lg}`}
+				className={`h-[300px] flex-col content-center items-center relative w-full overflow-hidden rounded-lg shadow-lg}`}
 			>
 				<div className="absolute inset-0 overflow-hidden ">
 					{category.image && (
