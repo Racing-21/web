@@ -72,21 +72,11 @@ aktuality:
       Zítra jsou na pořadu souboje na sedmi rychlostních zkouškách převážně s
       šotolinovým povrchem. Průběh soubojů ve všech motoristických disciplínách
       na letošním ročníku FIA Motorsport Games můžete sledovat na
-      [fiamotorsportgames.com](https://www.fiamotorsportgames.com/).
+      [fiamotorsportgames.com](https://www.fiamotorsportgames.com/). 
     image: >-
       https://res.cloudinary.com/dkhdp7qmd/image/upload/v1730130363/192rc21-2024-16-01_zutqew.webp
     gallery:
       - >-
-        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1730130363/192rc21-2024-16-03_rhzo4q.webp
-      - >-
-        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1730130363/192rc21-2024-16-01_zutqew.webp
-      - >-
-        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1730130363/192rc21-2024-16-05_ghfdez.webp
-      - >-
-        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1730130363/192rc21-2024-16-07_p086yb.webp      
-      - >-
-        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1730130363/192rc21-2024-16-02_nfupqm.webp      
-      - >-
-        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1730130363/192rc21-2024-16-06_dwb7vo.webp
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1730450939/toyota_8_z1rpqq.webp
 ---
 
