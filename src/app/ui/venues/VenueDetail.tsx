@@ -1,3 +1,5 @@
+"use client";
+
 import { TinaMarkdown, TinaMarkdownContent } from "tinacms/dist/rich-text";
 import { PhotoGallery } from "@/app/ui/PhotoGallery";
 
@@ -66,7 +68,14 @@ export function VenueDetail({ venue }: { venue: VenueType }) {
 				</div>
 				<button
 					type="button"
-					className="mt-4 w-full md:w-[200px] rounded-full bg-red-600 px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-red-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600"
+					onClick={(e) => {
+						e.preventDefault();
+						const goToTop = document.getElementById("contact-form");
+						if (goToTop) {
+							goToTop.scrollIntoView({ behavior: "smooth", block: "start" });
+						}
+					}}
+					className="mt-4 w-full md:w-[200px] rounded-full bg-red-600 px-4 py-2.5 text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600 hover:bg-red-900s hover:text-white"
 				>
 					Zjistit dostupnost
 				</button>

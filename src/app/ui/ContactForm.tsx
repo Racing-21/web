@@ -1,9 +1,9 @@
 "use client";
 
-import { Label, Listbox, ListboxButton, ListboxOption, ListboxOptions } from "@headlessui/react";
-import { Controller, Resolver, useForm } from "react-hook-form";
-import { CheckIcon, ChevronUpDownIcon } from "@heroicons/react/16/solid";
-import { FormEvent, useState } from "react";
+import { Resolver, useForm } from "react-hook-form";
+import { FormEvent } from "react";
+import { z } from "zod";
+import { zodResolver } from "@hookform/resolvers/zod";
 
 type FormValues = {
 	firstName: string;
@@ -13,8 +13,16 @@ type FormValues = {
 	company: string;
 	team: string;
 	selectedService: string;
-	comment: string;
+	quote: string;
 };
+
+const formSchema = z.object({
+	firstName: z.string().min(1, "First name is required"),
+	lastName: z.string().min(1, "Last name is required"),
+	email: z.string().email("Invalid email address"),
+	phone: z.string().optional(),
+	quote: z.string().min(1, "Quote is required"),
+});
 
 const resolver: Resolver<FormValues> = async (values) => {
 	return {
@@ -30,28 +38,15 @@ const resolver: Resolver<FormValues> = async (values) => {
 	};
 };
 
-const services = [
-	{
-		id: "priprava-zavodniho-vozu",
-		value: "Příprava závodního vozu",
-	},
-	{
-		id: "servis-sportovniho-vozu",
-		value: "Servis sportovního vozu",
-	},
-];
-
 export const ContactForm = ({
 	backgroundColor = "bg-grayPrimary",
 }: {
 	backgroundColor?: string;
 }) => {
 	const {
-		control,
 		register,
 		formState: { errors },
-	} = useForm<FormValues>({ resolver });
-	const [selectedService, setSelectedService] = useState(services[0]);
+	} = useForm<FormValues>({ resolver: zodResolver(formSchema) });
 
 	const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
 		event.preventDefault();
@@ -59,7 +54,6 @@ export const ContactForm = ({
 		try {
 			const myForm = event.target as HTMLFormElement;
 			const formData = new FormData(myForm);
-			formData.append("selectedService", selectedService.value);
 			const res = await fetch("/forms", {
 				method: "POST",
 				headers: { "Content-Type": "application/x-www-form-urlencoded" },
@@ -78,7 +72,7 @@ export const ContactForm = ({
 	return (
 		<div className="w-full flex flex-col gap-2">
 			<div
-				className={`overflow-hidden  rounded-xl py-16 sm:py-16 mt-6 gap ${backgroundColor}`}
+				className={`overflow-hidden rounded-xl py-16 sm:py-16 mt-6 gap ${backgroundColor}`}
 			>
 				<div className="mx-auto px-6 lg:px-8">
 					<form
@@ -86,19 +80,23 @@ export const ContactForm = ({
 						name={"contactForm"}
 						data-netlify="true"
 						method="post"
-						className={"grid grid-cols-2 gap-2 contact-form w-2/3 mx-auto"}
+						className={
+							"flex flex-col  md:grid md:grid-cols-2 gap-2 contact-form w-2/3 mx-auto"
+						}
 					>
 						<input type="hidden" name="form-name" value="contactForm" />
 						<div>
 							<label
 								htmlFor="firstName"
 								className=" text-sm font-medium leading-6 text-gray-50"
+								aria-required={true}
 							>
-								Jméno
+								Jméno<span className={"text-red-600 ml-1"}>*</span>
 							</label>
 							<div className="mt-1">
 								<input
-									{...register("firstName")}
+									{...register("firstName", { required: true })}
+									required
 									placeholder="Jméno"
 									className="w-full rounded-md border-0 py-1.5 px-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
 								/>
@@ -110,148 +108,61 @@ export const ContactForm = ({
 								htmlFor="lastName"
 								className="w-full text-sm font-medium leading-6 text-gray-50"
 							>
-								Příjmení
+								Příjmení<span className={"text-red-600 ml-1"}>*</span>
 							</label>
 							<div className="mt-1">
 								<input
-									{...register("lastName")}
+									{...register("lastName", { required: true })}
 									placeholder="Příjmení"
 									className="w-full rounded-md border-0 py-1.5 px-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
 								/>
 							</div>
-							{errors?.firstName && <p>{errors.firstName.message}</p>}
-						</div>
-
-						<div>
-							<label
-								htmlFor="company"
-								className="block text-sm font-medium leading-6 text-gray-50"
-							>
-								Společnost
-							</label>
-							<div className="mt-2">
-								<input
-									{...register("company")}
-									placeholder="Společnost"
-									className="block w-full rounded-md border-0 py-1.5 px-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-								/>
-							</div>
-						</div>
-						<div>
-							<label
-								htmlFor="team"
-								className="block text-sm font-medium leading-6 text-gray-50"
-							>
-								Tým
-							</label>
-							<div className="mt-2">
-								<input
-									{...register("team")}
-									placeholder="Tým"
-									className="block w-full rounded-md border-0 py-1.5 px-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-								/>
-							</div>
-							{errors?.firstName && <p>{errors.firstName.message}</p>}
+							{errors?.lastName && <p>{errors.lastName.message}</p>}
 						</div>
 						<div>
 							<label
 								htmlFor="email"
 								className="block text-sm font-medium leading-6 text-gray-50"
 							>
-								E-mail
+								E-mail<span className={"text-red-600 ml-1"}>*</span>
 							</label>
 							<div className="mt-2">
 								<input
-									{...register("email")}
+									{...register("email", { required: true })}
 									placeholder="E-mail"
 									className="block w-full rounded-md border-0 py-1.5 px-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
 								/>
 							</div>
-							{errors?.firstName && <p>{errors.firstName.message}</p>}
+							{errors?.email && <p>{errors.email.message}</p>}
 						</div>
 						<div>
 							<label
 								htmlFor="phone"
 								className="block text-sm font-medium leading-6 text-gray-50"
 							>
-								Telefon
+								Telefon<span className={"text-red-600 ml-1"}>*</span>
 							</label>
 							<div className="mt-2">
 								<input
-									{...register("phone")}
+									{...register("phone", { required: true })}
 									type={"tel"}
 									placeholder="Telefon"
 									className="block w-full rounded-md border-0 py-1.5 px-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
 								/>
 							</div>
-							{errors?.firstName && <p>{errors.firstName.message}</p>}
+							{errors?.phone && <p>{errors.phone.message}</p>}
 						</div>
 
-						<Controller
-							control={control}
-							name={"selectedService"}
-							defaultValue={services[0].id}
-							render={({ field: { onChange } }) => (
-								<Listbox
-									value={selectedService}
-									onChange={(e) => {
-										onChange(e);
-										setSelectedService(e);
-									}}
-								>
-									<Label className="col-span-2 block text-sm font-medium leading-6 text-gray-50">
-										Služba
-									</Label>
-									<div className="relative col-span-2 ">
-										<ListboxButton className="relative w-full cursor-default rounded-md bg-white py-1.5 pl-3 pr-10 text-left text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 sm:text-sm sm:leading-6">
-											<span className="block truncate">
-												{selectedService.value}
-											</span>
-											<span className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2">
-												<ChevronUpDownIcon
-													aria-hidden="true"
-													className="h-5 w-5 text-gray-400"
-												/>
-											</span>
-										</ListboxButton>
-
-										<ListboxOptions
-											transition
-											className="absolute z-10 mt-1 max-h-60 w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none data-[closed]:data-[leave]:opacity-0 data-[leave]:transition data-[leave]:duration-100 data-[leave]:ease-in sm:text-sm"
-										>
-											{services.map((person) => (
-												<ListboxOption
-													key={person.id}
-													value={person}
-													className="group relative cursor-default select-none py-2 pl-3 pr-9 text-gray-900 data-[focus]:bg-indigo-600 data-[focus]:text-white"
-												>
-													<span className="block truncate font-normal group-data-[selected]:font-semibold">
-														{person.value}
-													</span>
-
-													<span className="absolute inset-y-0 right-0 flex items-center pr-4 text-indigo-600 group-data-[focus]:text-white [.group:not([data-selected])_&]:hidden">
-														<CheckIcon
-															aria-hidden="true"
-															className="h-5 w-5"
-														/>
-													</span>
-												</ListboxOption>
-											))}
-										</ListboxOptions>
-									</div>
-								</Listbox>
-							)}
-						/>
 						<div className={"col-span-2"}>
 							<label
-								htmlFor="company"
+								htmlFor="quote"
 								className=" block text-sm font-medium leading-6 text-gray-50"
 							>
-								Poptávka
+								Poptávka<span className={"text-red-600 ml-1"}>*</span>
 							</label>
 							<div className="mt-2">
 								<textarea
-									{...register("comment")}
+									{...register("quote", { required: true })}
 									placeholder="Poptávka"
 									rows={4}
 									className="block w-full rounded-md border-0 py-1.5 px-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
