@@ -3,23 +3,13 @@
 import { useState } from "react";
 import logo from "@/images/logo.png";
 import Image from "next/image";
-import {
-	Dialog,
-	DialogPanel,
-	Disclosure,
-	DisclosureButton,
-	DisclosurePanel,
-	Menu,
-	MenuButton,
-	MenuItem,
-	MenuItems,
-	PopoverGroup,
-} from "@headlessui/react";
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import { Menu, MenuButton, MenuItem, MenuItems, PopoverGroup } from "@headlessui/react";
+import { Bars3Icon } from "@heroicons/react/24/outline";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { NAVIGATION } from "@/app/types/NavigationTypes";
+import MobileNavigation from "@/app/ui/MobileNavigation";
 
 export default function Navigation() {
 	const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -112,58 +102,10 @@ export default function Navigation() {
 				</PopoverGroup>
 				<div className="hidden lg:flex lg:flex-1 lg:justify-end"></div>
 			</nav>
-			<Dialog open={mobileMenuOpen} onClose={setMobileMenuOpen} className="lg:hidden">
-				<div className="fixed inset-0 z-10" />
-				<DialogPanel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-grayPrimary sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
-					<div className="flex items-center justify-between w-full px-3 py-6">
-						<Link href="#" className="-m-1.5 p-1.5">
-							<span className="sr-only">Racing21</span>
-							<Image alt="" src={logo} className="h-8 w-auto" />
-						</Link>
-						<button
-							type="button"
-							onClick={() => setMobileMenuOpen(false)}
-							className="-m-2.5 rounded-md p-2.5 text-gray-100"
-						>
-							<span className="sr-only">Close menu</span>
-							<XMarkIcon aria-hidden="true" className="h-6 w-6" />
-						</button>
-					</div>
-					<div className="flow-root bg-white px-6 grow-1 h-full">
-						<div className="divide-y divide-gray-500/10">
-							<div className="space-y-2 py-6">
-								{NAVIGATION.map((navigationItem, i) => (
-									<Disclosure
-										as="div"
-										className="-mx-3"
-										key={`navigationItem_mobile_${i}`}
-									>
-										<DisclosureButton className="group flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
-											{navigationItem.title}
-											<ChevronDownIcon
-												aria-hidden="true"
-												className="h-5 w-5 flex-none group-data-[open]:rotate-180"
-											/>
-										</DisclosureButton>
-										<DisclosurePanel className="mt-2 space-y-2">
-											{navigationItem.links?.map((item) => (
-												<DisclosureButton
-													key={item.name}
-													as="a"
-													href={item.href}
-													className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-												>
-													{item.name}
-												</DisclosureButton>
-											))}
-										</DisclosurePanel>
-									</Disclosure>
-								))}
-							</div>
-						</div>
-					</div>
-				</DialogPanel>
-			</Dialog>
+			<MobileNavigation
+				setMobileMenuOpen={setMobileMenuOpen}
+				mobileMenuOpen={mobileMenuOpen}
+			/>
 		</header>
 	);
 }
