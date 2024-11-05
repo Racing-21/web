@@ -1,7 +1,7 @@
 import racePrepImage from "@/images/autodilna/priprava-na-zavody.webp";
 import Testimonials from "@/app/ui/Testimonials";
 import { Metadata } from "next";
-import RaceCarServiceInfo from "@/app/ui/RaceCarServiceInfo";
+import SportsCarServiceInfo from "@/app/ui/SportsCarServiceInfo";
 import { HeroSection } from "@/app/ui/HeroSection";
 import { PageLayout } from "@/app/ui/layout/PageLayout";
 
@@ -28,7 +28,7 @@ export default function Page() {
 			</div>
 			<PageLayout>
 				<div className="w-full">
-					<RaceCarServiceInfo />
+					<SportsCarServiceInfo />
 				</div>
 				<div className="w-full">
 					<h2 className={"text-2xl font-bold mb-2"}>Řekli o nás</h2>

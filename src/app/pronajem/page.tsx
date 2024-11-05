@@ -22,11 +22,7 @@ export default function Page() {
 		<>
 			<div>
 				{/* Hero card */}
-				<HeroSection
-					image={racePrepImage}
-					title={"Prostory k pronájmu"}
-					content={"Pro vaše firemní i soukromé akce"}
-				/>
+				<HeroSection image={racePrepImage} title={"Pronájem prostorů a techniky"} />
 			</div>
 			<PageLayout>
 				<div className="w-full flex flex-col">
@@ -51,13 +47,32 @@ export default function Page() {
 								}}
 							/>
 						</Link>
-						<Link href={"/pronajem/pronajem-techniky-a-vozu"}>
+						<Link href={"/pronajem/pronajem-krytych-privesu-turatello"}>
 							<RentalCategoryCard
 								category={{
 									name: "Pronájem prémiových přívěsů Turatello",
 									image: "https://res.cloudinary.com/dkhdp7qmd/image/upload/v1729865376/IMG_3702_k79bmj.webp",
 									shortDescription:
 										"Převážejte svůj automobil bezpečně a spolehlivě",
+								}}
+							/>
+						</Link>
+						<Link href={"/pronajem/pronajem-zavodnich-specialu"}>
+							<RentalCategoryCard
+								category={{
+									name: "Pronájem závodních speciálů",
+									image: "https://res.cloudinary.com/dkhdp7qmd/image/upload/v1729865376/cadet_1_kz9pjf.webp",
+									shortDescription: "Rozjeďte to s našimi rally vozy",
+								}}
+							/>
+						</Link>
+						<Link href={"/pronajem/pronajem-servisniho-zazemi"}>
+							<RentalCategoryCard
+								category={{
+									name: "Pronájem servisního zázemí",
+									image: "https://res.cloudinary.com/dkhdp7qmd/image/upload/v1729865376/08_ebvm4p.webp",
+									shortDescription:
+										"Stany, cateringové vybavení, zkrátka vše pro servis během závodů či testování",
 								}}
 							/>
 						</Link>

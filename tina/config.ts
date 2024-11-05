@@ -119,49 +119,6 @@ export default defineConfig({
 				],
 			},
 			{
-				name: "sluzby",
-				label: "Služby",
-				path: "sluzby",
-				fields: [
-					{
-						name: "sluzba",
-						label: "Služba",
-						type: "object",
-						list: true,
-						ui: {
-							itemProps: (item) => {
-								// Field values are accessed by item?.<Field name>
-								return { label: item?.name };
-							},
-						},
-						fields: [
-							{
-								type: "string",
-								name: "name",
-								label: "Název služby",
-								isTitle: true,
-								required: true,
-							},
-							{
-								type: "string",
-								name: "shortDescription",
-								label: "Krátký popis",
-							},
-							{
-								type: "string",
-								name: "longDescription",
-								label: "Popis služby",
-							},
-							{
-								type: "image",
-								name: "image",
-								label: "Obrázek",
-							},
-						],
-					},
-				],
-			},
-			{
 				name: "technika",
 				label: "Technika",
 				path: "technika",
@@ -631,6 +588,65 @@ export default defineConfig({
 								name: "gallery",
 								label: "Fotogalerie",
 								list: true,
+							},
+						],
+					},
+				],
+			},
+			{
+				name: "sluzby",
+				label: "Služby",
+				path: "content/sluzby",
+				fields: [
+					{
+						name: "sluzby",
+						label: "Služby",
+						type: "object",
+						list: true,
+						ui: {
+							itemProps: (item) => {
+								// Field values are accessed by item?.<Field name>
+								return { label: item?.name };
+							},
+						},
+						fields: [
+							{
+								type: "string",
+								name: "name",
+								label: "Název služby",
+								isTitle: true,
+								required: true,
+							},
+							{
+								type: "string",
+								name: "subheadline",
+								label: "Subheadline",
+								isTitle: true,
+								required: true,
+							},
+							{
+								type: "string",
+								name: "slug",
+								label: "URL název",
+								required: true,
+							},
+							{
+								type: "string",
+								name: "shortDescription",
+								label: "Krátký popis",
+								required: true,
+							},
+							{
+								type: "rich-text",
+								name: "longDescription",
+								label: "Text zprávy",
+								required: true,
+								isBody: true,
+							},
+							{
+								type: "image",
+								name: "image",
+								label: "Úvodní obrázek",
 							},
 						],
 					},

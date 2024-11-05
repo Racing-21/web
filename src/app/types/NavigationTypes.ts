@@ -45,7 +45,7 @@ export const NAVIGATION = [
 				name: "Servis závodních aut",
 				description:
 					"Náš tým zkušených techniků dostane váš vůz před závody to té nejlepší kondice.",
-				href: "/sluzby/servis-zavodnich-aut",
+				href: "/sluzby/servis-rally-vozu",
 				icon: ChartPieIcon,
 			},
 			{
@@ -90,8 +90,8 @@ export const NAVIGATION = [
 		],
 	},
 	{
-		title: "Eshop",
-		topLink: "shop",
+		title: "Produktová nabídka",
+		topLink: "produktova-nabidka",
 		links: [],
 	},
 	{

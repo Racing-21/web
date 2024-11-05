@@ -10,7 +10,7 @@ import Link from "next/link";
 const services = [
 	{
 		title: "Servis a správa závodních vozů",
-		href: "/sluzby/servis-zavodnich-aut",
+		href: "/sluzby/servis-rally-vozu",
 		description: "Naši zkušení mechanici dostanou váš závodní vůz do té nejlepší kondice",
 		icon: WrenchScrewdriverIcon,
 		iconForeground: "text-red-600",

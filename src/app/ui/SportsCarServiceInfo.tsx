@@ -1,7 +1,34 @@
 import Image from "next/image";
 import { CogIcon } from "@heroicons/react/20/solid";
 
-export default function RaceCarServiceInfo() {
+const features = [
+	{
+		title: "Kompletní běžný servis prémiových automobilů",
+		subtitle: "Výměna oleje, výměna brzdových destiček a doplnění kapalin a další.",
+	},
+	{
+		title: "Pneuservis",
+		subtitle: "přezouvání, vyvažování kol a opravy pneu",
+	},
+	{
+		title: "Úprava softwarů řídících jednotek pro zvýšení výkonu",
+		subtitle: "Navýšení výkonu úpravou SW řídící jednotky vozů všech značek.",
+	},
+	{
+		title: "Deaktivace systému Start-Stop",
+		subtitle: "S možností navrácení do původního stavu.",
+	},
+	{
+		title: "Pick-Up servis Vašeho vozu",
+		subtitle: "Odvezeme Váš vůz krytým přívěsem do našeho včetně odvozu zpět.",
+	},
+	{
+		title: "Kompletní čištění vozů",
+		subtitle: "Čištění vozu, ošetření laku, renovace podvozku a motoru.",
+	},
+];
+
+export default function SportsCarServiceInfo() {
 	return (
 		<div className="bg-grayPrimary py-16 sm:py-24 rounded-lg">
 			<div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -58,103 +85,44 @@ export default function RaceCarServiceInfo() {
 					<div>
 						<div className="text-base leading-7 text-gray-700 lg:max-w-lg">
 							<p className="text-base font-semibold leading-7 text-red-600">
-								Příprava a stavba závodních vozů
+								Servis sportovních vozů
 							</p>
 							<h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-200 sm:text-4xl">
-								Soutěžní a závodní vozy rally
+								Servis a úpravy sportovních vozů
 							</h1>
 							<div className="max-w-xl mt-4">
 								<p className="text-base text-gray-300 mb-4 ">
-									S naším vysoce profesionálním týmem mechaniků se věnujeme
-									kompletní stavbě, přestavbě a údržbě závodních speciálů pro
-									rallye. Současně poskytujeme kompletní servisní služby pro Vaši
-									závodní techniku od přípravy na závod, zajištění servisního
-									zázemí a servisu vozu až po pozávodní servis včetně uskladnění
-									Vašeho vozu. Služby nabízíme pro území ČR, ale i pro zahraniční
-									závody, se kterými máme také bohatou zkušenost včetně
-									administrativních požadavků. Aktuálně nabízíme k pronájmu
-									několik vozů různých kategorií pro automobilové soutěže.
+									Máme rádi a umíme všechny značky, nicméně nejčastěji u nás
+									uvidíte vozy Subaru, Toyota, Porsche, Audi, Ford, Opel, Land
+									Rover a BMW. Nabízíme především mechanické práce na vozech,
+									včetně repasí motorů a převodovek, úprav podvozků a brzdových
+									systémů. Jako oficiální premium dealer společnosti BSR se
+									dlouhodobě zabýváme optimalizací software a zvyšováním
+									výkonových parametrů pohonných jednotek, a to jak pro osobní
+									vozy, tak i obytné vozy většiny značek. Realizujeme úpravy,
+									které si u BSR vyberete. Dále nabízíme:
 								</p>
 								<ul>
-									<li className={`text-white flex`}>
-										<CogIcon className="mt-1.5 mr-2 h-4" />
-										<div className={"mb-4 w-[90%]"}>
-											<p className={"text-red-600 font-bold text-xl mb-0"}>
-												Servis a údržba Vaší závodní techniky
-											</p>
-											<p>
-												Máte svůj závodní speciál, ale nemáte vhodný tým
-												lidí, který by se Vám o něj postaral? Svěřte ho nám
-												ať už do kompletní péče nebo jen částečné.
-											</p>
-											<div className={"text-gray-50 text-sm mt-0"}>
-												<ul>
-													<li>
-														<div>
-															<p
-																className={
-																	"text-red-600 font-bold text-l mb-0"
-																}
-															>
-																kompletní správa Vaší závodní
-																techniky
-															</p>
-															<p
-																className={
-																	"text-gray-50 text-sm mt-0 ml-4"
-																}
-															>
-																Předzávodní příprava, servis během
-																závodu včetně možnosti zajištění
-																zázemí a cateringu, péče o závodní
-																vůz po závodech a garážování.
-															</p>
-														</div>
-													</li>
-													<li>
-														<div>
-															<p
-																className={
-																	"text-red-600 font-bold text-l mb-0"
-																}
-															>
-																částečný servis
-															</p>
-															<p
-																className={
-																	"text-gray-50 text-sm mt-0 ml-4"
-																}
-															>
-																Potřebujete zajistit zázemí během
-																konkrétní rally nebo celé sezóny?
-																Potřebujete šikovné a zkušené
-																mechaniky? Komplexní servis na konci
-																sezóny? Kontaktujte nás a domluvíme
-																se na optimálním řešení.
-															</p>
-														</div>
-													</li>
-												</ul>
+									{features.map((feature) => (
+										<li
+											key={feature.title.replace(/ /gi, "-")}
+											className={`text-white flex`}
+										>
+											<CogIcon className="mt-1.5 mr-2 h-4" />
+											<div className={"mb-4 w-[90%]"}>
+												<p
+													className={
+														"text-red-600 font-bold text-xl mb-0"
+													}
+												>
+													{feature.title}
+												</p>
+												<p className={"text-gray-50 text-sm mt-0"}>
+													{feature.subtitle}
+												</p>
 											</div>
-										</div>
-									</li>
-									<li className={`text-white flex`}>
-										<CogIcon className="mt-1.5 mr-2 h-4" />
-										<div className={"mb-4 w-[90%]"}>
-											<p className={"text-red-600 font-bold text-xl mb-0"}>
-												Stavba závodního vozu pro rally
-											</p>
-											<p>
-												V naší dílně již vzniklo několik závodních vozů.
-												Nejnovější je Toyota Celica GT-Four ST165, se kterou
-												jsme letos absolvovali sezónu v rámci ME
-												historických vozidel. Naši mechanici si poradí i
-												s vývojem a v kooperaci s našimi osvědčenými
-												subdodavateli postaví rally vůz dle sportovních řádů
-												a Vašich požadavků.
-											</p>
-										</div>
-									</li>
+										</li>
+									))}
 								</ul>
 							</div>
 						</div>
