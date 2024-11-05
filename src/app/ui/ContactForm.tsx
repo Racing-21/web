@@ -1,6 +1,6 @@
 "use client";
 
-import { Resolver, useForm } from "react-hook-form";
+import { useForm } from "react-hook-form";
 import { FormEvent } from "react";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
@@ -23,20 +23,6 @@ const formSchema = z.object({
 	phone: z.string().optional(),
 	quote: z.string().min(1, "Quote is required"),
 });
-
-const resolver: Resolver<FormValues> = async (values) => {
-	return {
-		values: values.firstName ? values : {},
-		errors: !values.firstName
-			? {
-					firstName: {
-						type: "required",
-						message: "This is required.",
-					},
-				}
-			: {},
-	};
-};
 
 export const ContactForm = ({
 	backgroundColor = "bg-grayPrimary",

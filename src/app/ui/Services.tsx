@@ -5,6 +5,7 @@ import {
 	BuildingStorefrontIcon,
 	UsersIcon,
 } from "@heroicons/react/24/outline";
+import Link from "next/link";
 
 const services = [
 	{
@@ -66,7 +67,7 @@ function classNames(...classes: string[]) {
 
 export default function Services() {
 	return (
-		<div className="md:grid-cols-3 gap-4 rounded-lg bg-grayPrimary p-2 md:p-6">
+		<div className="md:grid-cols-3 gap-4 rounded-lg bg-grayPrimary p-2 md:p-6 ">
 			<div className={"p-4"}>
 				<p className={"text-center mb-2"}>
 					Vojtěch Štajf, jezdec a jednatel týmu ACCR Racing21, má téměř 30 let zkušeností
@@ -78,7 +79,7 @@ export default function Services() {
 					nadstandartní péči.
 				</p>
 			</div>
-			<div className="divide-y divide-black overflow-hidden rounded-lg bg-white sm:grid sm:grid-cols-2 sm:gap-px sm:divide-y-0 border-transparent">
+			<div className="divide-y divide-black overflow-hidden rounded-lg bg-white sm:grid sm:grid-cols-2 gap-1 sm:divide-y-0 ml-[-1px] mt-[-1px]">
 				{services.map((action, actionIdx) => (
 					<div
 						key={action.title}
@@ -89,7 +90,7 @@ export default function Services() {
 							actionIdx === services.length - 1
 								? "rounded-bl-lg rounded-br-lg sm:rounded-bl-none"
 								: "",
-							"flex group relative bg-grayPrimary px-2 md:px-6 py-4 border-1 border-grayPrimary flex-col md:flex-row focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500 hover:bg-gray-50",
+							"flex group relative bg-grayPrimary px-2 md:px-6 py-4 flex-col md:flex-row focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500 hover:bg-gray-50 m-[-1px]",
 						)}
 					>
 						<div>
@@ -105,13 +106,17 @@ export default function Services() {
 						</div>
 						<div className="mt-2 md:mt-1 md:ml-6 md:mr-6 mb-3">
 							<h3 className="text-base font-semibold leading-6 text-gray-50 group-hover:text-red-600">
-								<a href={action.href} className="focus:outline-none">
-									{/* Extend touch target to entire panel */}
+								<Link
+									href={action.href}
+									className="focus:outline-none active:outline-none"
+								>
 									<span aria-hidden="true" className="absolute inset-0" />
 									{action.title}
-								</a>
+								</Link>
 							</h3>
-							<p className="mt-2 text-sm text-gray-300">{action.description}</p>
+							<p className="mt-2 text-sm text-gray-300 group-hover:text-grayPrimary">
+								{action.description}
+							</p>
 						</div>
 						<span
 							aria-hidden="true"

@@ -63,7 +63,7 @@ export default function Home() {
 				</div>
 				<div className="w-full">
 					<h2 className={"text-2xl capitalize font-bold mb-2"}>Racing 21</h2>
-					<div className={"grid grid-cols-1 md:grid-cols-3 gap-4 rounded-lg"}>
+					<div className={"grid grid-cols-1 lg:grid-cols-3 gap-4 rounded-lg"}>
 						<ServiceNavigationCard
 							link={"o-nas/tym"}
 							title={"Závodní tým"}

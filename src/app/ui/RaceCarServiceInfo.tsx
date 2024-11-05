@@ -1,9 +1,31 @@
-import Link from "next/link";
 import Image from "next/image";
+import { CogIcon } from "@heroicons/react/20/solid";
 
-const stats = [
-	{ label: "Postaveno závodních speciálů", value: "12" },
-	{ label: "Týmů připřaveno na závod", value: "37" },
+const features = [
+	{
+		title: "Kompletní běžný servis prémiových automobilů",
+		subtitle: "Výměna oleje, výměna brzdových destiček a doplnění kapalin a další.",
+	},
+	{
+		title: "Pneuservis",
+		subtitle: "přezouvání, vyvažování kol a opravy pneu",
+	},
+	{
+		title: "Úprava softwarů řídících jednotek pro zvýšení výkonu",
+		subtitle: "Navýšení výkonu úpravou SW řídící jednotky vozů všech značek.",
+	},
+	{
+		title: "Deaktivace systému Start-Stop",
+		subtitle: "S možností navrácení do původního stavu.",
+	},
+	{
+		title: "Pick-Up servis Vašeho vozu",
+		subtitle: "Odvezeme Váš vůz krytým přívěsem do našeho včetně odvozu zpět.",
+	},
+	{
+		title: "Kompletní čištění vozů",
+		subtitle: "Čištění vozu, ošetření laku, renovace podvozku a motoru.",
+	},
 ];
 
 export default function RaceCarServiceInfo() {
@@ -45,12 +67,6 @@ export default function RaceCarServiceInfo() {
 									/>
 									<use x={86} href="#0ef284b8-28c2-426e-9442-8655d393522e" />
 								</svg>
-								{/*<Image*/}
-								{/*	alt=""*/}
-								{/*	src="https://tailwindui.com/img/logos/workcation-logo-white.svg"*/}
-								{/*	className="h-12 w-auto"*/}
-								{/*	fill*/}
-								{/*/>*/}
 								<blockquote className="mt-6 text-xl font-semibold leading-8 text-white">
 									<p>
 										“Vojta se svým týmem připravili naše auto úplně perfektně. V
@@ -69,44 +85,46 @@ export default function RaceCarServiceInfo() {
 					<div>
 						<div className="text-base leading-7 text-gray-700 lg:max-w-lg">
 							<p className="text-base font-semibold leading-7 text-red-600">
-								Soutěžní a závodní vozy
+								Servis sportovních vozů
 							</p>
 							<h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-200 sm:text-4xl">
-								Příprava a servis vozů na závody
+								Servis a úpravy sportovních vozů
 							</h1>
-							<div className="max-w-xl">
-								<p className="mt-6 text-white">
-									S našimi vysoce profesionálním týmem mechaniků se věnujeme
-									kompletní stavbě, přestavbě a údržbě závodních speciálů pro
-									rallye. Současně poskytujeme kompletní servisní služby pro Vaši
-									závodní techniku od přípravy na závod, zajištění servisního
-									zázemí a servisu vozu až po pozávodní servis včetně uskladnění
-									Vašeho vozu. Služby nabízíme pro území ČR, ale i pro zahraniční
-									závody, se kterými máme také bohatou zkušenost včetně
-									administrativních požadavků pro závody v zahraničí.
+							<div className="max-w-xl mt-4">
+								<p className="text-base text-gray-300 mb-4 ">
+									Máme rádi a umíme všechny značky, nicméně nejčastěji u nás
+									uvidíte vozy Subaru, Toyota, Porsche, Audi, Ford, Opel, Land
+									Rover a BMW. Nabízíme především mechanické práce na vozech,
+									včetně repasí motorů a převodovek, úprav podvozků a brzdových
+									systémů. Jako oficiální premium dealer společnosti BSR se
+									dlouhodobě zabýváme optimalizací software a zvyšováním
+									výkonových parametrů pohonných jednotek, a to jak pro osobní
+									vozy, tak i obytné vozy většiny značek. Realizujeme úpravy,
+									které si u BSR vyberete. Dále nabízíme:
 								</p>
+								<ul>
+									{features.map((feature) => (
+										<li
+											key={feature.title.replace(/ /gi, "-")}
+											className={`text-white flex`}
+										>
+											<CogIcon className="mt-1.5 mr-2 h-4" />
+											<div className={"mb-4 w-[90%]"}>
+												<p
+													className={
+														"text-red-600 font-bold text-xl mb-0"
+													}
+												>
+													{feature.title}
+												</p>
+												<p className={"text-gray-50 text-sm mt-0"}>
+													{feature.subtitle}
+												</p>
+											</div>
+										</li>
+									))}
+								</ul>
 							</div>
-						</div>
-						<dl className="mt-10 grid grid-cols-2 gap-8 border-t border-gray-900/10 pt-10 sm:grid-cols-2">
-							{stats.map((stat, statIdx) => (
-								<div key={statIdx}>
-									<dt className="text-sm font-semibold leading-6 text-gray-100">
-										{stat.label}
-									</dt>
-									<dd className="mt-2 text-3xl font-bold leading-10 tracking-tight text-red-600">
-										{stat.value}
-									</dd>
-								</div>
-							))}
-						</dl>
-						<div className="mt-10 flex">
-							<Link
-								href="/kontakt"
-								className="text-base font-semibold leading-7 text-indigo-600"
-							>
-								Pokud chcete vlastní závodní vůz, kontaktujte nás{" "}
-								<span aria-hidden="true">&rarr;</span>
-							</Link>
 						</div>
 					</div>
 				</div>
