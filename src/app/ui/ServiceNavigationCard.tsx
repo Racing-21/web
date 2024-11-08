@@ -8,6 +8,7 @@ export type ServiceNavigationCardProps = {
 	title?: MaybeString;
 	altImageText?: MaybeString;
 	link: string;
+	priority?: boolean;
 };
 
 export const ServiceNavigationCard = ({
@@ -15,6 +16,7 @@ export const ServiceNavigationCard = ({
 	title,
 	altImageText,
 	link,
+	priority,
 }: ServiceNavigationCardProps) => {
 	return (
 		<Link
@@ -32,10 +34,10 @@ export const ServiceNavigationCard = ({
 					<Image
 						alt={altImageText ?? ""}
 						src={image}
-						priority
 						layout={"fill"}
 						objectFit={"cover"}
 						className="transition-transform duration-200 ease-in-out transform hover:scale-105 "
+						priority={priority ?? false}
 					/>
 					<div className="absolute inset-0 bg-black opacity-60 h-full w-full "></div>
 				</div>

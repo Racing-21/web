@@ -53,6 +53,7 @@ export default async function Page() {
 								title={vehicle.name}
 								altImageText={vehicle.name}
 								image={vehicle.images[0]}
+								priority
 							/>
 						))}
 					</div>
