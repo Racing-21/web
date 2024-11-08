@@ -11,6 +11,8 @@ const nextConfig = {
 				hostname: "storage.byznys21.net",
 			},
 		],
+		loader: "cloudinary",
+		path: "res.cloudinary.com",
 		domains: ["assets.tina.io", "res.cloudinary.com"],
 	},
 };

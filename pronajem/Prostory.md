@@ -50,7 +50,7 @@ prostory:
     shortDescription: Rozsáhlý prostor pro větší akce
     longDescription: >
       ideální prostor pro detailní prezentaci Vašeho produktu/modelu a
-      technologických postupů. K dispoyici je i hydraulický zvedák.
+      technologických postupů. K dispozici je i hydraulický zvedák.
     price:
       - price: 2100
         unit: hour

@@ -1,9 +1,92 @@
-import { defineConfig } from "tinacms";
+import { defineConfig, TinaField } from "tinacms";
 import { TinaUserCollection } from "tinacms-authjs/dist/tinacms";
 
 // Your hosting provider likely exposes this as an environment variable
 const branch =
 	process.env.GITHUB_BRANCH || process.env.VERCEL_GIT_COMMIT_REF || process.env.HEAD || "main";
+
+const rentalItemFields: TinaField[] = [
+	{
+		name: "prostory",
+		label: "Prostory",
+		type: "object",
+		list: true,
+		ui: {
+			itemProps: (item) => {
+				// Field values are accessed by item?.<Field name>
+				return { label: item?.name };
+			},
+		},
+		fields: [
+			{
+				type: "string",
+				name: "name",
+				label: "Název prostoru",
+				isTitle: true,
+				required: true,
+			},
+			{
+				type: "string",
+				name: "shortDescription",
+				label: "Krátký popis",
+				required: true,
+			},
+			{
+				type: "rich-text",
+				name: "longDescription",
+				label: "Popis služby",
+				required: true,
+			},
+			{
+				type: "object",
+				name: "price",
+				label: "Cena",
+				required: true,
+				list: true,
+				fields: [
+					{
+						type: "number",
+						name: "price",
+						label: "Cena",
+						required: true,
+					},
+					{
+						type: "string",
+						name: "unit",
+						label: "Jednotka",
+						required: true,
+						options: [
+							{
+								value: "hour",
+								label: " / hod",
+							},
+							{
+								value: "day",
+								label: " / den",
+							},
+							{
+								value: "halfDay",
+								label: " / 1/2 dne (4 hod)",
+							},
+						],
+					},
+				],
+			},
+			{
+				type: "image",
+				name: "image",
+				label: "Obrázek",
+				required: true,
+			},
+			{
+				type: "image",
+				name: "gallery",
+				list: true,
+				label: "Fotogalerie",
+			},
+		],
+	},
+];
 
 export default defineConfig({
 	branch,
@@ -358,92 +441,11 @@ export default defineConfig({
 				label: "Pronájem prostor",
 				path: "pronajem",
 				match: { include: "Prostory", exclude: "Technika" },
-				fields: [
-					{
-						name: "prostory",
-						label: "Prostory",
-						type: "object",
-						list: true,
-						ui: {
-							itemProps: (item) => {
-								// Field values are accessed by item?.<Field name>
-								return { label: item?.name };
-							},
-						},
-						fields: [
-							{
-								type: "string",
-								name: "name",
-								label: "Název prostoru",
-								isTitle: true,
-								required: true,
-							},
-							{
-								type: "string",
-								name: "shortDescription",
-								label: "Krátký popis",
-								required: true,
-							},
-							{
-								type: "rich-text",
-								name: "longDescription",
-								label: "Popis služby",
-								required: true,
-							},
-							{
-								type: "object",
-								name: "price",
-								label: "Cena",
-								required: true,
-								list: true,
-								fields: [
-									{
-										type: "number",
-										name: "price",
-										label: "Cena",
-										required: true,
-									},
-									{
-										type: "string",
-										name: "unit",
-										label: "Jednotka",
-										required: true,
-										options: [
-											{
-												value: "hour",
-												label: " / hod",
-											},
-											{
-												value: "day",
-												label: " / den",
-											},
-											{
-												value: "halfDay",
-												label: " / 1/2 dne (4 hod)",
-											},
-										],
-									},
-								],
-							},
-							{
-								type: "image",
-								name: "image",
-								label: "Obrázek",
-								required: true,
-							},
-							{
-								type: "image",
-								name: "gallery",
-								list: true,
-								label: "Fotogalerie",
-							},
-						],
-					},
-				],
+				fields: rentalItemFields,
 			},
 			{
 				name: "pronajemTechniky",
-				label: "Pronájem prostor",
+				label: "Pronájem techniky",
 				path: "pronajem",
 				match: { include: "Technika", exclude: "Prostory" },
 				fields: [
@@ -528,6 +530,101 @@ export default defineConfig({
 						],
 					},
 				],
+			},
+			{
+				name: "pronajemPrivesu",
+				label: "Pronájem přívěsů",
+				path: "pronajem/privesy",
+				match: { include: "Privesy" },
+				fields: [
+					{
+						name: "privesy",
+						label: "Přívěsy",
+						type: "object",
+						list: true,
+						ui: {
+							itemProps: (item) => {
+								// Field values are accessed by item?.<Field name>
+								return { label: item?.name };
+							},
+						},
+						fields: [
+							{
+								type: "string",
+								name: "name",
+								label: "Název",
+								isTitle: true,
+								required: true,
+							},
+							{
+								type: "string",
+								name: "shortDescription",
+								label: "Krátký popis",
+								required: true,
+							},
+							{
+								type: "rich-text",
+								name: "longDescription",
+								label: "Popis služby",
+								required: true,
+							},
+							{
+								type: "object",
+								name: "price",
+								label: "Cena",
+								required: true,
+								list: true,
+								fields: [
+									{
+										type: "number",
+										name: "price",
+										label: "Cena",
+										required: true,
+									},
+									{
+										type: "string",
+										name: "unit",
+										label: "Jednotka",
+										required: true,
+										options: [
+											{
+												value: "hour",
+												label: " / hod",
+											},
+											{
+												value: "day",
+												label: " / den",
+											},
+											{
+												value: "halfDay",
+												label: " / 1/2 dne (4 hod)",
+											},
+										],
+									},
+								],
+							},
+							{
+								type: "image",
+								name: "image",
+								label: "Obrázek",
+								required: true,
+							},
+							{
+								type: "image",
+								name: "gallery",
+								list: true,
+								label: "Fotogalerie",
+							},
+						],
+					},
+				],
+			},
+			{
+				name: "pronajemZazemi",
+				label: "Pronájem zázemí",
+				path: "pronajem/zazemi",
+				match: { include: "Zazemi" },
+				fields: rentalItemFields,
 			},
 			{
 				name: "aktuality",
