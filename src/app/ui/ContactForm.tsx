@@ -24,11 +24,7 @@ const formSchema = z.object({
 	quote: z.string().min(1, "Quote is required"),
 });
 
-export const ContactForm = ({
-	backgroundColor = "bg-grayPrimary",
-}: {
-	backgroundColor?: string;
-}) => {
+export const ContactForm = () => {
 	const {
 		register,
 		formState: { errors },
@@ -57,9 +53,7 @@ export const ContactForm = ({
 
 	return (
 		<div className="w-full flex flex-col gap-2">
-			<div
-				className={`overflow-hidden rounded-xl py-16 sm:py-16 mt-6 gap ${backgroundColor}`}
-			>
+			<div className={`overflow-hidden rounded-xl py-16 sm:py-16 mt-6 gap bg-transparent`}>
 				<div className="mx-auto px-6 lg:px-8">
 					<form
 						onSubmit={(e) => handleSubmit(e)}
@@ -67,7 +61,7 @@ export const ContactForm = ({
 						data-netlify="true"
 						method="post"
 						className={
-							"flex flex-col  md:grid md:grid-cols-2 gap-2 contact-form w-2/3 mx-auto"
+							"flex flex-col md:grid md:grid-cols-2 gap-2 contact-form lg:w-2/3 mx-auto"
 						}
 					>
 						<input type="hidden" name="form-name" value="contactForm" />

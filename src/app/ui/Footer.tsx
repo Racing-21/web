@@ -11,7 +11,13 @@ export default function Footer() {
 			</h2>
 			<div className="mx-auto max-w-7xl py-16 sm:py-24  lg:py-32">
 				<div className="xl:grid xl:grid-cols-3 xl:gap-8">
-					<Image alt="Company name" src={logo} />
+					<div>
+						<Image alt="Company name" src={logo} />
+						<div className={"mt-10"}>
+							<p className={"text-sm"}>Hájecká 47</p>
+							<p className={"text-sm"}>Červený Újezd, 273 51</p>
+						</div>
+					</div>
 					<div className="mt-16 grid grid-cols-1 gap-2 xl:col-span-2 xl:mt-0">
 						<div className="grid grid-cols-3 md:grid md:grid-cols-6 md:gap-1">
 							{NAVIGATION.map((item, index) => (
