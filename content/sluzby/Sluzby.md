@@ -1,35 +1,49 @@
 ---
 sluzby:
-  - name: Příprava a stavba závodních vozů
-    subheadline: Soutěžní a závodní vozy rally
-    slug: servis-zavodnich-vozu
-    shortDescription: >-
-      S naším vysoce profesionálním týmem mechaniků se věnujeme kompletní stavbě, přestavbě
-      a údržbě závodních speciálů pro rallye. Současně poskytujeme kompletní servisní služby pro
-      Vaši závodní techniku od přípravy na závod, zajištění servisního zázemí a servisu vozu až po
-      pozávodní servis včetně uskladnění Vašeho vozu. Služby nabízíme pro území ČR, ale i pro
-      zahraniční závody, se kterými máme také bohatou zkušenost včetně administrativních
-      požadavků. Aktuálně nabízíme k pronájmu několik vozů různých kategorií pro automobilové
-      soutěže.
-    longDescription: >
-      Servis a údržba Vaší závodní techniky
-          Máte svůj závodní speciál, ale nemáte vhodný tým lidí, který by se Vám o něj
-          postaral? Svěřte ho nám ať už do kompletní péče nebo jen částečné.
-        - kompletní správa Vaší závodní techniky
-          Předzávodní příprava, servis během závodu včetně možnosti zajištění zázemí a
-          cateringu, péče o závodní vůz po závodech a garážování.
-        - částečný servis
-          Potřebujete zajistit zázemí během konkrétní rally nebo celé sezóny? Potřebujete
-          šikovné a zkušené mechaniky? Komplexní servis na konci sezóny?
-          Kontaktujte nás a domluvíme se na optimálním řešení.
-          b) Stavba závodního vozu pro rally
-          V naší dílně již vzniklo několik (Vojto kolik?) závodních vozů. Nejnovější je Toyota
-          Celica GT-Four ST165, se kterou jsme letos absolvovali sezónu v rámci ME
-          historických vozidel. Naši mechanici si poradí i s vývojem a v kooperaci s našimi
-        
-          osvědčenými subdodavateli postaví rally vůz dle sportovních řádů a Vašich
-          požadavků.
-    image: >-
-      https://res.cloudinary.com/dkhdp7qmd/image/upload/v1730130363/192rc21-2024-16-01_zutqew.webp
+  - title: Příprava na závody
+    headline: Soutěžní a závodní vozy
+    link: sluzby/servis-rally-vozu
+    description: >
+      S vysoce profesionálním týmem techniků a mechaniků se zaměřujeme na kompletní stavbu nebo přestavbu
+      sportovních vozů pro všechny disciplíny motorsportu, včetně jejich pravidelné servisní údržby.
+      Současně dokážeme poskytnout kompletní servisní zázemí s doprovodem včetně přípravy vozů naším personálem,
+      materiálního zajištění a nutných administrativních úkonů, a to na všech sportovních podnicích v České republice
+      i v zahraničí. Aktuálně nabízíme k pronájmů několik vozů různých kategorií pro automobilové soutěže.
+    image: /uploads/STA_2375a.jpg
+  - title: Servis sportovních vozů
+    headline: Mechanické práce na sportovních vozech
+    link: sluzby/servis-sportovnich-vozu
+    description: >
+      Máme rádi a umíme všechny značky, nicméně nejčastěji u nás uvidíte vozy Subaru, Toyota,
+      Porsche, Audi, Ford, Opel, Land Rover a BMW. Nabízíme především mechanické práce na
+      vozech, včetně repasí motorů a převodovek, úprav podvozků a brzdových systémů. Jako
+      oficiální premium dealer společnosti BSR se dlouhodobě zabýváme optimalizací software a
+      zvyšováním výkonových parametrů pohonných jednotek, a to jak pro osobní vozy, tak i
+      obytné vozy většiny značek. Realizujeme úpravy, které si u BSR vyberete.
+    image: /uploads/STA_2375a.jpg
+  - title: Historické vozy a youngtimery
+    headline: Kompletní renovace historických vozů a youngtimerů
+    link: /sluzby/renovace-veteranu
+    description: >
+      Snažíme se uchovat automobilovou historii a vrátit lesk unikátním vozům, které potěšily
+      minulé generace jejich majitelů. Neděláme rozdíl mezi limuzínou, kabrioletem či sportovním
+      vozem. Cenné vozy našich klientů kompletně rozebereme dle potřeby a přání klienta a
+      jednotlivé části poté prochází pod našima rukama kompletní renovací a repasí s cílem
+      zachovat prvky jejich původní originality. V této oblasti spolupracujeme s prověřenými
+      externími dodavateli z odpovídajících oborů, jako je čalounictví, elektroinstalace a další.
+      Jinými slovy vracíme vašim veteránům život!
+    image: /uploads/STA_2375a.jpg
+  - title: Poradenství v oblasti nákupu vozidel
+    headline: Nákup a poradenství v oblasti investičních vozů
+    link: /sluzby/renovace-veteranu
+    description: >
+      Dlouholeté bohaté zkušenosti s nákupem investičních a sportovních vozů nám umožňují
+      sdílet naše know-how s vážnými zájemci, pro které je vložení finančních prostředků do
+      nákupu automobilů cestou k budoucímu ekonomickému profitu. I v této oblasti poskytujeme
+      komplexní služby, tedy od poradenství, přes vyhledání vhodného vozu ve spolupráci
+      s lokálními partnery z mnoha evropských zemí až k jeho dovezení k budoucímu majiteli, to
+      vše s vyřízením povinných administrativních formalit. Prověření původu i detailního stavu
+      vozidla spolu s odborným odhadem ceny případné renovace je pro nás samozřejmostí!
+    image: /uploads/STA_2375a.jpg
 ---
 

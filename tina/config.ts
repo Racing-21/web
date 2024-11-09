@@ -3,6 +3,7 @@ import { TinaUserCollection } from "tinacms-authjs/dist/tinacms";
 import { TeamMemberCollection } from "./collections/TeamMember";
 import { VehicleCollection } from "./collections/Vehicle";
 import { rentalItemFields, VenueCollection } from "./collections/Prostor";
+import { ServiceCollection } from "./collections/Service";
 
 // Your hosting provider likely exposes this as an environment variable
 const branch =
@@ -29,6 +30,7 @@ export default defineConfig({
 	// See docs on content modeling for more info on how to set up new content models: https://tina.io/docs/schema/
 	schema: {
 		collections: [
+			ServiceCollection,
 			TinaUserCollection,
 			TeamMemberCollection,
 			VehicleCollection,
@@ -275,65 +277,6 @@ export default defineConfig({
 								name: "gallery",
 								label: "Fotogalerie",
 								list: true,
-							},
-						],
-					},
-				],
-			},
-			{
-				name: "sluzby",
-				label: "Služby",
-				path: "content/sluzby",
-				fields: [
-					{
-						name: "sluzby",
-						label: "Služby",
-						type: "object",
-						list: true,
-						ui: {
-							itemProps: (item) => {
-								// Field values are accessed by item?.<Field name>
-								return { label: item?.name };
-							},
-						},
-						fields: [
-							{
-								type: "string",
-								name: "name",
-								label: "Název služby",
-								isTitle: true,
-								required: true,
-							},
-							{
-								type: "string",
-								name: "subheadline",
-								label: "Subheadline",
-								isTitle: true,
-								required: true,
-							},
-							{
-								type: "string",
-								name: "slug",
-								label: "URL název",
-								required: true,
-							},
-							{
-								type: "string",
-								name: "shortDescription",
-								label: "Krátký popis",
-								required: true,
-							},
-							{
-								type: "rich-text",
-								name: "longDescription",
-								label: "Text zprávy",
-								required: true,
-								isBody: true,
-							},
-							{
-								type: "image",
-								name: "image",
-								label: "Úvodní obrázek",
 							},
 						],
 					},
