@@ -55,15 +55,15 @@ prostory:
       - price: 2100
         unit: hour
     image: >-
-      https://res.cloudinary.com/dkhdp7qmd/image/upload/v1729865364/09_gzauxj.webp
+      https://res.cloudinary.com/dkhdp7qmd/image/upload/v1729865364/STA_2375a_j9ufiv.webp
     gallery:
       - >-
-        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1729865364/09_gzauxj.webp
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1729865364/STA_2375a_j9ufiv.webp
       - >-
-        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1729865364/08_ebvm4p.webp
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1729865364/DSC04358_exatje.webp
       - >-
-        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1729865364/010_cfsk0k.webp
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1729865364/DSC09495_iyhv39.webp
       - >-
-        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1729865364/07_tqrxec.webp
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1729865364/DSC09462_mnp6dy.webp
 ---
 
