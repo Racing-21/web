@@ -1,4 +1,5 @@
 import {
+	BuildingOfficeIcon,
 	ChartPieIcon,
 	CursorArrowRaysIcon,
 	FingerPrintIcon,
@@ -76,7 +77,7 @@ export const NAVIGATION = [
 		topLink: "pronajem",
 		links: [
 			{
-				name: "Pronájem techniky",
+				name: "Rally vozy k pronájmu",
 				description: "Nabízíme pronájem závodní techniky a vozů",
 				href: "/pronajem/pronajem-techniky-a-vozu",
 				icon: ChartPieIcon,
@@ -85,7 +86,20 @@ export const NAVIGATION = [
 				name: "Pronájem konferenčních prostor",
 				description: "Máme k dispozici rozsáhlé prostory k pronájmu na Praze západ",
 				href: "/pronajem/pronajem-konferencnich-prostor",
-				icon: CursorArrowRaysIcon,
+				icon: BuildingOfficeIcon,
+			},
+			{
+				name: "Pronájem krytých přívěsů Turatello",
+				description: "Přívěsy pro převoz vozů i nákladu",
+				href: "/pronajem/pronajem-krytych-privesu-turatello",
+				icon: ChartPieIcon,
+			},
+			{
+				name: "Zázemí rallye servisu k pronájmu",
+				description:
+					"Stany, cateringové vybavení, zkrátka vše pro servis během závodů či testování",
+				href: "/pronajem/pronajem-servisniho-zazemi",
+				icon: ChartPieIcon,
 			},
 		],
 	},
