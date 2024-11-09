@@ -21,6 +21,7 @@ export const HeroSection = ({ image, title, subtitle, content }: HeroSectionProp
 							height={450}
 							width={800}
 							priority
+							sizes="(max-width: 768px) 100vw, (max-width: 1200px) 75vw"
 						/>
 						<div className="absolute inset-0 bg-black opacity-70 mix-blend-multiply" />
 					</div>
