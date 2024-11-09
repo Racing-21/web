@@ -23,12 +23,12 @@ export const HeroSection = ({ image, title, subtitle, content }: HeroSectionProp
 							priority
 							sizes="(max-width: 768px) 100vw, (max-width: 1200px) 75vw"
 						/>
-						<div className="absolute inset-0 bg-black opacity-70 mix-blend-multiply" />
+						<div className="absolute inset-0 bg-black opacity-40 mix-blend-multiply" />
 					</div>
 					<div className="relative px-6 py-16 sm:py-24 lg:px-8 lg:py-32">
 						<h1 className="text-center text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
 							<span className="text-4xl block text-white">{title}</span>
-							{subtitle && <span className="block text-red-600">{subtitle}</span>}
+							<span className="block text-red-600 min-h-24">{subtitle ?? ""}</span>
 						</h1>
 						<p className="mx-auto mt-6 max-w-lg text-center text-xl text-white sm:max-w-3xl">
 							{content ? content : " "}
