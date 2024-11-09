@@ -32,7 +32,7 @@ const features = [
 	},
 	{
 		name: "Parkování",
-		description: "PArkování je možné v rámci uzavřeného areálu",
+		description: "Parkování je možné v rámci uzavřeného areálu",
 		icon: LockClosedIcon,
 	},
 ];
