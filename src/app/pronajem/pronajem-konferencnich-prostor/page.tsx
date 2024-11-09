@@ -5,6 +5,7 @@ import { PageLayout } from "@/app/ui/layout/PageLayout";
 import client from "../../../../tina/__generated__/client";
 import { ContactForm } from "@/app/ui/ContactForm";
 import { VenueDetail } from "@/app/ui/venues/VenueDetail";
+import { CakeIcon, LockClosedIcon, UserIcon } from "@heroicons/react/24/outline";
 
 export const metadata: Metadata = {
 	title: "Racing 21 - O nás",
@@ -16,6 +17,25 @@ export const metadata: Metadata = {
 	},
 };
 
+const features = [
+	{
+		name: "Catering",
+		description:
+			"Zajistíme kompletní catering. Od malých zákusků ke kávě po menu o několika chodech.",
+		icon: CakeIcon,
+	},
+	{
+		name: "Hostesky",
+		description:
+			"Abyste se mohli plně věnovat svým hostuům. Nabízíme možnost zajištění hostesek, které zajistí obsluhu v rámci vaší akce.",
+		icon: UserIcon,
+	},
+	{
+		name: "Parkování",
+		description: "PArkování je možné v rámci uzavřeného areálu",
+		icon: LockClosedIcon,
+	},
+];
 export default async function Page() {
 	const { data } = await client.queries.pronajem({ relativePath: "Prostory.md" });
 
@@ -63,8 +83,29 @@ export default async function Page() {
 				<div className="w-full flex flex-col">
 					<h2 className={"text-2xl capitalize font-bold mb-2"}>Doplňkové služby</h2>
 					<section className="bg-grayPrimary py-10 sm:py-120 rounded-lg px-6">
-						Pro Vaši akci umíme zařídit catering na míru. Podrobnou nabídku menu s vámi
-						rádi probereme.
+						<div className="mx-auto max-w-xl px-6 lg:max-w-7xl lg:px-8">
+							<h2 className="sr-only">A better way to send money.</h2>
+							<dl className="grid grid-cols-1 gap-16 lg:grid lg:grid-cols-3">
+								{features.map((feature) => (
+									<div key={feature.name}>
+										<dt>
+											<div className="flex h-12 w-12 items-center justify-center rounded-xl bg-black text-red-600">
+												<feature.icon
+													aria-hidden="true"
+													className="h-8 w-8"
+												/>
+											</div>
+											<p className="mt-6 text-lg/8 font-semibold tracking-tight text-gray-200">
+												{feature.name}
+											</p>
+										</dt>
+										<dd className="mt-2 text-base/7 text-gray-50">
+											{feature.description}
+										</dd>
+									</div>
+								))}
+							</dl>
+						</div>
 					</section>
 				</div>
 				<div className="w-full flex flex-col" id="contact-form">
