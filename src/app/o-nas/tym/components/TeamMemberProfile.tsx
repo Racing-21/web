@@ -5,10 +5,28 @@ import Image from "next/image";
 import { Description, Dialog, DialogBackdrop, DialogPanel, DialogTitle } from "@headlessui/react";
 import {
 	TeamMembersTeamMember,
-	TeamMembersTeamMemberAchievements,
+	TeamMembersTeamMemberRacingTeamAchievements,
 } from "../../../../../tina/__generated__/types";
 
-const Achievement = ({ achievement }: { achievement: TeamMembersTeamMemberAchievements }) => {
+enum teamRoles {
+	acceptanceMechanic = "Přijímací technik",
+	driver = "Řidič",
+	navigator = "Navigátor",
+	mechanic = "Mechanik",
+	videoCrew = "Video tým",
+	photographer = "Fotograf",
+	chiefMechanic = "Hlavní mechanik",
+	catering = "Catering",
+	teamCoordinator = "Koordinátor týmu",
+	scout = "Průzkum trati",
+	prManager = "PR manažer",
+}
+
+const Achievement = ({
+	achievement,
+}: {
+	achievement: TeamMembersTeamMemberRacingTeamAchievements;
+}) => {
 	return (
 		<li key={`${achievement.name}-${achievement.year}-${achievement.name}`}>
 			<h4>
@@ -53,51 +71,57 @@ export const TeamMemberProfile = ({ person }: { person: TeamMembersTeamMember })
 							key={`${person.name}_${role}`}
 							className="text-sm leading-6 text-red-600 font-bold uppercase"
 						>
-							{role}
+							{teamRoles[role as keyof typeof teamRoles]}
 						</p>
 					))}
 			</li>
-			<Dialog open={isOpen} onClose={() => handleToggleDialog()} className="relative z-50">
-				<DialogBackdrop className="fixed inset-0 bg-black/50" />
-				<div className="fixed inset-0 flex w-screen items-center justify-center p-4 overflow-y-auto">
-					<DialogPanel className="max-w-screen-lg space-y-4 rounded-xl bg-grayPrimary p-12 shadow-gray-400">
-						<div className={"flex justify-start flex-col md:flex-row "}>
-							{person.image && (
-								<Image
-									alt={person.name}
-									src={person.image}
-									className="mr-6 h-52 w-52 rounded-lg grayscale-0 object-cover"
-									height={300}
-									width={400}
-									objectFit={"cover"}
-								/>
-							)}
+			{person.__typename === "TeamMembersTeamMemberRacingTeam" && (
+				<Dialog
+					open={isOpen}
+					onClose={() => handleToggleDialog()}
+					className="relative z-50"
+				>
+					<DialogBackdrop className="fixed inset-0 bg-black/50" />
+					<div className="fixed inset-0 flex w-screen items-center justify-center p-4 overflow-y-auto">
+						<DialogPanel className="max-w-screen-lg space-y-4 rounded-xl bg-grayPrimary p-12 shadow-gray-400">
+							<div className={"flex justify-start flex-col md:flex-row "}>
+								{person.image && (
+									<Image
+										alt={person.name}
+										src={person.image}
+										className="mr-6 h-52 w-52 rounded-lg grayscale-0 object-cover"
+										height={300}
+										width={400}
+										objectFit={"cover"}
+									/>
+								)}
 
-							<div className={"flex flex-col"}>
-								<DialogTitle className="font-bold">{person.name}</DialogTitle>
-								<Description>
-									<TinaMarkdown content={person.about} />
-								</Description>
+								<div className={"flex flex-col"}>
+									<DialogTitle className="font-bold">{person.name}</DialogTitle>
+									<Description>
+										<TinaMarkdown content={person.about} />
+									</Description>
+								</div>
 							</div>
-						</div>
-						{person.achievements && person.achievements.length > 0 && (
-							<div>
-								<h3>Úspěchy</h3>
-								<ul>
-									{person.achievements?.map((item) =>
-										item ? (
-											<Achievement
-												achievement={item}
-												key={(Math.random() * 10000).toString()}
-											/>
-										) : null,
-									)}
-								</ul>
-							</div>
-						)}
-					</DialogPanel>
-				</div>
-			</Dialog>
+							{person.achievements && person.achievements.length > 0 && (
+								<div>
+									<h3>Úspěchy</h3>
+									<ul>
+										{person.achievements?.map((item) =>
+											item ? (
+												<Achievement
+													achievement={item}
+													key={(Math.random() * 10000).toString()}
+												/>
+											) : null,
+										)}
+									</ul>
+								</div>
+							)}
+						</DialogPanel>
+					</div>
+				</Dialog>
+			)}
 		</>
 	);
 };
