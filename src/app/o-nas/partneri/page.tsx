@@ -21,6 +21,12 @@ export const metadata: Metadata = {
 export default async function Page() {
 	const { data } = await client.queries.partners({ relativePath: "Partners.md" });
 
+	if (!data.partners.partner || data.partners.partner.length === 0) {
+		return null;
+	}
+
+	const partnerList = data.partners.partner;
+
 	return (
 		<>
 			<div>
@@ -34,7 +40,7 @@ export default async function Page() {
 					</h2>
 					<div className="bg-grayPrimary px-6 py-6 rounded-lg">
 						<div className="divide-y divide-black overflow-hidden rounded-lg bg-white sm:grid sm:grid-cols-2 sm:gap-px sm:divide-y-0 border-transparent">
-							{data.partners.partner?.map((partner) => {
+							{partnerList.map((partner) => {
 								if (!partner) {
 									return null;
 								}
@@ -88,6 +94,13 @@ export default async function Page() {
 									</div>
 								);
 							})}
+							{partnerList.length % 2 === 1 && (
+								<div
+									className={
+										"flex group relative bg-grayPrimary px-2 md:px-6 py-4 border-1 border-grayPrimary flex-col md:flex-row focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500"
+									}
+								></div>
+							)}
 						</div>
 					</div>
 				</div>
