@@ -4,6 +4,7 @@ import { TeamMemberCollection } from "./collections/TeamMember";
 import { VehicleCollection } from "./collections/Vehicle";
 import { rentalItemFields, VenueCollection } from "./collections/Prostor";
 import { ServiceCollection } from "./collections/Service";
+import { PartnersCollection } from "./collections/Partners";
 
 // Your hosting provider likely exposes this as an environment variable
 const branch =
@@ -282,6 +283,7 @@ export default defineConfig({
 					},
 				],
 			},
+			PartnersCollection,
 		],
 	},
 });

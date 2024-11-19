@@ -2,10 +2,11 @@ import racePrepImage from "@/images/autodilna/priprava-na-zavody.webp";
 import Testimonials from "@/app/ui/Testimonials";
 import { Metadata } from "next";
 import { HeroSection } from "@/app/ui/HeroSection";
-import { PARTNERS } from "@/app/o-nas/partneri/partners";
 import Image from "next/image";
 import Link from "next/link";
 import { PageLayout } from "@/app/ui/layout/PageLayout";
+import client from "../../../../tina/__generated__/client";
+import { TinaMarkdown } from "tinacms/dist/rich-text";
 
 export const metadata: Metadata = {
 	title: "Racing 21 - O nás",
@@ -17,7 +18,9 @@ export const metadata: Metadata = {
 	},
 };
 
-export default function Page() {
+export default async function Page() {
+	const { data } = await client.queries.partners({ relativePath: "Partners.md" });
+
 	return (
 		<>
 			<div>
@@ -31,52 +34,60 @@ export default function Page() {
 					</h2>
 					<div className="bg-grayPrimary px-6 py-6 rounded-lg">
 						<div className="divide-y divide-black overflow-hidden rounded-lg bg-white sm:grid sm:grid-cols-2 sm:gap-px sm:divide-y-0 border-transparent">
-							{PARTNERS.map((partner) => (
-								<div
-									key={partner.link}
-									className={
-										"flex group relative bg-grayPrimary px-2 md:px-6 py-4 border-1 border-grayPrimary flex-col md:flex-row focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500 hover:bg-gray-50"
-									}
-								>
-									<Link
-										href={partner.link}
-										className={"group overflow-hidden relative flex flex-col"}
-										target={"_blank"}
+							{data.partners.partner?.map((partner) => {
+								if (!partner) {
+									return null;
+								}
+								return (
+									<div
+										key={partner?.link}
+										className={
+											"flex group relative bg-grayPrimary px-2 md:px-6 py-4 border-1 border-grayPrimary flex-col md:flex-row focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500 hover:bg-gray-50"
+										}
 									>
-										<div className={"flex items-center"}>
-											<div className="rounded-full p-1 e h-[100px] w-[100px] flex items-center justify-center">
-												<Image
-													key={partner.link}
-													alt={partner.name}
-													src={partner.logo}
-													objectFit={"cover"}
-													width={80}
-													height={80}
-												/>
-											</div>
-											<h4 className={"group-hover:text-gray-800"}>
-												{partner.name}
-											</h4>
-										</div>
-
-										<div
-											className={"flex-col items-center justify-between mb-2"}
-										>
-											<p className={"text-sm group-hover:text-gray-800 "}>
-												{partner.description}
-											</p>
-										</div>
-										<p
+										<Link
+											href={partner?.link}
 											className={
-												"bottom-0 mt-auto group-hover:text-gray-800 "
+												"group overflow-hidden relative flex flex-col active:outline-none"
 											}
+											target={"_blank"}
 										>
-											Stránky partnera
-										</p>
-									</Link>
-								</div>
-							))}
-							{PARTNERS.length % 2 === 1 && <div></div>}{" "}
+											<div className={"flex items-center"}>
+												<div className="rounded-full p-1 e h-[100px] w-[100px] flex items-center justify-center">
+													<Image
+														key={partner.link}
+														alt={partner.name}
+														src={partner.logo as string}
+														objectFit={"cover"}
+														width={80}
+														height={80}
+													/>
+												</div>
+												<h4 className={"group-hover:text-gray-800"}>
+													{partner?.name}
+												</h4>
+											</div>
+
+											<div
+												className={
+													"flex-col items-center justify-between mb-4"
+												}
+											>
+												<p className={"text-sm group-hover:text-gray-800 "}>
+													<TinaMarkdown content={partner.description} />
+												</p>
+											</div>
+											<p
+												className={
+													"bottom-0 mt-auto group-hover:text-red-900"
+												}
+											>
+												Stránky partnera
+											</p>
+										</Link>
+									</div>
+								);
+							})}
 						</div>
 					</div>
 				</div>
