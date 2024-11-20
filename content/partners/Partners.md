@@ -9,7 +9,8 @@ partner:
       stabilní a finančně silná společnost. Od roku 2005 je ČPP součástí jedné z
       největších evropských pojišťovacích skupin Vienna Insurance Group.
     link: 'https://www.cpp.cz/'
-    logo: https://res.cloudinary.com/dkhdp7qmd/image/upload/v1732037902/cpp_ib30nh.jpg
+    logo: >-
+      https://res.cloudinary.com/dkhdp7qmd/image/upload/v1732037902/cpp_ib30nh.jpg
   - name: Autoklub ČR
     description: >
       Autoklub České republiky (AČR) je samostatným suverénním a dobrovolným
@@ -59,6 +60,6 @@ partner:
       nezávislost.
     link: 'https://www.cz-ceb.com/'
     logo: >-
-      https://res.cloudinary.com/dkhdp7qmd/image/upload/v1732037900/ceb_zprm2x.jpg
+      https://res.cloudinary.com/dkhdp7qmd/image/upload/v1732096669/CEB_bf93b7.svg
 ---
 
