@@ -8,6 +8,7 @@ import { HomepageLogoCloud } from "@/app/ui/HomepageLogoCloud";
 import { HeroSection } from "@/app/ui/HeroSection";
 import { PageLayout } from "@/app/ui/layout/PageLayout";
 import { NewsSection } from "@/app/ui/NewsSection";
+import client from "../../tina/__generated__/client";
 
 export const metadata: Metadata = {
 	title: "Racing 21",
@@ -24,7 +25,8 @@ export const metadata: Metadata = {
 	},
 };
 
-export default function Home() {
+export default async function Home() {
+	const { data: partners } = await client.queries.partners({ relativePath: "Partners.md" });
 	return (
 		<>
 			{/* Hero card */}
@@ -36,7 +38,7 @@ export default function Home() {
 				subtitle={"Nejen závodní rally tým"}
 			/>
 			{/* Logo cloud */}
-			<HomepageLogoCloud />
+			<HomepageLogoCloud partners={partners.partners.partner} />
 			<PageLayout>
 				<div className="bg-grayPrimary rounded-lg">
 					<div className="mx-auto max-w-7xl py-12 sm:px-2 sm:py-16 lg:px-4">

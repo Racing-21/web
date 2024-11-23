@@ -12,14 +12,14 @@ export const HeroSection = ({ image, title, subtitle, content }: HeroSectionProp
 		<div className="relative bg-grayPrimary">
 			<div className=" inset-x-0 bottom-0 h-2/3 " />
 			<div
-				className="relative shadow-xl sm:overflow-hidden max-h-[750px] flex justify-center items-center  before:content-['']
+				className="relative shadow-xl sm:overflow-hidden max-h-[750px] flex justify-center items-center before:content-['']
             before:absolute
             before:inset-0
             before:block
             before:bg-gradient-to-t
             before:from-black
             before:to-transparent
-            before:opacity-80"
+            before:opacity-90 md:before:opacity-80"
 			>
 				<Image
 					alt="People working on laptops"

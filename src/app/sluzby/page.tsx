@@ -10,8 +10,6 @@ export default async function Page() {
 		relativePath: "Sluzby.md",
 	});
 
-	console.log(serviceItems);
-
 	return (
 		<>
 			<HeroSection
