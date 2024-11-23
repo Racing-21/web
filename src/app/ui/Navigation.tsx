@@ -19,8 +19,14 @@ export default function Navigation() {
 		<header className="relative isolate z-10 bg-black">
 			<nav
 				aria-label="Global"
-				className="mx-auto grid max-w-7xl items-center justify-end lg:justify-center py-6 px-3 md:px-0"
+				className="mx-auto flex lg:grid max-w-7xl items-center justify-between lg:justify-center py-6 px-3 md:px-0"
 			>
+				<div className="flex lg:hidden">
+					<Link href="/" className="-m-1.5 p-1.5">
+						<span className="sr-only">Racing21</span>
+						<Image alt="" src={logo} className="h-8 w-auto" />
+					</Link>
+				</div>
 				<div className="flex lg:hidden">
 					<button
 						type="button"
@@ -31,12 +37,13 @@ export default function Navigation() {
 						<Bars3Icon aria-hidden="true" className="h-6 w-6 text-white" />
 					</button>
 				</div>
+
 				<PopoverGroup className="hidden lg:flex gap-x-4 xl:gap-x-12 bg-black main-menu">
-					<div className="flex lg:flex-1">
-						<a href="/" className="-m-1.5 p-1.5">
+					<div className="hidden lg:flex">
+						<Link href="/" className="-m-1.5 p-1.5">
 							<span className="sr-only">Racing21</span>
 							<Image alt="" src={logo} className="h-8 w-auto" />
-						</a>
+						</Link>
 					</div>
 					{NAVIGATION.map((navigationItem, i) => (
 						<Menu key={`navigation_${i}`}>
