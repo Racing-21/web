@@ -3,6 +3,8 @@ import Testimonials from "@/app/ui/Testimonials";
 import { Metadata } from "next";
 import { HeroSection } from "@/app/ui/HeroSection";
 import { PageLayout } from "@/app/ui/layout/PageLayout";
+import Image from "next/image";
+import { Card } from "@/app/ui/Card";
 
 export const metadata: Metadata = {
 	title: "Racing 21 - O nás",
@@ -20,6 +22,18 @@ const PARTNER_SITES = [
 		name: "HRX",
 		href: "https://www.hrxtech.cz",
 		subheadline: "Prémiové FIA certifikované závodní a týmové oblečení italské značky HRX",
+		products: [
+			{
+				category: "Závodní kombinézy",
+				categoryImage:
+					"https://res.cloudinary.com/dkhdp7qmd/image/upload/v1732377908/emozione3_g9iwxm.webp",
+			},
+			{
+				category: "Závodní rukavice",
+				categoryImage:
+					"https://res.cloudinary.com/dkhdp7qmd/image/upload/v1732378777/racer_gloves-red_2000x2000_9e7ed4be-b529-4d1e-9253-a44bd432738c_vb47zy.webp",
+			},
+		],
 	},
 	{
 		id: 2,
@@ -77,35 +91,54 @@ export default function Page() {
 			</div>
 			<PageLayout>
 				<div className="w-full">
-					<section className="bg-grayPrimary py-10 sm:py-120 rounded-lg px-6">
-						<ul role="list" className="divide-y divide-gray-100">
+					<section className="py-10 sm:py-120 rounded-lg px-6">
+						<ul
+							role="list"
+							className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 divide-gray-100"
+						>
 							{PARTNER_SITES.map((item) => (
-								<li
-									key={item.id}
-									className="flex flex-col md:flex-row md:items-center justify-between gap-x-6 py-5"
-								>
-									<div className="min-w-0 mb-2 md:mb-0">
-										<div className="flex items-start gap-x-3">
-											<p className="text-lg font-semibold text-red-600 ">
+								<li key={item.id} className="flex flex-col gap-x-6 py-5">
+									<Card className="min-w-0 mb-2 md:mb-0 bg-grayPrimary h-full w-full">
+										<div className="flex items-start gap-x-3 border-red-600 border-b-2  mb-2">
+											<p className="text-xl font-semibold text-gray-200">
 												{item.name}
 											</p>
 										</div>
+										<div className="flex gap-4">
+											{item.products?.map((item) => (
+												<div
+													key={item.category}
+													className="relative rounded-lg h-[200px] w-[200px]"
+												>
+													<Image
+														className="relative rounded-lg"
+														src={item.categoryImage}
+														alt={item.category}
+														fill
+														objectFit={"cover"}
+														objectPosition={"top"}
+													/>
+												</div>
+											))}
+										</div>
+
 										<div className="mt-1 flex items-center gap-x-2 text-xs/5 text-gray-50">
 											<p className="">{item.subheadline}</p>
 										</div>
-									</div>
-									{item.href && (
-										<div className="flex flex-none items-center gap-x-4">
-											<a
-												href={item.href}
-												target="_blank"
-												className="rounded-md bg-white px-2.5 py-1.5 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 sm:block"
-											>
-												Navštívit e-shop
-												<span className="sr-only">, {item.name}</span>
-											</a>
-										</div>
-									)}
+
+										{item.href && (
+											<div className="flex flex-none items-center mt-6 bottom-0">
+												<a
+													href={item.href}
+													target="_blank"
+													className="rounded-full w-full text-center bg-white px-2.5 py-1.5 text-sm font-semibold text-gray-900 ring-inset ring-gray-300 hover:bg-black hover:text-gray-200 sm:block"
+												>
+													Navštívit e-shop
+													<span className="sr-only">, {item.name}</span>
+												</a>
+											</div>
+										)}
+									</Card>
 								</li>
 							))}
 						</ul>
