@@ -19,10 +19,7 @@ export default function Page() {
 	console.log(process.env.GOOGLE_MAPS_API_KEY);
 	return (
 		<>
-			<div>
-				{/* Hero card */}
-				<HeroSection image={racePrepImage} title={"Racing 21"} subtitle={"Kontakt"} />
-			</div>
+			<HeroSection image={racePrepImage} title={"Racing 21"} subtitle={"Kontakt"} />
 			<PageLayout>
 				<div className="w-full px-6 py-3 mt-6 flex-col">
 					<ContactSection />

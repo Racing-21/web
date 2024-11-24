@@ -94,12 +94,12 @@ export default function Page() {
 					<section className="py-10 sm:py-120 rounded-lg px-6">
 						<ul
 							role="list"
-							className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 divide-gray-100"
+							className="grid md:grid-cols-2 lg:grid-cols-3 md:gap-4 divide-gray-100"
 						>
 							{PARTNER_SITES.map((item) => (
-								<li key={item.id} className="flex flex-col gap-x-6 py-5">
-									<Card className="min-w-0 mb-2 md:mb-0 bg-grayPrimary h-full w-full">
-										<div className="flex items-start gap-x-3 border-red-600 border-b-2  mb-2">
+								<li key={item.id} className="flex flex-col py-2 md:py-0">
+									<Card className="min-w-0 md:mb-0 bg-grayPrimary h-full w-full">
+										<div className="flex items-start gap-x-3 border-red-600 border-b-2 mb-2">
 											<p className="text-xl font-semibold text-gray-200">
 												{item.name}
 											</p>
@@ -108,7 +108,7 @@ export default function Page() {
 											{item.products?.map((item) => (
 												<div
 													key={item.category}
-													className="relative rounded-lg h-[200px] w-[200px]"
+													className="relative rounded-lg h-[100px] w-[100px] md:w-[200px] md:h-[200px]"
 												>
 													<Image
 														className="relative rounded-lg"

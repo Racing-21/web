@@ -33,7 +33,7 @@ export const HeroSection = ({ image, title, subtitle, content }: HeroSectionProp
 					}}
 					sizes="(max-width: 768px) 100vw, (max-width: 1200px) 75vw"
 				/>
-				<div className="absolute bottom-0 px-6 pt-8 lg:px-8">
+				<div className="absolute bottom-0 px-6 py-8 lg:px-8">
 					<h1 className="text-center text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
 						<span className="text-4xl block text-white">{title}</span>
 						{subtitle && (

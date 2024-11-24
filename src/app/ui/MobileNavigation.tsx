@@ -22,7 +22,7 @@ export default function MobileNavigation({
 	return (
 		<Dialog open={mobileMenuOpen} onClose={setMobileMenuOpen} className="lg:hidden">
 			<div className="fixed inset-0 z-10" />
-			<DialogPanel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-grayPrimary sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+			<DialogPanel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-grayPrimary sm:max-w-sm">
 				<div className="flex items-center justify-between w-full px-3 py-6">
 					<Link href="#" className="-m-1.5 p-1.5">
 						<span className="sr-only">Racing21</span>
@@ -43,35 +43,44 @@ export default function MobileNavigation({
 							{NAVIGATION.map((navigationItem, i) => (
 								<Disclosure
 									as="div"
-									className="-mx-3"
+									className=" w-full py-2"
 									key={`navigationItem_mobile_${i}`}
 								>
 									{navigationItem?.links?.length === 0 ? (
 										<Link
 											key={navigationItem.title}
 											href={`/${navigationItem.topLink}`}
-											className="group flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+											className="text-black"
+											onClick={() => setMobileMenuOpen(false)}
 										>
 											{navigationItem.title}
 										</Link>
 									) : (
 										<>
-											<DisclosureButton className="group flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
-												{navigationItem.title}
-												<ChevronDownIcon
-													aria-hidden="true"
-													className="h-5 w-5 flex-none group-data-[open]:rotate-180"
-												/>
-											</DisclosureButton>
-											<DisclosurePanel className="mt-2 space-y-2">
-												<DisclosureButton
-													key={navigationItem.title}
-													as="a"
-													href={navigationItem.topLink}
-													className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-												>
-													{navigationItem.title}
+											<div
+												className={
+													"flex w-full justify-between items-center"
+												}
+											>
+												<div className={"flex w-4/5"}>
+													<Link
+														href={`/${navigationItem.topLink}`}
+														className={"text-black"}
+														onClick={() => setMobileMenuOpen(false)}
+													>
+														{navigationItem.title}
+													</Link>
+												</div>
+
+												<DisclosureButton className="group  w-1/5 flex items-center justify-center rounded-lg py-2 text-base font-semibold text-gray-900">
+													<ChevronDownIcon
+														aria-hidden="true"
+														className="h-5 w-5 flex-none group-data-[open]:rotate-180"
+													/>
 												</DisclosureButton>
+											</div>
+
+											<DisclosurePanel className="mt-2 space-y-2">
 												{navigationItem.links?.map((item) => (
 													<DisclosureButton
 														key={item.name}
