@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/virtual";
 import "swiper/css/autoplay";
-import { PartnersPartner } from "../../../tina/__generated__/types";
+import { PartnersPartner } from "../../tina/__generated__/types";
 import Link from "next/link";
 
 export const HomepageLogoCloud = ({

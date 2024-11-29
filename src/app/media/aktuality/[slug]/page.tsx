@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 import { PageLayout } from "@/components/layout/PageLayout";
 import client from "../../../../../tina/__generated__/client";
 import { TinaMarkdown } from "tinacms/dist/rich-text";
-import { AktualityAktuality } from "../../../../../tina/__generated__/types";
 import { PhotoGallery } from "@/components/PhotoGallery";
+import { AktualityAktuality } from "../../../../../tina/__generated__/types";
 
 export const metadata: Metadata = {
 	title: "Racing21 - Technika",

@@ -1,6 +1,6 @@
 import { Card } from "@/components/Card";
 import Image from "next/image";
-import { AktualityAktuality } from "../../../tina/__generated__/types";
+import { AktualityAktuality } from "../../tina/__generated__/types";
 import { Maybe } from "@/components/VehicleInformationDetail";
 import Link from "next/link";
 
