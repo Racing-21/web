@@ -36,8 +36,12 @@ export const HomepageLogoCloud = ({
 							key={`slide_${partner?.name}`}
 							className="max-w-[100px] md:max-w-[200px] md:w-[300px] flex justify-center h-12"
 						>
-							<div className="w-[100px] md:w-[200px] flex justify-center h-12">
-								<Link href={partner?.link ?? "/"} target={"_blank"}>
+							<div className="w-[100px] md:w-[200px] flex justify-center h-12 lg:h-24">
+								<Link
+									href={partner?.link ?? "/"}
+									target={"_blank"}
+									className={"flex-col flex justify-center"}
+								>
 									{partner?.logo && (
 										<Image alt={partner.name} src={partner.logo} fill />
 									)}
