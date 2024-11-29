@@ -1,5 +1,11 @@
 ---
 aktuality:
+  - name: Nový web test
+    slug: novy-web-test
+    date: 2024-11-28T23:00:00.000Z
+    shortDescription: Test nové infrastruktury webu
+    longDescription: |
+      Test
   - name: Ze Sanrema na španělskou olympiádu v motorsportu
     slug: olymipada-motorsportu-2024
     date: 2024-10-23T22:00:00.000Z
@@ -72,7 +78,7 @@ aktuality:
       Zítra jsou na pořadu souboje na sedmi rychlostních zkouškách převážně s
       šotolinovým povrchem. Průběh soubojů ve všech motoristických disciplínách
       na letošním ročníku FIA Motorsport Games můžete sledovat na
-      [fiamotorsportgames.com](https://www.fiamotorsportgames.com/). 
+      [fiamotorsportgames.com](https://www.fiamotorsportgames.com/).
     image: >-
       https://res.cloudinary.com/dkhdp7qmd/image/upload/v1730130363/192rc21-2024-16-01_zutqew.webp
     gallery:
