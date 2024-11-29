@@ -1,7 +1,7 @@
 import headerImage from "@/images/team/header.webp";
 import Image from "next/image";
-import { ServiceNavigationCard } from "@/app/ui/ServiceNavigationCard";
-import { PageLayout } from "@/app/ui/layout/PageLayout";
+import { ServiceNavigationCard } from "@/components/ServiceNavigationCard";
+import { PageLayout } from "@/components/layout/PageLayout";
 import client from "../../../../tina/__generated__/client";
 import { parseVehicleImages } from "@/utils/utils";
 

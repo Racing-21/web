@@ -1,4 +1,4 @@
-import { MaybeString } from "@/app/ui/VehicleInformationDetail";
+import { MaybeString } from "@/components/VehicleInformationDetail";
 
 export function parseVehicleImages(images: MaybeString | (string | null)[]) {
 	if (Array.isArray(images)) {

@@ -1,5 +1,5 @@
-import { MaybeString } from "@/app/ui/VehicleInformationDetail";
-import { Card } from "@/app/ui/Card";
+import { MaybeString } from "@/components/VehicleInformationDetail";
+import { Card } from "@/components/Card";
 import Image from "next/image";
 
 export const RentalCategoryCard = ({

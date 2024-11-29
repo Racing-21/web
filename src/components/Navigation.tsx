@@ -9,7 +9,7 @@ import { ChevronDownIcon } from "@heroicons/react/20/solid";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { NAVIGATION } from "@/app/types/NavigationTypes";
-import MobileNavigation from "@/app/ui/MobileNavigation";
+import MobileNavigation from "@/components/MobileNavigation";
 
 export default function Navigation() {
 	const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -19,15 +19,15 @@ export default function Navigation() {
 		<header className="relative isolate z-10 bg-black">
 			<nav
 				aria-label="Global"
-				className="mx-auto flex lg:grid max-w-7xl items-center justify-between lg:justify-center py-6 px-3 md:px-0"
+				className="mx-auto flex xl:grid max-w-7xl items-center justify-between xl:justify-center py-6 px-6 xl:px-0"
 			>
-				<div className="flex lg:hidden">
+				<div className="flex xl:hidden">
 					<Link href="/" className="-m-1.5 p-1.5">
 						<span className="sr-only">Racing21</span>
 						<Image alt="" src={logo} className="h-8 w-auto" />
 					</Link>
 				</div>
-				<div className="flex lg:hidden">
+				<div className="flex xl:hidden">
 					<button
 						type="button"
 						onClick={() => setMobileMenuOpen(true)}
@@ -38,8 +38,8 @@ export default function Navigation() {
 					</button>
 				</div>
 
-				<PopoverGroup className="hidden lg:flex gap-x-4 xl:gap-x-12 bg-black main-menu">
-					<div className="hidden lg:flex">
+				<PopoverGroup className="hidden xl:flex gap-x-4 xl:gap-x-12 bg-black main-menu">
+					<div className="hidden xl:flex">
 						<Link href="/" className="-m-1.5 p-1.5">
 							<span className="sr-only">Racing21</span>
 							<Image alt="" src={logo} className="h-8 w-auto" />
@@ -107,7 +107,6 @@ export default function Navigation() {
 						</Menu>
 					))}
 				</PopoverGroup>
-				<div className="hidden lg:flex lg:flex-1 lg:justify-end"></div>
 			</nav>
 			<MobileNavigation
 				setMobileMenuOpen={setMobileMenuOpen}

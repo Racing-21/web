@@ -1,7 +1,7 @@
 import Link from "next/link";
-import { Card } from "@/app/ui/Card";
+import { Card } from "@/components/Card";
 import Image, { StaticImageData } from "next/image";
-import { MaybeString } from "@/app/ui/VehicleInformationDetail";
+import { MaybeString } from "@/components/VehicleInformationDetail";
 
 export type ServiceNavigationCardProps = {
 	image: StaticImageData | string;

@@ -1,9 +1,9 @@
 import headerImage from "@/images/autodilna/header.webp";
-import { ContactForm } from "@/app/ui/ContactForm";
-import { PageLayout } from "@/app/ui/layout/PageLayout";
-import { ContentItem } from "@/app/ui/ContentItem";
+import { ContactForm } from "@/components/ContactForm";
+import { PageLayout } from "@/components/layout/PageLayout";
+import { ContentItem } from "@/components/ContentItem";
 import client from "../../../tina/__generated__/client";
-import { HeroSection } from "@/app/ui/HeroSection";
+import { HeroSection } from "@/components/HeroSection";
 
 export default async function Page() {
 	const { data: serviceItems } = await client.queries.sluzby({

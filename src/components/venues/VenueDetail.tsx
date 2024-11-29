@@ -1,7 +1,7 @@
 "use client";
 
 import { TinaMarkdown, TinaMarkdownContent } from "tinacms/dist/rich-text";
-import { PhotoGallery } from "@/app/ui/PhotoGallery";
+import { PhotoGallery } from "@/components/PhotoGallery";
 
 type VenueType = {
 	name: string;

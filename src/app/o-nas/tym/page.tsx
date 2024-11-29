@@ -1,6 +1,6 @@
 import headerImage from "@/images/team/header.webp";
-import { PageLayout } from "@/app/ui/layout/PageLayout";
-import { HeroSection } from "@/app/ui/HeroSection";
+import { PageLayout } from "@/components/layout/PageLayout";
+import { HeroSection } from "@/components/HeroSection";
 import { TeamMemberProfile } from "@/app/o-nas/tym/components/TeamMemberProfile";
 import client from "../../../../tina/__generated__/client";
 

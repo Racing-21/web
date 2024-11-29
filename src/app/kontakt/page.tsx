@@ -1,8 +1,8 @@
 import racePrepImage from "@/images/autodilna/priprava-na-zavody.webp";
-import Testimonials from "@/app/ui/Testimonials";
+import Testimonials from "@/components/Testimonials";
 import { Metadata } from "next";
-import { HeroSection } from "@/app/ui/HeroSection";
-import { PageLayout } from "@/app/ui/layout/PageLayout";
+import { HeroSection } from "@/components/HeroSection";
+import { PageLayout } from "@/components/layout/PageLayout";
 import ContactSection from "@/app/kontakt/components/ContactSection";
 import { GoogleMapsEmbed } from "@next/third-parties/google";
 

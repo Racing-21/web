@@ -1,11 +1,11 @@
 import Image from "next/image";
-import { Breadcrumbs } from "@/app/ui/Breadcrumbs";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
 import type { Metadata } from "next";
-import { PageLayout } from "@/app/ui/layout/PageLayout";
+import { PageLayout } from "@/components/layout/PageLayout";
 import client from "../../../../../tina/__generated__/client";
 import { TinaMarkdown } from "tinacms/dist/rich-text";
 import { AktualityAktuality } from "../../../../../tina/__generated__/types";
-import { PhotoGallery } from "@/app/ui/PhotoGallery";
+import { PhotoGallery } from "@/components/PhotoGallery";
 
 export const metadata: Metadata = {
 	title: "Racing21 - Technika",

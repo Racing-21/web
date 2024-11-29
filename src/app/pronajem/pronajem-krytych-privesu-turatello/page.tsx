@@ -1,9 +1,9 @@
 import headerImage from "@/images/team/header.webp";
-import { PageLayout } from "@/app/ui/layout/PageLayout";
-import { HeroSection } from "@/app/ui/HeroSection";
+import { PageLayout } from "@/components/layout/PageLayout";
+import { HeroSection } from "@/components/HeroSection";
 import client from "../../../../tina/__generated__/client";
-import { VenueDetail } from "@/app/ui/venues/VenueDetail";
-import { ContactForm } from "@/app/ui/ContactForm";
+import { VenueDetail } from "@/components/venues/VenueDetail";
+import { ContactForm } from "@/components/ContactForm";
 
 export default async function Page() {
 	const { data } = await client.queries.pronajemPrivesu({ relativePath: "Privesy.md" });

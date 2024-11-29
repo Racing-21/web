@@ -2,13 +2,13 @@ import serviceCardImage from "@/images/homepage/serviceCard.webp";
 import rallyTeamCardImage from "@/images/homepage/rallyTeamCard.webp";
 import rentalCardImage from "@/images/homepage/rentalCard.webp";
 import { Metadata } from "next";
-import Services from "./ui/Services";
-import { ServiceNavigationCard } from "@/app/ui/ServiceNavigationCard";
-import { HomepageLogoCloud } from "@/app/ui/HomepageLogoCloud";
-import { HeroSection } from "@/app/ui/HeroSection";
-import { PageLayout } from "@/app/ui/layout/PageLayout";
-import { NewsSection } from "@/app/ui/NewsSection";
+import { ServiceNavigationCard } from "@/components/ServiceNavigationCard";
+import { HomepageLogoCloud } from "@/components/HomepageLogoCloud";
+import { HeroSection } from "@/components/HeroSection";
+import { PageLayout } from "@/components/layout/PageLayout";
+import { NewsSection } from "@/components/NewsSection";
 import client from "../../tina/__generated__/client";
+import Services from "@/components/Services";
 
 export const metadata: Metadata = {
 	title: "Racing 21",

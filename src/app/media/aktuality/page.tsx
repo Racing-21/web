@@ -1,9 +1,9 @@
 import racePrepImage from "@/images/autodilna/priprava-na-zavody.webp";
-import Testimonials from "@/app/ui/Testimonials";
+import Testimonials from "@/components/Testimonials";
 import { Metadata } from "next";
-import { HeroSection } from "@/app/ui/HeroSection";
-import { PageLayout } from "@/app/ui/layout/PageLayout";
-import { NewsSection } from "@/app/ui/NewsSection";
+import { HeroSection } from "@/components/HeroSection";
+import { PageLayout } from "@/components/layout/PageLayout";
+import { NewsSection } from "@/components/NewsSection";
 
 export const metadata: Metadata = {
 	title: "Racing 21 - Média",

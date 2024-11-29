@@ -1,7 +1,7 @@
 import { ComponentType, SVGProps } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { Maybe, MaybeString } from "@/app/ui/VehicleInformationDetail";
+import { Maybe, MaybeString } from "@/components/VehicleInformationDetail";
 
 type Feature = {
 	name: string;

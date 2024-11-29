@@ -1,10 +1,10 @@
-import Testimonials from "@/app/ui/Testimonials";
+import Testimonials from "@/components/Testimonials";
 import { Metadata } from "next";
-import { HeroSection } from "@/app/ui/HeroSection";
-import { PageLayout } from "@/app/ui/layout/PageLayout";
+import { HeroSection } from "@/components/HeroSection";
+import { PageLayout } from "@/components/layout/PageLayout";
 import client from "../../../../tina/__generated__/client";
-import { ContactForm } from "@/app/ui/ContactForm";
-import { VenueDetail } from "@/app/ui/venues/VenueDetail";
+import { ContactForm } from "@/components/ContactForm";
+import { VenueDetail } from "@/components/venues/VenueDetail";
 import { CakeIcon, LockClosedIcon, UserIcon } from "@heroicons/react/24/outline";
 
 export const metadata: Metadata = {

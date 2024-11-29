@@ -1,10 +1,10 @@
 import racePrepImage from "@/images/autodilna/priprava-na-zavody.webp";
-import Testimonials from "@/app/ui/Testimonials";
+import Testimonials from "@/components/Testimonials";
 import { Metadata } from "next";
-import { HeroSection } from "@/app/ui/HeroSection";
+import { HeroSection } from "@/components/HeroSection";
 import Image from "next/image";
 import Link from "next/link";
-import { PageLayout } from "@/app/ui/layout/PageLayout";
+import { PageLayout } from "@/components/layout/PageLayout";
 import client from "../../../../tina/__generated__/client";
 import { TinaMarkdown } from "tinacms/dist/rich-text";
 

@@ -1,8 +1,8 @@
 import Image from "next/image";
-import VehicleInformationDetail, { Vehicle } from "@/app/ui/VehicleInformationDetail";
-import { Breadcrumbs } from "@/app/ui/Breadcrumbs";
+import VehicleInformationDetail, { Vehicle } from "@/components/VehicleInformationDetail";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
 import type { Metadata } from "next";
-import { PageLayout } from "@/app/ui/layout/PageLayout";
+import { PageLayout } from "@/components/layout/PageLayout";
 import client from "../../../../../tina/__generated__/client";
 
 import { parseVehicleImages } from "@/utils/utils";

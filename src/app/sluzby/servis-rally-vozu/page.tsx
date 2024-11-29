@@ -1,8 +1,8 @@
-import Testimonials from "@/app/ui/Testimonials";
+import Testimonials from "@/components/Testimonials";
 import { Metadata } from "next";
-import { PageLayout } from "@/app/ui/layout/PageLayout";
-import { HeroSection } from "@/app/ui/HeroSection";
-import RaceCarServiceInfo from "@/app/ui/RaceCarServiceInfo";
+import { PageLayout } from "@/components/layout/PageLayout";
+import { HeroSection } from "@/components/HeroSection";
+import RaceCarServiceInfo from "@/components/RaceCarServiceInfo";
 
 export const metadata: Metadata = {
 	title: "Racing 21 - Servis závodních aut",

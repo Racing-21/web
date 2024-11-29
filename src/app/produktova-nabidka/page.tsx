@@ -1,10 +1,9 @@
 import racePrepImage from "@/images/autodilna/priprava-na-zavody.webp";
-import Testimonials from "@/app/ui/Testimonials";
+import Testimonials from "@/components/Testimonials";
 import { Metadata } from "next";
-import { HeroSection } from "@/app/ui/HeroSection";
-import { PageLayout } from "@/app/ui/layout/PageLayout";
+import { HeroSection } from "@/components/HeroSection";
+import { PageLayout } from "@/components/layout/PageLayout";
 import Image from "next/image";
-import { Card } from "@/app/ui/Card";
 
 export const metadata: Metadata = {
 	title: "Racing 21 - O nás",
@@ -94,17 +93,20 @@ export default function Page() {
 					<section className="py-10 sm:py-120 rounded-lg px-6">
 						<ul
 							role="list"
-							className="grid md:grid-cols-2 lg:grid-cols-3 md:gap-4 divide-gray-100"
+							className="grid md:grid-cols-2 xl:grid-cols-3 md:gap-4 divide-gray-100"
 						>
 							{PARTNER_SITES.map((item) => (
 								<li key={item.id} className="flex flex-col py-2 md:py-0">
-									<Card className="min-w-0 md:mb-0 bg-grayPrimary h-full w-full">
+									<div
+										className="overflow-hidden rounded-lg shadow relative min-w-0 md:mb-0 bg-grayPrimary h-full w-full flex flex-col
+									justify-between px-4 py-5 sm:p-6"
+									>
 										<div className="flex items-start gap-x-3 border-red-600 border-b-2 mb-2">
 											<p className="text-xl font-semibold text-gray-200">
 												{item.name}
 											</p>
 										</div>
-										<div className="flex gap-4">
+										<div className="flex gap-4 mb-2">
 											{item.products?.map((item) => (
 												<div
 													key={item.category}
@@ -122,12 +124,12 @@ export default function Page() {
 											))}
 										</div>
 
-										<div className="mt-1 flex items-center gap-x-2 text-xs/5 text-gray-50">
+										<div className="mt-auto mb-2 flex gap-x-2 text-xs/5 text-gray-50 h-[75px] line-clamp-3	">
 											<p className="">{item.subheadline}</p>
 										</div>
 
 										{item.href && (
-											<div className="flex flex-none items-center mt-6 bottom-0">
+											<div className="flex flex-none items-center bottom-0">
 												<a
 													href={item.href}
 													target="_blank"
@@ -138,7 +140,7 @@ export default function Page() {
 												</a>
 											</div>
 										)}
-									</Card>
+									</div>
 								</li>
 							))}
 						</ul>

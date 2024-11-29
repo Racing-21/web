@@ -1,11 +1,11 @@
 import racePrepImage from "@/images/autodilna/priprava-na-zavody.webp";
-import Testimonials from "@/app/ui/Testimonials";
+import Testimonials from "@/components/Testimonials";
 import { Metadata } from "next";
-import { HeroSection } from "@/app/ui/HeroSection";
-import { PageLayout } from "@/app/ui/layout/PageLayout";
-import { ContactForm } from "@/app/ui/ContactForm";
+import { HeroSection } from "@/components/HeroSection";
+import { PageLayout } from "@/components/layout/PageLayout";
+import { ContactForm } from "@/components/ContactForm";
 import Link from "next/link";
-import { RentalCategoryCard } from "../ui/RentalCategoryCard";
+import { RentalCategoryCard } from "@/components/RentalCategoryCard";
 
 export const metadata: Metadata = {
 	title: "Racing 21 - O nás",

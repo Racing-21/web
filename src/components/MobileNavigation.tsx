@@ -20,7 +20,7 @@ export default function MobileNavigation({
 	mobileMenuOpen: boolean;
 }) {
 	return (
-		<Dialog open={mobileMenuOpen} onClose={setMobileMenuOpen} className="lg:hidden">
+		<Dialog open={mobileMenuOpen} onClose={setMobileMenuOpen} className="xl:hidden">
 			<div className="fixed inset-0 z-10" />
 			<DialogPanel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-grayPrimary sm:max-w-sm">
 				<div className="flex items-center justify-between w-full px-3 py-6">
@@ -72,7 +72,7 @@ export default function MobileNavigation({
 													</Link>
 												</div>
 
-												<DisclosureButton className="group  w-1/5 flex items-center justify-center rounded-lg py-2 text-base font-semibold text-gray-900">
+												<DisclosureButton className="group w-1/5 flex items-center justify-center rounded-lg py-2 text-base font-semibold text-gray-900">
 													<ChevronDownIcon
 														aria-hidden="true"
 														className="h-5 w-5 flex-none group-data-[open]:rotate-180"

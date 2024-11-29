@@ -1,5 +1,5 @@
-import client from "../../../tina/__generated__/client";
-import { UpcomingEventsCard } from "@/app/ui/UpcomingEventCard";
+import client from "../../tina/__generated__/client";
+import { UpcomingEventsCard } from "@/components/UpcomingEventCard";
 
 export async function NewsSection() {
 	const { data } = await client.queries.aktuality({ relativePath: "Aktuality.md" });

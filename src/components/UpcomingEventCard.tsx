@@ -1,7 +1,7 @@
-import { Card } from "@/app/ui/Card";
+import { Card } from "@/components/Card";
 import Image from "next/image";
 import { AktualityAktuality } from "../../../tina/__generated__/types";
-import { Maybe } from "@/app/ui/VehicleInformationDetail";
+import { Maybe } from "@/components/VehicleInformationDetail";
 import Link from "next/link";
 
 export type UpcomingEventCardProps = {
@@ -18,7 +18,7 @@ export const UpcomingEventsCard = ({ post, cardClassName }: UpcomingEventCardPro
 		<Link href={`/media/aktuality/${post.slug}`}>
 			<div
 				className={
-					"w-full overflow-hidden px-5 py-5 bg-grayPrimary rounded-lg flex-col content-center items-center hover:cursor-pointer card"
+					"w-full h-full flex overflow-hidden px-5 py-5 bg-grayPrimary rounded-lg flex-col content-center items-center hover:cursor-pointer card"
 				}
 			>
 				<Card
