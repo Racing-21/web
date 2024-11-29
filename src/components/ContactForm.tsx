@@ -1,9 +1,11 @@
 "use client";
 
 import { useForm } from "react-hook-form";
-import { FormEvent } from "react";
+import { FormEvent, useState } from "react";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
+import { CheckCircleIcon } from "@heroicons/react/24/solid";
+import { XMarkIcon } from "@heroicons/react/24/outline";
 
 type FormValues = {
 	firstName: string;
@@ -24,11 +26,38 @@ const formSchema = z.object({
 	quote: z.string().min(1, "Quote is required"),
 });
 
+export default function SuccessMessage() {
+	return (
+		<div className="rounded-md bg-green-50 p-4">
+			<div className="flex">
+				<div className="shrink-0">
+					<CheckCircleIcon aria-hidden="true" className="size-5 text-green-400" />
+				</div>
+				<div className="ml-3">
+					<p className="text-sm font-medium text-green-800">Úspěšně odesláno</p>
+				</div>
+				<div className="ml-auto pl-3">
+					<div className="-mx-1.5 -my-1.5">
+						<button
+							type="button"
+							className="inline-flex rounded-md bg-green-50 p-1.5 text-green-500 hover:bg-green-100 focus:outline-none focus:ring-2 focus:ring-green-600 focus:ring-offset-2 focus:ring-offset-green-50"
+						>
+							<span className="sr-only">Dismiss</span>
+							<XMarkIcon aria-hidden="true" className="size-5" />
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	);
+}
+
 export const ContactForm = () => {
 	const {
 		register,
 		formState: { errors },
 	} = useForm<FormValues>({ resolver: zodResolver(formSchema) });
+	const [displayMessage, setDisplayMessage] = useState(false);
 
 	const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
 		event.preventDefault();
@@ -42,7 +71,7 @@ export const ContactForm = () => {
 				body: new URLSearchParams(formData as never),
 			});
 			if (res.status === 200) {
-				console.log("submitted");
+				setDisplayMessage(true);
 			} else {
 				console.log("not submitted");
 			}
@@ -53,15 +82,15 @@ export const ContactForm = () => {
 
 	return (
 		<div className="w-full flex flex-col gap-2">
-			<div className={`overflow-hidden rounded-xl py-16 sm:py-16 mt-6 gap bg-transparent`}>
-				<div className="mx-auto px-6 lg:px-8">
+			<div className={`overflow-hidden rounded-xl py-16 mt-6 gap bg-transparent`}>
+				<div className="mx-auto px-6">
 					<form
 						onSubmit={(e) => handleSubmit(e)}
 						name={"contactForm"}
 						data-netlify="true"
 						method="post"
 						className={
-							"flex flex-col md:grid md:grid-cols-2 gap-2 contact-form lg:w-2/3 mx-auto"
+							"flex flex-col md:grid md:grid-cols-2 gap-2 contact-form  mx-auto"
 						}
 					>
 						<input type="hidden" name="form-name" value="contactForm" />
@@ -160,6 +189,7 @@ export const ContactForm = () => {
 								value={"Odeslat"}
 							/>
 						</div>
+						{displayMessage && <SuccessMessage />}
 					</form>
 				</div>
 			</div>

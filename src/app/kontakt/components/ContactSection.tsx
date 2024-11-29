@@ -9,8 +9,8 @@ export default function ContactSection() {
 			</div>
 
 			<div className="relative mx-auto w-full">
-				<div className="flex flex-col md:flex-row py-6 lg:rounded-lg bg-grayPrimary">
-					<div className="w-full md:w-1/2 mb-2 md:mb-0 px-4 lg:px-10">
+				<div className="flex flex-col lg:flex-row py-6 lg:rounded-lg bg-grayPrimary">
+					<div className="w-full lg:w-1/3 mb-2 md:mb-0 px-4 lg:px-10">
 						<h2 className="text-2xl font-bold tracking-tight text-red-600 sm:text-3xl">
 							Kontaktujte nás
 						</h2>
@@ -40,12 +40,12 @@ export default function ContactSection() {
 										aria-hidden="true"
 										className="h-6 w-6 flex-shrink-0 text-gray-400"
 									/>
-									<span className="ml-3 text-gray-200">support@example.com</span>
+									<span className="ml-3 text-gray-200">kosnar@racing21.cz</span>
 								</dd>
 							</div>
 						</dl>
 					</div>
-					<div className="w-full md:w-1/2 px-4 lg:px-10">
+					<div className="w-full lg:w-2/3 mt-4 lg:mt-0 px-4 lg:px-10">
 						<div className={"bg-black rounded-lg"}>
 							<ContactForm />
 						</div>
