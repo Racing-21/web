@@ -32,7 +32,7 @@ sluzby:
     image: /uploads/STA_2375a.jpg
   - title: Poradenství v oblasti nákupu vozidel
     headline: Vozidla na investici i pro radost z jízdy
-    link: /sluzby/poradenstvi-nakupu-automobilu
+    link: /sluzby/nakup-veteranu
     description: "Dlouholeté bohaté zkušenosti s\_nákupem investičních a sportovních vozů nám umožňují sdílet naše know-how s vážnými\_zájemci, pro které je vložení finančních prostředků do nákupu automobilů cestou k\_budoucímu ekonomickému profitu. I v této oblasti poskytujeme komplexní služby, tedy od poradenství, přes vyhledání vhodného vozu ve spolupráci s\_lokálními partnery z mnoha evropských zemí až k\_jeho dovezení k\_budoucímu majiteli, to vše s\_vyřízením povinných administrativních formalit. Prověření původu i detailního stavu vozidla spolu s\_odborným odhadem ceny případné renovace je pro nás samozřejmostí!\n"
     image: /uploads/STA_2375a.jpg
 ---
