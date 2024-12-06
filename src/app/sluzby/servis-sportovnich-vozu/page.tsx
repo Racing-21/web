@@ -1,4 +1,3 @@
-import racePrepImage from "@/images/autodilna/priprava-na-zavody.webp";
 import Testimonials from "@/components/Testimonials";
 import { Metadata } from "next";
 import SportsCarServiceInfo from "@/components/SportsCarServiceInfo";
@@ -20,7 +19,9 @@ export default function Page() {
 			<div>
 				{/* Hero card */}
 				<HeroSection
-					image={racePrepImage}
+					image={
+						"https://res.cloudinary.com/dkhdp7qmd/image/upload/v1731151214/STA_2375a_j9ufiv.webp"
+					}
 					title={"Servis "}
 					subtitle={"sportovních vozů"}
 					content={"Váš sportovní vůz si zaslouží tu nejlepší péči. My mu jí poskytneme."}

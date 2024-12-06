@@ -1,4 +1,3 @@
-import racePrepImage from "@/images/autodilna/priprava-na-zavody.webp";
 import Testimonials from "@/components/Testimonials";
 import { Metadata } from "next";
 import { HeroSection } from "@/components/HeroSection";

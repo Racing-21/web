@@ -1,4 +1,3 @@
-import racePrepImage from "@/images/autodilna/priprava-na-zavody.webp";
 import Testimonials from "@/components/Testimonials";
 import { Metadata } from "next";
 import { HeroSection } from "@/components/HeroSection";
@@ -19,7 +18,13 @@ export default function Page() {
 	console.log(process.env.GOOGLE_MAPS_API_KEY);
 	return (
 		<>
-			<HeroSection image={racePrepImage} title={"Racing 21"} subtitle={"Kontakt"} />
+			<HeroSection
+				image={
+					"https://res.cloudinary.com/dkhdp7qmd/image/upload/v1732466629/Rally_Pac%CC%8Cejov_23-0514_uw4mpe.webp"
+				}
+				title={"Racing 21"}
+				subtitle={"Kontakt"}
+			/>
 			<PageLayout>
 				<div className="w-full px-6 py-3 mt-6 flex-col">
 					<ContactSection />

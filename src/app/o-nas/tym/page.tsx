@@ -1,4 +1,3 @@
-import headerImage from "@/images/team/header.webp";
 import { PageLayout } from "@/components/layout/PageLayout";
 import { HeroSection } from "@/components/HeroSection";
 import { TeamMemberProfile } from "@/app/o-nas/tym/components/TeamMemberProfile";

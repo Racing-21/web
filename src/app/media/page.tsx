@@ -1,4 +1,3 @@
-import racePrepImage from "@/images/autodilna/priprava-na-zavody.webp";
 import Testimonials from "@/components/Testimonials";
 import { Metadata } from "next";
 import { HeroSection } from "@/components/HeroSection";
@@ -19,7 +18,13 @@ export default function Page() {
 		<>
 			<div>
 				{/* Hero card */}
-				<HeroSection image={racePrepImage} title={"Racing 21"} content={"Media servis"} />
+				<HeroSection
+					image={
+						"https://res.cloudinary.com/dkhdp7qmd/image/upload/v1732466597/Rally_Vys%CC%8Ckov_23-2_tnkcna.webp"
+					}
+					title={"Racing 21"}
+					content={"Media servis"}
+				/>
 			</div>
 			<PageLayout>
 				<div className="w-full px-6 py-3 mt-6 flex-col">

@@ -1,4 +1,3 @@
-import racePrepImage from "@/images/autodilna/priprava-na-zavody.webp";
 import Testimonials from "@/components/Testimonials";
 import { Metadata } from "next";
 import { HeroSection } from "@/components/HeroSection";
@@ -21,7 +20,9 @@ export default function Page() {
 			<div>
 				{/* Hero card */}
 				<HeroSection
-					image={racePrepImage}
+					image={
+						"https://res.cloudinary.com/dkhdp7qmd/image/upload/v1729865372/05_tqrjra.webp"
+					}
 					title={"Renovace veteránů"}
 					content={"Pomůžeme vám dostat vašeho veterána do původního stavu"}
 				/>

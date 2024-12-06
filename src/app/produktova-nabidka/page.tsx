@@ -1,4 +1,3 @@
-import racePrepImage from "@/images/autodilna/priprava-na-zavody.webp";
 import Testimonials from "@/components/Testimonials";
 import { Metadata } from "next";
 import { HeroSection } from "@/components/HeroSection";
@@ -83,7 +82,9 @@ export default function Page() {
 			<div>
 				{/* Hero card */}
 				<HeroSection
-					image={racePrepImage}
+					image={
+						"https://res.cloudinary.com/dkhdp7qmd/image/upload/v1732466721/Rally_Bohemia_23-4359_dl4xtr.webp"
+					}
 					title={"Racing 21"}
 					content={"Produktová nabídka"}
 				/>

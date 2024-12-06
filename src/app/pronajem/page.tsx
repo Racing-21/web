@@ -1,4 +1,3 @@
-import racePrepImage from "@/images/autodilna/priprava-na-zavody.webp";
 import Testimonials from "@/components/Testimonials";
 import { Metadata } from "next";
 import { HeroSection } from "@/components/HeroSection";
@@ -22,7 +21,12 @@ export default function Page() {
 		<>
 			<div>
 				{/* Hero card */}
-				<HeroSection image={racePrepImage} title={"Pronájem prostorů a techniky"} />
+				<HeroSection
+					image={
+						"https://res.cloudinary.com/dkhdp7qmd/image/upload/v1731151103/DSC09462_mnp6dy.webp"
+					}
+					title={"Pronájem prostorů a techniky"}
+				/>
 			</div>
 			<PageLayout>
 				<div className="w-full flex flex-col">

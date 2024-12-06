@@ -1,14 +1,6 @@
 "use client";
-import { TinaMarkdown } from "tinacms/dist/rich-text";
-import { useState } from "react";
 import Image from "next/image";
-import { Description, Dialog, DialogBackdrop, DialogPanel, DialogTitle } from "@headlessui/react";
-import {
-	Maybe,
-	TeamMembersTeamMember,
-	TeamMembersTeamMemberRacingTeamAchievements,
-} from "../../../../../tina/__generated__/types";
-import { TrophyIcon } from "@heroicons/react/20/solid";
+import { TeamMembersTeamMember } from "../../../../../tina/__generated__/types";
 
 enum teamRoles {
 	acceptanceMechanic = "Přijímací technik",
