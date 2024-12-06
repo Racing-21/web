@@ -79,7 +79,7 @@ export const NAVIGATION = [
 			{
 				name: "Rally vozy k pronájmu",
 				description: "Nabízíme pronájem závodní techniky a vozů",
-				href: "/pronajem/pronajem-techniky-a-vozu",
+				href: "/pronajem/pronajem-zavodnich-specialu",
 				icon: ChartPieIcon,
 			},
 			{

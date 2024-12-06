@@ -46,6 +46,22 @@ export const TeamMemberCollection: Collection = {
 						},
 						{
 							type: "string",
+							name: "sex",
+							label: "Pohlaví",
+							list: true,
+							options: [
+								{
+									value: "Female",
+									label: "F",
+								},
+								{
+									value: "Male",
+									label: "M",
+								},
+							],
+						},
+						{
+							type: "string",
 							name: "role",
 							label: "Role",
 							list: true,
@@ -167,6 +183,22 @@ export const TeamMemberCollection: Collection = {
 								{
 									value: "scout",
 									label: "Průzkum trati",
+								},
+							],
+						},
+						{
+							type: "string",
+							name: "sex",
+							label: "Pohlaví",
+							list: true,
+							options: [
+								{
+									value: "Female",
+									label: "F",
+								},
+								{
+									value: "Male",
+									label: "M",
 								},
 							],
 						},

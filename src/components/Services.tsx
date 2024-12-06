@@ -45,7 +45,7 @@ const services = [
 	},
 	{
 		title: "Pronájem techniky a vozů na závody",
-		href: "/pronajem/pronajem-techniky-a-vozu",
+		href: "/pronajem/pronajem-zavodnich-specialu",
 		description: "Nabízíme pronájem mobilního zázemí servisu a závodní techniky",
 		icon: ReceiptRefundIcon,
 		iconForeground: "text-red-600",

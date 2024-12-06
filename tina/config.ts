@@ -5,6 +5,7 @@ import { VehicleCollection } from "./collections/Vehicle";
 import { rentalItemFields, VenueCollection } from "./collections/Prostor";
 import { ServiceCollection } from "./collections/Service";
 import { PartnersCollection } from "./collections/Partners";
+import { HeaderImagesCollection } from "./collections/HeaderImagesCollection";
 
 // Your hosting provider likely exposes this as an environment variable
 const branch =
@@ -36,6 +37,7 @@ export default defineConfig({
 			TeamMemberCollection,
 			VehicleCollection,
 			VenueCollection,
+			// HeaderImagesCollection,
 			{
 				name: "pronajemTechniky",
 				label: "Pronájem techniky",

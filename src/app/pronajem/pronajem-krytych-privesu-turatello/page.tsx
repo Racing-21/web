@@ -12,7 +12,7 @@ export default async function Page() {
 		<>
 			<div>
 				{/* Hero card */}
-				<HeroSection image={headerImage} title={"Prémiové přívěsy Turatello"} />
+				<HeroSection image={headerImage} title={"Přívěsy k pronájmu"} />
 			</div>
 			<PageLayout>
 				<div className="bg-grayPrimary rounded-lg">

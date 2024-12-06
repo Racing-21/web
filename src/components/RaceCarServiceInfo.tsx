@@ -118,7 +118,7 @@ export default function RaceCarServiceInfo() {
 																	"text-red-600 font-bold text-l mb-0"
 																}
 															>
-																částečný servis
+																částečné zajištění vozu a zázemí
 															</p>
 															<p
 																className={

@@ -30,7 +30,9 @@ export default function Page() {
 						<p className="text-center">
 							Nabízíme pronájem výjmečných konferenčních prostor na Praze Západ a také
 							pronájem techniky potřebné k přípavě na závod nebo převos automobilu
-							kdekoliv po Evropě.
+							kdekoliv po Evropě. Zároveň nabízíme i naši závodní techniku pro vaši
+							jízdu. Usedněte za volat třeba historického Opela Kadett či jiných
+							soutěžních vozů.
 						</p>
 					</section>
 				</div>
@@ -70,7 +72,7 @@ export default function Page() {
 							<RentalCategoryCard
 								category={{
 									name: "Pronájem servisního zázemí",
-									image: "https://res.cloudinary.com/dkhdp7qmd/image/upload/v1729865376/08_ebvm4p.webp",
+									image: "https://res.cloudinary.com/dkhdp7qmd/image/upload/v1732466721/Rally_Bohemia_23-4359_dl4xtr.webp",
 									shortDescription:
 										"Stany, cateringové vybavení, zkrátka vše pro servis během závodů či testování",
 								}}

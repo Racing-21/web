@@ -39,18 +39,6 @@ export default function OldtimersRenovationsInfo() {
 									/>
 									<use x={86} href="#0ef284b8-28c2-426e-9442-8655d393522e" />
 								</svg>
-								{/*<blockquote className="mt-6 text-xl font-semibold leading-8 text-white">*/}
-								{/*	<p>*/}
-								{/*		“Vojta se svým týmem připravili naše auto úplně perfektně. V*/}
-								{/*		podstatě stačilo přijít, nastartovat a mohlo se závodit.”*/}
-								{/*	</p>*/}
-								{/*</blockquote>*/}
-								{/*<figcaption className="mt-6 text-sm leading-6 text-gray-300">*/}
-								{/*	<strong className="font-semibold text-white">*/}
-								{/*		Radek Brzda*/}
-								{/*	</strong>{" "}*/}
-								{/*	Racing Team XY*/}
-								{/*</figcaption>*/}
 							</figure>
 						</div>
 					</div>
@@ -73,7 +61,8 @@ export default function OldtimersRenovationsInfo() {
 									původní originality. V této oblasti spolupracujeme s prověřenými
 									externími dodavateli z odpovídajících oborů, jako je
 									čalounictví, elektroinstalace a další. Jinými slovy vracíme
-									vašim veteránům život!
+									vašim veteránům život! Pro více informací a konkrétní případ nás
+									neváhejte kontaktovat.
 								</p>
 							</div>
 						</div>

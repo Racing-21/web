@@ -26,6 +26,15 @@ const features = [
 		title: "Kompletní čištění vozů",
 		subtitle: "Čištění vozu, ošetření laku, renovace podvozku a motoru.",
 	},
+	{
+		title: "Pneuservis",
+		subtitle:
+			"Zujeme, obujeme nové, vyvážíme a odjedete popř. i opravíme, umyjeme, uskladníme.",
+	},
+	{
+		title: "Úprava softwarů řídících jednotek pro zvýšení výkonu",
+		subtitle: "Optimalizace výkonu úpravou SW řídící jednotky vozů všech značek..",
+	},
 ];
 
 export default function SportsCarServiceInfo() {

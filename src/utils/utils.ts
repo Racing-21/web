@@ -9,3 +9,15 @@ export function parseVehicleImages(images: MaybeString | (string | null)[]) {
 		return [];
 	}
 }
+
+export const normalizeNameForUrlSlug = (name: string | undefined) => {
+	if (!name) {
+		return "";
+	}
+	return name
+		.normalize("NFD")
+		.replace(/[\u0300-\u036f]/g, "")
+		.split(" ")
+		.join("-")
+		.toLowerCase();
+};

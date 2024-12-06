@@ -27,7 +27,7 @@ const features = [
 	{
 		name: "Hostesky",
 		description:
-			"Abyste se mohli plně věnovat svým hostuům. Nabízíme možnost zajištění hostesek, které zajistí obsluhu v rámci vaší akce.",
+			"Abyste se mohli plně věnovat svým hostům. Nabízíme možnost zajištění hostesek, které zajistí obsluhu v rámci vaší akce.",
 		icon: UserIcon,
 	},
 	{

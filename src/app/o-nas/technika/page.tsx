@@ -4,6 +4,7 @@ import { ServiceNavigationCard } from "@/components/ServiceNavigationCard";
 import { PageLayout } from "@/components/layout/PageLayout";
 import client from "../../../../tina/__generated__/client";
 import { parseVehicleImages } from "@/utils/utils";
+import { HeroSection } from "@/components/HeroSection";
 
 export default async function Page() {
 	const { data } = await client.queries.technika({ relativePath: "Technika.md" });
@@ -19,28 +20,13 @@ export default async function Page() {
 	return (
 		<>
 			<div>
-				{/* Hero card */}
-				<div className="relative  pb-10">
-					<div className="absolute inset-x-0 bottom-0 h-2/3 bg-grayPrimary" />
-					<div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
-						<div className="relative shadow-xl sm:overflow-hidden sm:rounded-2xl">
-							<div className="absolute inset-0 ">
-								<Image
-									alt="Fotografie týmu Racing 21"
-									src={headerImage}
-									className="h-full w-full object-cover"
-								/>
-								<div className="absolute inset-0 bg-grayPrimary opacity-50 mix-blend-multiply" />
-							</div>
-							<div className="relative px-6 py-16 sm:py-24 lg:px-8 lg:py-32 h-[500px]">
-								<h1 className="text-center text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
-									<span className="block text-white">Racing21</span>
-									<span className="block text-red-600">S čím závodíme</span>
-								</h1>
-							</div>
-						</div>
-					</div>
-				</div>
+				<HeroSection
+					image={
+						"https://res.cloudinary.com/dkhdp7qmd/image/upload/v1729847047/cadet_2_imrd6s.webp"
+					}
+					title={"Racing 21"}
+					subtitle={"S čím závodíme"}
+				/>
 			</div>
 			<PageLayout>
 				<div className="w-full flex flex-col">

@@ -22,7 +22,9 @@ export default function Page() {
 			<div>
 				{/* Hero card */}
 				<HeroSection
-					image={racePrepImage}
+					image={
+						"https://res.cloudinary.com/dkhdp7qmd/image/upload/v1732466603/Rally_Bohemia_23-4402_g3z8un.webp"
+					}
 					title={"Racing 21"}
 					content={"Detailní informace o našem týmu"}
 				/>

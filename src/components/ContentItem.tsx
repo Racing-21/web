@@ -53,7 +53,7 @@ export const ContentItem = ({
 								<p className="mt-2 text-3xl font-bold tracking-tight text-gray-100 sm:text-4xl">
 									{item.headline}
 								</p>
-								<p className="mt-6 text-lg leading-7 text-gray-100">
+								<p className="mt-6 text-md leading-7 text-gray-100">
 									{item.description}
 								</p>
 								<dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-100 lg:max-w-none">
