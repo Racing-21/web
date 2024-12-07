@@ -2,18 +2,6 @@
 command = "npm run build"
 publish = ".next"
 
-[[redirects]]
-# Redirect requests to custom Express routes
-from = '/custom-api/*'
-to = '/.netlify/functions/api/:splat'
-status = 200
-
-[[redirects]]
-# Redirect all other API routes (e.g., /api/*) to Next.js
-from = '/api/*'
-to = '/api/:splat'
-status = 200
-
 [functions]
 # Specify bundler and external dependencies
 node_bundler = 'esbuild'
