@@ -34,7 +34,7 @@ router.delete("/cloudinary/media/:media", (req, res) => {
 	return mediaHandler(req, res);
 });
 
-app.use("/api/", router);
-app.use("/.netlify/functions/api/", router);
+app.use("/custom-api/", router); // Change base path
+app.use("/.netlify/functions/api/", router); // Keep for serverless function routing
 
 export const handler = ServerlessHttp(app);
