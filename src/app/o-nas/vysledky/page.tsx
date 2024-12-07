@@ -1,6 +1,7 @@
 import headerImage from "@/images/team/header.webp";
 import { PageLayout } from "@/components/layout/PageLayout";
 import { HeroSection } from "@/components/HeroSection";
+import { ChampionshipList } from "@/app/o-nas/vysledky/components/ChampionshipList";
 
 export default function Page() {
 	return (
@@ -17,6 +18,8 @@ export default function Page() {
 				<div className="w-full">
 					<h2 className={"text-2xl capitalize font-bold mb-2"}>Výsledky</h2>
 				</div>
+				<ChampionshipList />
+				{/*<ResultSection />*/}
 			</PageLayout>
 		</>
 	);

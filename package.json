@@ -18,6 +18,7 @@
     "express": "^4.21.1",
     "flowbite": "^2.5.2",
     "flowbite-react": "^0.10.2",
+    "googleapis": "^144.0.0",
     "mongodb": "^6.9.0",
     "mongodb-level": "^0.0.4",
     "next": "^14.2.18",
