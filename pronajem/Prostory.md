@@ -36,10 +36,8 @@ prostory:
       - price: 1000
         unit: hour
     image: >-
-      https://res.cloudinary.com/dkhdp7qmd/image/upload/v1729865364/04_yftun9.webp
+      https://res.cloudinary.com/dkhdp7qmd/image/upload/v1729865372/05_tqrjra.webp
     gallery:
-      - >-
-        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1729865382/01_bhqag1.webp
       - >-
         https://res.cloudinary.com/dkhdp7qmd/image/upload/v1729865364/04_yftun9.webp
       - >-
