@@ -16,14 +16,14 @@ sluzby:
   - title: Servis sportovních vozů
     headline: Mechanické práce na sportovních vozech
     link: sluzby/servis-sportovnich-vozu
-    description: >
+    description: >-
       Máme rádi a umíme všechny značky, nicméně nejčastěji u nás uvidíte vozy
       Subaru, Toyota, Porsche, Audi, Ford, Opel, Land Rover a BMW. Nabízíme
-      především mechanické práce na vozech, včetně repasí motorů a převodovek,
-      úprav podvozků a brzdových systémů. Jako oficiální premium dealer
-      společnosti BSR se dlouhodobě zabýváme optimalizací software a zvyšováním
-      výkonových parametrů pohonných jednotek, a to jak pro osobní vozy, tak i
-      obytné vozy většiny značek. Realizujeme úpravy, které si u BSR vyberete.
+      především mechanické práce včetně repasí motorů a převodovek, úprav
+      podvozků a brzdových systémů. Jako oficiální Premium Dealer společnosti
+      BSR se dlouhodobě zabýváme také optimalizací softwaru a zvyšováním
+      výkonových parametrů pohonných jednotek, a to jak u osobních, tak i u
+      obytných vozů většiny značek. Realizujeme úpravy, které si u BSR vyberete.
     image: /uploads/STA_2375a.jpg
   - title: Historické vozy a youngtimery
     headline: Renovace youngtimerů a veteránů
