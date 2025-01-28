@@ -7,7 +7,7 @@ prostory:
       bar a komplet audioviuální vybavení. Vybavení:
 
 
-      * Rychlé wi-fi připojení
+      * Rychlé wi-fi připojeníAAA
 
       * Možnost cateringu
 
