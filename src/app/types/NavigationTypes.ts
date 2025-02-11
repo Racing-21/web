@@ -25,7 +25,7 @@ export const NAVIGATION = [
 			},
 			{
 				name: "Výsledky",
-				description: "Tuzemmské a zahraniční úspěchy týmu Racing 21",
+				description: "Tuzemské a zahraniční úspěchy týmu Racing 21",
 				href: "/o-nas/vysledky",
 				icon: FingerPrintIcon,
 			},
