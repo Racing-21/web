@@ -83,3 +83,17 @@ body {
   color: #ffffff;
 }
 
+.teamMember-bio {
+  ul {
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+  }
+
+  li {
+    list-style: square;
+  }
+  div {
+    margin-top: 1rem;
+  }
+}
+

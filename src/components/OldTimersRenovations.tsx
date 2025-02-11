@@ -53,16 +53,15 @@ export default function OldtimersRenovationsInfo() {
 							<div className="max-w-xl mt-4">
 								<p className="text-base text-gray-300 mb-4 ">
 									Snažíme se uchovat automobilovou historii a vrátit lesk
-									unikátním vozům, které potěšily minulé generace jejich majitelů.
-									Neděláme rozdíl mezi limuzínou, kabrioletem či sportovním vozem.
-									Cenné vozy našich klientů kompletně rozebereme dle potřeby a
-									přání klienta a jednotlivé části poté prochází pod našima rukama
-									kompletní renovací a repasí s cílem zachovat prvky jejich
-									původní originality. V této oblasti spolupracujeme s prověřenými
-									externími dodavateli z odpovídajících oborů, jako je
-									čalounictví, elektroinstalace a další. Jinými slovy vracíme
-									vašim veteránům život! Pro více informací a konkrétní případ nás
-									neváhejte kontaktovat.
+									unikátním vozům, které těšily předchozí generace jejich
+									majitelů. Neděláme rozdíl mezi limuzínou, kabrioletem či
+									sportovním vozem. Cenné vozy našich klientů vždy s ohledem na
+									jejich přání a potřeby rozebereme a jednotlivé části poté
+									procházejí pod našima rukama kompletní renovací a repasí s cílem
+									zachovat prvky jejich původní originality. V této oblasti také
+									spolupracujeme s prověřenými externími dodavateli z
+									odpovídajících oborů, jako je čalounictví, elektroinstalace a
+									další, a společně s nimi vracíme vašim veteránům život.
 								</p>
 							</div>
 						</div>

@@ -57,23 +57,23 @@ export default function OldtimersInvestmentInfo() {
 					<div>
 						<div className="text-base leading-7 text-gray-700 lg:max-w-lg">
 							<p className="text-base font-semibold leading-7 text-red-600">
-								Nákup veteránů
+								Poradenství v oblasti nákupu vozidel
 							</p>
 							<h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-200 sm:text-4xl">
-								Nákup a poradenství v oblasti investičních vozů
+								Poradenství při nákupu veteránů a youngtimerů
 							</h1>
 							<div className="max-w-xl mt-4">
 								<p className="text-base text-gray-300 mb-4 ">
-									Dlouholeté bohaté zkušenosti s nákupem investičních vozů nám
-									umožňují sdílet naše know- how s vážnými zájemci, pro které je
-									vložení finančních prostředků do nákupu automobilů cestou
-									k budoucímu ekonomickému profitu. I v této oblasti poskytujeme
-									komplexní služby, tedy od poradenství, přes vyhledání vhodného
-									vozu ve spolupráci s lokálními partnery z mnoha evropských zemí
-									až k jeho dovezení k budoucímu majiteli, to vše s vyřízením
-									povinných administrativních formalit. Prověření původu i
-									detailního stavu vozidla spolu s odborným odhadem ceny potřebné
-									renovace je pro nás samozřejmostí!
+									Dlouholeté bohaté zkušenosti s nákupem investičních a
+									sportovních vozů nám umožňují sdílet naše know-how s vážnými
+									zájemci, pro které je vložení finančních prostředků do nákupu
+									automobilů cestou k budoucímu ekonomickému profitu. I v této
+									oblasti poskytujeme komplexní služby od poradenství přes
+									vyhledání vhodného vozu ve spolupráci s lokálními partnery z
+									mnoha evropských zemí, až po jeho dovoz k budoucímu majiteli, to
+									vše s vyřízením povinných administrativních formalit. Prověření
+									původu i detailního stavu vozidla spolu s odborným odhadem ceny
+									případné renovace jsou pro nás samozřejmostí!
 								</p>
 							</div>
 						</div>

@@ -11,9 +11,8 @@ export const ServiceCollection: Collection = {
 			type: "object",
 			list: true,
 			ui: {
-				itemProps: (item) => {
-					// Field values are accessed by item?.<Field name>
-					return { label: item?.name };
+				itemProps: (item: { title: string }) => {
+					return { label: `${item.title}` };
 				},
 			},
 			fields: [

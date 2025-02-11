@@ -25,7 +25,7 @@ export default function Page() {
 						"https://res.cloudinary.com/dkhdp7qmd/image/upload/v1732466603/Rally_Bohemia_23-4402_g3z8un.webp"
 					}
 					title={"Racing 21"}
-					content={"Detailní informace o našem týmu"}
+					content={"Kdo jsme, s kým spolupracujeme, čím jezdíme a jak si vedeme"}
 				/>
 			</div>
 			<PageLayout>
@@ -45,7 +45,7 @@ export default function Page() {
 							category={{
 								name: "Technika",
 								image: "https://res.cloudinary.com/dkhdp7qmd/image/upload/v1729847879/toyota_12_tso8wo.webp",
-								shortDescription: "Popis jednotlivých vozů, se kterými závodíme",
+								shortDescription: "Vozy, s kterými závodíme",
 							}}
 						/>
 					</Link>
@@ -64,8 +64,7 @@ export default function Page() {
 							category={{
 								name: "Partneři",
 								image: "https://res.cloudinary.com/dkhdp7qmd/image/upload/v1732466679/Rally_Morava_23-6309_eft5bs.webp",
-								shortDescription:
-									"Informace o našich partnerech, díky kterým můžeme závodit",
+								shortDescription: "Partneři, kteří nás podporují",
 							}}
 						/>
 					</Link>

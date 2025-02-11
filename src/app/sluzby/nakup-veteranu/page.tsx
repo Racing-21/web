@@ -5,10 +5,10 @@ import { PageLayout } from "@/components/layout/PageLayout";
 import OldtimersInvestmentInfo from "@/components/OldtimersInvestment";
 
 export const metadata: Metadata = {
-	title: "Racing 21 - Nákup veteránů a youngtimerů",
+	title: "Racing 21 - Poradenství v oblasti nákupu vozidel",
 	openGraph: {
 		type: "website",
-		title: "Racing 21 - Nákup veteránů a youngtimerů",
+		title: "Racing 21 - Poradenství v oblasti nákupu vozidel",
 		description:
 			"Nabízíme poradenství a zprostředkování nákupu veteránů a youngtimerů nejen v České republice.",
 	},

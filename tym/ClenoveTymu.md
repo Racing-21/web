@@ -166,49 +166,46 @@ teamMember:
         ranking: 2
         category: A7
     about: >
-      Absolvent magisterského studia masové komunikace a mezinárodních studií
-      FSV UK. V letech 2001-2002 zástupce továrního týmu Škoda motorsport v
-      Mistrovství světa v rallye pro tisk, sportovní a motoristický novinář.
-
-      K rallye se poprvé dostal ve 12 letech jako divák na Rallye Sigma Olomouc
-      1986. Tam se seznámil se závodníkem Janem Klokočkou. Již tehdy Vojtovi
-      automobilové soutěže učarovaly natolik, že se toužil stát soutěžním
-      jezdcem. To se mu podařilo poprvé v roce 1995, když se stal spolujezdcem
-      Jana Trajbolda ml. V roce 1999 pak poprvé usedl za volant závodního vozu.
-      S vozem Opel Astra GSi hned v prvním roce vybojoval titul vicemistra ve
-      třídě N do 2 litrů, aby hned v roce následujícím získal mistrovský titul.
-      To byl také impuls přestoupit do nejvyšší kategorie produkčních vozů s
-      pohonem všech kol a přeplňovaným motorem, nejprve v soukromých týmech, a
-      poté od roku 2005 jedenáct sezón jako značkový jezdec českého importéra
-      Subaru. V roce 2015 založil s podnikatelem a matematikem Karlem Janečkem
-      závodní tým Racing 21. Výhradně s vozem ŠKODA Fabia R5 soutěžil do roku
-      2018. V roce 2019 startoval s Veronikou Havelkovou v MČR na novém voze
-      Polo GTI R5 a jako reprezentant Autoklubu ČR také v seriálu FIA European
-      Rally Championship. V sezóně 2021 se zúčastnil kromě soutěží Rallyprint
-      série také vybraných podniků seriálu FIA European Historic Rally
-      Championship a společně s navigátorem Vladimírem Zelinkou získali s vozem
-      OPEL Kadett C GT/E titul mistrů Evropy ve skupině 2. V sezóně 2023 celkově
-      zvítězil v Poháru 2+ po boku Františka Rajnohy s vozem ŠKODA Fabia R5.
+      *	absolvent magisterského studia masové komunikace a mezinárodních studií FSV UK
+      
+      *	sportovní a motoristický novinář
+      
+      *	v letech 2001-2002 zástupce továrního týmu Škoda motorsport v Mistrovství světa v rallye pro tisk.
+      
+      
+      K rallye se poprvé dostal ve 12 letech jako divák na Rallye Sigma Olomouc 1986, 
+      kde se seznámil se závodníkem Janem Klokočkou a kde mu už tehdy automobilové soutěže učarovaly natolik,
+      že se toužil stát soutěžním jezdcem. To se mu podařilo poprvé v roce 1995, kdy začal jezdit jako spolujezdec Jana Trajbolda ml.
+       
+      V roce 1999 pak Vojta poprvé usedl za volant závodního vozu a hned v prvním roce
+      vybojoval s vozem Opel Astra GSi titul vicemistra ve třídě N do 2 litrů. 
+      O rok později už získal titul rovnou mistrovský, 
+      což pro něj byl impuls přestoupit do nejvyšší kategorie produkčních vozů s pohonem všech kol a přeplňovaným motorem. 
+      Nejprve působil v soukromých týmech, od roku 2005 se na jedenáct sezón stal značkovým jezdcem českého importéra Subaru. 
+      V roce 2015 spolu s podnikatelem a matematikem Karlem Janečkem založil závodní tým Racing 21.
+      
+      Do roku 2018 závodil výhradně s vozem ŠKODA Fabia R5, 
+      v roce 2019 startoval s Veronikou Havelkovou v MČR na novém voze Polo GTI R5 a jako reprezentant Autoklubu ČR také v seriálu FIA European Rally Championship. 
+      V sezóně 2021 se kromě soutěží Rallysprint zúčastnil i série vybraných podniků seriálu FIA European Historic Rally Championship a 
+      společně s navigátorem Vladimírem Zelinkou získali s vozem OPEL Kadett C GT/E titul mistrů Evropy ve skupině 2. 
+      Po boku Františka Rajnohy v sezóně 2023 celkově zvítězil v Poháru 2+ s vozem ŠKODA Fabia R5.
     image: /uploads/vojtechStajf.webp
     _template: racingTeam
   - name: Karel Janeček
     sex:
       - M
     role:
-      - driver
+      - navigator
     about: >
-      Matematik, ekonom, sociální inovátor a spolumajitel závodního týmu
-      Racing21. Matematika ho provází celým životem a díky ní uspěl v minulosti
-      také v byznysu. Peníze jsou pro něj energii, která má pomáhat tam, kde to
-      má smysl. Proto také podporuje vědu, vzdělávání, umění, instituce i nadané
-      jednotlivce a většinu svého času věnuje právě projektům, které mohou
-      zlepšit atmosféru ve společnosti a její fungování. Dlouhodobě pomáhá naší
-      společnosti, jak osobně, tak v rámci šesti nadací, které založil. Primárně
-      se nyní zaměřuje na volební systém D21, ochranu svobody slova, práci s
-      vědci v nadaci Science 21 a propagaci revoluční edukativní hry Mathesso.
-      Příležitostně se také účastní automobilových soutěží v roli navigátora
-      jezdce Vojtěcha Štajfa, se kterým soutěžní tým Racing21 založil v roce
-      2015.
+      *	matematik, ekonom, sociální inovátor
+      
+      *	spolumajitel závodního týmu Racing21
+
+
+      Matematika ho provází celým životem a v minulosti díky ní uspěl také v byznysu. Peníze jsou pro něj energii, která má pomáhat tam, kde to má smysl. I proto dlouhodobě osobně i v rámci šesti nadací, které založil, podporuje vědu, vzdělávání, umění, instituce i nadané jednotlivce a většinu svého času věnuje právě projektům, které mohou zlepšit atmosféru ve společnosti a její fungování.
+  
+      V současnosti se primárně zaměřuje na volební systém D21, ochranu svobody slova a na propagaci revoluční edukativní hry Mathesso. Příležitostně se také účastní automobilových soutěží v roli navigátora jezdce Vojtěcha Štajfa, se kterým soutěžní tým Racing21 založil v roce 2015.
+
     image: /uploads/karelJanecek.webp
     _template: racingTeam
   - name: Veronika Havelková
@@ -227,20 +224,21 @@ teamMember:
         year: 2018
         ranking: 1
     about: >
-      Již dlouholetá navigátorka, hlavní profesí zdravotnický záchranář ve
-      Středočeském kraji.
-      K rally se poprvé dostala v roce 2013 ve voze Škoda Fabia R2 s Martinem Vopatřilem, kdy na Global Oil Rally Lubenik 
-      skončili na krásném 2.místě ve třídě 2. Poté následovalo množství startů po boku několika zkušených jezdců 
-      (např. Emila Trinera, Romana Švece a dalších). V roce 2015 si navigátorského talentu Veroniky všiml 
-      Pavel Valoušek jr. a dal ji šanci závodit na špičce startovního pole v automobilových soutěžích. 
-      Během tohoto působení měla příležitost usednout do špičkových soutěžních vozů,
-      jakými v té době byly Škoda Fabia S2000, Škoda Fabia R5, Ford Fiesta R5, ale i Ford Focus WRC 2006. 
-      Po skončení aktivní kariéry Valouška jr. ji následně oslovil Vojtěch Štajf a hned z první společné soutěže v rámci seriálu Middle East Rally Championship 2018 v Qataru
-      si společně odvezli zlaté poháry za celkové vítězství. 
-      Následně v roce 2019 tvořili s Vojtěchem Štajfem úspěšnou posádku ve voze specifikace R5. 
-      Od sezóny 2023 si společně užívají závodění v historickém voze Toyota Celica GT-Four ST165 poté, 
-      co se Veronika po mateřské dovolené rozhodla opět vrátit do závodního prostředí. B
-      ěhem svého aktivního působení v rally navíc pořádala společně s MUDr. Milanem Procházkou před soutěžemi edukativní školení První pomoc pro jezdce a spolujezdce a snažila se tak zvýšit bezpečnost posádek během rally soutěží při nehodách na trati.
+      *	zkušená dlouholetá navigátorka
+      
+      *	hlavní profesí je zdravotnický záchranář ve Středočeském kraji
+    
+      *	spoluorganizátorka edukativního školení První pomoc pro jezdce a spolujezdce
+      
+
+      K rally se poprvé dostala v roce 2013 ve voze Škoda Fabia R2 s Martinem Vopatřilem, kdy na Global Oil Rally Lubenik skončili na krásném 2.místě ve třídě 2. Následovalo mnoho startů po boku zkušených jezdců, mimo jiné Emila Trinera nebo Romana Švece. V roce 2015 si navigátorského talentu Veroniky všiml Pavel Valoušek jr. a dal jí šanci závodit v automobilových soutěžích na špičce startovního pole. Díky tomu měla příležitost usednout do špičkových soutěžních vozů, jakými v té době byly Škoda Fabia S2000, Škoda Fabia R5, Ford Fiesta R5, ale i Ford Focus WRC 2006.
+      
+      
+      Po skončení aktivní kariéry Valouška jr. Verču oslovil Vojtěch Štajf. Hned z první společné soutěže v rámci seriálu Middle East Rally Championship 2018 v Qataru si společně odvezli zlaté poháry za celkové vítězství a v roce 2019 už tvořili stálou a velmi úspěšnou posádku ve voze specifikace R5. Poté, co se Veronika po mateřské dovolené rozhodla znovu vrátit do závodního prostředí, užívají si společně s Vojtou od sezóny 2023 závodění v historickém voze Toyota Celica GT-Four ST165.
+  
+      
+      Během aktivního působení v rally zhodnotila i svou profesi zdravotnického záchranáře a ve snaze zvýšit bezpečnost závodních posádek na trati pořádala společně s MUDr. Milanem Procházkou před soutěžemi edukativní školení První pomoc pro jezdce a spolujezdce.
+
     image: /uploads/veronikaHavelkova.webp
     _template: racingTeam
   - name: František Rajnoha
@@ -276,16 +274,17 @@ teamMember:
         year: 2013
         category: 3
     about: >
-      S krátkými přestávkami se František Rajnoha věnuje rally více než dvacet let. 
-      Za tyto dvě dekády získal obrovské množství zkušeností v různých soutěžních vozech po boku známých soutěžních jezdců. 
-      O rally se zajímal již od svého dětství, kdy nevynechal vzhledem k bydlišti v rodném Zlíně jedinou Barum rally a tehdy také populární soutěž Valašská zima. 
-      Jeho cesta do sedačky navigátora vedla nejprve přes práci mechanika, 
-      ale v roce 1997 usedl poprvé do vozu Škoda Favorit 136 L v roli spolujezdce vedle Martina Kadlece.
-      Odstartoval tak svoji bohatou sportovní kariéru a na jeho navigaci se spoléhali i zkušení čeští a slovenští soutěžáci, například Pavel Valoušek jun., Roman Odložilík, Pavel Červenka, Tomáš Pletka, Josef Pátl, Tibor Cserhalmi, Petr Gavlák a další. 
-      Úspěchy se svými jezdci sbíral v nespočetném množství vozů, od těch produkčních až po speciály třídy R5 nebo WRC. 
-      Stál také u zrodu projektu Racing 21 Vojtěcha Štajfa a s tímto zkušeným jezdcem absolvoval několik sezón.
-      Po krátké odmlce se vrátil do sedadla spolujezdce v týmu Racing21.
-      V sezóně 2023 celkově zvítězil v Poháru 2+ po boku Vojtěcha Štajfa s vozem ŠKODA Fabia R5.
+      * zkušený dlouholetý navigátor
+
+      
+      S krátkými přestávkami se František Rajnoha věnuje rally více než dvacet let, během kterých získal obrovské množství zkušeností v různých soutěžních vozech po boku významných soutěžních jezdců.
+      
+      
+      O rally se zajímal již od svého dětství, kdy vzhledem k bydlišti v rodném Zlíně nevynechal jedinou Barum rally, ani tehdy populární soutěž Valašská zima. Jeho cesta do sedačky navigátora vedla přes práci mechanika, ze které v roce 1997 poprvé „přesedl“ do vozu Škoda Favorit 136 L v roli spolujezdce Martina Kadlece. Odstartoval tím svou, již dvě dekády trvající, bohatou sportovní kariéru, během které se na jeho navigaci spoléhala řada zkušených českých a slovenských soutěžních jezdců jako Pavel Valoušek jr., Roman Odložilík, Pavel Červenka, Tomáš Pletka, Josef Pátl, Tibor Cserhalmi, Petr Gavlák a mnoho dalších.
+
+
+      Úspěchy se svými jezdci sbíral v nespočetném množství vozů od těch produkčních, až po speciály třídy R5 nebo WRC. Stál také u zrodu projektu Racing 21 Vojtěcha Štajfa a s tímto zkušeným jezdcem absolvoval několik sezón. Do sedadla spolujezdce týmu Racing21 se po krátké odmlce vrátil a v sezóně 2023 s vozem ŠKODA Fabia R5 po Vojtově boku celkově zvítězil v Poháru 2+.
+
     image: https://res.cloudinary.com/dkhdp7qmd/image/upload/v1733495932/frantisekRajnoha_hys2id.jpg
     _template: racingTeam
 ---

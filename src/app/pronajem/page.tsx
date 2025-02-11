@@ -29,17 +29,6 @@ export default function Page() {
 				/>
 			</div>
 			<PageLayout>
-				<div className="w-full flex flex-col">
-					<section className="bg-grayPrimary py-10 sm:py-120 rounded-lg px-6">
-						<p className="text-center">
-							Nabízíme pronájem výjmečných konferenčních prostor na Praze Západ a také
-							pronájem techniky potřebné k přípavě na závod nebo převos automobilu
-							kdekoliv po Evropě. Zároveň nabízíme i naši závodní techniku pro vaši
-							jízdu. Usedněte za volat třeba historického Opela Kadett či jiných
-							soutěžních vozů.
-						</p>
-					</section>
-				</div>
 				<div className="w-full">
 					<h2 className={"text-2xl capitalize font-bold mb-2"}>Možnosti pronájmu </h2>
 
@@ -56,7 +45,7 @@ export default function Page() {
 						<Link href={"/pronajem/pronajem-krytych-privesu-turatello"}>
 							<RentalCategoryCard
 								category={{
-									name: "Pronájem prémiových přívěsů Turatello",
+									name: "Prémiové přívěsy Turatello",
 									image: "https://res.cloudinary.com/dkhdp7qmd/image/upload/v1729865376/IMG_3702_k79bmj.webp",
 									shortDescription:
 										"Převážejte svůj automobil bezpečně a spolehlivě",
@@ -66,19 +55,19 @@ export default function Page() {
 						<Link href={"/pronajem/pronajem-zavodnich-specialu"}>
 							<RentalCategoryCard
 								category={{
-									name: "Pronájem závodních speciálů",
+									name: "Závodní speciály",
 									image: "https://res.cloudinary.com/dkhdp7qmd/image/upload/v1729865376/cadet_1_kz9pjf.webp",
-									shortDescription: "Rozjeďte to s našimi rally vozy",
+									shortDescription: "Rozjeďte to s našimi rally vozy",
 								}}
 							/>
 						</Link>
 						<Link href={"/pronajem/pronajem-servisniho-zazemi"}>
 							<RentalCategoryCard
 								category={{
-									name: "Pronájem servisního zázemí",
+									name: "Servisní zázemí",
 									image: "https://res.cloudinary.com/dkhdp7qmd/image/upload/v1732466721/Rally_Bohemia_23-4359_dl4xtr.webp",
 									shortDescription:
-										"Stany, cateringové vybavení, zkrátka vše pro servis během závodů či testování",
+										"Stany, cateringové vybavení – zkrátka vše pro servis během závodů či testování",
 								}}
 							/>
 						</Link>

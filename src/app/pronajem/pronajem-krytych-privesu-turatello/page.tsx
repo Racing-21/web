@@ -20,18 +20,22 @@ export default async function Page() {
 						<div className="mx-auto max-w-2xl px-4 lg:max-w-none">
 							<div className="w-full">
 								<p className="mt-4 text-gray-100 text-center">
-									Již více než padesát let společnost Turatello navrhuje a staví
-									přívěsy a návěsy pro přepravu motokár, závodních vozidel i
-									unikátních automobilových modelů. Uzavřené přívěsy z vysoce
-									kvalitních komponentů jsou vyráběny na míru požadavkům našich
-									klientů v souladu s nejvyššími standardy kvality.
+									Chcete své vozidlo při převozu ochránit před nepříznivými
+									klimatickými jevy a zvědavými pohledy okolí? Kryté přepravníky
+									značky Turatello z italské Padovy, jejímž jsme pro český a
+									slovenský trh výhradním dovozcem, představují ideální způsob pro
+									transport nejen závodních aut a sportovních vozů a veteránů, ale
+									třeba i motorek, motokár nebo čtyřkolek. Na silnici jsou
+									perfektně stabilní, mají velmi nízký nájezdový úhel, umožňující
+									naložit také vozy s nízkou světlou výškou, i dostatečný úložný
+									prostor v podobě četných schránek.
 								</p>
 							</div>
 						</div>
 					</div>
 				</div>
 				<div className="w-full flex flex-col gap-4">
-					<h2 className={"text-2xl capitalize font-bold mb-2"}>Dostupné prostory</h2>
+					<h2 className={"text-2xl capitalize font-bold mb-2"}>K pronájmu nabízíme:</h2>
 
 					{data.pronajemPrivesu.privesy?.map(
 						(prives) =>

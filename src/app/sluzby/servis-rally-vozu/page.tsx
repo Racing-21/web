@@ -5,10 +5,10 @@ import { HeroSection } from "@/components/HeroSection";
 import RaceCarServiceInfo from "@/components/RaceCarServiceInfo";
 
 export const metadata: Metadata = {
-	title: "Racing 21 - Servis závodních aut",
+	title: "Racing 21 - Příprava a stavba závodních vozů",
 	openGraph: {
 		type: "website",
-		title: "Racing 21 - Servis závodních aut",
+		title: "Racing 21 - SPříprava a stavba závodních vozů",
 		description: "Nabízíme širokou nabídku služeb v oblasti servisu závodních aut",
 	},
 };

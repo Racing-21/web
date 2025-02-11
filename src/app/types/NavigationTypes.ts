@@ -25,14 +25,13 @@ export const NAVIGATION = [
 			},
 			{
 				name: "Výsledky",
-				description:
-					"Přehled úspěchů týmu Racing 21 v závodech v české republice i ve světě",
+				description: "Tuzemmské a zahraniční úspěchy týmu Racing 21",
 				href: "/o-nas/vysledky",
 				icon: FingerPrintIcon,
 			},
 			{
 				name: "Partneři",
-				description: "Přehled partnerů závodního týmu Racing 21",
+				description: "Partneři týmu Racing 21",
 				href: "/o-nas/partneri",
 				icon: ChartPieIcon,
 			},
@@ -43,30 +42,30 @@ export const NAVIGATION = [
 		topLink: "sluzby",
 		links: [
 			{
-				name: "Servis závodních aut",
+				name: "Příprava a stavba závodních vozů",
 				description:
-					"Náš tým zkušených techniků dostane váš vůz před závody to té nejlepší kondice.",
+					"Náš tým zkušených techniků dostane váš vůz před závody do té nejlepší kondice.",
 				href: "/sluzby/servis-rally-vozu",
 				icon: ChartPieIcon,
 			},
 			{
 				name: "Servis sportovních vozů",
 				description:
-					"Váš sportovní vůz si zaslouší tu nejlepší péči. Naši technici se zkušenostmi z mezinárodních závodů mu ji poskytnou",
+					"Váš vůz si zaslouží tu nejlepší péči. Naši technici se zkušenostmi z mezinárodních závodů mu ji poskytnou",
 				href: "/sluzby/servis-sportovnich-vozu",
 				icon: CursorArrowRaysIcon,
 			},
 			{
 				name: "Renovace veteránů a youngtimerů",
 				description:
-					"Pořídili jste si vysněného veterána, ale nemáte čas na renovaci? Máme mnohaleté zkušenosti se renovací vozidel značek z celého světa",
+					"Pořídili jste si vysněného veterána, ale nemáte čas na jeho renovaci? My si čas rádi uděláme a přidáme mnohaleté zkušenosti s renovací vozidel všech světových značek.",
 				href: "/sluzby/renovace-veteranu",
 				icon: FingerPrintIcon,
 			},
 			{
-				name: "Nákup veteránů a youngtimerů",
+				name: "Poradenství při nákupu vozidel",
 				description:
-					"Máte vysněného veterána, ale nechcete se při nákupo spálit? Náš nákupní tým vám pomůže vybrat vůz bez obav.",
+					"Máte vysněného veterána, ale nechcete se při jeho nákupu spálit? Rádi vám pomůžeme vybrat vůz bezpečně a bez obav",
 				href: "/sluzby/nakup-veteranu",
 				icon: FingerPrintIcon,
 			},
@@ -83,21 +82,22 @@ export const NAVIGATION = [
 				icon: ChartPieIcon,
 			},
 			{
-				name: "Pronájem konferenčních prostor",
-				description: "Máme k dispozici rozsáhlé prostory k pronájmu na Praze západ",
+				name: "Konferenční prostory",
+				description: "Disponujeme rozsáhlými prostory jen kousek od Prahy.",
 				href: "/pronajem/pronajem-konferencnich-prostor",
 				icon: BuildingOfficeIcon,
 			},
 			{
-				name: "Pronájem krytých přívěsů Turatello",
-				description: "Přívěsy pro převoz vozů i nákladu",
+				name: "Přívěsy Turatello k pronájmu",
+				description:
+					"S našimi krytými přívěsy přepravíte vozidla i jiný náklad bezpečně a komfortně.",
 				href: "/pronajem/pronajem-krytych-privesu-turatello",
 				icon: ChartPieIcon,
 			},
 			{
-				name: "Zázemí rallye servisu k pronájmu",
+				name: "Zázemí rallye servisu",
 				description:
-					"Stany, cateringové vybavení, zkrátka vše pro servis během závodů či testování",
+					"Poskytneme vám stany, cateringové vybavení, zkrátka vše pro servis během závodů či testování",
 				href: "/pronajem/pronajem-servisniho-zazemi",
 				icon: ChartPieIcon,
 			},

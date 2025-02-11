@@ -3,15 +3,20 @@ privesy:
   - name: Cube
     shortDescription: Uzavřený přívěs pro velký náklad
     longDescription: >
-        Nákladní jednoosý přívěs. Vhodný pro přepravu všech věcí od motorek přes motokáry, domácí
-        nábytek, dřevo, zavazadla a cokoli jiného, ​​co vás napadne. K dispozici ve dvou verzích s celkovou
-        hmotností 750 nebo 1 000 kg v závislosti na požadovaném zatížení. Navrženo a vyrobeno v italské
-        Padově z trubkové galvanizované, svařované a lakované oceli. Těleso skříně je vyrobeno ze
-        sklolaminátového sendvičového panelu s vnitřní izolací (typ camper), s eloxovanými hliníkovými
-        profily. 13 palcová kola, rezervní kolo a patka staničení řady. Podlaha je vyrobena z překližky
-        potažená fólií, s tyčovou nápravou s mechanikou AL-KO a torzní se systémem nájezdového brždění.
-        Model Cube může být nakonfigurován dle požadavků klienta.
-        K pronájmu aktuální model Cube XL.
+      * Nákladní jednoosý přívěs vhodný pro přepravu všeho, co vás napadne, od
+      motorek přes motokáry, domácí nábytek, dřevo nebo zavazadla. 
+
+      * K dispozici je ve dvou verzích s celkovou hmotností 750 nebo 1 000 kg v
+      závislosti na požadovaném zatížení. 
+
+      * Vyroben je z trubkové galvanizované, svařované a lakované oceli, těleso
+      skříně je vyrobeno ze sklolaminátového sendvičového panelu s vnitřní
+      izolací (typ camper), s eloxovanými hliníkovými profily. 
+
+      * Disponuje 13 palcovými koly, rezervním kolem a patkou staničení řady.
+      
+      * Podlaha je vyrobena z překližky potažená fólií, s tyčovou nápravou s
+      mechanikou AL-KO a torzní se systémem nájezdového brždění.
     price:
       - price: 2000
         unit: day
@@ -25,9 +30,11 @@ privesy:
   - name: F35 PLUS
     shortDescription: Naložíte do něj i SUV
     longDescription: >
-        Největší model přívěsu pro přepravu automobilů nebo jiných vozidel. Model F35 Plus vyniká svými
-        vnitřními rozměry, kdy do něj pohodlně naložíte i vůz kategorie SUV.
-        tady si text ještě doplním, ale ten původní smazat a dát tam ten pronájmový
+      *	Model Turatello F 35 představuje dokonalý přívěs pro motoristický sport a profesionální přepravu.
+      
+      *	Varianta PLUS vyniká dostatečně velkými vnitřními prostory, díky kterým do ní pohodlně naložíte i vůz kategorie SUV, a přitom vám zbude dost prostoru i na převoz pneumatik a další potřebné výbavy.
+      
+      *	Model, který si od nás můžete pronajmout, disponuje bohatou nadstandardní výbavou, mj. elektrickým navijákem nebo dorazovou tyčí předních kol pro snadnější a bezpečnější manipulaci s vaším vozidlem.
     price:
       - price: 3500
         unit: day
@@ -45,3 +52,4 @@ privesy:
       - >-
         https://res.cloudinary.com/dkhdp7qmd/image/upload/v1729865364/IMG_5471_neidk0.webp
 ---
+

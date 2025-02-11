@@ -12,7 +12,7 @@ export default function Page() {
 				<HeroSection
 					image={headerImage}
 					title={"Pronájem závodních speciálů"}
-					subtitle={"naše závodní speciály k vašim službám"}
+					subtitle={"Naše auta k vašim službám"}
 				/>
 			</div>
 			<PageLayout>
@@ -23,16 +23,16 @@ export default function Page() {
 					<div className="w-full flex flex-col">
 						<section className="bg-grayPrimary py-10 sm:py-120 rounded-lg px-6">
 							<p className="text-center">
-								Nabízíme k pronájmu naše rally vozidla. Pro další info nás
-								kontaktujte. Naše vozy k pronájmu, spolu s jejich specifikací, si
-								můžete prohlédnout v sekci{" "}
+								Naše vozy, které nabízíme k pronájmu, si spolu s jejich detailnější
+								specifikací můžete prohlédnout v sekci
 								<Link
 									href={"/o-nas/technika"}
 									className={"text-red-600 hover:text-gray-100"}
 								>
 									Naše technika
 								</Link>
-								. V případě zájmu nás neváhejte kontaktovat pomocí formuláře níže.
+								. V případě zájmu se na nás neváhejte obrátit prostřednictvím
+								formuláře níže.
 							</p>
 							<ContactForm />
 						</section>

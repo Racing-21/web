@@ -52,15 +52,7 @@ const Achievements = ({
 };
 
 const AboutText = ({ props }: { props: { children: JSX.Element } | undefined }) => {
-	return (
-		<p
-			style={{
-				fontSize: "0.8rem",
-			}}
-		>
-			{props?.children}
-		</p>
-	);
+	return <div>{props?.children}</div>;
 };
 
 export default async function Page({ params }: { params: { slug: string } }) {
@@ -110,7 +102,7 @@ export default async function Page({ params }: { params: { slug: string } }) {
 							/>
 						)}
 						<h3 className={"w-full text-center mt-4 text-2xl font-bold"}>{name}</h3>
-						<div className={"mt-2 p-2"}>
+						<div className={"mt-2 p-2 teamMember-bio"}>
 							<TinaMarkdown
 								content={about}
 								components={{

@@ -3,15 +3,16 @@ prostory:
   - name: Konferenční místnost
     shortDescription: Rozsáhlý prostor pro větší akce
     longDescription: >
-      Náš největší prostor, který pojme až 50 účastníků. K dispozici je stylový
-      bar a komplet audioviuální vybavení. Vybavení:
+      Náš největší prostor, který umožňuje variabilní uspořádání dle Vašich požadavků a který pojme až 50 účastníků.
+      K dispozici je stylový bar a kompletní audiovizuální vybavení:
 
+      * rychlé a stabilní wi-fi připojení
 
-      * Rychlé wi-fi připojení
+      * projektor, plátno
 
-      * Možnost cateringu
-
-      * Možnost přizpůsobení prostoru Vašim potřebám
+      * mikrofon, ozvučení
+      
+      Zajištění cateringu dle zadání klienta je pro nás samozřejmostí.
     price:
       - price: 18000
         unit: day
@@ -29,9 +30,8 @@ prostory:
   - name: Showroom
     shortDescription: Rozsáhlý prostor pro větší akce
     longDescription: >
-      produkt, který hostům představíte v konferenční místnosti na plátně,
-      můžete hned vzápětí prezentovat  ve stylovém prostředí našeho showroomu
-      také v reálu
+      Produkt, který hostům představíte v konferenční místnosti na plátně, 
+      můžete vzápětí prezentovat v reálu ve stylovém prostředí našeho showroomu.
     price:
       - price: 1000
         unit: hour
@@ -51,8 +51,8 @@ prostory:
   - name: Autodílna
     shortDescription: Rozsáhlý prostor pro větší akce
     longDescription: >
-      ideální prostor pro detailní prezentaci Vašeho produktu/modelu a
-      technologických postupů. K dispozici je i hydraulický zvedák.
+      Plnohodnotně vybavená dílna včetně hydraulického zvedáku je ideálním prostorem 
+      pro detailní prezentaci Vašeho produktu i technologických postupů.
     price:
       - price: 2100
         unit: hour

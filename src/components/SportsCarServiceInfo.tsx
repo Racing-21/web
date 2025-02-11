@@ -3,37 +3,28 @@ import { CogIcon } from "@heroicons/react/20/solid";
 
 const features = [
 	{
-		title: "Kompletní běžný servis prémiových automobilů",
-		subtitle: "Výměna oleje, výměna brzdových destiček a doplnění kapalin a další.",
+		title: "kompletní běžný servis prémiových automobilů",
+		subtitle: "Výměna oleje, výměna brzdových destiček, doplnění kapalin a další",
 	},
 	{
-		title: "Pneuservis",
-		subtitle: "přezouvání, vyvažování kol a opravy pneu",
+		title: "pneuservis",
+		subtitle: "přezouvání, vyvažování kol, opravy a uskladnění pneumatik",
 	},
 	{
-		title: "Úprava softwarů řídících jednotek pro zvýšení výkonu",
-		subtitle: "Navýšení výkonu úpravou SW řídící jednotky vozů všech značek.",
+		title: "úprava softwarů řídících jednotek pro zvýšení výkonu",
+		subtitle: "navýšení výkonu úpravou SW řídící jednotky vozů všech značek",
 	},
 	{
-		title: "Deaktivace systému Start-Stop",
-		subtitle: "S možností navrácení do původního stavu.",
+		title: "deaktivace systému Start-Stop",
+		subtitle: "s možností navrácení do původního stavu",
 	},
 	{
-		title: "Pick-Up servis Vašeho vozu",
-		subtitle: "Odvezeme Váš vůz krytým přívěsem do našeho včetně odvozu zpět.",
+		title: "pick-Up servis Vašeho vozu",
+		subtitle: "transport Vašeho vozu krytým přívěsem do našeho servisu včetně odvozu zpět",
 	},
 	{
-		title: "Kompletní čištění vozů",
-		subtitle: "Čištění vozu, ošetření laku, renovace podvozku a motoru.",
-	},
-	{
-		title: "Pneuservis",
-		subtitle:
-			"Zujeme, obujeme nové, vyvážíme a odjedete popř. i opravíme, umyjeme, uskladníme.",
-	},
-	{
-		title: "Úprava softwarů řídících jednotek pro zvýšení výkonu",
-		subtitle: "Optimalizace výkonu úpravou SW řídící jednotky vozů všech značek..",
+		title: "kompletní čištění vozů",
+		subtitle: "čištění vozu, ošetření laku, renovace podvozku a motoru",
 	},
 ];
 
@@ -103,14 +94,14 @@ export default function SportsCarServiceInfo() {
 								<p className="text-base text-gray-300 mb-4 ">
 									Máme rádi a umíme všechny značky, nicméně nejčastěji u nás
 									uvidíte vozy Subaru, Toyota, Porsche, Audi, Ford, Opel, Land
-									Rover a BMW. Nabízíme především mechanické práce na vozech,
-									včetně repasí motorů a převodovek, úprav podvozků a brzdových
-									systémů. Jako oficiální premium dealer společnosti BSR se
-									dlouhodobě zabýváme optimalizací software a zvyšováním
-									výkonových parametrů pohonných jednotek, a to jak pro osobní
-									vozy, tak i obytné vozy většiny značek. Realizujeme úpravy,
-									které si u BSR vyberete. Dále nabízíme:
+									Rover a BMW. Nabízíme především mechanické práce včetně repasí
+									motorů a převodovek, úprav podvozků a brzdových systémů. Jako
+									oficiální Premium Dealer společnosti BSR se dlouhodobě zabýváme
+									také optimalizací softwaru a zvyšováním výkonových parametrů
+									pohonných jednotek, a to jak u osobních, tak i u obytných vozů
+									většiny značek. Realizujeme úpravy, které si u BSR vyberete.
 								</p>
+								<p>Dále nabízíme:</p>
 								<ul>
 									{features.map((feature) => (
 										<li

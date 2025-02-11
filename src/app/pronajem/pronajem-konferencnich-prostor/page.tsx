@@ -21,18 +21,19 @@ const features = [
 	{
 		name: "Catering",
 		description:
-			"Zajistíme kompletní catering. Od malých zákusků ke kávě po menu o několika chodech.",
+			"Od zákusků ke kávě po menu o několika chodech. Zajistíme kompletní catering dle vašeho přání.",
 		icon: CakeIcon,
 	},
 	{
 		name: "Hostesky",
 		description:
-			"Abyste se mohli plně věnovat svým hostům. Nabízíme možnost zajištění hostesek, které zajistí obsluhu v rámci vaší akce.",
+			"Abyste se mohli plně věnovat svým hostům. Zajistíme vám hostesky, které vám během vaší akce poskytnou dokonalý servis.",
 		icon: UserIcon,
 	},
 	{
 		name: "Parkování",
-		description: "Parkování je možné v rámci uzavřeného areálu",
+		description:
+			"Parkujte bez starostí. V rámci našeho uzavřeného areálu je k dispozici dostatek parkovacích míst.",
 		icon: LockClosedIcon,
 	},
 ];
@@ -63,10 +64,11 @@ export default async function Page() {
 						<p className="text-center">
 							Potřebujete místo, kde uspořádáte konferenci nebo prezentaci nového
 							produktu? V našich prostorách dodáte vašemu eventu nádech jedinečnosti.
-							Velká konferenční místnost s barem a technickým zázemím je ideální místo
-							pro přednášky a následný networking. V našem showroomu pak můžete
-							prezentovat klientům svůj produkt v prostředí, díky kterému na Vaši
-							prezentaci jen tak nezapomenou.
+							Velká konferenční místnost s barem a technickým zázemím je ideální
+							volbou pro přednášky a následný networking. V showroomu můžete vašim
+							klientům prezentovat produkt, na který i díky originálnímu prostředí
+							rozhodně jen tak nezapomenou. Špičkově vybavená dílna pak poskytuje
+							dokonalé zázemí pro detailnější a názornou prezentaci.
 						</p>
 					</section>
 				</div>

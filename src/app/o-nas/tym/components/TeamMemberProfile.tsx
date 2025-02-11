@@ -57,9 +57,9 @@ export const TeamMemberProfile = ({ person }: { person: TeamMembersTeamMember })
 							key={`${person.name}_${role}`}
 							className="text-sm leading-6 text-red-600 font-bold uppercase"
 						>
-							{person.sex?.includes("M")
-								? teamRoles[role as keyof typeof teamRoles]
-								: teamRolesFemales[role as keyof typeof teamRoles]}
+							{person.sex?.includes("F")
+								? teamRolesFemales[role as keyof typeof teamRoles]
+								: teamRoles[role as keyof typeof teamRoles]}
 						</p>
 					))}
 			</li>

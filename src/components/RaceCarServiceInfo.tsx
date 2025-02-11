@@ -71,9 +71,9 @@ export default function RaceCarServiceInfo() {
 									závodní techniku od přípravy na závod, zajištění servisního
 									zázemí a servisu vozu až po pozávodní servis včetně uskladnění
 									Vašeho vozu. Služby nabízíme pro území ČR, ale i pro zahraniční
-									závody, se kterými máme také bohatou zkušenost včetně
-									administrativních požadavků. Aktuálně nabízíme k pronájmu
-									několik vozů různých kategorií pro automobilové soutěže.
+									závody, se kterými máme také bohatou zkušenost, a to včetně
+									administrativních požadavků. K pronájmu pro automobilové soutěže
+									aktuálně nabízíme několik vozů různých kategorií.
 								</p>
 								<ul>
 									<li className={`text-white flex`}>
@@ -85,7 +85,7 @@ export default function RaceCarServiceInfo() {
 											<p>
 												Máte svůj závodní speciál, ale nemáte vhodný tým
 												lidí, který by se Vám o něj postaral? Svěřte ho nám
-												ať už do kompletní péče nebo jen částečné.
+												ať už do kompletní péče, nebo jen částečné.
 											</p>
 											<div className={"text-gray-50 text-sm mt-0"}>
 												<ul>
@@ -104,10 +104,11 @@ export default function RaceCarServiceInfo() {
 																	"text-gray-50 text-sm mt-0 ml-4"
 																}
 															>
-																Předzávodní příprava, servis během
-																závodu včetně možnosti zajištění
-																zázemí a cateringu, péče o závodní
-																vůz po závodech a garážování.
+																Zajistíme vám předzávodní přípravu,
+																servis během závodu včetně možnosti
+																zajištění zázemí a cateringu, péče o
+																závodní vůz po závodech a
+																garážování.
 															</p>
 														</div>
 													</li>
@@ -126,11 +127,11 @@ export default function RaceCarServiceInfo() {
 																}
 															>
 																Potřebujete zajistit zázemí během
-																konkrétní rally nebo celé sezóny?
-																Potřebujete šikovné a zkušené
-																mechaniky? Komplexní servis na konci
+																konkrétní rally nebo po celou
+																sezónu? Šikovné a zkušené mechaniky?
+																Nebo komplexní servis na konci
 																sezóny? Kontaktujte nás a domluvíme
-																se na optimálním řešení.
+																se na optimálním řešení pro vás.
 															</p>
 														</div>
 													</li>
@@ -145,13 +146,13 @@ export default function RaceCarServiceInfo() {
 												Stavba závodního vozu pro rally
 											</p>
 											<p>
-												V naší dílně již vzniklo několik závodních vozů.
-												Nejnovější je Toyota Celica GT-Four ST165, se kterou
-												jsme letos absolvovali sezónu v rámci ME
-												historických vozidel. Naši mechanici si poradí i
-												s vývojem a v kooperaci s našimi osvědčenými
-												subdodavateli postaví rally vůz dle sportovních řádů
-												a Vašich požadavků.
+												V naší dílně již vzniklo několik závodních vozů. Tím
+												nejnovějším je Toyota Celica GT-Four ST165, se
+												kterou jsme v roce 2024 absolvovali sezónu v rámci
+												ME historických vozidel. Naši mechanici si poradí i
+												s vývojem a v kooperaci s osvědčenými subdodavateli
+												postaví rally vůz dle sportovních řádů a Vašich
+												požadavků.
 											</p>
 										</div>
 									</li>

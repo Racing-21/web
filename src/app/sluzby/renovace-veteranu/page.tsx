@@ -24,7 +24,7 @@ export default function Page() {
 						"https://res.cloudinary.com/dkhdp7qmd/image/upload/v1729865372/05_tqrjra.webp"
 					}
 					title={"Renovace veteránů"}
-					content={"Pomůžeme vám dostat vašeho veterána do původního stavu"}
+					content={"Vašemu veteránovi vrátíme zašlý lesk."}
 				/>
 			</div>
 			<PageLayout>
