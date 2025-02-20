@@ -3,16 +3,19 @@ prostory:
   - name: Konferenční místnost
     shortDescription: Rozsáhlý prostor pro větší akce
     longDescription: >
-      Náš největší prostor, který umožňuje variabilní uspořádání dle Vašich požadavků a který pojme až 50 účastníků.
-      K dispozici je stylový bar a kompletní audiovizuální vybavení:
+      Náš největší prostor, který umožňuje variabilní uspořádání dle Vašich
+      požadavků a který pojme až 50 účastníků. K dispozici je stylový bar a
+      kompletní audiovizuální vybavení:
+
+
+      * velký hluk ze závodní dílny
 
       * rychlé a stabilní wi-fi připojení
 
       * projektor, plátno
 
       * mikrofon, ozvučení
-      
-      Zajištění cateringu dle zadání klienta je pro nás samozřejmostí.
+        Zajištění cateringu dle zadání klienta je pro nás samozřejmostí.
     price:
       - price: 18000
         unit: day
@@ -51,8 +54,9 @@ prostory:
   - name: Autodílna
     shortDescription: Rozsáhlý prostor pro větší akce
     longDescription: >
-      Plnohodnotně vybavená dílna včetně hydraulického zvedáku je ideálním prostorem 
-      pro detailní prezentaci Vašeho produktu i technologických postupů.
+      Plnohodnotně vybavená dílna včetně hydraulického zvedáku je ideálním
+      prostorem  pro detailní prezentaci Vašeho produktu i technologických
+      postupů.
     price:
       - price: 2100
         unit: hour
