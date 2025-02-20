@@ -8,8 +8,6 @@ prostory:
       kompletní audiovizuální vybavení:
 
 
-      * velký hluk ze závodní dílny
-
       * rychlé a stabilní wi-fi připojení
 
       * projektor, plátno
