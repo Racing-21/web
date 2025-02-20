@@ -59,7 +59,7 @@ const PARTNER_SITES = [
 	{
 		id: 6,
 		name: "Winmax",
-		href: "https://www.winmax.cz",
+		href: "https://www.winmax-racing.cz",
 		subheadline: "Brzdové destičky Winmax",
 	},
 	{
