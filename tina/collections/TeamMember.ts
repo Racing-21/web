@@ -51,12 +51,12 @@ export const TeamMemberCollection: Collection = {
 							list: true,
 							options: [
 								{
-									value: "Female",
-									label: "F",
+									value: "F",
+									label: "Žena",
 								},
 								{
-									value: "Male",
-									label: "M",
+									value: "M",
+									label: "Muž",
 								},
 							],
 						},
@@ -84,6 +84,11 @@ export const TeamMemberCollection: Collection = {
 							type: "object",
 							name: "achievements",
 							label: "\u00DAsp\u011Bchy",
+							ui: {
+								itemProps: (item: { name: string }) => {
+									return { label: `${item.name}` };
+								},
+							},
 							list: true,
 							fields: [
 								{
@@ -193,12 +198,12 @@ export const TeamMemberCollection: Collection = {
 							list: true,
 							options: [
 								{
-									value: "Female",
-									label: "F",
+									value: "F",
+									label: "Žena",
 								},
 								{
-									value: "Male",
-									label: "M",
+									value: "M",
+									label: "Muž",
 								},
 							],
 						},
