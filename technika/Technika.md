@@ -9,6 +9,9 @@ technika:
       weight: 1050
     engine:
       power: 135 kW
+    drivetrain:
+      drive: Zadní náhon
+      transmission: synchronní 5stupňová
     brakes:
       type_front: Kotoučové
       type_rear: Bubnové
