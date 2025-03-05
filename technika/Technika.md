@@ -1,5 +1,12 @@
 ---
 technika:
+  - name: Opel Ascona A 1900
+    slug: opel-ascona-a-1900
+    general:
+      length: 4124
+      width: 1626
+      wheelbase: 2430
+      weight: 1050
   - name: Toyota Celica GT-Four ST165
     slug: toyota-celica-gt-four-st165
     general:
