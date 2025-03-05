@@ -52,7 +52,7 @@ technika:
     engine:
       engineType: Atmosférický řadový čtyřválec CIH
       volume: 1999
-      power: 148 kW / 7.500 min-1
+      power: 165 kW / 7.500 min-1
       torque: 200Nm / 6.000 min-1
     drivetrain:
       drive: Zadní náhon
