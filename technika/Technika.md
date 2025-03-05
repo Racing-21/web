@@ -11,7 +11,7 @@ technika:
     engine:
       engineType: Přeplňovaný řadový čtyřválec 3S-GTE
       volume: 1998
-      power: 198 kW PS / 6000 min-1
+      power: 242 kW PS / 6000 min-1
       torque: 380 Nm / 4.400 min-1
       bore: '86,0 x 86,0 mm'
       compressRatio: '8,5 :1'
