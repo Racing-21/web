@@ -9,6 +9,11 @@ technika:
       weight: 1050
     engine:
       power: 135 kW
+    brakes:
+      type_front: Kotoučové
+      type_rear: Bubnové
+      dimensions_front: 238mm
+      dimensions_rear: ''
   - name: Toyota Celica GT-Four ST165
     slug: toyota-celica-gt-four-st165
     general:
