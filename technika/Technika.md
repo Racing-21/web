@@ -7,6 +7,8 @@ technika:
       width: 1626
       wheelbase: 2430
       weight: 1050
+    engine:
+      power: 135 kW
   - name: Toyota Celica GT-Four ST165
     slug: toyota-celica-gt-four-st165
     general:
