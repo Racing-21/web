@@ -65,8 +65,8 @@ technika:
       dimensions_rear: 230 mm
       calipers: ocelové
     rims:
-      dimensions_front: 13"
-      dimensions_rear: 13"
+      dimensions_front: 13" - 15"
+      dimensions_rear: 13" - 15"
     tires:
       dimensions_front: Pirelli 225/45-R13
       dimensions_rear: Pirelli 225/45-R13
