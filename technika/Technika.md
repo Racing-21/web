@@ -61,9 +61,9 @@ technika:
       type_front: Kotoučové
       type_rear: Bubnové
       discs: Vnitřně chlazené
-      dimensions_front: až 355 mm
-      dimensions_rear: až 300 mm
-      calipers: hliníkové
+      dimensions_front: 244 mm
+      dimensions_rear: 230 mm
+      calipers: ocelové
     rims:
       dimensions_front: 13"
       dimensions_rear: 13"
