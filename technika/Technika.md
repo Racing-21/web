@@ -20,6 +20,9 @@ technika:
     rims:
       dimensions_front: 13" - 15"
       dimensions_rear: 13" - 15"
+    tires:
+      dimensions_front: Pirelli 225/45-R13
+      dimensions_rear: Pirelli 225/45-R13
   - name: Toyota Celica GT-Four ST165
     slug: toyota-celica-gt-four-st165
     general:
