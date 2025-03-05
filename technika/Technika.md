@@ -32,8 +32,8 @@ technika:
       dimensions_front: 16"
       dimensions_rear: 16"
     tires:
-      dimensions_front: Pirelli 225/45/16 R16
-      dimensions_rear: Pirelli 225/45/16 R16
+      dimensions_front: Pirelli 225/45 R16
+      dimensions_rear: Pirelli 225/45 R16
     images:
       - >-
         https://res.cloudinary.com/dkhdp7qmd/image/upload/v1729847701/toyota_6_zukcni.webp
