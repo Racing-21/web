@@ -17,6 +17,9 @@ technika:
       type_rear: Bubnové
       dimensions_front: 238mm
       dimensions_rear: ''
+    rims:
+      dimensions_front: 13" - 15"
+      dimensions_rear: 13" - 15"
   - name: Toyota Celica GT-Four ST165
     slug: toyota-celica-gt-four-st165
     general:
