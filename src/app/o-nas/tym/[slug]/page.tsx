@@ -107,7 +107,7 @@ export default async function Page({ params }: { params: { slug: string } }) {
 							<TinaMarkdown
 								content={about}
 								components={{
-									/* eslint-disable  @typescript-eslint/no-explicit-any */
+									// eslint-disable-next-line  @typescript-eslint/no-explicit-any
 									p: (props: any) => <AboutText props={props} />,
 								}}
 							/>
