@@ -40,6 +40,7 @@ export const NewsCollection: Collection = {
 					type: "string",
 					name: "shortDescription",
 					label: "Krátký popis",
+					required: true,
 				},
 				{
 					type: "rich-text",
