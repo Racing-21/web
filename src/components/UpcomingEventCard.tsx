@@ -15,8 +15,6 @@ export const UpcomingEventsCard = ({ post, cardClassName }: UpcomingEventCardPro
 		return null;
 	}
 
-	console.log(post.date);
-
 	return (
 		<Link href={`/media/aktuality/${post.slug}`}>
 			<div

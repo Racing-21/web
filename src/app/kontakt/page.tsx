@@ -15,7 +15,6 @@ export const metadata: Metadata = {
 };
 
 export default function Page() {
-	console.log(process.env.GOOGLE_MAPS_API_KEY);
 	return (
 		<>
 			<HeroSection
