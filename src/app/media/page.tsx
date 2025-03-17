@@ -28,11 +28,6 @@ export default function Page() {
 			</div>
 			<PageLayout>
 				<div className="w-full px-6 py-3 mt-6 flex-col">
-					<section className="bg-grayPrimary py-20 sm:py-120 rounded-lg px-4">
-						<p>Stránku pro média připravujeme</p>
-					</section>
-				</div>
-				<div className="w-full px-6 py-3 mt-6 flex-col">
 					<h2 className={"text-2xl font-bold mb-2"}>Aktuality</h2>
 					<NewsSection />
 				</div>

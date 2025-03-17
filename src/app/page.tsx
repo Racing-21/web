@@ -1,6 +1,3 @@
-import serviceCardImage from "@/images/homepage/serviceCard.webp";
-import rallyTeamCardImage from "@/images/homepage/rallyTeamCard.webp";
-import rentalCardImage from "@/images/homepage/rentalCard.webp";
 import { Metadata } from "next";
 import { ServiceNavigationCard } from "@/components/ServiceNavigationCard";
 import { HomepageLogoCloud } from "@/components/HomepageLogoCloud";
@@ -70,25 +67,31 @@ export default async function Home() {
 							link={"o-nas/tym"}
 							title={"Závodní tým"}
 							altImageText={"Sekce o závodním týmu Racing 21"}
-							image={rallyTeamCardImage}
+							image={
+								"https://res.cloudinary.com/dkhdp7qmd/image/upload/v1729865364/STA_8247_úspěchy_wmc2it.jpg"
+							}
 						/>
 						<ServiceNavigationCard
 							link={"sluzby"}
 							title={"Naše služby"}
 							altImageText={"Servis vozidel"}
-							image={serviceCardImage}
+							image={
+								"https://res.cloudinary.com/dkhdp7qmd/image/upload/v1742201397/STA_1295_turatello_phhh8l.jpg"
+							}
 						/>
 						<ServiceNavigationCard
 							link={"pronajem"}
 							title={"Pronájem vozidel a prostor"}
 							altImageText={"Sekce o pronájmu vozidel a prostor"}
-							image={rentalCardImage}
+							image={
+								"https://res.cloudinary.com/dkhdp7qmd/image/upload/v1742201393/STA_3571_rally_vozy_k_pronajmu_ty0xfz.jpg"
+							}
 						/>
 					</div>
 				</div>
 				<div className="w-full">
 					<h2 className={"text-2xl capitalize font-bold mb-2"}>Aktuality</h2>
-					<NewsSection />
+					<NewsSection numberOfNews={3} />
 				</div>
 			</PageLayout>
 		</>
