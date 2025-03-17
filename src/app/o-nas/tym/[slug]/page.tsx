@@ -106,7 +106,9 @@ export default async function Page({ params }: { params: { slug: string } }) {
 							<TinaMarkdown
 								content={about}
 								components={{
-									p: (props) => <AboutText props={props} />,
+									p: (props: { children: JSX.Element } | undefined) => (
+										<AboutText props={props} />
+									),
 								}}
 							/>
 						</div>
