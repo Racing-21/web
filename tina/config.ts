@@ -261,7 +261,6 @@ export default defineConfig({
 								type: "string",
 								name: "shortDescription",
 								label: "Krátký popis",
-								required: false,
 							},
 							{
 								type: "rich-text",
