@@ -23,6 +23,9 @@ dependencies:
   '@tinacms/datalayer':
     specifier: ^1.3.5
     version: 1.3.5(react@18.3.1)(typescript@5.6.2)
+  '@tinacms/schema-tools':
+    specifier: ^1.7.2
+    version: 1.7.2(react@18.3.1)(yup@0.32.11)
   express:
     specifier: ^4.21.1
     version: 4.21.1
@@ -3728,6 +3731,19 @@ packages:
       url-pattern: 1.0.3
       yup: 1.4.0
       zod: 3.23.8
+
+  /@tinacms/schema-tools@1.7.2(react@18.3.1)(yup@0.32.11):
+    resolution: {integrity: sha512-xo6lycoEmjfk9XgcvdBg6kIKKu+pu9NumPHdSB5Fr6Ti9HBLMru0tRjRdOikCZqG+4DeEyTunUHPl6oMWR9feQ==}
+    peerDependencies:
+      react: '>=16.14.0'
+      yup: ^0.32.0
+    dependencies:
+      picomatch-browser: 2.2.6
+      react: 18.3.1
+      url-pattern: 1.0.3
+      yup: 0.32.11
+      zod: 3.24.2
+    dev: false
 
   /@tinacms/search@1.0.34(react@18.3.1)(sucrase@3.35.0)(typescript@5.6.2)(yup@1.4.0):
     resolution: {integrity: sha512-E0ywA+vICDOECO4MkwRQhHRoOfcClZOdyLPuhw7QuXFwQHhoW2VPwLJa0bkcR47em2zncR0juxd94FxPSvLdCA==}
@@ -12304,6 +12320,10 @@ packages:
 
   /zod@3.23.8:
     resolution: {integrity: sha512-XBx9AXhXktjUqnepgTiE5flcKIYWi/rme0Eaj+5Y0lftuGBq+jyRu/md4WnuxqgP1ubdpNCsYEYPxrzVHD8d6g==}
+
+  /zod@3.24.2:
+    resolution: {integrity: sha512-lY7CDW43ECgW9u1TcT3IoXHflywfVqDYze4waEz812jR/bZ8FHDsl7pFQoSZTz5N+2NqRXs8GBwnAwo3ZNxqhQ==}
+    dev: false
 
   /zustand-x@3.0.4(react-dom@18.3.1)(react@18.3.1)(scheduler@0.23.2)(zustand@4.5.5):
     resolution: {integrity: sha512-dVD8WUEpR/0mMdLah9j8i+r6PMAq9Ii2u+BX/9Bn4MHRt8sSnRQ90YMUlTVonZYAHGb2UHZwPpE2gMb8GtYDDw==}
