@@ -12,7 +12,6 @@ import Image from "next/image";
 import { TinaMarkdown } from "tinacms/dist/rich-text";
 import { TrophyIcon } from "@heroicons/react/20/solid";
 import { normalizeNameForUrlSlug } from "@/utils/utils";
-import { PropsWithChildren } from "react";
 
 export const metadata: Metadata = {
 	title: "Racing21 - Technika",
@@ -52,7 +51,7 @@ const Achievements = ({
 	);
 };
 
-const AboutText = ({ props }: { props?: PropsWithChildren }) => {
+const AboutText = ({ props }: { props: { children: JSX.Element } | undefined }) => {
 	return <div>{props?.children}</div>;
 };
 
@@ -107,8 +106,7 @@ export default async function Page({ params }: { params: { slug: string } }) {
 							<TinaMarkdown
 								content={about}
 								components={{
-									// eslint-disable-next-line  @typescript-eslint/no-explicit-any
-									p: (props: any) => <AboutText props={props} />,
+									p: (props) => <AboutText props={props} />,
 								}}
 							/>
 						</div>
