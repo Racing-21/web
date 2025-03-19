@@ -12,6 +12,7 @@ import Image from "next/image";
 import { TinaMarkdown } from "tinacms/dist/rich-text";
 import { TrophyIcon } from "@heroicons/react/20/solid";
 import { normalizeNameForUrlSlug } from "@/utils/utils";
+import React, { ReactNode } from "react";
 
 export const metadata: Metadata = {
 	title: "Racing21 - Technika",
@@ -51,7 +52,12 @@ const Achievements = ({
 	);
 };
 
-const AboutText = ({ props }: { props: { children: JSX.Element } | undefined }) => {
+// Define interface for TinaMarkdown component props
+interface RichTextProps {
+	children?: ReactNode;
+}
+
+const AboutText = ({ props }: { props: RichTextProps | undefined }) => {
 	return <div>{props?.children}</div>;
 };
 
@@ -106,8 +112,7 @@ export default async function Page({ params }: { params: { slug: string } }) {
 							<TinaMarkdown
 								content={about}
 								components={{
-									// eslint-disable-next-line  @typescript-eslint/no-explicit-any
-									p: (props) => <AboutText props={props} />,
+									p: (props: RichTextProps | undefined) => <AboutText props={props} />,
 								}}
 							/>
 						</div>
