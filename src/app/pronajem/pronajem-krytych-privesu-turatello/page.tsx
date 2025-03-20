@@ -5,7 +5,10 @@ import client from "../../../../tina/__generated__/client";
 import { VenueDetail } from "@/components/venues/VenueDetail";
 import { ContactForm } from "@/components/ContactForm";
 import { trailersQuery } from "../../../../tina/queries/rentalQueries";
-import { PronajemPrivesuPrivesy } from "../../../../tina/__generated__/types";
+import {
+	PronajemPrivesuConnectionEdges,
+	PronajemPrivesuPrivesy,
+} from "../../../../tina/__generated__/types";
 
 export default async function Page() {
 	const { data } = await client.request(
@@ -18,7 +21,12 @@ export default async function Page() {
 		{},
 	);
 
-	const trailers: PronajemPrivesuPrivesy[] = data.pronajemPrivesu.privesy ?? [];
+	const edges: PronajemPrivesuConnectionEdges[] = data.pronajemPrivesuConnection.edges;
+
+	const trailers: PronajemPrivesuPrivesy[] = edges
+		.flatMap((edge) => edge.node?.privesy ?? [])
+		.flat()
+		.filter((trailer): trailer is PronajemPrivesuPrivesy => trailer != null);
 
 	return (
 		<>
