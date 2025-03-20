@@ -6,6 +6,8 @@ import { PageLayout } from "@/components/layout/PageLayout";
 import client from "../../../../../tina/__generated__/client";
 
 import { parseVehicleImages } from "@/utils/utils";
+import { technikaQuery } from "../../../../../tina/queries/technikaQueries";
+import { TechnikaTechnika } from "../../../../../tina/__generated__/types";
 
 export const metadata: Metadata = {
 	title: "Racing21 - Technika",
@@ -13,14 +15,21 @@ export const metadata: Metadata = {
 };
 
 export default async function Page({ params }: { params: { slug: string } }) {
-	const { data } = await client.queries.technika({ relativePath: "Technika.md" });
-
+	const { data } = await client.request(
+		{
+			query: technikaQuery,
+			variables: { relativePath: "Technika.md" },
+		},
+		{},
+	);
 	if (!data) {
 		return null;
 	}
 
 	const vehicle: Vehicle | null =
-		data.technika.technika?.find((vehicle) => vehicle?.slug === params.slug) ?? null;
+		data.technika.technika?.find(
+			(vehicle: TechnikaTechnika) => vehicle?.slug === params.slug,
+		) ?? null;
 
 	if (!vehicle) {
 		return null;

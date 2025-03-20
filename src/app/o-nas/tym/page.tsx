@@ -4,20 +4,35 @@ import { TeamMemberProfile } from "@/app/o-nas/tym/components/TeamMemberProfile"
 import client from "../../../../tina/__generated__/client";
 import Link from "next/link";
 import { normalizeNameForUrlSlug } from "@/utils/utils";
+import { teamMembersQuery } from "../../../../tina/queries/teamQueries";
+import {
+	TeamMembersTeamMember,
+	TeamMembersTeamMemberBackOffice,
+	TeamMembersTeamMemberRacingTeam,
+} from "../../../../tina/__generated__/types";
 
 export default async function Page() {
-	const { data } = await client.queries.teamMembers({ relativePath: "ClenoveTymu.md" });
-
+	const { data } = await client.request(
+		{
+			query: teamMembersQuery,
+			variables: {
+				relativePath: "ClenoveTymu.md",
+			},
+		},
+		{},
+	);
 	if (!data) {
 		return null;
 	}
 
 	const backOfficeTeamMembers = data.teamMembers.teamMember?.filter(
-		(teamMember) => teamMember?.__typename === "TeamMembersTeamMemberBackOffice",
+		(teamMember: TeamMembersTeamMember) =>
+			teamMember?.__typename === "TeamMembersTeamMemberBackOffice",
 	);
 
 	const racingTeamMembers = data.teamMembers.teamMember?.filter(
-		(teamMember) => teamMember?.__typename === "TeamMembersTeamMemberRacingTeam",
+		(teamMember: TeamMembersTeamMember) =>
+			teamMember?.__typename === "TeamMembersTeamMemberRacingTeam",
 	);
 
 	return (
@@ -42,7 +57,7 @@ export default async function Page() {
 							role="list"
 							className="w-full mx-auto grid grid-cols-1 gap-x-8 gap-y-16 text-center md:grid-cols-4 "
 						>
-							{racingTeamMembers?.map((person) =>
+							{racingTeamMembers?.map((person: TeamMembersTeamMemberRacingTeam) =>
 								!person || !person.name ? null : (
 									<Link
 										href={`/o-nas/tym/${normalizeNameForUrlSlug(person.name)}`}
@@ -63,13 +78,14 @@ export default async function Page() {
 							role="list"
 							className="w-full mx-auto grid grid-cols-1 gap-x-8 gap-y-12 text-center md:grid-cols-3 "
 						>
-							{backOfficeTeamMembers?.map((person) =>
-								!person ? null : (
-									<TeamMemberProfile
-										person={person}
-										key={`${person?.name}-profile`}
-									/>
-								),
+							{backOfficeTeamMembers?.map(
+								(person: TeamMembersTeamMemberBackOffice) =>
+									!person ? null : (
+										<TeamMemberProfile
+											person={person}
+											key={`${person?.name}-profile`}
+										/>
+									),
 							)}
 						</ul>
 					</div>

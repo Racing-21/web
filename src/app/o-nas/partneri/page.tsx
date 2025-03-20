@@ -6,6 +6,8 @@ import Link from "next/link";
 import { PageLayout } from "@/components/layout/PageLayout";
 import client from "../../../../tina/__generated__/client";
 import { TinaMarkdown } from "tinacms/dist/rich-text";
+import { partnersQuery } from "../../../../tina/queries/partnersQueries";
+import { PartnersPartner } from "../../../../tina/__generated__/types";
 
 export const metadata: Metadata = {
 	title: "Racing 21 - O nás",
@@ -18,7 +20,13 @@ export const metadata: Metadata = {
 };
 
 export default async function Page() {
-	const { data } = await client.queries.partners({ relativePath: "Partners.md" });
+	const { data } = await client.request(
+		{
+			query: partnersQuery,
+			variables: { relativePath: "Partners.md" },
+		},
+		{},
+	);
 
 	if (!data.partners.partner || data.partners.partner.length === 0) {
 		return null;
@@ -45,7 +53,7 @@ export default async function Page() {
 					</h2>
 					<div className="bg-grayPrimary px-6 py-6 rounded-lg">
 						<div className="divide-y divide-black overflow-hidden rounded-lg bg-white sm:grid sm:grid-cols-2 sm:gap-px sm:divide-y-0 border-transparent">
-							{partnerList.map((partner) => {
+							{partnerList.map((partner: PartnersPartner) => {
 								if (!partner) {
 									return null;
 								}

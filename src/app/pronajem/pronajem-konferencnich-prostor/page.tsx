@@ -6,6 +6,8 @@ import client from "../../../../tina/__generated__/client";
 import { ContactForm } from "@/components/ContactForm";
 import { VenueDetail } from "@/components/venues/VenueDetail";
 import { CakeIcon, LockClosedIcon, UserIcon } from "@heroicons/react/24/outline";
+import { venueQuery } from "../../../../tina/queries/rentalQueries";
+import { PronajemProstory } from "../../../../tina/__generated__/types";
 
 export const metadata: Metadata = {
 	title: "Racing 21 - O nás",
@@ -38,13 +40,21 @@ const features = [
 	},
 ];
 export default async function Page() {
-	const { data } = await client.queries.pronajem({ relativePath: "Prostory.md" });
+	const { data } = await client.request(
+		{
+			query: venueQuery,
+			variables: {
+				relativePath: "Prostory.md",
+			},
+		},
+		{},
+	);
 
 	if (!data) {
 		return null;
 	}
 
-	const venues = data.pronajem.prostory;
+	const venues: PronajemProstory[] = data.pronajem.prostory;
 
 	return (
 		<>

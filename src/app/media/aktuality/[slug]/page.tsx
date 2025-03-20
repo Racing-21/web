@@ -13,14 +13,34 @@ export const metadata: Metadata = {
 };
 
 export default async function Page({ params }: { params: { slug: string } }) {
-	const { data } = await client.queries.aktuality({ relativePath: "Aktuality.md" });
+	const { data } = await client.request(
+		{
+			query: `query getAktuality($relativePath: String!) {
+        aktuality(relativePath: $relativePath) {
+            aktuality {
+                 name
+                    slug
+                    date
+                    shortDescription
+                    longDescription
+                    image
+            }
+        }
+    }`,
+			variables: { relativePath: "Aktuality.md" },
+		},
+		{},
+	);
 
 	if (!data) {
 		return null;
 	}
 
+	console.log(data);
+
 	const post: AktualityAktuality | null =
-		data.aktuality.aktuality?.find((post) => post?.slug === params.slug) ?? null;
+		data.aktuality.aktuality?.find((post: AktualityAktuality) => post?.slug === params.slug) ??
+		null;
 
 	if (!post) {
 		return null;

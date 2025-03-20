@@ -42,7 +42,7 @@ export default defineConfig({
 			{
 				name: "pronajemTechniky",
 				label: "Pronájem techniky",
-				path: "pronajem",
+				path: "content/pronajem",
 				match: { include: "Technika", exclude: "Prostory" },
 				fields: [
 					{

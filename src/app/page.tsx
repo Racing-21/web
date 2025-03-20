@@ -9,6 +9,7 @@ import { PageLayout } from "@/components/layout/PageLayout";
 import { NewsSection } from "@/components/NewsSection";
 import client from "../../tina/__generated__/client";
 import Services from "@/components/Services";
+import { partnersQuery } from "../../tina/queries/partnersQueries";
 
 export const metadata: Metadata = {
 	title: "Racing 21",
@@ -26,7 +27,14 @@ export const metadata: Metadata = {
 };
 
 export default async function Home() {
-	const { data: partners } = await client.queries.partners({ relativePath: "Partners.md" });
+	const { data: partners } = await client.request(
+		{
+			query: partnersQuery,
+			variables: { relativePath: "Partners.md" },
+		},
+		{},
+	);
+	
 	return (
 		<>
 			{/* Hero card */}

@@ -4,9 +4,21 @@ import { HeroSection } from "@/components/HeroSection";
 import client from "../../../../tina/__generated__/client";
 import { VenueDetail } from "@/components/venues/VenueDetail";
 import { ContactForm } from "@/components/ContactForm";
+import { trailersQuery } from "../../../../tina/queries/rentalQueries";
+import { PronajemPrivesuPrivesy } from "../../../../tina/__generated__/types";
 
 export default async function Page() {
-	const { data } = await client.queries.pronajemPrivesu({ relativePath: "Privesy.md" });
+	const { data } = await client.request(
+		{
+			query: trailersQuery,
+			variables: {
+				relativePath: "Privesy.md",
+			},
+		},
+		{},
+	);
+
+	const trailers: PronajemPrivesuPrivesy[] = data.pronajemPrivesu.privesy ?? [];
 
 	return (
 		<>
@@ -36,11 +48,10 @@ export default async function Page() {
 				</div>
 				<div className="w-full flex flex-col gap-4">
 					<h2 className={"text-2xl capitalize font-bold mb-2"}>K pronájmu nabízíme:</h2>
-
-					{data.pronajemPrivesu.privesy?.map(
-						(prives) =>
-							prives && (
-								<VenueDetail venue={prives} key={`${prives.name}-detailTab`} />
+					{trailers.map(
+						(trailer) =>
+							trailer && (
+								<VenueDetail venue={trailer} key={`${trailer.name}-detailTab`} />
 							),
 					)}
 				</div>

@@ -3,14 +3,23 @@ import { PageLayout } from "@/components/layout/PageLayout";
 import client from "../../../../tina/__generated__/client";
 import { parseVehicleImages } from "@/utils/utils";
 import { HeroSection } from "@/components/HeroSection";
+import { technikaQuery } from "../../../../tina/queries/technikaQueries";
+import { TechnikaTechnika } from "../../../../tina/__generated__/types";
+import { StaticImageData } from "next/image";
 
 export default async function Page() {
-	const { data } = await client.queries.technika({ relativePath: "Technika.md" });
+	const { data } = await client.request(
+		{
+			query: technikaQuery,
+			variables: { relativePath: "Technika.md" },
+		},
+		{},
+	);
 
 	if (!data) {
 		return null;
 	}
-	const vehicles = data.technika.technika?.map((vehicle) => ({
+	const vehicles = data.technika.technika?.map((vehicle: TechnikaTechnika) => ({
 		...vehicle,
 		images: parseVehicleImages(vehicle?.images),
 	}));
@@ -30,13 +39,16 @@ export default async function Page() {
 				<div className="w-full flex flex-col">
 					<h2 className={"w-full text-2xl capitalize font-bold mb-2"}>Naše technika</h2>
 					<div className={"flex flex-col gap-4 rounded-lg md:flex-row"}>
-						{vehicles?.map((vehicle) => (
+						{vehicles?.map((vehicle: TechnikaTechnika) => (
 							<ServiceNavigationCard
 								key={vehicle.slug}
 								link={`technika/${vehicle.slug}`}
 								title={vehicle.name}
 								altImageText={vehicle.name}
-								image={vehicle.images[0]}
+								image={
+									vehicle.images?.[0] ??
+									("/placeholder.jpg" as unknown as StaticImageData)
+								}
 								priority
 							/>
 						))}
