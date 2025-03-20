@@ -1,4 +1,4 @@
-import { defineConfig } from "tinacms";
+import { Collection, defineConfig } from "tinacms";
 import { TinaUserCollection } from "tinacms-authjs/dist/tinacms";
 import { TeamMemberCollection } from "./collections/TeamMember";
 import { VehicleCollection } from "./collections/Vehicle";
@@ -34,7 +34,11 @@ export default defineConfig({
 	schema: {
 		collections: [
 			ServiceCollection,
-			TinaUserCollection,
+			{
+				label: "Users",
+				format: "json",
+				...TinaUserCollection, // spread the collection properties
+			} as Collection,
 			TeamMemberCollection,
 			VehicleCollection,
 			VenueCollection,
