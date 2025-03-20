@@ -13,7 +13,6 @@ export const ResultSection = ({ spreadsheetId }: { spreadsheetId: string }) => {
 				if (result) {
 					setChampionshipData(result.data);
 				}
-				console.log(result);
 			} catch (e) {
 				console.log(e);
 			}

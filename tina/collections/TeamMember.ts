@@ -30,7 +30,6 @@ export const TeamMemberCollection: Collection = {
 					label: "Závodníci",
 					ui: {
 						itemProps: (item: { name: string; role: string[] }) => {
-							console.log(item);
 							const role = teamRoles[item.role[0] as keyof typeof teamRoles];
 
 							return { label: `${role.toUpperCase()} - ${item.name}` };
