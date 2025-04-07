@@ -38,12 +38,26 @@ const PARTNER_SITES = [
 		name: "Turatello",
 		href: "https://www.turatello.cz",
 		subheadline: "Kryté přívěsy a návěsy italského výrobce TURATELLO",
+		products: [
+			{
+				category: "Přívěsy",
+				categoryImage:
+					"https://res.cloudinary.com/dkhdp7qmd/image/upload/v1744037166/Turatello_lutswa.jpg",
+			},
+		],
 	},
 	{
 		id: 3,
 		name: "Flex",
 		href: "https://www.naradi-flex.cz",
 		subheadline: "Profesionální elektro nářadí FLEX",
+		products: [
+			{
+				category: "Hlavní stránka",
+				categoryImage:
+					"https://res.cloudinary.com/dkhdp7qmd/image/upload/v1744037166/FLEX_gpiubc.webp",
+			},
+		],
 	},
 	{
 		id: 4,
@@ -55,12 +69,26 @@ const PARTNER_SITES = [
 		name: "Sonax",
 		href: "https://www.sonax.cz",
 		subheadline: "Kvalitní německá autokosmetika SONAX",
+		products: [
+			{
+				category: "Hlavní stránka",
+				categoryImage:
+					"https://res.cloudinary.com/dkhdp7qmd/image/upload/v1744037166/sonax_p0x0zh.jpg",
+			},
+		],
 	},
 	{
 		id: 6,
 		name: "Winmax",
 		href: "https://www.winmax-racing.cz",
 		subheadline: "Brzdové destičky Winmax",
+		products: [
+			{
+				category: "Hlavní stránka",
+				categoryImage:
+					"https://res.cloudinary.com/dkhdp7qmd/image/upload/v1744037166/winmaxprodukty_ieddvn.jpg",
+			},
+		],
 	},
 	{
 		id: 7,
@@ -108,21 +136,45 @@ export default function Page() {
 											</p>
 										</div>
 										<div className="flex gap-4 mb-2">
-											{item.products?.map((item) => (
-												<div
-													key={item.category}
-													className="relative rounded-lg h-[100px] w-[100px] md:w-[200px] md:h-[200px]"
-												>
-													<Image
-														className="relative rounded-lg"
-														src={item.categoryImage}
-														alt={item.category}
-														fill
-														objectFit={"cover"}
-														objectPosition={"top"}
-													/>
-												</div>
-											))}
+											{item.products &&
+												item.products?.length > 1 &&
+												item.products?.map((item) => (
+													<div
+														key={item.category}
+														className="relative rounded-lg h-[100px] w-[100px] md:w-[200px] md:h-[200px]"
+													>
+														<Image
+															className="relative rounded-lg"
+															src={item.categoryImage}
+															alt={item.category}
+															fill
+															style={{
+																objectFit: "cover",
+																objectPosition: "top",
+															}}
+														/>
+													</div>
+												))}
+										</div>
+										<div className="flex gap-4 mb-2">
+											{item.products &&
+												item.products?.length == 1 &&
+												item.products?.map((item) => (
+													<div
+														key={item.category}
+														className="relative rounded-lg h-[200px] w-full"
+													>
+														<Image
+															className="relative rounded-lg"
+															src={item.categoryImage}
+															alt={item.category}
+															style={{
+																objectFit: "cover",
+															}}
+															fill
+														/>
+													</div>
+												))}
 										</div>
 
 										<div className="mt-auto mb-2 flex gap-x-2 text-xs/5 text-gray-50 h-[75px] line-clamp-3	">
