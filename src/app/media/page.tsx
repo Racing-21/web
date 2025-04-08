@@ -23,7 +23,7 @@ export default function Page() {
 						"https://res.cloudinary.com/dkhdp7qmd/image/upload/v1732466597/Rally_Vys%CC%8Ckov_23-2_tnkcna.webp"
 					}
 					title={"Racing 21"}
-					content={"Media servis"}
+					subtitle={"Media servis"}
 				/>
 			</div>
 			<PageLayout>

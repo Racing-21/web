@@ -25,7 +25,8 @@ export default function Page() {
 					image={
 						"https://res.cloudinary.com/dkhdp7qmd/image/upload/v1744106774/6O1A6424_pdmlo9.webp"
 					}
-					title={"Pronájem prostorů a techniky"}
+					title={"Racing 21"}
+					subtitle={"Pronájem prostorů a techniky"}
 				/>
 			</div>
 			<PageLayout>

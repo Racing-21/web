@@ -101,7 +101,7 @@ export default function SportsCarServiceInfo() {
 									pohonných jednotek, a to jak u osobních, tak i u obytných vozů
 									většiny značek. Realizujeme úpravy, které si u BSR vyberete.
 								</p>
-								<p>Dále nabízíme:</p>
+								<p className={"text-white"}>Dále nabízíme:</p>
 								<ul>
 									{features.map((feature) => (
 										<li

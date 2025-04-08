@@ -114,7 +114,7 @@ export default function Page() {
 						"https://res.cloudinary.com/dkhdp7qmd/image/upload/v1732466721/Rally_Bohemia_23-4359_dl4xtr.webp"
 					}
 					title={"Racing 21"}
-					content={"Produktová nabídka"}
+					subtitle={"Produktová nabídka"}
 				/>
 			</div>
 			<PageLayout>

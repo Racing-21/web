@@ -22,8 +22,7 @@ export default function Page() {
 					image={
 						"https://res.cloudinary.com/dkhdp7qmd/image/upload/v1731151214/STA_2375a_j9ufiv.webp"
 					}
-					title={"Servis "}
-					subtitle={"sportovních vozů"}
+					title={"Servis sportovních vozů"}
 					content={"Váš sportovní vůz si zaslouží tu nejlepší péči. My mu jí poskytneme."}
 				/>
 			</div>

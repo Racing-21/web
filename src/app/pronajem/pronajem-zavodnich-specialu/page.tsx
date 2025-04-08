@@ -12,7 +12,7 @@ export default function Page() {
 				<HeroSection
 					image={headerImage}
 					title={"Pronájem závodních speciálů"}
-					subtitle={"Naše auta k vašim službám"}
+					content={"Naše auta k vašim službám"}
 				/>
 			</div>
 			<PageLayout>

@@ -25,6 +25,7 @@ export default function Page() {
 						"https://res.cloudinary.com/dkhdp7qmd/image/upload/v1732466603/Rally_Bohemia_23-4402_g3z8un.webp"
 					}
 					title={"Racing 21"}
+					subtitle={"Náš tým"}
 					content={"Kdo jsme, s kým spolupracujeme, čím jezdíme a jak si vedeme"}
 				/>
 			</div>
