@@ -1,6 +1,6 @@
 ---
 teamMember:
-  - name: Jakub Závora
+  - name: Jakub Závora 2
     role:
       - chiefMechanic
     _template: backOffice
