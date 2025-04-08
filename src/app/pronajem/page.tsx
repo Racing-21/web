@@ -23,7 +23,7 @@ export default function Page() {
 				{/* Hero card */}
 				<HeroSection
 					image={
-						"https://res.cloudinary.com/dkhdp7qmd/image/upload/v1731151103/DSC09462_mnp6dy.webp"
+						"https://res.cloudinary.com/dkhdp7qmd/image/upload/v1744106774/6O1A6424_pdmlo9.webp"
 					}
 					title={"Pronájem prostorů a techniky"}
 				/>

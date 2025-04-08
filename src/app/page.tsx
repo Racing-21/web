@@ -31,7 +31,7 @@ export default async function Home() {
 		},
 		{},
 	);
-	
+
 	return (
 		<>
 			{/* Hero card */}
@@ -53,12 +53,14 @@ export default async function Home() {
 									Závodní tým k Vašim služám
 								</h2>
 								<p className="mt-4 text-gray-100 text-center">
-									Spojuje nás vášeň pro automobily. Dveře našeho servisu jsou
-									otevřeny i Vám, kterým srdce při zvuku spalovacího motoru
-									zaplesá, tak jako nám. Naši zkušení mechanici se postarají i o
-									Vaše vozidlo. Mimo závodní speciály se postaráme i o sportovní
-									vozy a youngtimery. Od drobných oprav přes úpravy až po
-									kompletní renovaci se o Vaši čtyřkolovou radost postaráme.
+									Soutěžní tým Racing 21 založil v roce 2015 matematik Karel
+									Janeček a soutěžní jezdec Vojtěch Štajf. Spojuje nás vášeň pro
+									automobily. Dveře našeho servisu jsou otevřeny i Vám, kterým
+									srdce při zvuku spalovacího motoru zaplesá, tak jako nám. Naši
+									zkušení mechanici se postarají i o Vaše vozidlo. Mimo závodní
+									speciály se postaráme i o sportovní vozy a youngtimery. Od
+									drobných oprav přes úpravy až po kompletní renovaci se o Vaši
+									čtyřkolovou radost postaráme.
 								</p>
 							</div>
 						</div>
