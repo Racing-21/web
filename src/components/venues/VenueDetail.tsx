@@ -59,6 +59,8 @@ export function VenueDetail({ venue }: { venue: VenueType }) {
 									{new Intl.NumberFormat("cs-CZ", {
 										style: "currency",
 										currency: "CZK",
+										minimumFractionDigits: 0,
+										maximumFractionDigits: 0,
 									}).format(price.price)}{" "}
 									{normalizePriceUnit(price.unit)}
 								</p>

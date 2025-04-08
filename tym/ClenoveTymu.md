@@ -172,7 +172,7 @@ teamMember:
       * sportovní a motoristický novinář
 
       * v letech 2001-2002 zástupce továrního týmu Škoda motorsport v
-      Mistrovství světa v rallye pro tisk.
+      Mistrovství světa v rallye pro tisk
 
 
       K rallye se poprvé dostal ve 12 letech jako divák na Rallye Sigma Olomouc

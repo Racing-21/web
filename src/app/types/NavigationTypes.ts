@@ -51,7 +51,7 @@ export const NAVIGATION = [
 			{
 				name: "Servis sportovních vozů",
 				description:
-					"Váš vůz si zaslouží tu nejlepší péči. Naši technici se zkušenostmi z mezinárodních závodů mu ji poskytnou",
+					"Váš vůz si zaslouží tu nejlepší péči. Naši technici se zkušenostmi z mezinárodních závodů mu ji poskytnou.",
 				href: "/sluzby/servis-sportovnich-vozu",
 				icon: CursorArrowRaysIcon,
 			},
@@ -65,7 +65,7 @@ export const NAVIGATION = [
 			{
 				name: "Poradenství při nákupu vozidel",
 				description:
-					"Máte vysněného veterána, ale nechcete se při jeho nákupu spálit? Rádi vám pomůžeme vybrat vůz bezpečně a bez obav",
+					"Máte vysněného veterána, ale nechcete se při jeho nákupu spálit? Rádi vám pomůžeme vybrat vůz bezpečně a bez obav.",
 				href: "/sluzby/nakup-veteranu",
 				icon: FingerPrintIcon,
 			},
@@ -77,7 +77,7 @@ export const NAVIGATION = [
 		links: [
 			{
 				name: "Rally vozy k pronájmu",
-				description: "Nabízíme pronájem závodní techniky a vozů",
+				description: "Nabízíme pronájem závodní techniky a vozů.",
 				href: "/pronajem/pronajem-zavodnich-specialu",
 				icon: ChartPieIcon,
 			},
@@ -97,7 +97,7 @@ export const NAVIGATION = [
 			{
 				name: "Zázemí rallye servisu",
 				description:
-					"Poskytneme vám stany, cateringové vybavení, zkrátka vše pro servis během závodů či testování",
+					"Poskytneme vám stany, cateringové vybavení, zkrátka vše pro servis během závodů či testování.",
 				href: "/pronajem/pronajem-servisniho-zazemi",
 				icon: ChartPieIcon,
 			},

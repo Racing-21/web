@@ -37,7 +37,7 @@ export default function Page() {
 						<Link href={"/pronajem/pronajem-konferencnich-prostor"}>
 							<RentalCategoryCard
 								category={{
-									name: "Pronájem konferenčních prostorů",
+									name: "Konferenční prostory",
 									image: "https://res.cloudinary.com/dkhdp7qmd/image/upload/v1729865376/08_ebvm4p.webp",
 									shortDescription: "Uspořádejte akci v jedinečné atmosféře",
 								}}

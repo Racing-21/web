@@ -4,15 +4,7 @@ import { CogIcon } from "@heroicons/react/20/solid";
 const features = [
 	{
 		title: "kompletní běžný servis prémiových automobilů",
-		subtitle: "Výměna oleje, výměna brzdových destiček, doplnění kapalin a další",
-	},
-	{
-		title: "pneuservis",
-		subtitle: "přezouvání, vyvažování kol, opravy a uskladnění pneumatik",
-	},
-	{
-		title: "úprava softwarů řídících jednotek pro zvýšení výkonu",
-		subtitle: "navýšení výkonu úpravou SW řídící jednotky vozů všech značek",
+		subtitle: "výměna oleje, výměna brzdových destiček, doplnění kapalin a další",
 	},
 	{
 		title: "deaktivace systému Start-Stop",

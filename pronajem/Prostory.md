@@ -3,8 +3,8 @@ prostory:
   - name: Konferenční místnost
     shortDescription: Rozsáhlý prostor pro větší akce
     longDescription: >
-      Náš největší prostor, který umožňuje variabilní uspořádání dle Vašich
-      požadavků a který pojme až 50 účastníků. K dispozici je stylový bar a
+      Náš největší prostor umožňuje variabilní uspořádání dle Vašich
+      požadavků a pojme až 50 účastníků. K dispozici je stylový bar a
       kompletní audiovizuální vybavení:
 
 
@@ -13,7 +13,8 @@ prostory:
       * projektor, plátno
 
       * mikrofon, ozvučení
-        Zajištění cateringu dle zadání klienta je pro nás samozřejmostí.
+      
+      * zajištění cateringu dle zadání klienta je pro nás samozřejmostí
     price:
       - price: 18000
         unit: day

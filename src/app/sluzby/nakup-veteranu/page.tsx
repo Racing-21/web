@@ -24,7 +24,7 @@ export default function Page() {
 						"https://res.cloudinary.com/dkhdp7qmd/image/upload/v1729865372/05_tqrjra.webp"
 					}
 					title={"Nákup veteránů"}
-					content={"Nákup vašeho vysněného veterána nikdy nebyl jednodušší."}
+					content={"Nákup vašeho veterána nikdy nebyl jednodušší."}
 				/>
 			</div>
 			<PageLayout>
