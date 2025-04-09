@@ -15,22 +15,45 @@ export default function ContactSection() {
 							Kontaktujte nás
 						</h2>
 						<dl className="mt-8 text-base text-gray-500">
-							<h3 className={"text-gray-50 mb-2 text-lg"}>Adresa</h3>
+							<h3 className={"text-gray-50 mb-2 text-lg"}>Korespondenční adresa</h3>
 							<div>
-								<dt className="sr-only">Postal address</dt>
+								<dt className="sr-only"></dt>
+								<dd>
+									<p className={"text-gray-200"}>Racing 21 s.r.o.</p>
+									<p className={"text-gray-200"}>Mistřínská 393</p>
+									<p className={"text-gray-200"}>Praha 5, 155 21</p>
+								</dd>
+							</div>
+							<div className="mt-6 flex">
+								<dt className={"text-gray-200"}>IČ: </dt>
+								<dd className="flex">
+									<span className="ml-2 text-gray-200">04690192</span>
+								</dd>
+							</div>
+							<div className="mt-3 flex">
+								<dt className={"text-gray-200"}>DIČ: </dt>
+								<dd className="flex">
+									<span className="ml-2 text-gray-200">CZ04690192</span>
+								</dd>
+							</div>
+						</dl>
+						<dl className="mt-8 text-base text-gray-500">
+							<h3 className={"text-gray-50 mb-2 text-lg"}>Provozovna</h3>
+							<div>
+								<dt className="sr-only">Provozovna</dt>
 								<dd>
 									<p className={"text-gray-200"}>Hájecká 47</p>
 									<p className={"text-gray-200"}>Červený Újezd, 273 51</p>
 								</dd>
 							</div>
 							<div className="mt-6">
-								<dt className="sr-only">Phone number</dt>
+								<dt className="sr-only">Telefon</dt>
 								<dd className="flex">
 									<PhoneIcon
 										aria-hidden="true"
 										className="h-6 w-6 flex-shrink-0 text-gray-400"
 									/>
-									<span className="ml-3 text-gray-200">+1 (555) 123-4567</span>
+									<span className="ml-3 text-gray-200">+420 602 465 381</span>
 								</dd>
 							</div>
 							<div className="mt-3">
@@ -40,7 +63,7 @@ export default function ContactSection() {
 										aria-hidden="true"
 										className="h-6 w-6 flex-shrink-0 text-gray-400"
 									/>
-									<span className="ml-3 text-gray-200">kosnar@racing21.cz</span>
+									<span className="ml-3 text-gray-200">servis@racing21.cz</span>
 								</dd>
 							</div>
 						</dl>

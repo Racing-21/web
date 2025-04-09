@@ -1,4 +1,3 @@
-import Testimonials from "@/components/Testimonials";
 import { Metadata } from "next";
 import { HeroSection } from "@/components/HeroSection";
 import { PageLayout } from "@/components/layout/PageLayout";
@@ -42,10 +41,6 @@ export default function Page() {
 							/>
 						)}
 					</div>
-				</div>
-				<div className="w-full px-6 py-3 mt-6 flex-col">
-					<h2 className={"text-2xl font-bold mb-2"}>Řekli o nás</h2>
-					<Testimonials />
 				</div>
 			</PageLayout>
 		</>
