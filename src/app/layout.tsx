@@ -4,6 +4,7 @@ import "../styles/globals.css";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import Script from "next/script";
+import { EnvironmentProvider } from "@/components/EnvironmentProvider";
 
 // If loading a variable font, you don't need to specify the font weight
 const inter = Inter({
@@ -48,6 +49,7 @@ export default function RootLayout({
 					src="https://media-library.cloudinary.com/global/all.js"
 					strategy="beforeInteractive"
 				/>
+				<EnvironmentProvider />
 				<Navigation />
 				<main className={"flex flex-col"}>{children}</main>
 				<Footer />

@@ -45,3 +45,11 @@ export const publicEnv = {
   TINA_CLIENT_ID: process.env.NEXT_PUBLIC_TINA_CLIENT_ID,
   TINA_IS_LOCAL: process.env.TINA_PUBLIC_IS_LOCAL === "true",
 };
+
+// Runtime public environment variables for client components
+// This ensures environment variables are available at runtime in production
+if (typeof window !== 'undefined') {
+  // Only run on client side
+  publicEnv.CLOUDINARY_CLOUD_NAME = process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME || window.__ENV__?.CLOUDINARY_CLOUD_NAME || window.__NEXT_DATA__?.props?.pageProps?.env?.CLOUDINARY_CLOUD_NAME || publicEnv.CLOUDINARY_CLOUD_NAME;
+  publicEnv.CLOUDINARY_API_KEY = process.env.NEXT_PUBLIC_CLOUDINARY_API_KEY || window.__ENV__?.CLOUDINARY_API_KEY || window.__NEXT_DATA__?.props?.pageProps?.env?.CLOUDINARY_API_KEY || publicEnv.CLOUDINARY_API_KEY;
+}

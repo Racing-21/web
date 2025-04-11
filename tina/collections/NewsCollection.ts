@@ -36,6 +36,14 @@ export const NewsCollection: Collection = {
 					name: "date",
 					label: "Datum",
 					required: true,
+					ui: {
+						dateFormat: "YYYY-MM-DD",
+						timeFormat: "HH:mm",
+						validate: () => {
+							// Disable date validation to allow future dates
+							return undefined;
+						},
+					},
 				},
 				{
 					type: "string",

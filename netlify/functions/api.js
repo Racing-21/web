@@ -2,14 +2,15 @@ import ServerlessHttp from "serverless-http";
 import express, { Router } from "express";
 import { isAuthorized } from "@tinacms/auth";
 import { createMediaHandler } from "next-tinacms-cloudinary/dist/handlers";
+import { publicEnv, serverEnv } from "src/utils/env";
 
 const app = express();
 const router = Router();
 
 const mediaHandler = createMediaHandler({
-	cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
-	api_key: process.env.CLOUDINARY_API_KEY,
-	api_secret: process.env.CLOUDINARY_API_SECRET,
+	cloud_name: publicEnv.CLOUDINARY_CLOUD_NAME,
+	api_key: publicEnv.CLOUDINARY_API_KEY,
+	api_secret: serverEnv.CLOUDINARY_API_SECRET,
 	// eslint-disable-next-line @typescript-eslint/no-unused-vars
 	authorized: async (req, _res) => {
 		try {
