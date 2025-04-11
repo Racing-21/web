@@ -1,3 +1,4 @@
+import { FC } from "react";
 import { Tab, TabGroup, TabList, TabPanel, TabPanels } from "@headlessui/react";
 import Image from "next/image";
 
@@ -6,9 +7,13 @@ type Image = {
 	alt: string;
 };
 
-export function PhotoGallery({ images }: { images: Image[] }) {
+interface PhotoGalleryProps {
+	images: Image[];
+}
+
+export const PhotoGallery: FC<PhotoGalleryProps> = ({ images }) => {
 	return (
-		<TabGroup className={`flex flex-col-reverse w-full`}>
+		<TabGroup className="flex flex-col-reverse w-full">
 			<div className="mx-auto mt-4 lg:mt-6 w-full sm:block md:max-w-none">
 				<TabList className="flex flex-row w-full gap-4 flex-wrap">
 					{images.map((image, index) => (
@@ -17,14 +22,14 @@ export function PhotoGallery({ images }: { images: Image[] }) {
 							className="group w-[80px] h-[80px] relative flex cursor-pointer items-center justify-center rounded-md bg-white text-sm font-medium uppercase text-gray-900 hover:bg-gray-50 focus:outline-none focus:ring focus:ring-opacity-50 focus:ring-offset-4"
 						>
 							<span className="sr-only">{image.src}</span>
-							<span className="absolute inset-0 overflow-hidden rounded-md">
+							<span className="absolute inset-0 overflow-hidden rounded-md ">
 								{image && (
 									<Image
 										alt={image.alt}
 										priority
 										src={image.src}
 										fill
-										className="h-full w-full object-cover object-center"
+										className="h-full w-full object-cover object-center max-h-[300px]"
 									/>
 								)}
 							</span>
@@ -39,7 +44,7 @@ export function PhotoGallery({ images }: { images: Image[] }) {
 
 			<TabPanels className="aspect-h-1 aspect-w-1 w-full">
 				{images.map((image, index) => (
-					<TabPanel key={`${image.alt}_${index}_preview`} className={`relative w-full`}>
+					<TabPanel key={`${image.alt}_${index}_preview`} className="relative w-full">
 						{image && (
 							<Image
 								alt={image.alt}
@@ -55,4 +60,4 @@ export function PhotoGallery({ images }: { images: Image[] }) {
 			</TabPanels>
 		</TabGroup>
 	);
-}
+};

@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import { FC } from "react";
 import { Inter } from "next/font/google";
 import "../styles/globals.css";
 import Navigation from "@/components/Navigation";
@@ -37,11 +38,11 @@ export const viewport: Viewport = {
 	initialScale: 1.0,
 };
 
-export default function RootLayout({
-	children,
-}: Readonly<{
+interface RootLayoutProps {
 	children: React.ReactNode;
-}>) {
+}
+
+const RootLayout: FC<RootLayoutProps> = ({ children }) => {
 	return (
 		<html lang="en">
 			<body className={`${inter.className} antialiased`}>
@@ -51,9 +52,11 @@ export default function RootLayout({
 				/>
 				<EnvironmentProvider />
 				<Navigation />
-				<main className={"flex flex-col"}>{children}</main>
+				<main className="flex flex-col">{children}</main>
 				<Footer />
 			</body>
 		</html>
 	);
-}
+};
+
+export default RootLayout;

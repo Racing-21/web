@@ -1,18 +1,25 @@
+import { FC } from "react";
 import Image from "next/image";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import type { Metadata } from "next";
 import { PageLayout } from "@/components/layout/PageLayout";
-import client from "../../../../../tina/__generated__/client";
 import { TinaMarkdown } from "tinacms/dist/rich-text";
 import { PhotoGallery } from "@/components/PhotoGallery";
-import { AktualityAktuality } from "../../../../../tina/__generated__/types";
+import client from "@/../../tina/__generated__/client";
+import { AktualityAktuality } from "@/../../tina/__generated__/types";
 
 export const metadata: Metadata = {
 	title: "Racing21 - Technika",
 	description: "Přehled soutěžních vozů týmu Racing 21",
 };
 
-export default async function Page({ params }: { params: { slug: string } }) {
+interface PageProps {
+	params: {
+		slug: string;
+	};
+}
+
+const Page: FC<PageProps> = async ({ params }) => {
 	const { data } = await client.request(
 		{
 			query: `query getAktuality($relativePath: String!) {
@@ -24,6 +31,7 @@ export default async function Page({ params }: { params: { slug: string } }) {
                     shortDescription
                     longDescription
                     image
+                    gallery
             }
         }
     }`,
@@ -35,8 +43,6 @@ export default async function Page({ params }: { params: { slug: string } }) {
 	if (!data) {
 		return null;
 	}
-
-	console.log(data);
 
 	const post: AktualityAktuality | null =
 		data.aktuality.aktuality?.find((post: AktualityAktuality) => post?.slug === params.slug) ??
@@ -70,25 +76,28 @@ export default async function Page({ params }: { params: { slug: string } }) {
 									<Image
 										alt="Fotografie týmu Racing 21"
 										src={post.image}
-										fill={true}
+										fill
+										style={{
+											objectPosition: "top",
+										}}
 										className="h-full w-full object-cover"
 									/>
 								)}
 
 								<div className="absolute inset-0 bg-grayPrimary opacity-50 mix-blend-multiply" />
 							</div>
-							<div className="relative px-6 py-16 sm:py-24 lg:px-8 lg:py-32 h-[500px]"></div>
+							<div className="relative px-6 py-16 sm:py-24 lg:px-8 lg:py-32 h-[550px]"></div>
 						</div>
 					</div>
 				</div>
 			</div>
 			<PageLayout>
-				<div className={"px-6  mt-4"}>
+				<div className="px-6 mt-4">
 					<Breadcrumbs />
 				</div>
 
 				<div className="w-full px-6 py-6 mt-2 blogPost max-w-[1200px] m-auto">
-					<h1 className=" text-5xl font-bold tracking-tight mb-4">{post?.name}</h1>
+					<h1 className="text-5xl font-bold tracking-tight mb-4">{post?.name}</h1>
 					<p>{post.date && Intl.DateTimeFormat("cs-CZ").format(new Date(post.date))}</p>
 					<TinaMarkdown content={post.longDescription} />
 					<PhotoGallery images={postImages} />
@@ -96,4 +105,6 @@ export default async function Page({ params }: { params: { slug: string } }) {
 			</PageLayout>
 		</>
 	);
-}
+};
+
+export default Page;
