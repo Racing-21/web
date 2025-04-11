@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "../styles/globals.css";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+import Script from "next/script";
 
 // If loading a variable font, you don't need to specify the font weight
 const inter = Inter({
@@ -43,6 +44,10 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body className={`${inter.className} antialiased`}>
+				<Script
+					src="https://media-library.cloudinary.com/global/all.js"
+					strategy="beforeInteractive"
+				/>
 				<Navigation />
 				<main className={"flex flex-col"}>{children}</main>
 				<Footer />

@@ -1,4 +1,5 @@
 import { Collection } from "tinacms";
+import { BulkImageSelector } from "@/components/BulkImageSelector";
 
 export const NewsCollection: Collection = {
 	name: "aktuality",
@@ -55,6 +56,10 @@ export const NewsCollection: Collection = {
 					label: "Úvodní obrázek",
 				},
 				{
+					ui: {
+						// @ts-expect-error - custom tina component has incompatible types
+						component: (props) => BulkImageSelector(props),
+					},
 					type: "image",
 					name: "gallery",
 					label: "Fotogalerie",

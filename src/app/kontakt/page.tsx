@@ -3,6 +3,7 @@ import { HeroSection } from "@/components/HeroSection";
 import { PageLayout } from "@/components/layout/PageLayout";
 import ContactSection from "@/app/kontakt/components/ContactSection";
 import { GoogleMapsEmbed } from "@next/third-parties/google";
+import { serverEnv } from "@/utils/env";
 
 export const metadata: Metadata = {
 	title: "Racing 21 - Kontakt",
@@ -31,9 +32,9 @@ export default function Page() {
 				<div className="w-full px-6 py-3 mt-6 flex-col">
 					<h2 className={"text-2xl font-bold mb-2"}>Kde nás najdete</h2>
 					<div className="bg-grayPrimary px-6 py-6 lg:col-span-3 lg:px-8 xl:pl-12 rounded-lg">
-						{process.env.GOOGLE_MAPS_API_KEY && (
-							<GoogleMapsEmbed
-								apiKey={process.env.GOOGLE_MAPS_API_KEY}
+ 					{serverEnv.GOOGLE_MAPS_API_KEY && (
+ 						<GoogleMapsEmbed
+ 							apiKey={serverEnv.GOOGLE_MAPS_API_KEY}
 								height={400}
 								width={"100%"}
 								mode="place"
