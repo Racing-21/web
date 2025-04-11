@@ -1,7 +1,7 @@
 ---
 upcomingEvents:
   - name: Rallye Český Krumlov 2
-    date: 2026-05-19T09:00:00.000Z
+    date: 2026-05-14T09:00:00.000Z
     description: Účast týmu Racing 21 na Rallye Český Krumlov
   - name: Barum Czech Rally Zlín
     date: 2026-08-18T10:00:00.000Z
