@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import { publicEnv } from "@/utils/env";
 
 // Add Cloudinary type definition to Window interface
 declare global {
@@ -23,10 +22,10 @@ declare global {
 const CLOUDINARY_URL = "https://media-library.cloudinary.com/global/all.js";
 
 const mediaLibraryOptions = {
-	cloud_name: publicEnv.CLOUDINARY_CLOUD_NAME,
+	cloud_name: process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME,
 	multiple: true,
 	max_files: 20,
-	api_key: publicEnv.CLOUDINARY_API_KEY,
+	api_key: process.env.NEXT_PUBLIC_CLOUDINARY_API_KEY,
 };
 
 interface BulkImageSelectorProps {
