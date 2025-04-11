@@ -67,7 +67,7 @@ function classNames(...classes: string[]) {
 
 export default function Services() {
 	return (
-		<div className="md:grid-cols-3 gap-4 rounded-lg bg-grayPrimary p-2 md:p-6 ">
+		<div className="rounded-lg bg-grayPrimary p-2 md:p-6 h-full">
 			<div className={"p-4"}>
 				<p className={"text-center mb-2"}>
 					Vojtěch Štajf, jezdec a jednatel týmu ACCR Racing21, má téměř 30 let zkušeností

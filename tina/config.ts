@@ -7,6 +7,7 @@ import { ServiceCollection } from "./collections/Service";
 import { PartnersCollection } from "./collections/Partners";
 import { ChampionshipCollection } from "./collections/ChampionshipCollection";
 import { NewsCollection } from "./collections/NewsCollection";
+import { UpcomingEventsCollection } from "./collections/UpcomingEventsCollection";
 
 // Your hosting provider likely exposes this as an environment variable
 const branch =
@@ -228,6 +229,7 @@ export default defineConfig({
 			},
 			NewsCollection,
 			PartnersCollection,
+			UpcomingEventsCollection,
 		],
 	},
 });

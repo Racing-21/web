@@ -1,6 +1,7 @@
 import client from "../../tina/__generated__/client";
 import { UpcomingEventsCard } from "@/components/UpcomingEventCard";
 import { newsQuery } from "../../tina/queries/newsQueries";
+import { UpcomingEvents } from "@/components/UpcomingEvents";
 
 type NewsItem = {
 	name: string;
@@ -28,13 +29,22 @@ export async function NewsSection({ numberOfNews }: { numberOfNews?: number }) {
 		const latestNews: NewsItem[] = data.aktuality.aktuality?.slice(0, numberOfNews);
 
 		return (
-			<div className={"grid grid-cols-1 md:grid-cols-3 gap-4 rounded-lg"}>
-				{latestNews?.map((post) => (
-					<UpcomingEventsCard
-						post={post}
-						key={`${post?.name}-${post?.date}-${post?.slug}`}
-					/>
-				))}
+			<div
+				className={"w-full grid grid-cols-1 md:grid-cols-4 lg:grid-cols-6 gap-4 rounded-lg"}
+			>
+				<div
+					className={"md:col-span-2 lg:col-span-4 grid-cols-1 lg:grid-cols-2 grid gap-4"}
+				>
+					{latestNews?.map((post) => (
+						<UpcomingEventsCard
+							post={post}
+							key={`${post?.name}-${post?.date}-${post?.slug}`}
+						/>
+					))}
+				</div>
+				<div className={"md:col-span-2 lg:col-span-2"}>
+					<UpcomingEvents />
+				</div>
 			</div>
 		);
 	}

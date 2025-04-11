@@ -101,7 +101,7 @@ export default async function Home() {
 				</div>
 				<div className="w-full">
 					<h2 className={"text-2xl capitalize font-bold mb-2"}>Aktuality</h2>
-					<NewsSection numberOfNews={3} />
+					<NewsSection numberOfNews={2} />
 				</div>
 			</PageLayout>
 		</>
