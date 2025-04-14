@@ -1,6 +1,9 @@
 ---
 partner:
-  - {}
+  - name: Winmax
+    link: 'https://www.winmax-racing.cz/'
+    logo: >-
+      https://res.cloudinary.com/dkhdp7qmd/image/upload/v1732037904/winmax_hpqoz9.jpg
   - name: Petro Canada
     link: 'https://www.petro-canada.cz/'
     logo: >-
