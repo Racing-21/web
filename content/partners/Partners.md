@@ -1,5 +1,9 @@
 ---
 partner:
+  - name: Pemax print
+    link: 'https://www.pemax.cz/'
+    logo: >-
+      https://res.cloudinary.com/dkhdp7qmd/image/upload/v1744646047/loga_LR21-08_thauby.svg
   - name: Elevaty.ai
     link: 'https://elevaty.ai/'
     logo: >-
