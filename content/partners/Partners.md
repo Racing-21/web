@@ -1,5 +1,9 @@
 ---
 partner:
+  - name: Lak Racing
+    link: 'https://www.lakracing.cz/'
+    logo: >-
+      https://res.cloudinary.com/dkhdp7qmd/image/upload/v1744647653/lakRacing_tbhenq.svg
   - name: Turatello
     link: 'https://turatello-privesy.cz/'
     logo: >-
