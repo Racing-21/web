@@ -1,5 +1,9 @@
 ---
 partner:
+  - name: Elevaty.ai
+    link: 'https://elevaty.ai/'
+    logo: >-
+      https://res.cloudinary.com/dkhdp7qmd/image/upload/v1744646047/loga_LR21-07_gwppea.svg
   - name: Winmax
     link: 'https://www.winmax-racing.cz/'
     logo: >-
