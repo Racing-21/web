@@ -1,7 +1,10 @@
 ---
 partner:
   - name: Sonax
+    description: ''
     link: 'https://www.sonax.cz/'
+    logo: >-
+      https://res.cloudinary.com/dkhdp7qmd/image/upload/v1744646051/loga_LR21-17_bs8pm1.svg
   - name: Autoklub ČR
     description: >
       Autoklub České republiky (AČR) je samostatným suverénním a dobrovolným
