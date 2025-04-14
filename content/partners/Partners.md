@@ -1,5 +1,10 @@
 ---
 partner:
+  - {}
+  - name: Petro Canada
+    link: 'https://www.petro-canada.cz/'
+    logo: >-
+      https://res.cloudinary.com/dkhdp7qmd/image/upload/v1744646052/loga_LR21-18_eaf3in.svg
   - name: Sonax
     description: ''
     link: 'https://www.sonax.cz/'
