@@ -1,5 +1,9 @@
 ---
 partner:
+  - name: Pirelli
+    link: 'https://www.pirelli.com/tyres/cs-cz/car/homepage'
+    logo: >-
+      https://res.cloudinary.com/dkhdp7qmd/image/upload/v1744646049/loga_LR21-11_rqkwbq.svg
   - name: SAG
     link: 'https://www.sag.cz/'
     logo: >-
