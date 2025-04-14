@@ -1,5 +1,9 @@
 ---
 partner:
+  - name: SAG
+    link: 'https://www.sag.cz/'
+    logo: >-
+      https://res.cloudinary.com/dkhdp7qmd/image/upload/v1744646048/loga_LR21-10_tvmeli.svg
   - name: Pemax print
     link: 'https://www.pemax.cz/'
     logo: >-
