@@ -12,6 +12,7 @@ enum teamRoles {
 	teamCoordinator = "Koordinátor týmu",
 	scout = "Průzkum trati",
 	prManager = "PR manažer",
+	founder = "Zakladatel týmu",
 }
 
 export const TeamMemberCollection: Collection = {
@@ -77,6 +78,10 @@ export const TeamMemberCollection: Collection = {
 									value: "mechanic",
 									label: "Mechanik",
 								},
+								{
+									value: "founder",
+									label: "Zakladatel týmu",
+								},
 							],
 						},
 						{
@@ -134,8 +139,11 @@ export const TeamMemberCollection: Collection = {
 					label: "Realizační tým",
 					ui: {
 						itemProps: (item: { name: string; role: string[] }) => {
-							const role = teamRoles[item.role[0] as keyof typeof teamRoles];
-							return { label: `${role.toUpperCase()} - ${item.name}` };
+							const initialRoles = item.role;
+							const role = initialRoles
+								? [item.role[0] as keyof typeof teamRoles]
+								: null;
+							return { label: `${role ? role[0].toUpperCase() : ""} - ${item.name}` };
 						},
 					},
 					fields: [

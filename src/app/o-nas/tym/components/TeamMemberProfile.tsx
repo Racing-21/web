@@ -9,11 +9,12 @@ enum teamRoles {
 	mechanic = "Mechanik",
 	videoCrew = "Video tým",
 	photographer = "Fotograf",
-	chiefMechanic = "Hlavní mechanik",
+	chiefMechanic = "Technik",
 	catering = "Catering",
 	teamCoordinator = "Koordinátor týmu",
 	scout = "Průzkum trati",
 	prManager = "PR manažer",
+	founder = "Zakladatel týmu",
 }
 
 enum teamRolesFemales {
@@ -23,11 +24,12 @@ enum teamRolesFemales {
 	mechanic = "Mechanička",
 	videoCrew = "Video tým",
 	photographer = "Fotografka",
-	chiefMechanic = "Hlavní mechanička",
+	chiefMechanic = "Technička",
 	catering = "Catering",
 	teamCoordinator = "Koordinátorka týmu",
 	scout = "Průzkum trati",
 	prManager = "PR manažerka",
+	founder = "Zakladatelka týmu",
 }
 
 export const TeamMemberProfile = ({ person }: { person: TeamMembersTeamMember }) => {
@@ -36,7 +38,7 @@ export const TeamMemberProfile = ({ person }: { person: TeamMembersTeamMember })
 			<li
 				key={person.name}
 				className={
-					"relative bg-black rounded-xl p-6 hover:bg-grayPrimary cursor-pointer shadow-black shadow-md"
+					"relative bg-black rounded-xl p-6 hover:bg-grayPrimary cursor-pointer shadow-black shadow-md h-full"
 				}
 			>
 				{person.image && (

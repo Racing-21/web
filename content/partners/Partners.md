@@ -1,5 +1,7 @@
 ---
 partner:
+  - name: Sonax
+    link: 'https://www.sonax.cz/'
   - name: Autoklub ČR
     description: >
       Autoklub České republiky (AČR) je samostatným suverénním a dobrovolným
@@ -41,33 +43,50 @@ partner:
       https://res.cloudinary.com/dkhdp7qmd/image/upload/v1732108960/BG_f2df0w.svg
   - name: ČPP
     description: >
-      Česká podnikatelská pojišťovna je univerzální pojišťovnou, která nabízí svým klientům moderní produkty a komplexní pojistná řešení v oblasti životního i neživotního pojištění. Na českém pojistném trhu působí od roku 1995. Ve velké konkurenci domácích pojišťoven se ČPP profiluje jako stabilní a finančně silná společnost. Od roku 2005 je ČPP součástí jedné z největších evropských pojišťovacích skupin Vienna Insurance Group.
+      Česká podnikatelská pojišťovna je univerzální pojišťovnou, která nabízí
+      svým klientům moderní produkty a komplexní pojistná řešení v oblasti
+      životního i neživotního pojištění. Na českém pojistném trhu působí od roku
+      1995. Ve velké konkurenci domácích pojišťoven se ČPP profiluje jako
+      stabilní a finančně silná společnost. Od roku 2005 je ČPP součástí jedné z
+      největších evropských pojišťovacích skupin Vienna Insurance Group.
     link: 'https://www.cpp.cz/'
     logo: >-
       https://res.cloudinary.com/dkhdp7qmd/image/upload/v1732108959/CPP_f5faex.svg
   - name: Dekarbonizace.eu
     description: >
-      Karbonové – uhlovodíkové úsady jsou pro naše vozy skutečnou pohromou, která může při dlouhodobém zanedbávání servisu nejen snížit výkon a funkčnost motoru a dalších součástí, ale způsobit i trvalé poškození. Dekarbonizace obnoví správnou funkci vstřikovacího systému a odstraní nežádoucí úsady. Postará se tak o snížení škodlivých emisí a vlivem zvýšení efektivity spalování paliva přispěje také k nižší spotřebě paliva vašeho vozu.
+      Karbonové – uhlovodíkové úsady jsou pro naše vozy skutečnou pohromou,
+      která může při dlouhodobém zanedbávání servisu nejen snížit výkon a
+      funkčnost motoru a dalších součástí, ale způsobit i trvalé poškození.
+      Dekarbonizace obnoví správnou funkci vstřikovacího systému a odstraní
+      nežádoucí úsady. Postará se tak o snížení škodlivých emisí a vlivem
+      zvýšení efektivity spalování paliva přispěje také k nižší spotřebě paliva
+      vašeho vozu.
     link: 'https://www.dekarbonizace.eu/'
     logo: >-
       https://res.cloudinary.com/dkhdp7qmd/image/upload/v1732108957/Decarbonizace_tw2uy2.svg
   - name: FLEX
     description: >
-        FLEX das Original je německým výrobcem prvotřídního elektrického nářadí již od roku 1922. FLEX výroba obsahuje veškeré obvyklé elektrické nářadí, jak akumulátorové tak síťové, a nabízí speciální stroje, které většinou konkurence neposkytuje. Pro všechny stroje je společná vysoká preciznost zpracování a zároveň smysl pro detaily. FLEX uživatel má i možnost dokoupení náhradních dílů, pokud by došlo k mechanickému poškození stroje. Odrazem preciznosti výrobků je nízká poruchovost strojů doplněná skvěle fungujícími servisními středisky.
+      FLEX das Original je německým výrobcem prvotřídního elektrického nářadí
+      již od roku 1922. FLEX výroba obsahuje veškeré obvyklé elektrické nářadí,
+      jak akumulátorové tak síťové, a nabízí speciální stroje, které většinou
+      konkurence neposkytuje. Pro všechny stroje je společná vysoká preciznost
+      zpracování a zároveň smysl pro detaily. FLEX uživatel má i možnost
+      dokoupení náhradních dílů, pokud by došlo k mechanickému poškození stroje.
+      Odrazem preciznosti výrobků je nízká poruchovost strojů doplněná skvěle
+      fungujícími servisními středisky.
     link: 'https://www.naradi-flex.cz/'
     logo: >-
       https://res.cloudinary.com/dkhdp7qmd/image/upload/v1732108957/Flex_fchaul.svg
   - name: GLOBAL ASSISTANCE
     description: >
-      Společnost GLOBAL ASSISTANCE a.s. byla založena v roce 2004 a je součástí mezinárodního koncernu Vienna Insurance Group. Od svého vzniku má zavedený systém řízení jakosti ISO 9001 se záměrem trvale dosahovat zvyšování kvality poskytovaných služeb a zajišťovat spokojenost svých zákazníků. Srdcem společnosti je asistenční centrum, které pracuje v nepřetržitém provozu a zajišťuje komplexní asistenční služby na území ČR i mezinárodně.
+      Společnost GLOBAL ASSISTANCE a.s. byla založena v roce 2004 a je součástí
+      mezinárodního koncernu Vienna Insurance Group. Od svého vzniku má zavedený
+      systém řízení jakosti ISO 9001 se záměrem trvale dosahovat zvyšování
+      kvality poskytovaných služeb a zajišťovat spokojenost svých zákazníků.
+      Srdcem společnosti je asistenční centrum, které pracuje v nepřetržitém
+      provozu a zajišťuje komplexní asistenční služby na území ČR i mezinárodně.
     link: 'https://www.globalassistance.cz/'
     logo: >-
-        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1732108960/GlobalAssistance_l6wcu3.svg
-  - name: MATHESSO
-    description: >
-        Základní myšlenka této hry spočívá v aktivaci kognitivních procesů zodpovědných za vznik a rozvoj matematické intuice. Mathesso pracuje s dětmi zejména na podvědomé úrovni a pomocí bazální aritmetiky jim přibližuje vybrané matematické operace.
-    link: 'https://mathesso.cz/'
-    logo: >-
-      https://res.cloudinary.com/dkhdp7qmd/image/upload/v1732108958/Mathesso_xm43pv.svg
+      https://res.cloudinary.com/dkhdp7qmd/image/upload/v1732108960/GlobalAssistance_l6wcu3.svg
 ---
 

@@ -60,11 +60,6 @@ const PARTNER_SITES = [
 		],
 	},
 	{
-		id: 4,
-		name: "Reiger a Protolum",
-		subheadline: "Špičkové sportovní tlumiče REIGER a PROTLUM",
-	},
-	{
 		id: 5,
 		name: "Sonax",
 		href: "https://www.sonax.cz",
@@ -89,18 +84,7 @@ const PARTNER_SITES = [
 					"https://res.cloudinary.com/dkhdp7qmd/image/upload/v1744037166/winmaxprodukty_ieddvn.jpg",
 			},
 		],
-	},
-	{
-		id: 7,
-		name: "EXEDY",
-		href: "https://www.exedy.co.uk/",
-		subheadline: "Kvalitní německá autokosmetika SONAX",
-	},
-	{
-		id: 7,
-		name: "Custom Cages",
-		href: "https://www.customcages.co.uk/",
-		subheadline: "Bezpečnostní ochranné konstrukce Custom Cages",
+		cta: "Navštívit web",
 	},
 ];
 
@@ -188,7 +172,7 @@ export default function Page() {
 													target="_blank"
 													className="rounded-full w-full text-center bg-white px-2.5 py-1.5 text-sm font-semibold text-gray-900 ring-inset ring-gray-300 hover:bg-black hover:text-gray-200 sm:block"
 												>
-													Navštívit e-shop
+													{item.cta ?? "Navštívit e-shop"}
 													<span className="sr-only">, {item.name}</span>
 												</a>
 											</div>

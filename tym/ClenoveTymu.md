@@ -4,39 +4,15 @@ teamMember:
     role:
       - chiefMechanic
     _template: backOffice
-  - name: Ing. Jan Bejvl
+  - name: Vojtěch Tymeš
     role:
-      - teamCoordinator
+      - mechanic
     sex:
       - M
     _template: backOffice
-  - name: Vizus Communication s.r.o.
+  - name: Tomáš Kapoun
     role:
-      - videoCrew
-    sex:
-      - M
-    _template: backOffice
-  - name: Rallyservice.cz
-    role:
-      - photographer
-    sex:
-      - M
-    _template: backOffice
-  - name: Matylda Štajfová
-    role:
-      - photographer
-    sex:
-      - F
-    _template: backOffice
-  - name: Milana Štajfová
-    role:
-      - catering
-    sex:
-      - F
-    _template: backOffice
-  - name: Tomáš Vaněk
-    role:
-      - prManager
+      - mechanic
     sex:
       - M
     _template: backOffice
@@ -52,17 +28,35 @@ teamMember:
     sex:
       - M
     _template: backOffice
-  - name: Martin Salamon
-    role:
-      - mechanic
-    sex:
-      - M
-    _template: backOffice
   - name: Vladimír Závora
     role:
       - mechanic
     sex:
       - M
+    _template: backOffice
+  - name: Tomáš Vaněk
+    role:
+      - prManager
+    sex:
+      - M
+    _template: backOffice
+  - name: Vizus Communication s.r.o.
+    role:
+      - videoCrew
+    sex:
+      - M
+    _template: backOffice
+  - name: Rallyservice.cz
+    role:
+      - photographer
+    sex:
+      - M
+    _template: backOffice
+  - name: Milana Štajfová
+    role:
+      - catering
+    sex:
+      - F
     _template: backOffice
   - name: Vladimír Zelinka
     role:
@@ -206,6 +200,7 @@ teamMember:
       - M
     role:
       - navigator
+      - founder
     about: >
       * matematik, ekonom, sociální inovátor
 
