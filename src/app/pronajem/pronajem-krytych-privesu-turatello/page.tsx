@@ -1,4 +1,3 @@
-import headerImage from "@/images/team/header.webp";
 import { PageLayout } from "@/components/layout/PageLayout";
 import { HeroSection } from "@/components/HeroSection";
 import client from "../../../../tina/__generated__/client";
@@ -32,7 +31,12 @@ export default async function Page() {
 		<>
 			<div>
 				{/* Hero card */}
-				<HeroSection image={headerImage} title={"Přívěsy k pronájmu"} />
+				<HeroSection
+					image={
+						"https://res.cloudinary.com/dkhdp7qmd/image/upload/v1729946809/IMG_3842_xxogcg.webp"
+					}
+					title={"Přívěsy k pronájmu"}
+				/>
 			</div>
 			<PageLayout>
 				<div className="bg-grayPrimary rounded-lg">

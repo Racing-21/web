@@ -1,4 +1,3 @@
-import headerImage from "@/images/team/header.webp";
 import { PageLayout } from "@/components/layout/PageLayout";
 import { HeroSection } from "@/components/HeroSection";
 import { ContactForm } from "@/components/ContactForm";
@@ -10,7 +9,9 @@ export default function Page() {
 			<div>
 				{/* Hero card */}
 				<HeroSection
-					image={headerImage}
+					image={
+						"https://res.cloudinary.com/dkhdp7qmd/image/upload/v1729847748/toyota_2_hmfsdn.webp"
+					}
 					title={"Pronájem závodních speciálů"}
 					content={"Naše auta k vašim službám"}
 				/>

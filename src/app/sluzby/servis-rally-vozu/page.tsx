@@ -1,4 +1,3 @@
-import Testimonials from "@/components/Testimonials";
 import { Metadata } from "next";
 import { PageLayout } from "@/components/layout/PageLayout";
 import { HeroSection } from "@/components/HeroSection";
@@ -30,10 +29,10 @@ export default function Page() {
 				<div className="w-full">
 					<RaceCarServiceInfo />
 				</div>
-				<div className="w-full">
-					<h2 className={"text-2xl font-bold mb-2"}>Řekli o nás</h2>
-					<Testimonials />
-				</div>
+				{/*<div className="w-full">*/}
+				{/*	<h2 className={"text-2xl font-bold mb-2"}>Řekli o nás</h2>*/}
+				{/*	<Testimonials />*/}
+				{/*</div>*/}
 			</PageLayout>
 		</>
 	);
