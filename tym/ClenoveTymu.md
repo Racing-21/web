@@ -1,75 +1,5 @@
 ---
 teamMember:
-  - name: Jakub Závora
-    role:
-      - chiefMechanic
-    _template: backOffice
-  - name: Vojtěch Tymeš
-    role:
-      - mechanic
-    sex:
-      - M
-    _template: backOffice
-  - name: Tomáš Kapoun
-    role:
-      - mechanic
-    sex:
-      - M
-    _template: backOffice
-  - name: Aleš Černý
-    role:
-      - mechanic
-    sex:
-      - M
-    _template: backOffice
-  - name: Milan Pálek
-    role:
-      - mechanic
-    sex:
-      - M
-    _template: backOffice
-  - name: Vladimír Závora
-    role:
-      - mechanic
-    sex:
-      - M
-    _template: backOffice
-  - name: Tomáš Vaněk
-    role:
-      - prManager
-    sex:
-      - M
-    _template: backOffice
-  - name: Vizus Communication s.r.o.
-    role:
-      - videoCrew
-    sex:
-      - M
-    _template: backOffice
-  - name: Rallyservice.cz
-    role:
-      - photographer
-    sex:
-      - M
-    _template: backOffice
-  - name: Milana Štajfová
-    role:
-      - catering
-    sex:
-      - F
-    _template: backOffice
-  - name: Vladimír Zelinka
-    role:
-      - scout
-    sex:
-      - M
-    _template: backOffice
-  - name: Matylda Štajfová
-    role:
-      - scout
-    sex:
-      - M
-    _template: backOffice
   - name: Vojtěch Štajf
     sex:
       - M
@@ -199,7 +129,6 @@ teamMember:
     sex:
       - M
     role:
-      - navigator
       - founder
     about: >
       * matematik, ekonom, sociální inovátor
@@ -329,5 +258,75 @@ teamMember:
     image: >-
       https://res.cloudinary.com/dkhdp7qmd/image/upload/v1733495932/frantisekRajnoha_hys2id.jpg
     _template: racingTeam
+  - name: Jakub Závora
+    role:
+      - chiefMechanic
+    _template: backOffice
+  - name: Vladimír Zelinka
+    role:
+      - scout
+    sex:
+      - M
+    _template: backOffice
+  - name: Matylda Štajfová
+    role:
+      - scout
+    sex:
+      - M
+    _template: backOffice
+  - name: Milana Štajfová
+    role:
+      - catering
+    sex:
+      - F
+    _template: backOffice
+  - name: Vojtěch Tymeš
+    role:
+      - mechanic
+    sex:
+      - M
+    _template: backOffice
+  - name: Tomáš Kapoun
+    role:
+      - mechanic
+    sex:
+      - M
+    _template: backOffice
+  - name: Aleš Černý
+    role:
+      - mechanic
+    sex:
+      - M
+    _template: backOffice
+  - name: Milan Pálek
+    role:
+      - mechanic
+    sex:
+      - M
+    _template: backOffice
+  - name: Vladimír Závora
+    role:
+      - mechanic
+    sex:
+      - M
+    _template: backOffice
+  - name: Tomáš Vaněk
+    role:
+      - prManager
+    sex:
+      - M
+    _template: backOffice
+  - name: Vizus Communication s.r.o.
+    role:
+      - videoCrew
+    sex:
+      - M
+    _template: backOffice
+  - name: Rallyservice.cz
+    role:
+      - photographer
+    sex:
+      - M
+    _template: backOffice
 ---
 
