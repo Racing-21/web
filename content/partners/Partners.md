@@ -1,9 +1,5 @@
 ---
 partner:
-  - name: Office Centrum Kolbenova
-    link: /
-    logo: >-
-      https://res.cloudinary.com/dkhdp7qmd/image/upload/v1744646053/loga_LR21-21_z8eeln.svg
   - name: Lak Racing
     description: ''
     link: 'https://www.lakracing.cz/'
@@ -14,6 +10,10 @@ partner:
     link: 'https://turatello-privesy.cz/'
     logo: >-
       https://res.cloudinary.com/dkhdp7qmd/image/upload/v1744646049/loga_LR21-13_w0dgxs.svg
+  - name: Office Centrum Kolbenova
+    link: /
+    logo: >-
+      https://res.cloudinary.com/dkhdp7qmd/image/upload/v1744646053/loga_LR21-21_z8eeln.svg
   - name: Pirelli
     description: ''
     link: 'https://www.pirelli.com/tyres/cs-cz/car/homepage'
