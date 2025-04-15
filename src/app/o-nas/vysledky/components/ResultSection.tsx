@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { isProduction } from "@/utils/env";
 
 export const ResultSection = ({ spreadsheetId }: { spreadsheetId: string }) => {
 	const [championshipData, setChampionshipData] = useState<string[][] | null>(null);
@@ -8,7 +9,12 @@ export const ResultSection = ({ spreadsheetId }: { spreadsheetId: string }) => {
 	useEffect(() => {
 		async function fetchData() {
 			try {
-				const response = await fetch("/api/sheets?spreadsheetId=" + spreadsheetId);
+				// Use Netlify function in production, Next.js API route in development
+				const endpoint = isProduction()
+					? "/.netlify/functions/googleSheets?spreadsheetId=" + spreadsheetId
+					: "/api/sheets?spreadsheetId=" + spreadsheetId;
+
+				const response = await fetch(endpoint);
 				const result = await response.json();
 				if (result) {
 					setChampionshipData(result.data);
@@ -19,7 +25,7 @@ export const ResultSection = ({ spreadsheetId }: { spreadsheetId: string }) => {
 		}
 
 		fetchData();
-	}, []);
+	}, [spreadsheetId]);
 
 	if (!championshipData) {
 		return (

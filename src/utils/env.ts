@@ -53,3 +53,11 @@ if (typeof window !== 'undefined') {
   publicEnv.CLOUDINARY_CLOUD_NAME = process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME || window.__ENV__?.CLOUDINARY_CLOUD_NAME || window.__NEXT_DATA__?.props?.pageProps?.env?.CLOUDINARY_CLOUD_NAME || publicEnv.CLOUDINARY_CLOUD_NAME;
   publicEnv.CLOUDINARY_API_KEY = process.env.NEXT_PUBLIC_CLOUDINARY_API_KEY || window.__ENV__?.CLOUDINARY_API_KEY || window.__NEXT_DATA__?.props?.pageProps?.env?.CLOUDINARY_API_KEY || publicEnv.CLOUDINARY_API_KEY;
 }
+
+/**
+ * Utility function to safely check if the current environment is production
+ * Works in both server and client components
+ */
+export function isProduction(): boolean {
+  return process.env.NODE_ENV === "production";
+}
