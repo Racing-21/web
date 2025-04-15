@@ -1,34 +1,46 @@
 ---
 partner:
+  - name: Office Centrum Kolbenova
+    link: /
+    logo: >-
+      https://res.cloudinary.com/dkhdp7qmd/image/upload/v1744646053/loga_LR21-21_z8eeln.svg
   - name: Lak Racing
+    description: ''
     link: 'https://www.lakracing.cz/'
     logo: >-
       https://res.cloudinary.com/dkhdp7qmd/image/upload/v1744647653/lakRacing_tbhenq.svg
   - name: Turatello
+    description: ''
     link: 'https://turatello-privesy.cz/'
     logo: >-
       https://res.cloudinary.com/dkhdp7qmd/image/upload/v1744646049/loga_LR21-13_w0dgxs.svg
   - name: Pirelli
+    description: ''
     link: 'https://www.pirelli.com/tyres/cs-cz/car/homepage'
     logo: >-
       https://res.cloudinary.com/dkhdp7qmd/image/upload/v1744646049/loga_LR21-11_rqkwbq.svg
   - name: SAG
+    description: ''
     link: 'https://www.sag.cz/'
     logo: >-
       https://res.cloudinary.com/dkhdp7qmd/image/upload/v1744646048/loga_LR21-10_tvmeli.svg
   - name: Pemax print
+    description: ''
     link: 'https://www.pemax.cz/'
     logo: >-
       https://res.cloudinary.com/dkhdp7qmd/image/upload/v1744646047/loga_LR21-08_thauby.svg
   - name: Elevaty.ai
+    description: ''
     link: 'https://elevaty.ai/'
     logo: >-
       https://res.cloudinary.com/dkhdp7qmd/image/upload/v1744646047/loga_LR21-07_gwppea.svg
   - name: Winmax
+    description: ''
     link: 'https://www.winmax-racing.cz/'
     logo: >-
       https://res.cloudinary.com/dkhdp7qmd/image/upload/v1744646053/loga_LR21-20_nawgt5.svg
   - name: Petro Canada
+    description: ''
     link: 'https://www.petro-canada.cz/'
     logo: >-
       https://res.cloudinary.com/dkhdp7qmd/image/upload/v1744646052/loga_LR21-18_eaf3in.svg
