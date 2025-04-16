@@ -20,7 +20,10 @@ partner:
     logo: >-
       https://res.cloudinary.com/dkhdp7qmd/image/upload/v1744646049/loga_LR21-13_w0dgxs.svg
   - name: Office Centrum Kolbenova
-    description: ''
+    description: >
+      Moderní administrativní centrum v pražských Vysočanech nabízí flexibilní
+      kancelářské prostory a profesionální zázemí pro firmy všech velikostí a
+      spojuje kvalitní pracovní podmínky s dostupnou lokalitou.
     link: /
     logo: >-
       https://res.cloudinary.com/dkhdp7qmd/image/upload/v1744646053/loga_LR21-21_z8eeln.svg
