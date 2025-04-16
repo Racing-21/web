@@ -1,7 +1,12 @@
 ---
 partner:
   - name: Lak Racing
-    description: ''
+    description: >
+      Autorizovaný servis značek Tesla, Peugeot a Citroën nabízí špičkovou péči
+      nejen o benzínová a naftová vozidla, ale také o nejmodernější
+      elektromobily a hybridy. Vedle standardních služeb servisu se specializují
+      na opravy havarovaných vozidel, která vracejí do bezvadného stavu v
+      moderně vybaveném crash centru.
     link: 'https://www.lakracing.cz/'
     logo: >-
       https://res.cloudinary.com/dkhdp7qmd/image/upload/v1744647653/lakRacing_tbhenq.svg
@@ -11,6 +16,7 @@ partner:
     logo: >-
       https://res.cloudinary.com/dkhdp7qmd/image/upload/v1744646049/loga_LR21-13_w0dgxs.svg
   - name: Office Centrum Kolbenova
+    description: ''
     link: /
     logo: >-
       https://res.cloudinary.com/dkhdp7qmd/image/upload/v1744646053/loga_LR21-21_z8eeln.svg
