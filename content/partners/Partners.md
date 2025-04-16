@@ -51,7 +51,11 @@ partner:
     logo: >-
       https://res.cloudinary.com/dkhdp7qmd/image/upload/v1744646047/loga_LR21-08_thauby.svg
   - name: Elevaty.ai
-    description: ''
+    description: >
+      Inovativní česká technologická společnost, zaměřená na umělou inteligenci
+      a automatizaci procesů, pomáhá firmám zefektivnit procesy, automatizovat
+      rutinu a přinášet chytrá datová řešení. Technologie společnosti reflektuje
+      současné trendy i budoucnost digitálního světa.
     link: 'https://elevaty.ai/'
     logo: >-
       https://res.cloudinary.com/dkhdp7qmd/image/upload/v1744646047/loga_LR21-07_gwppea.svg
