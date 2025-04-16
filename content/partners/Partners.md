@@ -90,11 +90,10 @@ partner:
       https://res.cloudinary.com/dkhdp7qmd/image/upload/v1744646051/loga_LR21-17_bs8pm1.svg
   - name: Autoklub ČR
     description: >
-      Autoklub České republiky (AČR) je samostatným suverénním a dobrovolným
-      spolkem zájemců o motorismus a činnost v AČR. Zároveň je právním nástupcem
-      Československého autoklubu, který byl právním nástupcem Autoklubu
-      republiky Československé. AČR je pokračovatelem činnosti Českého
-      autoklubu.
+      Hlavní autorita a nejvýznamnější organizace v oblasti motoristického
+      sportu a mobility v Česku podporuje mladé talenty, bezpečnost na silnicích
+      a zastupuje zájmy jezdců a týmů. Díky jeho činnosti se český motorsport
+      neustále rozvíjí a posouvá na vyšší úroveň.
     link: 'https://www.autoklub.cz/'
     logo: >-
       https://res.cloudinary.com/dkhdp7qmd/image/upload/v1732037900/autoklub_lajwzh.jpg
