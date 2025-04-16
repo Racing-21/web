@@ -79,7 +79,12 @@ partner:
     logo: >-
       https://res.cloudinary.com/dkhdp7qmd/image/upload/v1744646052/loga_LR21-18_eaf3in.svg
   - name: Sonax
-    description: ''
+    description: >
+      Německý specialista s dlouholetou tradicí je lídrem v oblasti
+      autokosmetiky a nabízí profesionální produkty pro čištění, péči a ochranu
+      vozidel. Výrobky Sonax jsou synonymem péče o vozidla, a proto jsou
+      neodmyslitelnou součástí také světa motorsportu. Vozy díky nim nejen
+      perfektně vypadají, ale i lépe odolávají extrémním podmínkám.
     link: 'https://www.sonax.cz/'
     logo: >-
       https://res.cloudinary.com/dkhdp7qmd/image/upload/v1744646051/loga_LR21-17_bs8pm1.svg
