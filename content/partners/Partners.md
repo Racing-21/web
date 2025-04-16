@@ -60,7 +60,12 @@ partner:
     logo: >-
       https://res.cloudinary.com/dkhdp7qmd/image/upload/v1744646047/loga_LR21-07_gwppea.svg
   - name: Winmax
-    description: ''
+    description: >
+      Renomovaný japonský výrobce vysoce výkonných brzdových destiček pro
+      motorsport kombinuje výkon, odolnost a zkušenosti z nejvyšších závodních
+      sérií. Díky preciznímu vývoji a dlouholetým zkušenostem nabízí produkty,
+      které splňují nároky profesionálních jezdců a přinášejí jistotu a stabilní
+      výkon i v extrémních podmínkách.
     link: 'https://www.winmax-racing.cz/'
     logo: >-
       https://res.cloudinary.com/dkhdp7qmd/image/upload/v1744646053/loga_LR21-20_nawgt5.svg
