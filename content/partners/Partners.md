@@ -99,16 +99,11 @@ partner:
       https://res.cloudinary.com/dkhdp7qmd/image/upload/v1732037900/autoklub_lajwzh.jpg
   - name: Elektrizace železnic Praha a.s
     description: >
-      Společnost Elektrizace železnic Praha a.s. se již 60 let specializuje na
-      vývoj, projektování, výrobu a montáž pevných trakčních zařízení pro
-      železnici a městskou hromadnou dopravu. Nejdůležitějším produktem jsou
-      trakční vedení pro železnici, tramvajovou a trolejbusovou dopravu. Dalším
-      významným oborem činnosti společnosti jsou dodávky elektrotechnologických
-      celků pro elektrickou trakci v podobě trakčních napájecích stanic,
-      měníren, spínacích stanic, trafostanice a elektrického předtápěcího
-      zařízení. Společnost neustále prochází soustavnou a komplexní modernizací,
-      která z ní činí jednoho z nejvýznamnějších dodavatelů v rámci železniční
-      infrastruktury v České republice.
+      Tradiční česká firma je díky svému know-how, přesnosti a zodpovědnému
+      přístupu významným partnerem v oblasti dopravní infrastruktury a podílí se
+      na klíčových projektech výstavby a modernizace železniční sítě v ČR. Své
+      zkušenosti přenáší i do podpory dalších technických a sportovních
+      projektů. 
     link: 'https://www.elzel.cz/'
     logo: >-
       https://res.cloudinary.com/dkhdp7qmd/image/upload/v1732037900/elektrizaceZeleznic_acnfvb.jpg
