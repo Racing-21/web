@@ -28,7 +28,11 @@ partner:
     logo: >-
       https://res.cloudinary.com/dkhdp7qmd/image/upload/v1744646053/loga_LR21-21_z8eeln.svg
   - name: Pirelli
-    description: ''
+    description: >
+      Přední světový výrobce pneumatik s více než 150letou historií je známý
+      svým důrazem na výkon, bezpečnost, inovace a kvalitu, což z něj činí
+      ideálního partnera pro motorsport. Pirelli podporuje týmy napříč různými
+      závodními sériemi a je oficiálním dodavatelem pneumatik pro Formuli.
     link: 'https://www.pirelli.com/tyres/cs-cz/car/homepage'
     logo: >-
       https://res.cloudinary.com/dkhdp7qmd/image/upload/v1744646049/loga_LR21-11_rqkwbq.svg
