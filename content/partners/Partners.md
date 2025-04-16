@@ -41,8 +41,12 @@ partner:
     link: 'https://www.sag.cz/'
     logo: >-
       https://res.cloudinary.com/dkhdp7qmd/image/upload/v1744646048/loga_LR21-10_tvmeli.svg
-  - name: Pemax print
-    description: ''
+  - name: Pemax Print
+    description: >
+      Tiskárna s dlouholetou tradicí a širokým portfoliem služeb je spolehlivým
+      partnerem pro firemní i reklamní tisk. S důrazem na detail, rychlost a
+      precizní zpracování nabízí širokou škálu služeb od ofsetového a
+      digitálního tisku po výrobu obalů a promo materiálů.
     link: 'https://www.pemax.cz/'
     logo: >-
       https://res.cloudinary.com/dkhdp7qmd/image/upload/v1744646047/loga_LR21-08_thauby.svg
