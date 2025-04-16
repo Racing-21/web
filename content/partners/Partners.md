@@ -70,7 +70,11 @@ partner:
     logo: >-
       https://res.cloudinary.com/dkhdp7qmd/image/upload/v1744646053/loga_LR21-20_nawgt5.svg
   - name: Petro Canada
-    description: ''
+    description: >
+      Kanadská značka prémiových motorových olejů a maziv, známá vysokou
+      čistotou základových olejů a pokročilou technologií, zajišťuje spolehlivou
+      ochranu motoru a výkon i při extrémní zátěži. I proto je po celém světě
+      oblíbenou volbou pro osobní i závodní vozy.
     link: 'https://www.petro-canada.cz/'
     logo: >-
       https://res.cloudinary.com/dkhdp7qmd/image/upload/v1744646052/loga_LR21-18_eaf3in.svg
