@@ -11,7 +11,11 @@ partner:
     logo: >-
       https://res.cloudinary.com/dkhdp7qmd/image/upload/v1744647653/lakRacing_tbhenq.svg
   - name: Turatello
-    description: ''
+    description: >
+      Italský výrobce návěsů a krytých přívěsů, zaměřených především na přepravu
+      vozidel, je díky preciznímu zpracování, kvalitním materiálům a důrazu na
+      bezpečnost oblíbenou volbou profesionálních přepravců i závodních týmů
+      napříč motorsportem.
     link: 'https://turatello-privesy.cz/'
     logo: >-
       https://res.cloudinary.com/dkhdp7qmd/image/upload/v1744646049/loga_LR21-13_w0dgxs.svg
