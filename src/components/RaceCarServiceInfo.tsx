@@ -58,20 +58,20 @@ export default function RaceCarServiceInfo() {
 					<div>
 						<div className="text-base leading-7 text-gray-700 lg:max-w-lg">
 							<p className="text-base font-semibold leading-7 text-red-600">
-								Příprava a stavba závodních vozů
+								Příprava a stavba soutěžních vozů
 							</p>
 							<h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-200 sm:text-4xl">
-								Soutěžní a závodní vozy rally
+								Soutěžní vozy
 							</h1>
 							<div className="max-w-xl mt-4">
 								<p className="text-base text-gray-300 mb-4 ">
 									S naším vysoce profesionálním týmem mechaniků se věnujeme
-									kompletní stavbě, přestavbě a údržbě závodních speciálů pro
+									kompletní stavbě, přestavbě a údržbě soutěžních speciálů pro
 									rallye. Současně poskytujeme kompletní servisní služby pro Vaši
-									závodní techniku od přípravy na závod, zajištění servisního
+									soutěžní techniku od přípravy na závod, zajištění servisního
 									zázemí a servisu vozu až po pozávodní servis včetně uskladnění
 									Vašeho vozu. Služby nabízíme pro území ČR, ale i pro zahraniční
-									závody, se kterými máme také bohatou zkušenost, a to včetně
+									soutěže, se kterými máme také bohatou zkušenost, a to včetně
 									administrativních požadavků. K pronájmu pro automobilové soutěže
 									aktuálně nabízíme několik vozů různých kategorií.
 								</p>
@@ -80,10 +80,10 @@ export default function RaceCarServiceInfo() {
 										<CogIcon className="mt-1.5 mr-2 h-4" />
 										<div className={"mb-4 w-[90%]"}>
 											<p className={"text-red-600 font-bold text-xl mb-0"}>
-												Servis a údržba Vaší závodní techniky
+												Servis a údržba Vaší soutěžní techniky
 											</p>
 											<p>
-												Máte svůj závodní speciál, ale nemáte vhodný tým
+												Máte svůj soutěžní speciál, ale nemáte vhodný tým
 												lidí, který by se Vám o něj postaral? Svěřte ho nám
 												ať už do kompletní péče, nebo jen částečné.
 											</p>
@@ -96,7 +96,7 @@ export default function RaceCarServiceInfo() {
 																	"text-red-600 font-bold text-l mb-0"
 																}
 															>
-																kompletní správa Vaší závodní
+																kompletní správa Vaší soutěžní
 																techniky
 															</p>
 															<p
@@ -107,7 +107,7 @@ export default function RaceCarServiceInfo() {
 																Zajistíme vám předzávodní přípravu,
 																servis během závodu včetně možnosti
 																zajištění zázemí a cateringu, péče o
-																závodní vůz po závodech a
+																soutěžní vůz po závodech a
 																garážování.
 															</p>
 														</div>
@@ -143,7 +143,7 @@ export default function RaceCarServiceInfo() {
 										<CogIcon className="mt-1.5 mr-2 h-4" />
 										<div className={"mb-4 w-[90%]"}>
 											<p className={"text-red-600 font-bold text-xl mb-0"}>
-												Stavba závodního vozu pro rally
+												Stavba soutěžního vozu pro rally
 											</p>
 											<p>
 												V naší dílně již vzniklo několik závodních vozů. Tím

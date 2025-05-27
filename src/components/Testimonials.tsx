@@ -38,7 +38,7 @@ export default function Testimonials() {
 	// 				<figure className="mt-10 flex flex-auto flex-col justify-between">
 	// 					<blockquote className="text-lg leading-8 text-gray-100">
 	// 						<p>
-	// 							Nejprve jsem si od Racing 21 párkrát půjčil jejich závodní
+	// 							Nejprve jsem si od Racing 21 párkrát půjčil jejich soutěžní
 	// 							speciál. Ve chvíli, kdy jsem se rozhodl pořídit si vlastní vůz,
 	// 							věděl jsem, že v péči tohoto týmu budu na každý závod skvěle
 	// 							připraven.

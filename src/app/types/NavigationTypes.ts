@@ -42,10 +42,10 @@ export const NAVIGATION = [
 		topLink: "sluzby",
 		links: [
 			{
-				name: "Příprava a stavba závodních vozů",
+				name: "Příprava a stavba soutěžních vozů",
 				description:
 					"Náš tým zkušených techniků dostane váš vůz před závody do té nejlepší kondice.",
-				href: "/sluzby/servis-rally-vozu",
+				href: "/sluzby/servis-a-provoz-souteznich-vozu",
 				icon: ChartPieIcon,
 			},
 			{
@@ -77,7 +77,7 @@ export const NAVIGATION = [
 		links: [
 			{
 				name: "Rally vozy k pronájmu",
-				description: "Nabízíme pronájem závodní techniky a vozů.",
+				description: "Nabízíme pronájem soutěžní techniky a vozů.",
 				href: "/pronajem/pronajem-zavodnich-specialu",
 				icon: ChartPieIcon,
 			},

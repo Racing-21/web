@@ -44,13 +44,13 @@ export default async function Page() {
 						"https://res.cloudinary.com/dkhdp7qmd/image/upload/v1732466628/Rally_Pac%CC%8Cejov_23-2124_ks2v8n.webp"
 					}
 					title={"Racing21"}
-					subtitle={"Nejen závodní rally tým"}
+					subtitle={"Nejen soutěžní rally tým"}
 				/>
 			</div>
 			<PageLayout>
 				<div className="w-full">
 					<h2 className={"text-2xl capitalize font-bold mb-2"}>
-						Členové závodního týmu racing 21
+						Racing 21 – členové soutěžního týmu
 					</h2>
 					<div className={"flex rounded-lg bg-grayPrimary p-6"}>
 						<ul

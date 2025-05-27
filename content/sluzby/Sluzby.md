@@ -1,46 +1,61 @@
 ---
 sluzby:
-  - title: Příprava na závody
-    headline: Soutěžní a závodní vozy
-    link: sluzby/servis-rally-vozu
+  - title: Servis a provoz soutěžních vozů
+    headline: Příprava na soutěže
+    link: sluzby/servis-a-provoz-souteznich-vozu
     description: >-
-      S vysoce profesionálním týmem techniků a mechaniků se zaměřujeme na
-      přestavbu i kompletní stavbu sportovních vozů pro všechny disciplíny
-      motorsportu včetně jejich pravidelné servisní údržby. Současně dokážeme
-      poskytnout také kompletní servisní zázemí s doprovodem včetně přípravy
-      vozů, materiálního zajištění a nutných administrativních úkonů, a to na
-      všech sportovních podnicích v České republice i v zahraničí. Aktuálně
-      nabízíme k pronájmů několik vozů různých kategorií pro automobilové
-      soutěže.
+      V oblasti motorsportu nabízíme komplexní služby během konání sportovních podniků v
+      České republice i v zahraničí, včetně dopravy. Součástí této služby je kompletní zajištění
+      účasti na daném sportovním podniku (soutěži či závodu), a to včetně personálního zajištění,
+      technicko-servisního zázemí týmu a cateringu pro všechny členy. Zkušený tým techniků a
+      mechaniků zajišťuje po celou dobu konání podniků technickou přípravu a provoz soutěžního
+      vozu. V nabídce je rovněž administrativní vyřízení účasti soutěžní posádky na daném
+      sportovním podniku. Samozřejmě vám dokážeme nabídnout také jen některou z uvedených
+      činností dle vašeho požadavku.
     image: /uploads/STA_2375a.jpg
-  - title: Servis sportovních vozů
+  - title: Stavba a pronájem soutěžních vozů
+    headline: Příprava na soutěže
+    link: sluzby/stavba-a-pronajem-souteznich-vozu
+    description: >-
+      V moderních dílnách týmu Racing21 bylo kompletně postaveno již několik soutěžních vozů
+      (např. Toyota Celica GT-Four ST165, Opel Ascona A a další). V případě vašeho zájmu o
+      stavbu soutěžního vozu nabízíme jeho kompletní realizaci včetně poradenství a potřebných
+      konzultací.
+      
+      Pokud máte zájem o aktivní účast v motorsportu bez vlastnictví soutěžního vozu, nabízíme
+      možnost jeho pronájmu na různě dlouhá období (vybrané soutěže nebo celá sezóna). V
+      současnosti Racing21 nabízí hned několik soutěžních vozů k pronájmu. V případě zájmu nás
+      neváhejte kontaktovat.
+    image: /uploads/STA_2375a.jpg
+  - title: Servis automobilů a úpravy sportovních vozů
     headline: Mechanické práce na sportovních vozech
     link: sluzby/servis-sportovnich-vozu
     description: >-
-      Máme rádi a umíme všechny značky, nicméně nejčastěji u nás uvidíte vozy
-      Subaru, Toyota, Porsche, Audi, Ford, Opel, Land Rover a BMW. Nabízíme
-      především mechanické práce včetně repasí motorů a převodovek, úprav
-      podvozků a brzdových systémů. Jako oficiální Premium Dealer společnosti
-      BSR se dlouhodobě zabýváme také optimalizací softwaru a zvyšováním
-      výkonových parametrů pohonných jednotek, a to jak u osobních, tak i u
-      obytných vozů většiny značek. Realizujeme úpravy, které si u BSR vyberete.
+      V této oblasti nabízíme především mechanické práce, včetně repase motorů, převodovek,
+      podvozkových částí a brzdových systémů. Díky dlouhodobé spolupráci se společností BSR
+      jsme držiteli titulu „Premium Dealer“ a specializujeme se na optimalizaci softwaru s cílem
+      zvýšení výkonových parametrů pohonných jednotek u osobních i obytných vozů většiny
+      značek. Realizujeme úpravy, které si u BSR vyberete. Samozřejmě v nabídce máme také
+      běžné servisní úkony – od výměny oleje, brzdových destiček, doplnění kapalin až po čištění
+      vozu a ošetření laku karoserie.
     image: /uploads/STA_2375a.jpg
   - title: Historické vozy a youngtimery
     headline: Renovace youngtimerů a veteránů
     link: /sluzby/renovace-veteranu
     description: >-
-      Snažíme se uchovat automobilovou historii a vrátit lesk unikátním vozům,
-      které těšily předchozí generace jejich majitelů. Neděláme rozdíl mezi
-      limuzínou, kabrioletem či sportovním vozem. Cenné vozy našich klientů vždy
-      s ohledem na jejich přání a potřeby rozebereme a jednotlivé části poté
-      procházejí pod našima rukama kompletní renovací a repasí s cílem maximálně
-      zachovat prvky jejich původní originality. V této oblasti také
-      spolupracujeme s prověřenými externími dodavateli z odpovídajících oborů,
-      jako je čalounictví, elektroinstalace a další, a společně s nimi vracíme
-      vašim veteránům život.
+      Mnohaleté zkušenosti na poli motorsportu nám umožňují nabídnout specifické činnosti v
+      oblasti renovací vozů. Zaměřujeme se především na youngtimery, tedy vozy, které jsou stále
+      relativně moderní, ale už dost staré na to, aby byly považovány za sběratelsky nebo
+      historicky zajímavé. Jejich stáří se obvykle pohybuje okolo 15 až 30 let. Právě takové vozy, s
+      jejichž celkovou renovací vám můžeme pomoci, se často účastní srazů nebo soutěží. Do
+      našich rukou můžete svěřit také vozy s veteránskou historií. Neděláme rozdíly mezi
+      kabriolety, limuzínami či sportovními vozy. Při renovaci se snažíme zachovat prvky originality
+      vozů. V této oblasti také spolupracujeme s prověřenými externími dodavateli z příbuzných
+      oborů, jako je čalounictví, elektroinstalace a další. Společně s nimi vracíme vašim vozům
+      život.
     image: >-
       https://res.cloudinary.com/dkhdp7qmd/image/upload/v1731151127/DSC04578_tgtlto.webp
-  - title: Poradenství v oblasti nákupu vozidel
+  - title: Poradenství v oblasti nákupu investičních vozů
     headline: Vozidla na investici i pro radost z jízdy
     link: /sluzby/nakup-veteranu
     description: >-

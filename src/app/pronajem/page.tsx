@@ -1,4 +1,3 @@
-import Testimonials from "@/components/Testimonials";
 import { Metadata } from "next";
 import { HeroSection } from "@/components/HeroSection";
 import { PageLayout } from "@/components/layout/PageLayout";
@@ -56,7 +55,7 @@ export default function Page() {
 						<Link href={"/pronajem/pronajem-zavodnich-specialu"}>
 							<RentalCategoryCard
 								category={{
-									name: "Závodní speciály",
+									name: "Soutěžní speciály",
 									image: "https://res.cloudinary.com/dkhdp7qmd/image/upload/v1729865376/cadet_1_kz9pjf.webp",
 									shortDescription: "Rozjeďte to s našimi rally vozy",
 								}}
@@ -79,10 +78,10 @@ export default function Page() {
 					<ContactForm />
 				</div>
 
-				<div className="w-full flex flex-col">
-					<h2 className={"text-2xl font-bold mb-2"}>Řekli o nás</h2>
-					<Testimonials />
-				</div>
+				{/*<div className="w-full flex flex-col">*/}
+				{/*	<h2 className={"text-2xl font-bold mb-2"}>Řekli o nás</h2>*/}
+				{/*	<Testimonials />*/}
+				{/*</div>*/}
 			</PageLayout>
 		</>
 	);

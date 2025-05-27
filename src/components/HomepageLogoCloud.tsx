@@ -19,9 +19,7 @@ export const HomepageLogoCloud = ({
 	return (
 		<div className="bg-gray-200">
 			<div className="mx-auto max-w-7xl px-6 py-8 lg:px-8">
-				<p className="text-center text-base font-semibold text-gray-500">
-					Partnerské produkty, které jsou našim důležitým pomocníkem
-				</p>
+				<p className="text-center text-base font-semibold text-gray-500">Partneři týmu</p>
 				<Swiper
 					slidesPerView={"auto"}
 					spaceBetween={50}

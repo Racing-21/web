@@ -12,7 +12,7 @@ export default function Page() {
 						"https://res.cloudinary.com/dkhdp7qmd/image/upload/v1744374203/07-test-vojtech-stajf_ivna3n.webp"
 					}
 					title={"Racing21"}
-					subtitle={"Nejen závodní rally tým"}
+					subtitle={"Nejen soutěžní rally tým"}
 				/>
 			</div>
 			<PageLayout>

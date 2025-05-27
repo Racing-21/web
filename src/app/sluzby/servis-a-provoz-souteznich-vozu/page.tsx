@@ -1,14 +1,14 @@
 import { Metadata } from "next";
-import SportsCarServiceInfo from "@/components/SportsCarServiceInfo";
-import { HeroSection } from "@/components/HeroSection";
 import { PageLayout } from "@/components/layout/PageLayout";
+import { HeroSection } from "@/components/HeroSection";
+import RaceCarServiceInfo from "@/components/RaceCarServiceInfo";
 
 export const metadata: Metadata = {
 	title: "Racing 21 - Servis a provoz soutěžních vozů",
 	openGraph: {
 		type: "website",
 		title: "Racing 21 - Servis a provoz soutěžních vozů",
-		description: "Váš soutěžní vůz si zaslouží tu nejlepší péči. My mu jí poskytneme.",
+		description: "Nabízíme širokou nabídku služeb v oblasti servisu soutěžních vozů",
 	},
 };
 
@@ -19,17 +19,17 @@ export default function Page() {
 				{/* Hero card */}
 				<HeroSection
 					image={
-						"https://res.cloudinary.com/dkhdp7qmd/image/upload/v1731151214/STA_2375a_j9ufiv.webp"
+						"https://storage.byznys21.net/apps/files_sharing/publicpreview/g9e5bxCyq3EWL7g?file=/Rallye%20auta/Rally_Pa%C4%8Dejov_23-7336.jpg&fileId=77993&x=1920&y=1200&a=true"
 					}
-					title={"Servis sportovních vozů"}
-					content={"Váš sportovní vůz si zaslouží tu nejlepší péči. My mu jí poskytneme."}
+					title={"Servis a provoz soutěžních vozů"}
+					content={""}
 				/>
 			</div>
 			<PageLayout>
-				<div className="w-full px-6 py-6 mt-6 flex-col">
-					<SportsCarServiceInfo />
+				<div className="w-full">
+					<RaceCarServiceInfo />
 				</div>
-				{/*<div className="w-full px-6 py-6 mt-6 flex-col">*/}
+				{/*<div className="w-full">*/}
 				{/*	<h2 className={"text-2xl font-bold mb-2"}>Řekli o nás</h2>*/}
 				{/*	<Testimonials />*/}
 				{/*</div>*/}

@@ -4,6 +4,7 @@ teamMember:
     sex:
       - M
     role:
+      - founder
       - driver
     achievements:
       - name: Mistr ČR Sprintrally
@@ -113,7 +114,7 @@ teamMember:
       všech kol a přeplňovaným motorem.  Nejprve působil v soukromých týmech, od
       roku 2005 se na jedenáct sezón stal značkovým jezdcem českého importéra
       Subaru.  V roce 2015 spolu s podnikatelem a matematikem Karlem Janečkem
-      založil závodní tým Racing 21.
+      založil soutěžní tým Racing 21.
 
       Do roku 2018 závodil výhradně s vozem ŠKODA Fabia R5,  v roce 2019
       startoval s Veronikou Havelkovou v MČR na novém voze Polo GTI R5 a jako
@@ -130,6 +131,7 @@ teamMember:
       - M
     role:
       - founder
+      - navigator
     about: >
       * matematik, ekonom, sociální inovátor
 

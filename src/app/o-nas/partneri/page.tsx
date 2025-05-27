@@ -1,4 +1,3 @@
-import Testimonials from "@/components/Testimonials";
 import { Metadata } from "next";
 import { HeroSection } from "@/components/HeroSection";
 import Image from "next/image";
@@ -117,10 +116,10 @@ export default async function Page() {
 						</div>
 					</div>
 				</div>
-				<div className="w-full flex flex-col">
-					<h2 className={"text-2xl font-bold mb-2"}>Řekli o nás</h2>
-					<Testimonials />
-				</div>
+				{/*<div className="w-full flex flex-col">*/}
+				{/*	<h2 className={"text-2xl font-bold mb-2"}>Řekli o nás</h2>*/}
+				{/*	<Testimonials />*/}
+				{/*</div>*/}
 			</PageLayout>
 		</>
 	);

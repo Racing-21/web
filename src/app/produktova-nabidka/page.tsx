@@ -1,4 +1,3 @@
-import Testimonials from "@/components/Testimonials";
 import { Metadata } from "next";
 import { HeroSection } from "@/components/HeroSection";
 import { PageLayout } from "@/components/layout/PageLayout";
@@ -19,15 +18,15 @@ const PARTNER_SITES = [
 		id: 1,
 		name: "HRX",
 		href: "https://www.hrxtech.cz",
-		subheadline: "Prémiové FIA certifikované závodní a týmové oblečení italské značky HRX",
+		subheadline: "Prémiové FIA certifikované soutěžní a týmové oblečení italské značky HRX",
 		products: [
 			{
-				category: "Závodní kombinézy",
+				category: "Soutěžní kombinézy",
 				categoryImage:
 					"https://res.cloudinary.com/dkhdp7qmd/image/upload/v1732377908/emozione3_g9iwxm.webp",
 			},
 			{
-				category: "Závodní rukavice",
+				category: "Soutěžní rukavice",
 				categoryImage:
 					"https://res.cloudinary.com/dkhdp7qmd/image/upload/v1732378777/racer_gloves-red_2000x2000_9e7ed4be-b529-4d1e-9253-a44bd432738c_vb47zy.webp",
 			},
@@ -183,10 +182,10 @@ export default function Page() {
 						</ul>
 					</section>
 				</div>
-				<div className="w-full px-6 py-3 mt-6 flex-col">
-					<h2 className={"text-2xl font-bold mb-2"}>Řekli o nás</h2>
-					<Testimonials />
-				</div>
+				{/*<div className="w-full px-6 py-3 mt-6 flex-col">*/}
+				{/*	<h2 className={"text-2xl font-bold mb-2"}>Řekli o nás</h2>*/}
+				{/*	<Testimonials />*/}
+				{/*</div>*/}
 			</PageLayout>
 		</>
 	);

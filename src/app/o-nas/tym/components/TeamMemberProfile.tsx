@@ -4,7 +4,7 @@ import { TeamMembersTeamMember } from "../../../../../tina/__generated__/types";
 
 enum teamRoles {
 	acceptanceMechanic = "Přijímací technik",
-	driver = "Řidič",
+	driver = "Soutěžní jezdec",
 	navigator = "Navigátor",
 	mechanic = "Mechanik",
 	videoCrew = "Video tým",
@@ -14,12 +14,12 @@ enum teamRoles {
 	teamCoordinator = "Koordinátor týmu",
 	scout = "Průzkum trati",
 	prManager = "PR manažer",
-	founder = "Zakladatel týmu",
+	founder = "Spolumajitel týmu",
 }
 
 enum teamRolesFemales {
 	acceptanceMechanic = "Přijímací technička",
-	driver = "Řidička",
+	driver = "Soutěžní jezdkyně",
 	navigator = "Navigátorka",
 	mechanic = "Mechanička",
 	videoCrew = "Video tým",
@@ -29,7 +29,7 @@ enum teamRolesFemales {
 	teamCoordinator = "Koordinátorka týmu",
 	scout = "Průzkum trati",
 	prManager = "PR manažerka",
-	founder = "Zakladatelka týmu",
+	founder = "Spolumajitel týmu",
 }
 
 export const TeamMemberProfile = ({ person }: { person: TeamMembersTeamMember }) => {

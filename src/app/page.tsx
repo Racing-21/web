@@ -14,12 +14,12 @@ export const metadata: Metadata = {
 		type: "website",
 		title: "Racing 21",
 		description:
-			"Kromě samotného závodění se Tým Racing 21 věnuje servisu a pronájmu závodních aut, servisu sportovních aut a pronájmu konferenčních prostor v Praze ",
+			"Kromě samotného závodění se Tým Racing 21 věnuje servisu a pronájmu soutěžních vozů, servisu sportovních aut a pronájmu konferenčních prostor v Praze ",
 	},
 	twitter: {
 		title: "Racing 21",
 		description:
-			"Závodní tým, renovace veteránů, servis závodních a sportovních vozů, pronájem konferenčních prostor Praha Západ",
+			"Soutěžní tým, renovace veteránů, servis závodních a sportovních vozů, pronájem konferenčních prostor Praha Západ",
 	},
 };
 
@@ -40,7 +40,7 @@ export default async function Home() {
 					"https://res.cloudinary.com/dkhdp7qmd/image/upload/v1729847729/toyota_1_hhratb.webp"
 				}
 				title={"Racing 21"}
-				subtitle={"Nejen závodní rally tým"}
+				subtitle={"Nejen soutěžní rally tým"}
 			/>
 			{/* Logo cloud */}
 			<HomepageLogoCloud partners={partners.partners.partner} />
@@ -50,24 +50,25 @@ export default async function Home() {
 						<div className="mx-auto max-w-2xl px-4 lg:max-w-none">
 							<div className="w-full">
 								<h2 className="text-4xl font-bold tracking-tight text-red-600 text-center">
-									Závodní tým k Vašim služám
+									Využijte naše letité zkušenosti z prostředí motorsportu
 								</h2>
 								<p className="mt-4 text-gray-100 text-center">
-									Soutěžní tým Racing 21 založil v roce 2015 matematik Karel
-									Janeček a soutěžní jezdec Vojtěch Štajf. Spojuje nás vášeň pro
-									automobily. Dveře našeho servisu jsou otevřeny i Vám, kterým
-									srdce při zvuku spalovacího motoru zaplesá, tak jako nám. Naši
-									zkušení mechanici se postarají i o Vaše vozidlo. Mimo závodní
-									speciály se postaráme i o sportovní vozy a youngtimery. Od
-									drobných oprav přes úpravy až po kompletní renovaci se o Vaši
-									čtyřkolovou radost postaráme.
+									Soutěžní tým Racing21 založili v roce 2025 matematik Karel
+									Janeček a zkušený soutěžní jezdec Vojtěch Štajf, neboť oba
+									spojovala neutuchající vášeň pro sportovní automobily a aktivní
+									motorsport. Tým našich techniků a mechaniků strávil na
+									automobilových soutěžích po celém světě mnoho let a získal tak
+									bohaté zkušenosti, které může nyní nabídnout i v péči také o
+									vaše vozidla, a to sportovní, historická nebo tolik oblíbené
+									youngtimery. S důvěrou se na nás obraťte a dejte tak svým
+									„plechovým láskám“ odpovídající péči!
 								</p>
 							</div>
 						</div>
 					</div>
 				</div>
 				<div className="w-full">
-					<h2 className={"text-2xl capitalize font-bold mb-2"}>Nejen závodní tým</h2>
+					<h2 className={"text-2xl capitalize font-bold mb-2"}>Jaké služby nabízíme?</h2>
 					<Services />
 				</div>
 				<div className="w-full">
@@ -75,7 +76,7 @@ export default async function Home() {
 					<div className={"grid grid-cols-1 lg:grid-cols-3 gap-4 rounded-lg"}>
 						<ServiceNavigationCard
 							link={"o-nas/tym"}
-							title={"Závodní tým"}
+							title={"Soutěžní tým"}
 							altImageText={"Sekce o závodním týmu Racing 21"}
 							image={
 								"https://res.cloudinary.com/dkhdp7qmd/image/upload/v1729865364/STA_8247_úspěchy_wmc2it.jpg"
