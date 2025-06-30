@@ -32,6 +32,7 @@ const Page: FC<PageProps> = async ({ params }) => {
                     longDescription
                     image
                     gallery
+                    coverImageAlignment
             }
         }
     }`,
@@ -78,7 +79,7 @@ const Page: FC<PageProps> = async ({ params }) => {
 										src={post.image}
 										fill
 										style={{
-											objectPosition: "top",
+											objectPosition: post.coverImageAlignment ?? "top",
 										}}
 										className="h-full w-full object-cover"
 									/>

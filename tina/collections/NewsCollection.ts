@@ -32,6 +32,25 @@ export const NewsCollection: Collection = {
 					required: true,
 				},
 				{
+					type: "string",
+					name: "coverImageAlignment",
+					label: "Zarovnat úvodní obrázek",
+					options: [
+						{
+							value: "top",
+							label: "Nahoru",
+						},
+						{
+							value: "center",
+							label: "Na střed",
+						},
+						{
+							value: "top",
+							label: "Na spod",
+						},
+					],
+				},
+				{
 					type: "datetime",
 					name: "date",
 					label: "Datum",
