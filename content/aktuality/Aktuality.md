@@ -37,6 +37,49 @@ aktuality:
       klasifikace si systémem start–cíl vybojovali Vojtěch Štajf a František
       Rajnoha s vozem ŠKODA Fabia RS Rally2 v barvách týmu ACCR Lak Racing21.
     longDescription: "Příjemné a většinou slunečné počasí přivítalo v centru jednodenní soutěže, započítávané mimo jiné do Poháru 2+, celkem více než stovku startujících posádek na soudobých a historických soutěžních vozech. Celkem 70,5 kilometru měřených úseků bylo na tomto podniku rozděleno do šesti divácky atraktivních rychlostních zkoušek.\n\nJiž časy dosažené během pátečního shakedownu začaly nápadně rýsovat kontury možného vývoje sobotní soutěže. Platilo to také pro posádku Vojtěch Štajf a František Rajnoha, která přijela do Slušovic se svým vozem ŠKODA Fabia RS Rally2. Ještě ve čtvrtek před soutěží Štajf finalizoval nastavení vozu při jednodenním testu v Plzeňském kraji a svoji spokojenost s ovladatelností potvrdil následně i třetím nejrychlejším časem právě v pátečním slušovickém shakedownu – s minimální časovou ztrátou na silnou konkurenci před sebou.\n\nPrvní sobotní ranní zkoušku částečně poznamenalo opoždění startu z důvodu havárie vozu ze šampionátu historiků, což neprospělo ani posádkám, ani jejich již teplotně nastaveným vozům. Přesto si posádka týmu ACCR Lak Racing21 zajistila hned v úvodu soutěže třetí nejrychlejší čas. V průběhu dne se však musela více soustředit na dotírající posádky jedoucí za ní. Poté, co Jaroslav a Erik Melichárkovi obdrželi od komisařů penalizaci za pozdní příjezd do časové kontroly, se boj Štajfa s Rajnohou o celkový bronz zúžil pouze na rychle jedoucího Karla Kupce ml. s navigátorkou Petrou Kamencovou. A přestože tato smíšená posádka postupně snižovala časovou ztrátu, Vojtěch Štajf s Františkem Rajnohou tlaku nakonec odolali a stejně jako v předešlé soutěži si dojeli pro celkové třetí místo. S těsným náskokem 3,4 sekundy tak získali za celkový bronz na pódiu i cenné body do klasifikace Poháru 2+. Stejný výsledek se jim zde povedl i v\_letech 2022 a 2023.\n\n„Letošní Kopnou hodnotíme s Frantou jako poměrně těžkou soutěž. Potěšil mě nejprve shakedown, který potvrdil pozitivní posun v nastavení našeho auta z testu. Se třetím časem jsem byl v pátek velmi spokojený. Avšak v sobotu, kvůli opožděnému rannímu startu na první erzetě, nám — stejně jako ostatním — rychle vychladlo auto. Na našem dosaženém času to ale bylo bohužel více znát v porovnání s vedoucími posádkami soutěže,“ popisuje situaci z úvodu soutěže Vojtěch Štajf a dodává: „Na druhou stranu právě na této úvodní rychlostní zkoušce jsme získali větší časový odstup na konkurenci za námi. A tady mám na mysli především Karla Kupce mladšího s Petrou Kamencovou, neboť bratři Melichárkovi obdrželi třicetisekundovou penalizaci, která jim šanci na celkový bronz sebrala. Snažili jsme se držet průběžné třetí místo, jak to jen šlo, a nakonec jsme ho s Frantou neopustili od začátku až do konce soutěže. Já osobně jsem měl třeba na Kašavě o trochu více respektu za volantem, protože stále mám v paměti nehodu z roku 2019, kdy jsme tu s Veronikou Havelkovou v rámci Barum Rallye krátce před cílem zahodili Polo GTI R5 do lesa. Dnes to ale tady ve Slušovicích skončilo mnohem příjemněji.“\n\nDalší start týmu ACCR Lak Racing21 bude v podstatě jeho domácí soutěží. Ve dnech 6.–7. června se totiž uskuteční již XIX. ročník soutěže Lak Racing Rallye Plzeň, kterou navíc Štajf s Rajnohou vyhráli ve dvou minulých ročnících. Letos bude Vojtěch Štajf tvořit posádku s\_navigátorkou Veronikou Havelkovou.\n"
+    image: >-
+      https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752157727/01-rallysprint-kopna-25-0978_maobx1.jpg
+    gallery:
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752157794/rallysprint-kopna-25-4187_xaj4ro.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752157794/rallysprint-kopna-25-5453_bvulp9.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752157793/rallysprint-kopna-25-4899_xsuuhr.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752157793/rallysprint-kopna-25-7618_rsla3n.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752157779/rallysprint-kopna-25-0466_odxzpd.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752157766/rallysprint-kopna-25-9253_aijs8z.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752157763/rallysprint-kopna-25-6513_uxxg2e.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752157763/rallysprint-kopna-25-7461_wbhlus.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752157760/dsc03044_deabgp.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752157760/dsc03052_h5xzm7.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752157759/rallysprint-kopna-25-1077_giffoa.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752157758/dsc02832_eowsho.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752157757/rallysprint-kopna-25-0501_kooe0a.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752157755/dsc02892_l9dvkj.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752157754/dsc03009_copmwh.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752157744/dsc02818_zzghpp.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752157739/dsc02800_vo9b6s.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752157729/03-rallysprint-kopna-25-3501_fsngtv.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752157728/02-rallysprint-kopna-25-3515_zmp2ra.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752157727/01-rallysprint-kopna-25-0978_maobx1.jpg
   - name: "\uFEFFDosáhne Štajf letos v Plzni na hattrick?"
     slug: Lak-Racing-Rallye-Plzen-2025-priprava
     date: 2025-06-02T22:00:00.000Z
