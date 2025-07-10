@@ -9,6 +9,79 @@ aktuality:
       Veronika Havelková – s bronzovými poháry za třetí místo v absolutním
       pořadí Poháru 2+.
     longDescription: "Jednodenní soutěž, jejíž trať byla situována do Plzeňského kraje, nabídla téměř devíti desítkám startujících posádek celkem osm měřených úseků v celkové délce 72 kilometrů, a to ve dvou totožných sekcích. Plzeňské rychlostní zkoušky patří každoročně mezi ty divácky nejatraktivnější, avšak letos přispěly ke zvýšené náročnosti hlavně rozmary počasí v podobě silných a dlouho trvajících dešťových přeháněk. Nic to však neubralo z těsných soubojů soutěžních posádek na trati.\n\nO pódiové umístění v Plzni se – vedle silné konkurence – ucházel mimo jiné i Vojtěch Štajf s vozem ŠKODA Fabia RS Rally2, který zde v minulých dvou ročnících zvítězil v absolutní klasifikaci se spolujezdcem Františkem Rajnohou. Letos se dle týmových plánů ujala v Plzni role navigátorky Veronika Havelková, pro kterou byla tato soutěž premiérou ve Fabii RS Rally2 a zároveň letošní druhou soutěží po úspěšné jarní Historic Vltava Rallye. Tým Lak Racing21, pro který bylo plzeňské klání v podstatě domácím podnikem, se na soutěž připravoval již v průběhu minulého týdne na celodenním testu soutěžního vozu.\n\nZmíněné silné dešťové přeháňky, které začaly postupně sužovat Plzeňský kraj již od sobotních dopoledních hodin, vedly tým Lak Racing21 k rozhodnutí nasadit již od rána pneumatiky Pirelli pro mokrý povrch tratě. K tomu mechanici týmu přizpůsobili podvozek Fabie RS Rally2 právě na intenzivní deště avizované v předpovědi počasí, nicméně u\_nového vozu neměl tým toto nastavení ještě moznost vyzkoušet v takových podmínkách ani při testování. Štajf s Havelkovou se přesto hned od startu soutěže pohybovali dosaženými časy na hranici pódiového umístění. Do hry však promluvily také penalizace soupeřů za špatně projeté retardéry. Po čtyřech rychlostních zkouškách, tvořících první sekci soutěže, se tak smíšená posádka týmu Lak Racing21 držela na třetím místě celkové klasifikace i klasifikace Poháru 2+.\n\nAni odpoledne se počasí na trati nijak nezlepšovalo, a Vojtěch Štajf tak po servisní přestávce nasadil novou sadu pneumatik Pirelli opět pro mokrý povrch a po poradě s\_technikem se ještě rozhodl přenastavit podvozek své soutěžní Fabie. Toto rozhodnutí se určitě ukázalo jako správné, a díky konzistentnímu výkonu si Štajf s Havelkovou dojeli pro třetí místo v klasifikaci Poháru 2+ a vedle bronzových pohárů si tímto výsledkem připisují také dalších jednadvacet bodů na své konto. V\_průběžném hodnocení Poháru 2+ jim tak patří v\_polovině sezóny průběžný bronz.\n\n„Dlouho nepamatuji tak náročné podmínky s\_tak intenzivním deštěm po celou dobu soutěže. Já mám samozřejmě určitý hendikep v nízkém počtu najetých kilometrů s Fabií RS Rally2 a v těchto podmínkách, které tu po celý den panovaly, jsem musel vůz víc poznávat. Samozřejmě, jako vítěz z minulých dvou ročníků bych býval rád dosáhl v Plzni na hattrick, ale za těch třicet let aktivního závodění už jsem především realistou. Filip Mareš s Radovanem Buchou jedou letos famózně a bojovat v Plzni s domácími Vaškem Pechem a Petrem Uhlem je také hodně obtížné, takže k\_našemu případnému vítězství by muselo nastat mimořádné dění na trati s notnou dávkou štěstěny,“ hodnotil svoji pozici ve startovním poli Vojtěch Štajf a dodal: „My jsme udělali velmi dobré ranní rozhodnutí s pneumatikami do mokra a měkkým nastavením podvozku. Samozřejmě celkovou konfiguraci vozu jsme jen odhadovali, a díky tomu bylo v\_první sekci auto stále tvrdší, než by bylo třeba. Hodně vody na trati si tak vyžádalo jeho ještě větší změkčení během servisní přestávky. V kombinaci s novou sadou pneumatik Pirelli jsem se odpoledne cítil za volantem velmi komfortně, byť jsme měli v\_závěru několik větších momentů na deštěm zalité trati poslední zkoušky. Moc děkuji Veronice za skvělou navigaci a celému týmu za dosažení třetího místa. Již potřetí v\_řadě jsme potvrdili pozici nejrychlejší posádky mimo velký mistrák. Těším se tak na Bohemii, kde se poměříme s celou českou špičkou.“\n\nPříštím startem týmu Lak Racing21 bude 52. ročník Bohemia Rally Mladá Boleslav, který se uskuteční 12.–13. července 2025. Na tomto podniku, započítávaném do MČR v automobilových soutěžích, se opět představí Vojtěch Štajf s Veronikou Havelkovou na voze ŠKODA Fabia RS Rally2.\n"
+    gallery:
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139481/rally-plzen-25-7769_h0os1i.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139480/rally-plzen-25-8008_eil5kz.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139479/rally-plzen-25-7927_jqvkww.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139479/rally-plzen-25-7827_kkb5hd.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139479/rally-plzen-25-5696_nfloi7.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139479/rally-plzen-25-7801_ot32no.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139477/rally-plzen-25-6956_nrqldl.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139477/rally-plzen-25-7346_zgrozv.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139477/rally-plzen-25-7397_srlh0x.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139477/rally-plzen-25-7285_jk26km.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139476/rally-plzen-25-5575_ynp2wm.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139477/rally-plzen-25-7392_c6zizw.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139475/rally-plzen-25-6872_tczies.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139475/rally-plzen-25-5717_wvpeq4.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139475/rally-plzen-25-6952_dkqmp5.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139473/rally-plzen-25-5581_m122qv.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139474/rally-plzen-25-5709_itocgu.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139475/rally-plzen-25-6539_vrjkyk.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139473/rally-plzen-25-0911_lgv87x.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139473/rally-plzen-25-5578_re2hwt.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139471/rally-plzen-25-3214_qf1f54.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139471/rally-plzen-25-5438_clfp2i.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139471/rally-plzen-25-5431_zj76yt.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139471/rally-plzen-25-3212_yuxbmh.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139470/rally-plzen-25-2091_gupx2d.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139470/rally-plzen-25-2070_zcsufn.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139471/rally-plzen-25-3196_g2k7us.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139469/rally-plzen-25-118_enlpmf.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139469/rally-plzen-25-0491_kxaday.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139469/02-rally-plzen-25-8002_wfjbb7.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139468/04-rally-plzen-25-7908_w6ugjs.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139468/rally-plzen-25-0438_xh0vcd.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139467/05-rally-plzen-25-7840_qkxste.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139465/03-rally-plzen-25-7931_ts0pdq.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139466/01-rally-plzen-25-7915_cbecbr.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139467/rally-plzen-25-0412_zaj6cm.jpg
   - name: "\uFEFFStrhující závěr v souboji o čtvrté místo"
     slug: rally-morava-2025
     date: 2025-04-14T22:00:00.000Z
