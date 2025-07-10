@@ -1,5 +1,31 @@
 ---
 aktuality:
+  - name: "\uFEFFLak Racing21 vyráží na Kopnou s ambicí na pódium"
+    slug: Rally-Kopna-priprava
+    date: 2025-05-06T22:00:00.000Z
+    shortDescription: >-
+      Tým ACCR Lak Racing21 se o nadcházejícím víkendu představí na startu
+      jednoho z tradičních podniků českého kalendáře jednodenních automobilových
+      soutěží. SÍŤ21 Rallysprint Kopná 2025 slibuje na trati v okolí Slušovic a
+      Podkopné Lhoty napínavé souboje i skvělou atmosféru.
+    longDescription: "Program soutěže, která je druhým podnikem započítávaným do Poháru 2+, začíná v sobotu ráno slavnostním startem ve Slušovicích, odkud se posádky vydají na šest rychlostních zkoušek s celkovou délkou 70 kilometrů v členitém terénu Vizovických vrchů. Ty nabídnou jak rychlé úseky, tak technické pasáže s výjezdy a sjezdy typickými pro tento region. Diváci se mohou těšit na tradiční tratě, kde každoročně v\_boji o celkové pořadí rozhodují vteřiny.\n\nV barvách týmu ACCR Lak Racing21 odstartuje do soutěže posádka Vojtěch Štajf – František Rajnoha, která se představí s vozem ŠKODA Fabia RS Rally2. Zmíněná posádka má sice s touto moravskou jednodenní soutěží méně zkušeností než místní matadoři, přesto se netají vysokými ambicemi.\n\nPro Vojtěcha Štajfa se jedná o známou soutěž – v minulých ročnících zde pravidelně podával konkurenceschopné výkony. Například v letech 2022 a 2023 zde s Františkem Rajnohou slavili třetí místo absolutně a stříbro v Poháru 2+. I tyto výsledky potvrzují, že posádka má na Kopné stabilní formu a umí se prosadit v tvrdé konkurenci. Před samotným sobotním startem absolvuje tým ACCR Lak Racing21 ve čtvrtek 8.5. předsoutěžní test, kde se bude jezdec s\_techniky snažit doladit Fabii RS Rally2 nejen co nejlépe pro tratě rychlostních zkoušek v oblasti Vizovických vrchů, ale i dále optimalizovat celkové nastavení vozu dle poznatků získaných při Rallye Morava.\n\n„Rallysprint Kopná patří k těm zajímavějším moravským soutěžím. Trať je technicky náročná a jezdecky pestrá, což nám s Frantou určitě vyhovuje. Rádi bychom proto navázali na naše výsledky z minulých let a směřovali k pódiovému umístění. Stejně jako při jiných soutěžích absolvujeme předsoutěžní test, a zaměříme se jednak na nastavení podvozku v kombinaci s různými druhy pneumatik Pirelli a za druhé na transmise. Do letošní sezóny jsme nevykročili špatně a já doufám, že své bodové konto v celkové klasifikaci Poháru 2+ po Kopné dále posílíme. Fanoušky bych tímto rád pozval na tratě rychlostních zkoušek – jejich podpora nám vždy dodá při soutěži energii navíc,“ říká jezdec Vojtěch Štajf.\n\nSoutěž bude odstartována v sobotu 10. 5. v 8:30 ve Slušovicích a na stejném místě projedou vozy cílovou rampou okolo 15. hodiny. Posádce Vojtěch Štajf – František Rajnoha bylo přiděleno startovní číslo 3.\n"
+    image: >-
+      https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752159491/02_so9m3f.jpg
+    gallery:
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752159515/07_abeaiu.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752159514/03-frantisek-rajnoha_1_vtcdyt.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752159514/06_zhc5by.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752159514/05_lepart.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752159497/04_pybvzu.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752159491/02_so9m3f.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752159489/01-vojtech-stajf_2_jj2vc8.jpg
   - name: "\uFEFFSilné příběhy vracejí Vojtěcha Štajfa na letošní Bohemia Rally"
     slug: Bohemia-Rally-2025-priprava
     date: 2025-07-08T22:00:00.000Z
