@@ -1,5 +1,24 @@
 ---
 aktuality:
+  - name: "\uFEFFDosáhne Štajf letos v Plzni na hattrick?"
+    slug: Lak-Racing-Rallye-Plzen-2025-priprava
+    date: 2025-06-02T22:00:00.000Z
+    shortDescription: >-
+      Jednodenní soutěž XIX. Lak Racing Rallye Plzeň se koná již tuto sobotu 7.
+      června a smíšená posádka Vojtěch Štajf – Veronika Havelková zde odstartuje
+      s vozem ŠKODA Fabia RS Rally2.
+    longDescription: "Seriál jednodenních automobilových soutěží započítávaných do Poháru 2+ v rámci letošní Rallysprint série bude pokračovat o nadcházejícím víkendu v západních Čechách. Na start XIX. Lak Racing Rallye Plzeň se těší také Vojtěch Štajf s\_Veronikou Havelkovou, kteří se zde představí s vozem ŠKODA Fabia RS Rally2.\n\nPořadatelé soutěže připravili pro přibližně stovku přihlášených posádek náročnou trať, situovanou především na severozápad od města Plzeň. Na programu budou dvě sekce s celkem osmi rychlostními zkouškami, které dohromady měří přes 72 kilometrů. Do celkové obtížnosti soutěže může promluvit také počasí – aktuální předpověď na sobotu naznačuje možné výraznější dešťové přeháňky. Mezi startujícími jsou letos i přední posádky českého šampionátu v rallye a chybět nebude ani favorizovaná smíšená posádka z Německa, což slibuje velmi vyrovnané souboje na trati.\n\nZřejmě největší zápletkou ale bude snaha loňského a předloňského absolutního vítěze Vojtěcha Štajfa o dosažení plzeňského vítězného hattricku. Zatímco v obou předchozích ročnících Lak Racing Rallye Plzeň zvítězil v celkové klasifikaci po boku Františka Rajnohy, letos usedne do Fabie Rally2 v barvách týmu ACCR Lak Racing 21 podle plánu navigátorka Veronika Havelková. Sobotnímu startu této smíšené posádky bude již tradičně předcházet středeční jednodenní týmový test, jehož cílem bude zejména nastavení podvozku v kombinaci s vhodným výběrem typu pneumatik Pirelli pro podmínky dané soutěže.\n\n„Po úspěšné jarní Historic Vltava Rallye, kde jsme s Veronikou startovali v Toyotě Celica GT-Four, se společně vracíme do Plzně, kde Verča absolvuje svoji letošní navigátorskou premiéru v soudobé Fabii RS Rally2. Vzhledem k našemu týmovému partnerství se společností Lak Racing se pro nás jedná navíc o domácí soutěž a motivací celého týmu bude pokus o dosažení třetího vítězství v řadě. Když se podívám do startovní listiny, může se to s\_ohledem na papírově silnější soupeře jevit na první pohled jako téměř nereálné, ale za ta léta všichni víme, že rallye je občas nevyzpytatelná a nevyvíjí se pokaždé podle očekávaných scénářů. Plzeňské erzety mi dlouhodobě hodně sedí a výzvy tohoto typu mám obecně rád. K soutěži přistupujeme s maximální zodpovědností, a proto bude součástí přípravy také tradiční jednodenní test našeho vozu na území Plzeňského kraje. Do města zlatého moku se tak s Verčou hodně těšíme,“ potvrdil svoji motivaci pro soutěž XIX. Lak Racing Rallye Plzeň jezdec Vojtěch Štajf.\n\nSoutěž odstartuje v sobotu 7. června na plzeňském náměstí Republiky v 9:30 hodin.\n"
+    gallery:
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752141477/P%C5%99%C3%ADparava_Lak_Racing_2025_1_alqtem.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752141485/02-veronika-havelkova_uijrrg.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752141480/P%C5%99%C3%ADparava_Lak_Racing_2025_4_vjwftg.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752141479/P%C5%99%C3%ADparava_Lak_Racing_2025_3_pm8ly1.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752141478/P%C5%99%C3%ADparava_Lak_Racing_2025_2_orknjd.jpg
   - name: "\uFEFFTřetí místo z deštivého Plzeňska"
     slug: Lak-Racing-Rallye-Plzen-2025
     date: 2025-06-08T22:00:00.000Z
