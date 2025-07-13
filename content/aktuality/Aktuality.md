@@ -1,5 +1,216 @@
 ---
 aktuality:
+  - name: "\uFEFFLak Racing21 vyráží na Kopnou s ambicí na pódium"
+    slug: Rally-Kopna-priprava
+    date: 2025-05-06T22:00:00.000Z
+    shortDescription: >-
+      Tým ACCR Lak Racing21 se o nadcházejícím víkendu představí na startu
+      jednoho z tradičních podniků českého kalendáře jednodenních automobilových
+      soutěží. SÍŤ21 Rallysprint Kopná 2025 slibuje na trati v okolí Slušovic a
+      Podkopné Lhoty napínavé souboje i skvělou atmosféru.
+    longDescription: "Program soutěže, která je druhým podnikem započítávaným do Poháru 2+, začíná v sobotu ráno slavnostním startem ve Slušovicích, odkud se posádky vydají na šest rychlostních zkoušek s celkovou délkou 70 kilometrů v členitém terénu Vizovických vrchů. Ty nabídnou jak rychlé úseky, tak technické pasáže s výjezdy a sjezdy typickými pro tento region. Diváci se mohou těšit na tradiční tratě, kde každoročně v\_boji o celkové pořadí rozhodují vteřiny.\n\nV barvách týmu ACCR Lak Racing21 odstartuje do soutěže posádka Vojtěch Štajf – František Rajnoha, která se představí s vozem ŠKODA Fabia RS Rally2. Zmíněná posádka má sice s touto moravskou jednodenní soutěží méně zkušeností než místní matadoři, přesto se netají vysokými ambicemi.\n\nPro Vojtěcha Štajfa se jedná o známou soutěž – v minulých ročnících zde pravidelně podával konkurenceschopné výkony. Například v letech 2022 a 2023 zde s Františkem Rajnohou slavili třetí místo absolutně a stříbro v Poháru 2+. I tyto výsledky potvrzují, že posádka má na Kopné stabilní formu a umí se prosadit v tvrdé konkurenci. Před samotným sobotním startem absolvuje tým ACCR Lak Racing21 ve čtvrtek 8.5. předsoutěžní test, kde se bude jezdec s\_techniky snažit doladit Fabii RS Rally2 nejen co nejlépe pro tratě rychlostních zkoušek v oblasti Vizovických vrchů, ale i dále optimalizovat celkové nastavení vozu dle poznatků získaných při Rallye Morava.\n\n„Rallysprint Kopná patří k těm zajímavějším moravským soutěžím. Trať je technicky náročná a jezdecky pestrá, což nám s Frantou určitě vyhovuje. Rádi bychom proto navázali na naše výsledky z minulých let a směřovali k pódiovému umístění. Stejně jako při jiných soutěžích absolvujeme předsoutěžní test, a zaměříme se jednak na nastavení podvozku v kombinaci s různými druhy pneumatik Pirelli a za druhé na transmise. Do letošní sezóny jsme nevykročili špatně a já doufám, že své bodové konto v celkové klasifikaci Poháru 2+ po Kopné dále posílíme. Fanoušky bych tímto rád pozval na tratě rychlostních zkoušek – jejich podpora nám vždy dodá při soutěži energii navíc,“ říká jezdec Vojtěch Štajf.\n\nSoutěž bude odstartována v sobotu 10. 5. v 8:30 ve Slušovicích a na stejném místě projedou vozy cílovou rampou okolo 15. hodiny. Posádce Vojtěch Štajf – František Rajnoha bylo přiděleno startovní číslo 3.\n"
+    image: >-
+      https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752159491/02_so9m3f.jpg
+    gallery:
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752159515/07_abeaiu.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752159514/03-frantisek-rajnoha_1_vtcdyt.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752159514/06_zhc5by.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752159514/05_lepart.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752159497/04_pybvzu.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752159491/02_so9m3f.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752159489/01-vojtech-stajf_2_jj2vc8.jpg
+  - name: "\uFEFFSilné příběhy vracejí Vojtěcha Štajfa na letošní Bohemia Rally"
+    slug: Bohemia-Rally-2025-priprava
+    date: 2025-07-08T22:00:00.000Z
+    shortDescription: "O nadcházejícím víkendu se kompletní špička domácího šampionátu v automobilových soutěžích sejde v Mladé Boleslavi, kde odstartuje tradiční Bohemia Rally. Na startu této soutěže nebude chybět ani Vojtěch Štajf s vozem ŠKODA Fabia RS Rally2 v barvách týmu ACCR Lak Racing21, tentokrát výjimečně s\_novým navigátorem."
+    longDescription: "Letošní ročník Bohemia Rally, který je zároveň čtvrtým podnikem Mistrovství ČR v automobilových soutěžích, nabídne více než sedmdesáti přihlášeným soutěžním posádkám trať rozdělenou do šesti sekcí se třinácti rychlostními zkouškami o celkové délce 149 kilometrů. Soutěž s velmi atraktivními měřenými úseky je situována do Středočeského a Libereckého kraje.\n\nAktuálně třetí muž klasifikace Poháru 2+ Vojtěch Štajf potvrdil účast na Bohemia Rally již na začátku letošní sezóny, a to po roční pauze. Při svém posledním zdejším startu v roce 2023 s Veronikou Havelkovou vybojovali po dramatickém finiši s Toyotou Celica GT-Four druhé místo v absolutní klasifikaci historických vozů. Bohužel navigátorka Veronika Havelková se letos z osobních důvodů před startem omluvila, a proto se Vojtěch Štajf dohodl na jednorázové spolupráci se zkušeným navigátorem Vladimírem Tichým, kterého fanoušci rallye znají především z aktuálního působení v plzeňském Auto rally klubu po boku Viktora Szabó.\n\nVe své téměř třicetileté kariéře startoval Vojtěch Štajf na Bohemia Rally již dvaadvacetkrát, a právě mnoho silných příběhů a vzpomínek z minulých let ho přivádí opět na start této letní soutěže. Jeho největším úspěchem zde bylo celkové vítězství v roce 2005 se Subaru Impreza po boku navigátora Jiřího Černocha. Shodou okolností právě v tomto roce naposledy startoval na Bohemia Rally i Vladimír Tichý – letos zaskakující navigátor Vojtěcha Štajfa. Další motivací ke startu v Mladé Boleslavi je možnost porovnání výkonnosti s kompletní domácí špičkou a zároveň symbolické poděkování týmu ACCR Lak Racing21 mladoboleslavské automobilce ŠKODA Auto a.s., která letos slaví 130 let bohaté historie. Tradiční přípravou bude plánovaný jednodenní předsoutěžní test vozu Fabia RS Rally2.\n\n„Do Boleslavi se pokaždé moc těším a tuhle soutěž mám opravdu srdečně rád, protože napsala velkou část mé soutěžní kariéry. Zažil jsem tady řadu úspěchů i zklamání, ale především neuvěřitelné souboje na trati. Vedle vítězství přesně před dvaceti lety, které nastartovalo moji desetiletou úspěšnou éru se značkou Subaru, si možná mnozí vzpomenou i na rok 2010, kdy jsme s Marcelou Dolečkovou při závěrečném souboji s Poláky Kajetanowiczem a Baranem havarovali při poslední erzetě na Sychrově,“ vzpomíná na Bohemia Rally Vojtěch Štajf a dodává: „Nelze nevzpomenout ani na rok 2018, kdy se nám s\_Marcelou podařilo skončit na třetím místě domácího šampionátu a porazit Filipa Mareše s Honzou Hlouškem o neuvěřitelnou desetinu sekundy. A nakonec i zatím poslední zdejší start s\_Veronikou Havelkovou na Celice byl od defektu ve druhé erzetě až po stříbrné pódium jednou velkou stíhací jízdou. Takže nezbývá než věřit, že letošní Bohemka, kdy nebudeme tolik pod tlakem z titulu naší primární účasti v\_jednodenních soutěžích, zůstane pro nás s Vladimírem i pro diváky především příjemným zážitkem. Já osobně se těším i na srovnání se silnou konkurencí domácího šampionátu.“\n\nStart letošní Bohemia Rally je naplánován na sobotu 12. července ve 12 hodin na Staroměstském náměstí v Mladé Boleslavi. Cílovou rampou projedou posádky na stejném místě o den později v 15 hodin\n\nFOTO: Matylda Štajfová\n"
+    image: >-
+      https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752143750/sta-3869_o4smis.jpg
+    gallery:
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752143747/01-vojtech-stajf_1_mjlkri.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752143760/02-vladimir-tichy_e5cks1.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752143760/sta-3418_i5m2rb.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752143759/sta-3434_mp2ubh.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752143751/sta-3451_frgblj.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752143754/sta-3421_ouvik6.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752143756/sta-3431_ypzx87.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752143748/sta-3463_kaj7ah.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752143749/sta-3458_lpzr8i.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752143750/sta-3869_o4smis.jpg
+  - name: V Kopné na třetím místě od startu až do cíle
+    slug: Rallysprint-Kopna-2025
+    date: 2025-05-11T22:00:00.000Z
+    shortDescription: >-
+      Uplynulý víkend byl v okolí Slušovic ve znamení třicátého ročníku
+      jednodenní soutěže Síť21 Rallysprint Kopná. Třetí příčku celkové
+      klasifikace si systémem start–cíl vybojovali Vojtěch Štajf a František
+      Rajnoha s vozem ŠKODA Fabia RS Rally2 v barvách týmu ACCR Lak Racing21.
+    longDescription: "Příjemné a většinou slunečné počasí přivítalo v centru jednodenní soutěže, započítávané mimo jiné do Poháru 2+, celkem více než stovku startujících posádek na soudobých a historických soutěžních vozech. Celkem 70,5 kilometru měřených úseků bylo na tomto podniku rozděleno do šesti divácky atraktivních rychlostních zkoušek.\n\nJiž časy dosažené během pátečního shakedownu začaly nápadně rýsovat kontury možného vývoje sobotní soutěže. Platilo to také pro posádku Vojtěch Štajf a František Rajnoha, která přijela do Slušovic se svým vozem ŠKODA Fabia RS Rally2. Ještě ve čtvrtek před soutěží Štajf finalizoval nastavení vozu při jednodenním testu v Plzeňském kraji a svoji spokojenost s ovladatelností potvrdil následně i třetím nejrychlejším časem právě v pátečním slušovickém shakedownu – s minimální časovou ztrátou na silnou konkurenci před sebou.\n\nPrvní sobotní ranní zkoušku částečně poznamenalo opoždění startu z důvodu havárie vozu ze šampionátu historiků, což neprospělo ani posádkám, ani jejich již teplotně nastaveným vozům. Přesto si posádka týmu ACCR Lak Racing21 zajistila hned v úvodu soutěže třetí nejrychlejší čas. V průběhu dne se však musela více soustředit na dotírající posádky jedoucí za ní. Poté, co Jaroslav a Erik Melichárkovi obdrželi od komisařů penalizaci za pozdní příjezd do časové kontroly, se boj Štajfa s Rajnohou o celkový bronz zúžil pouze na rychle jedoucího Karla Kupce ml. s navigátorkou Petrou Kamencovou. A přestože tato smíšená posádka postupně snižovala časovou ztrátu, Vojtěch Štajf s Františkem Rajnohou tlaku nakonec odolali a stejně jako v předešlé soutěži si dojeli pro celkové třetí místo. S těsným náskokem 3,4 sekundy tak získali za celkový bronz na pódiu i cenné body do klasifikace Poháru 2+. Stejný výsledek se jim zde povedl i v\_letech 2022 a 2023.\n\n„Letošní Kopnou hodnotíme s Frantou jako poměrně těžkou soutěž. Potěšil mě nejprve shakedown, který potvrdil pozitivní posun v nastavení našeho auta z testu. Se třetím časem jsem byl v pátek velmi spokojený. Avšak v sobotu, kvůli opožděnému rannímu startu na první erzetě, nám — stejně jako ostatním — rychle vychladlo auto. Na našem dosaženém času to ale bylo bohužel více znát v porovnání s vedoucími posádkami soutěže,“ popisuje situaci z úvodu soutěže Vojtěch Štajf a dodává: „Na druhou stranu právě na této úvodní rychlostní zkoušce jsme získali větší časový odstup na konkurenci za námi. A tady mám na mysli především Karla Kupce mladšího s Petrou Kamencovou, neboť bratři Melichárkovi obdrželi třicetisekundovou penalizaci, která jim šanci na celkový bronz sebrala. Snažili jsme se držet průběžné třetí místo, jak to jen šlo, a nakonec jsme ho s Frantou neopustili od začátku až do konce soutěže. Já osobně jsem měl třeba na Kašavě o trochu více respektu za volantem, protože stále mám v paměti nehodu z roku 2019, kdy jsme tu s Veronikou Havelkovou v rámci Barum Rallye krátce před cílem zahodili Polo GTI R5 do lesa. Dnes to ale tady ve Slušovicích skončilo mnohem příjemněji.“\n\nDalší start týmu ACCR Lak Racing21 bude v podstatě jeho domácí soutěží. Ve dnech 6.–7. června se totiž uskuteční již XIX. ročník soutěže Lak Racing Rallye Plzeň, kterou navíc Štajf s Rajnohou vyhráli ve dvou minulých ročnících. Letos bude Vojtěch Štajf tvořit posádku s\_navigátorkou Veronikou Havelkovou.\n"
+    image: >-
+      https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752157727/01-rallysprint-kopna-25-0978_maobx1.jpg
+    gallery:
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752157794/rallysprint-kopna-25-4187_xaj4ro.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752157794/rallysprint-kopna-25-5453_bvulp9.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752157793/rallysprint-kopna-25-4899_xsuuhr.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752157793/rallysprint-kopna-25-7618_rsla3n.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752157779/rallysprint-kopna-25-0466_odxzpd.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752157766/rallysprint-kopna-25-9253_aijs8z.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752157763/rallysprint-kopna-25-6513_uxxg2e.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752157763/rallysprint-kopna-25-7461_wbhlus.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752157760/dsc03044_deabgp.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752157760/dsc03052_h5xzm7.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752157759/rallysprint-kopna-25-1077_giffoa.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752157758/dsc02832_eowsho.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752157757/rallysprint-kopna-25-0501_kooe0a.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752157755/dsc02892_l9dvkj.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752157754/dsc03009_copmwh.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752157744/dsc02818_zzghpp.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752157739/dsc02800_vo9b6s.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752157729/03-rallysprint-kopna-25-3501_fsngtv.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752157728/02-rallysprint-kopna-25-3515_zmp2ra.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752157727/01-rallysprint-kopna-25-0978_maobx1.jpg
+  - name: "\uFEFFDosáhne Štajf letos v Plzni na hattrick?"
+    slug: Lak-Racing-Rallye-Plzen-2025-priprava
+    date: 2025-06-02T22:00:00.000Z
+    shortDescription: >-
+      Jednodenní soutěž XIX. Lak Racing Rallye Plzeň se koná již tuto sobotu 7.
+      června a smíšená posádka Vojtěch Štajf – Veronika Havelková zde odstartuje
+      s vozem ŠKODA Fabia RS Rally2.
+    longDescription: "Seriál jednodenních automobilových soutěží započítávaných do Poháru 2+ v rámci letošní Rallysprint série bude pokračovat o nadcházejícím víkendu v západních Čechách. Na start XIX. Lak Racing Rallye Plzeň se těší také Vojtěch Štajf s\_Veronikou Havelkovou, kteří se zde představí s vozem ŠKODA Fabia RS Rally2.\n\nPořadatelé soutěže připravili pro přibližně stovku přihlášených posádek náročnou trať, situovanou především na severozápad od města Plzeň. Na programu budou dvě sekce s celkem osmi rychlostními zkouškami, které dohromady měří přes 72 kilometrů. Do celkové obtížnosti soutěže může promluvit také počasí – aktuální předpověď na sobotu naznačuje možné výraznější dešťové přeháňky. Mezi startujícími jsou letos i přední posádky českého šampionátu v rallye a chybět nebude ani favorizovaná smíšená posádka z Německa, což slibuje velmi vyrovnané souboje na trati.\n\nZřejmě největší zápletkou ale bude snaha loňského a předloňského absolutního vítěze Vojtěcha Štajfa o dosažení plzeňského vítězného hattricku. Zatímco v obou předchozích ročnících Lak Racing Rallye Plzeň zvítězil v celkové klasifikaci po boku Františka Rajnohy, letos usedne do Fabie Rally2 v barvách týmu ACCR Lak Racing 21 podle plánu navigátorka Veronika Havelková. Sobotnímu startu této smíšené posádky bude již tradičně předcházet středeční jednodenní týmový test, jehož cílem bude zejména nastavení podvozku v kombinaci s vhodným výběrem typu pneumatik Pirelli pro podmínky dané soutěže.\n\n„Po úspěšné jarní Historic Vltava Rallye, kde jsme s Veronikou startovali v Toyotě Celica GT-Four, se společně vracíme do Plzně, kde Verča absolvuje svoji letošní navigátorskou premiéru v soudobé Fabii RS Rally2. Vzhledem k našemu týmovému partnerství se společností Lak Racing se pro nás jedná navíc o domácí soutěž a motivací celého týmu bude pokus o dosažení třetího vítězství v řadě. Když se podívám do startovní listiny, může se to s\_ohledem na papírově silnější soupeře jevit na první pohled jako téměř nereálné, ale za ta léta všichni víme, že rallye je občas nevyzpytatelná a nevyvíjí se pokaždé podle očekávaných scénářů. Plzeňské erzety mi dlouhodobě hodně sedí a výzvy tohoto typu mám obecně rád. K soutěži přistupujeme s maximální zodpovědností, a proto bude součástí přípravy také tradiční jednodenní test našeho vozu na území Plzeňského kraje. Do města zlatého moku se tak s Verčou hodně těšíme,“ potvrdil svoji motivaci pro soutěž XIX. Lak Racing Rallye Plzeň jezdec Vojtěch Štajf.\n\nSoutěž odstartuje v sobotu 7. června na plzeňském náměstí Republiky v 9:30 hodin.\n"
+    image: >-
+      https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752141478/P%C5%99%C3%ADparava_Lak_Racing_2025_2_orknjd.jpg
+    gallery:
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752141477/P%C5%99%C3%ADparava_Lak_Racing_2025_1_alqtem.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752141485/02-veronika-havelkova_uijrrg.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752141480/P%C5%99%C3%ADparava_Lak_Racing_2025_4_vjwftg.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752141479/P%C5%99%C3%ADparava_Lak_Racing_2025_3_pm8ly1.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752141478/P%C5%99%C3%ADparava_Lak_Racing_2025_2_orknjd.jpg
+  - name: "\uFEFFTřetí místo z deštivého Plzeňska"
+    slug: Lak-Racing-Rallye-Plzen-2025
+    date: 2025-06-08T22:00:00.000Z
+    shortDescription: >-
+      Z velmi náročné XIX. Lak Racing Rallye Plzeň, která se konala o uplynulém
+      víkendu, se vrátila smíšená posádka ACCR Lak Racing21 – Vojtěch Štajf a
+      Veronika Havelková – s bronzovými poháry za třetí místo v absolutním
+      pořadí Poháru 2+.
+    longDescription: "Jednodenní soutěž, jejíž trať byla situována do Plzeňského kraje, nabídla téměř devíti desítkám startujících posádek celkem osm měřených úseků v celkové délce 72 kilometrů, a to ve dvou totožných sekcích. Plzeňské rychlostní zkoušky patří každoročně mezi ty divácky nejatraktivnější, avšak letos přispěly ke zvýšené náročnosti hlavně rozmary počasí v podobě silných a dlouho trvajících dešťových přeháněk. Nic to však neubralo z těsných soubojů soutěžních posádek na trati.\n\nO pódiové umístění v Plzni se – vedle silné konkurence – ucházel mimo jiné i Vojtěch Štajf s vozem ŠKODA Fabia RS Rally2, který zde v minulých dvou ročnících zvítězil v absolutní klasifikaci se spolujezdcem Františkem Rajnohou. Letos se dle týmových plánů ujala v Plzni role navigátorky Veronika Havelková, pro kterou byla tato soutěž premiérou ve Fabii RS Rally2 a zároveň letošní druhou soutěží po úspěšné jarní Historic Vltava Rallye. Tým Lak Racing21, pro který bylo plzeňské klání v podstatě domácím podnikem, se na soutěž připravoval již v průběhu minulého týdne na celodenním testu soutěžního vozu.\n\nZmíněné silné dešťové přeháňky, které začaly postupně sužovat Plzeňský kraj již od sobotních dopoledních hodin, vedly tým Lak Racing21 k rozhodnutí nasadit již od rána pneumatiky Pirelli pro mokrý povrch tratě. K tomu mechanici týmu přizpůsobili podvozek Fabie RS Rally2 právě na intenzivní deště avizované v předpovědi počasí, nicméně u\_nového vozu neměl tým toto nastavení ještě moznost vyzkoušet v takových podmínkách ani při testování. Štajf s Havelkovou se přesto hned od startu soutěže pohybovali dosaženými časy na hranici pódiového umístění. Do hry však promluvily také penalizace soupeřů za špatně projeté retardéry. Po čtyřech rychlostních zkouškách, tvořících první sekci soutěže, se tak smíšená posádka týmu Lak Racing21 držela na třetím místě celkové klasifikace i klasifikace Poháru 2+.\n\nAni odpoledne se počasí na trati nijak nezlepšovalo, a Vojtěch Štajf tak po servisní přestávce nasadil novou sadu pneumatik Pirelli opět pro mokrý povrch a po poradě s\_technikem se ještě rozhodl přenastavit podvozek své soutěžní Fabie. Toto rozhodnutí se určitě ukázalo jako správné, a díky konzistentnímu výkonu si Štajf s Havelkovou dojeli pro třetí místo v klasifikaci Poháru 2+ a vedle bronzových pohárů si tímto výsledkem připisují také dalších jednadvacet bodů na své konto. V\_průběžném hodnocení Poháru 2+ jim tak patří v\_polovině sezóny průběžný bronz.\n\n„Dlouho nepamatuji tak náročné podmínky s\_tak intenzivním deštěm po celou dobu soutěže. Já mám samozřejmě určitý hendikep v nízkém počtu najetých kilometrů s Fabií RS Rally2 a v těchto podmínkách, které tu po celý den panovaly, jsem musel vůz víc poznávat. Samozřejmě, jako vítěz z minulých dvou ročníků bych býval rád dosáhl v Plzni na hattrick, ale za těch třicet let aktivního závodění už jsem především realistou. Filip Mareš s Radovanem Buchou jedou letos famózně a bojovat v Plzni s domácími Vaškem Pechem a Petrem Uhlem je také hodně obtížné, takže k\_našemu případnému vítězství by muselo nastat mimořádné dění na trati s notnou dávkou štěstěny,“ hodnotil svoji pozici ve startovním poli Vojtěch Štajf a dodal: „My jsme udělali velmi dobré ranní rozhodnutí s pneumatikami do mokra a měkkým nastavením podvozku. Samozřejmě celkovou konfiguraci vozu jsme jen odhadovali, a díky tomu bylo v\_první sekci auto stále tvrdší, než by bylo třeba. Hodně vody na trati si tak vyžádalo jeho ještě větší změkčení během servisní přestávky. V kombinaci s novou sadou pneumatik Pirelli jsem se odpoledne cítil za volantem velmi komfortně, byť jsme měli v\_závěru několik větších momentů na deštěm zalité trati poslední zkoušky. Moc děkuji Veronice za skvělou navigaci a celému týmu za dosažení třetího místa. Již potřetí v\_řadě jsme potvrdili pozici nejrychlejší posádky mimo velký mistrák. Těším se tak na Bohemii, kde se poměříme s celou českou špičkou.“\n\nPříštím startem týmu Lak Racing21 bude 52. ročník Bohemia Rally Mladá Boleslav, který se uskuteční 12.–13. července 2025. Na tomto podniku, započítávaném do MČR v automobilových soutěžích, se opět představí Vojtěch Štajf s Veronikou Havelkovou na voze ŠKODA Fabia RS Rally2.\n"
+    image: >-
+      https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139466/01-rally-plzen-25-7915_cbecbr.jpg
+    gallery:
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139481/rally-plzen-25-7769_h0os1i.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139480/rally-plzen-25-8008_eil5kz.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139479/rally-plzen-25-7927_jqvkww.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139479/rally-plzen-25-7827_kkb5hd.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139479/rally-plzen-25-5696_nfloi7.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139479/rally-plzen-25-7801_ot32no.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139477/rally-plzen-25-6956_nrqldl.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139477/rally-plzen-25-7346_zgrozv.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139477/rally-plzen-25-7397_srlh0x.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139477/rally-plzen-25-7285_jk26km.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139476/rally-plzen-25-5575_ynp2wm.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139477/rally-plzen-25-7392_c6zizw.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139475/rally-plzen-25-6872_tczies.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139475/rally-plzen-25-5717_wvpeq4.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139475/rally-plzen-25-6952_dkqmp5.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139473/rally-plzen-25-5581_m122qv.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139474/rally-plzen-25-5709_itocgu.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139475/rally-plzen-25-6539_vrjkyk.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139473/rally-plzen-25-0911_lgv87x.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139473/rally-plzen-25-5578_re2hwt.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139471/rally-plzen-25-3214_qf1f54.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139471/rally-plzen-25-5438_clfp2i.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139471/rally-plzen-25-5431_zj76yt.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139471/rally-plzen-25-3212_yuxbmh.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139470/rally-plzen-25-2091_gupx2d.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139470/rally-plzen-25-2070_zcsufn.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139471/rally-plzen-25-3196_g2k7us.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139469/rally-plzen-25-118_enlpmf.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139469/rally-plzen-25-0491_kxaday.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139469/02-rally-plzen-25-8002_wfjbb7.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139468/04-rally-plzen-25-7908_w6ugjs.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139468/rally-plzen-25-0438_xh0vcd.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139467/05-rally-plzen-25-7840_qkxste.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139465/03-rally-plzen-25-7931_ts0pdq.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139466/01-rally-plzen-25-7915_cbecbr.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752139467/rally-plzen-25-0412_zaj6cm.jpg
   - name: "\uFEFFStrhující závěr v souboji o čtvrté místo"
     slug: rally-morava-2025
     coverImageAlignment: center
