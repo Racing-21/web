@@ -42,6 +42,12 @@ export const NAVIGATION = [
 		topLink: "sluzby",
 		links: [
 			{
+				name: "Autoservis",
+				description: "Profesionální servis pro každé auto. Bez výjimky.",
+				href: "/sluzby/autoservis",
+				icon: ChartPieIcon,
+			},
+			{
 				name: "Příprava a stavba soutěžních vozů",
 				description:
 					"Náš tým zkušených techniků dostane váš vůz před závody do té nejlepší kondice.",

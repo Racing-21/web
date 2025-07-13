@@ -8,10 +8,11 @@ import { PartnersCollection } from "./collections/Partners";
 import { ChampionshipCollection } from "./collections/ChampionshipCollection";
 import { NewsCollection } from "./collections/NewsCollection";
 import { UpcomingEventsCollection } from "./collections/UpcomingEventsCollection";
+import { GeneralServiceCollection } from "./collections/GeneralServiceCollection";
 
 // Your hosting provider likely exposes this as an environment variable
 const branch =
-	process.env.GITHUB_BRANCH || process.env.VERCEL_GIT_COMMIT_REF || process.env.HEAD || "main";
+	process.env.GITHUB_BRANCH ?? process.env.VERCEL_GIT_COMMIT_REF ?? process.env.HEAD ?? "main";
 
 export default defineConfig({
 	branch,
@@ -230,6 +231,7 @@ export default defineConfig({
 			NewsCollection,
 			PartnersCollection,
 			UpcomingEventsCollection,
+			GeneralServiceCollection,
 		],
 	},
 });

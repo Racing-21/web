@@ -4,6 +4,7 @@ export const ServiceCollection: Collection = {
 	name: "sluzby",
 	label: "Služby",
 	path: "content/sluzby",
+	match: { exclude: "GeneralService" },
 	fields: [
 		{
 			name: "sluzby",

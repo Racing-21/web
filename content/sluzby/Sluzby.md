@@ -2,7 +2,7 @@
 sluzby:
   - title: Autoservis
     headline: Profesionální servis pro každé auto. Bez výjimky.
-    link: sluzby/autoservisPitStop
+    link: sluzby/autoservis
     description: >-
       Staráme se o auta, která jezdí každý den. S pečlivostí, kterou od
       specialistů čekáte.

@@ -46,7 +46,7 @@ export default function Navigation() {
 						</Link>
 					</div>
 					{NAVIGATION.map((navigationItem, i) => (
-						<Menu key={`navigation_${i}`}>
+						<Menu key={`${navigationItem.title}_${i}`}>
 							<div
 								className={`group flex rounded-md  p-1 ${pathname?.includes(navigationItem.topLink) ? "bg-gray-200 text-black" : ""} navigationItem`}
 							>
@@ -72,7 +72,7 @@ export default function Navigation() {
 									<MenuItem>
 										{({ close }) => (
 											<div
-												className="mx-auto grid max-w-7xl grid-cols-4 gap-x-4 px-6 py-10 lg:px-8 xl:gap-x-8"
+												className={`mx-auto grid max-w-7xl gap-x-4 px-6 py-10 lg:px-8 xl:gap-x-8 grid-cols-${navigationItem.links.length}`}
 												onClick={close}
 											>
 												{navigationItem.links?.map((item) => (
@@ -80,12 +80,12 @@ export default function Navigation() {
 														key={item.name}
 														className="group/item relative rounded-lg p-6 text-sm leading-6 hover:bg-gray-50"
 													>
-														<div className="flex h-11 w-11 items-center justify-center rounded-lg bg-gray-50 group-hover/item:bg-black">
-															<item.icon
-																aria-hidden="true"
-																className="h-6 w-6 text-gray-600 group-hover/item:text-red-600"
-															/>
-														</div>
+														{/*<div className="flex h-11 w-11 items-center justify-center rounded-lg bg-gray-50 group-hover/item:bg-black">*/}
+														{/*	<item.icon*/}
+														{/*		aria-hidden="true"*/}
+														{/*		className="h-6 w-6 text-gray-600 group-hover/item:text-red-600"*/}
+														{/*	/>*/}
+														{/*</div>*/}
 														<Link
 															href={item.href}
 															className="mt-6 block font-semibold text-gray-50 group-hover/item:text-red-900"
