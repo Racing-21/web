@@ -20,7 +20,7 @@ categories:
       - value: Oprava podvozkových částí
   - name: Kontrola a příprava na STK
     image: >-
-      https://res.cloudinary.com/dkhdp7qmd/image/upload/v1742201397/STA_1295_turatello_phhh8l.jpg
+      https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753020700/DSC05662_wrffwy.jpg
     features:
       - value: Kompletní kontrola vozidla
       - value: Odstranění závad
