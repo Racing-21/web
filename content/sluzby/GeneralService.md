@@ -1,7 +1,8 @@
 ---
 categories:
   - name: Pneumatiky a kola
-    image: "https://res.cloudinary.com/dkhdp7qmd/image/upload/v1742201397/STA_1295_turatello_phhh8l.jpg"
+    image: >-
+      https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752135044/STA_2311_hmizvn.jpg
     features:
       - value: Výměna pneumatik
       - value: Vyvážení kol
@@ -9,7 +10,8 @@ categories:
       - value: Kontrola tlaku
       - value: Uskladnění pneumatik
   - name: Podvozek a brzdy
-    image: "https://res.cloudinary.com/dkhdp7qmd/image/upload/v1742201397/STA_1295_turatello_phhh8l.jpg"
+    image: >-
+      https://res.cloudinary.com/dkhdp7qmd/image/upload/v1742201397/STA_1295_turatello_phhh8l.jpg
     features:
       - value: Výměna brzdových destiček
       - value: Kontrola tlumičů
@@ -17,7 +19,8 @@ categories:
       - value: Výměna brzdové kapaliny
       - value: Oprava podvozkových částí
   - name: Kontrola a příprava na STK
-    image: "https://res.cloudinary.com/dkhdp7qmd/image/upload/v1742201397/STA_1295_turatello_phhh8l.jpg"
+    image: >-
+      https://res.cloudinary.com/dkhdp7qmd/image/upload/v1742201397/STA_1295_turatello_phhh8l.jpg
     features:
       - value: Kompletní kontrola vozidla
       - value: Odstranění závad
@@ -25,7 +28,8 @@ categories:
       - value: Měření emisí
       - value: Kontrola osvětlení
   - name: Motor a další servisní práce
-    image: "https://res.cloudinary.com/dkhdp7qmd/image/upload/v1742201397/STA_1295_turatello_phhh8l.jpg"
+    image: >-
+      https://res.cloudinary.com/dkhdp7qmd/image/upload/v1742201397/STA_1295_turatello_phhh8l.jpg
     features:
       - value: Výměna oleje a filtrů
       - value: Diagnostika motoru
@@ -33,7 +37,8 @@ categories:
       - value: Výměna rozvodů
       - value: Kontrola chlazení
   - name: Diagnostika
-    image: "https://res.cloudinary.com/dkhdp7qmd/image/upload/v1742201397/STA_1295_turatello_phhh8l.jpg"
+    image: >-
+      https://res.cloudinary.com/dkhdp7qmd/image/upload/v1742201397/STA_1295_turatello_phhh8l.jpg
     features:
       - value: Počítačová diagnostika
       - value: Kontrola elektroniky
@@ -41,7 +46,8 @@ categories:
       - value: Reset servisních intervalů
       - value: Programování řídicích jednotek
   - name: Karoserie
-    image: "https://res.cloudinary.com/dkhdp7qmd/image/upload/v1742201397/STA_1295_turatello_phhh8l.jpg"
+    image: >-
+      https://res.cloudinary.com/dkhdp7qmd/image/upload/v1742201397/STA_1295_turatello_phhh8l.jpg
     features:
       - value: Opravy karoserie
       - value: Lakování
@@ -81,3 +87,4 @@ priceList:
           priceFrom: 2000
           priceTo: 5000
 ---
+
