@@ -1,5 +1,62 @@
 ---
 aktuality:
+  - name: Na skvěle obsazené Bohemia Rally v top 10
+    slug: Bohemia-Rally-2025
+    date: 2025-07-13T22:00:00.000Z
+    shortDescription: >-
+      Kompletní špička domácího šampionátu v automobilových soutěžích i s
+      kvalitní zahraniční posádkou změřila své síly o uplynulém víkendu v rámci
+      tradiční automobilové soutěže Bohemia Rally. Na startu nechyběl ani
+      Vojtěch Štajf s vozem ŠKODA Fabia RS Rally2, který musel před startem
+      řešit náhlou nucenou změnu navigátora.
+    longDescription: "Již na začátku letošní sezóny potvrdil tým ACCR Lak Racing21 ve svém sportovním kalendáři start na této tradičně letní soutěži s centrem ve městě automobilů – středočeské Mladé Boleslavi. Původně však tým ohlásil v roli navigátorky Veroniku Havelkovou, která se však z vážných osobních důvodů ze startu v této soutěži omluvila. Těsně před uzávěrkou přihlášek na letošní Bohemia Rally tak musel pražský jezdec Vojtěch Štajf hledat odpovídající náhradu do svého vozu Fabia RS Rally2. Díky úzké spolupráci s plzeňským týmem Lak Racing se podařilo domluvit start se zkušeným navigátorem Vladimírem Tichým, který se v současnosti objevuje především po boku jezdce Viktora Szabó.\n\nDvoudenní víkendová soutěž se třinácti rychlostními zkouškami o celkové délce 149 kilometrů se v\_sobotu hned od startu nevyvíjela pro posádku Štajf – Tichý ideálně, a to vzhledem ke špatnému výběru pneumatik, které nebyly pro přeháňkami skrápěnou trať nejvhodnější. Posádka ACCR Lak Racing 21 však zachovala chladnou hlavu, i když se během prvních čtyř rychlostních zkoušek propadla až na chvost první dvacítky nejrychlejších ve startovním poli. Určitou naději jí však přinesla servisní přestávka, během níž tým mechaniků upravil nastavení podvozku vozu pro aktuální podmínky na trati a posádka odjela zdolávat další porci ostrých kilometrů již na „mokrých“ pneumatikách Pirelli. Vojtěch Štajf s Vladimírem Tichým, pro které byl start na soutěži Bohemia Rally především možností porovnat svou výkonnost s kompletní českou soutěžáckou špičkou, začali následně směřovat svůj cíl na umístění mezi top 10 absolutního pořadí. Celková dvanáctá příčka po prvním dni tak byla velkým příslibem.\n\nV neděli čekalo na všechny posádky celkem pět měřených úseků a přišly nejen technické problémy, ale i havárie ve startovním poli. Právě této situace dokonale využili Štajf s Tichým a zejména kvalitní časy v rychlostních zkouškách č. 10 a 11 je posunuly na solidní konečné desáté místo v absolutní klasifikaci Bohemia Rally.\n\n„Chtěl bych nejprve moc poděkovat Vláďovi Tichému, který bez váhání přijal naši výzvu na záskok v roli mého navigátora. Samozřejmě, nějakou dobu jsme si v autě na sebe zvykali, ale on ukázal velkou dávku zkušeností, což mi opravdu hodně pomohlo. Naším problémem byly v první sekci hlavně špatně zvolené pneumatiky, což nás stálo nejen cenný čas, ale také jsme kvůli tomu vyjeli mimo trať do křoví u mladoboleslavského stadionu na druhé erzetě. V servisu jsme pak naši Fabii trochu poladili a s pneumatikami do mokra už to bylo navečer mnohem lepší,“ vysvětluje první fázi Bohemia Rally jezdec Vojtěch Štajf a dodává: „Jeli jsme do Boleslavi bez jakéhokoliv tlaku, především porovnat, kde se v početné a silné konkurenci českého šampionátu včetně jedné kvalitní zahraniční posádky pohybujeme. Bylo nám jasné, že s podstatně menším počtem najetých kilometrů v\_letošní sezóně nemůžeme některým posádkám konkurovat. Mě osobně ale potěšilo například samostatné hodnocení nedělní etapy, kde jsme figurovali na sedmém místě za Vaškem Pechem se ztrátou pouze 1,3 sekundy – a to i s vědomím, že jsem při prvním průjezdu Radostínem udělal chybu a pod Sychrovem se v jedné zatáčce přetočil, což nás stálo hodně času. Dalším pozitivem jsou poznatky z chování vozu na této náročné soutěži, které teď musíme využít při přípravném testu na Rally Příbram. Celkově tedy musím říct, že výsledek z Mladé Boleslavi bereme jako potvrzení toho, že když na všem ještě víc zapracujeme, existuje velký prostor pro zlepšení naší výkonnosti. Z\_desítky určitě nejsme zklamaní, i když jsem před startem pomýšlel ještě na o kousek lepší umístění.“\n"
+    image: >-
+      https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753018676/01-rally-bohemia-25-1573_vdrnxk.jpg
+    gallery:
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753018685/rally-bohemia-25-8307_bsfkxz.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753018683/rally-bohemia-25-8810_taluxq.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753018682/rally-bohemia-25-0395_hsvpvm.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753018682/rally-bohemia-25-8913_kvlqsp.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753018682/rally-bohemia-25-9319_jrw1f6.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753018680/rally-bohemia-25-8311_gy7v1a.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753018680/rally-bohemia-25-0197_adcigh.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753018680/bohemia-rally-25-3832_q5jmk7.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753018679/rally-bohemia-25-3560_ddhlpb.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753018678/bohemia-rally-25-7321_dzy0nm.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753018678/dsc-4013_ut7qdm.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753018678/02-rally-bohemia-25-1611_d4kx1w.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753018677/bohemia-rally-25-5245_n1ax6c.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753018677/03-rally-bohemia-25-1622_oytzx4.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753018676/01-rally-bohemia-25-1573_vdrnxk.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753018676/bohemia-rally-25-3827_id1ukf.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753018676/bohemia-rally-25-3017_bavmvj.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753018675/bohemia-rally-25-1712_b3egci.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753018675/bohemia-rally-25-1707_lz0aj8.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753018673/bohemia-rally-25-1033_bfkduv.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753018673/04-rally-bohemia-25-1555_w7sqba.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753018673/bohemia-rally-25-1020_rz2vav.jpg
   - name: "\uFEFFLak Racing21 vyráží na Kopnou s ambicí na pódium"
     slug: Rally-Kopna-priprava
     date: 2025-05-06T22:00:00.000Z
