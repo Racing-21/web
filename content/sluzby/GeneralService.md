@@ -29,7 +29,7 @@ categories:
       - value: Kontrola osvětlení
   - name: Motor a další servisní práce
     image: >-
-      https://res.cloudinary.com/dkhdp7qmd/image/upload/v1742201397/STA_1295_turatello_phhh8l.jpg
+      https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752135044/STA_2264_au2lhh.jpg
     features:
       - value: Výměna oleje a filtrů
       - value: Diagnostika motoru
