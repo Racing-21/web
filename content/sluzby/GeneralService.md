@@ -38,7 +38,7 @@ categories:
       - value: Kontrola chlazení
   - name: Diagnostika
     image: >-
-      https://res.cloudinary.com/dkhdp7qmd/image/upload/v1742201397/STA_1295_turatello_phhh8l.jpg
+      https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753020701/DSC04368_z1ndbk.jpg
     features:
       - value: Počítačová diagnostika
       - value: Kontrola elektroniky
