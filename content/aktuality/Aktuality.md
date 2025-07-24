@@ -1,5 +1,74 @@
 ---
 aktuality:
+  - name: Na 44. Silmet Rally Příbram přijede tým Racing 21 v nejsilnější sestavě
+    slug: Rally-Pribram-2025-priprava
+    date: 2025-07-22T22:00:00.000Z
+    shortDescription: >-
+      Na 44. Silmet Rally Příbram přijedeme v nejsilnější sestavě, tedy s Fabií
+      RS Rally2, Opelem Ascona A a také s legendárním šampionem Opel Kadett C
+      GT/E! 
+    longDescription: >
+      Vojta Štajf s Verčou Havelkovou se pokusí se soudobou Fábií RS Rally2
+      obhájit skoro už tradiční Vojtův příbramský bronz v cíli. Ládík Zelinka s
+      Matyldou Štajfovou vrátí na atraktivní erzety úspěšnou "africkou" Asconu z
+      roku 1972. Do třetice se na sobotním startu v Příbrami objeví také náš
+      legendární žlutý historický Opel Kadett C GT/E s Jirkou Káňou a Dominikem
+      Slováčkem. V uplynulých dnech jsme ještě ladili formu nedaleko Příbrami,
+      už tento pátek a v sobotu se do toho pustíme naostro. Držte palce
+      startovním číslům 3, 205 a 223!
+    image: >-
+      https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753388086/521336398_1166705378598017_1027752997178403319_n_w21lvj.jpg
+    gallery:
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753388096/524314819_1166702788598276_5760941177273729607_n_wepgh8.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753388095/524196131_1166705188598036_2008353376925549879_n_eey47c.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753388095/523841451_1166704855264736_2968746382057015663_n_gywmab.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753388094/523809210_1166703381931550_4743430855929031840_n_xaiiww.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753388093/523772129_1166705545264667_3097286023869337859_n_srxwm4.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753388093/523007774_1166705321931356_1296837242147806918_n_uuhshu.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753388093/522678362_1166703481931540_3253374016712909293_n_t2lm9b.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753388092/522669769_1166704938598061_1993093920233483342_n_wfpys2.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753388092/522649382_1166704965264725_3523768986073970673_n_kyrc2t.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753388091/522633980_1166703258598229_6520059480666844197_n_kzq5z9.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753388091/522218433_1166703421931546_5169141730419285048_n_bt0iyv.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753388090/522185560_1166705521931336_5684637877114995637_n_cvskdx.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753388089/522164890_1166702751931613_5491652948868972978_n_sxsfkx.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753388089/522154186_1166703968598158_3401062613824996635_n_oy3zc9.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753388089/521846182_1166704241931464_2114119439171142725_n_nojpzf.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753388088/521650790_1166702725264949_3857297010838842996_n_cyos3z.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753388088/521564390_1166704068598148_475924897947721272_n_k4qqyo.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753388087/521495861_1166702688598286_3195832654302619485_n_kywvsx.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753388086/521362494_1166704001931488_560746015305464543_n_xb16t3.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753388086/521439799_1166702631931625_3594576388492508811_n_nio7fo.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753388086/521365849_1166704898598065_2443167803915008891_n_yazue1.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753388086/521318332_1166702948598260_4361580109828479412_n_b9z37g.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753388085/520883720_1166702555264966_7089115705105807234_n_bcbrsk.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753388085/520998991_1166705285264693_6916652653729665939_n_wczncj.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753388085/520816694_1166703398598215_7978437427520139596_n_pyspcq.jpg
   - name: Na skvěle obsazené Bohemia Rally v top 10
     slug: Bohemia-Rally-2025
     date: 2025-07-13T22:00:00.000Z
