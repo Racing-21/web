@@ -703,6 +703,73 @@ aktuality:
       a&nbsp;navázali tím na totožná umístění z&nbsp;posledních šesti ročníků
       s&nbs...
     longDescription: "**Třetí místo v\_absolutní klasifikaci oslavili v\_cíli 43\nSILMET Rally Příbram Vojtěch Štajf s\_navigátorem Františkem Rajnohou a\_navázali tím na totožná umístění z\_posledních šesti ročníků s\_výjimkou roku 2020\nPosádka týmu ACCR Racing21 si také připsala body do Poháru 2+ za druhé místo.**  Tropické teploty vzduchu zasáhly o\_uplynulé sobotě dějiště dalšího ročníku Rally Příbram\nTato tradiční jednodenní soutěž přivítala necelou stovku posádek v\_kategorii soudobých i\_historických vozů\nOzdobou mezi těmi soudobými byl jediný startující vůz specifikace WRC, ale těsné souboje sváděly na celkem osmi rychlostních zkouškách o\_celkové délce 73 kilometrů také posádky ostatních kategorií a\_tříd\n\nO body do celkové klasifikace Poháru 2+ se na trati v\_okolí Sedlčan ucházeli rovněž Vojtěch Štajf a\_František Rajnoha, kteří zde opět startovali na voze ŠKODA Fabia R5 týmu Duck Racing\nA\_protože nejsou letos pravidelnými účastníky soutěží soudobých vozů, startovali v\_Příbrami mimo jiné s\_předsevzetím pobavit diváky a\_zlepšit také své umístění v\_cíli, které bylo po několik uplynulých ročníků spojeno s\_oslavou zisku bronzových pohárů\n\nJiž pohled do startovní listiny však trochu předurčoval vývoj soutěže, který se začal naplňovat hned od jejího úvodu\nV\_prvních třech dopoledních rychlostních zkouškách dojeli Štajf s\_Rajnohou na třetím místě za smíšenou posádkou Černý – Řiháková, startující rovněž s\_vozem Fabia R5 v\_barvách týmu Duck Racing a\_suverénně jedoucí domácí favorizovanou dvojicí Dohnal – Vybíral s\_poslední nehybridní specifikací vozu WRC\nDo souboje o\_bronz se však zejména odpoledne stále více zapojovali také Václav Kopáček jun\ns\_Petrem Pickou a\_tlakem na Vojtěcha Štajfa s\_Františkem Rajnohou se snažili o\_zdramatizování soutěže v\_jejím závěru\nPosádka týmu ACCR Racing21 však tuto situaci s\_přehledem zvládla a\_v centru Příbrami se tak mohla již pošesté od roku 2016 radovat z\_celkového třetího místa na cílové rampě\n\n**„Je vidět, že třetí místo v\_Příbrami je nám s\_Frantou prostě souzené\nAle jsme s\_tímto výsledkem opravdu spokojení\nHonza Dohnal s\_Ivo Vybíralem zdejší tratě dobře znají, a\_navíc s\_autem specifikace WRC se nemůžeme porovnávat\nZkušený Honza Černý je rovněž domácím jezdcem a\_s\_Petrou Řihákovou jeli téměř totožně nastavené auto s\_námi\nJá samozřejmě na sobě cítím, že přeskakovaní z\_historické Toyoty do Fabie R5 není ideální\nVnímám to především v\_technických pasážích tratě, kde občas udělám drobnou chybu,“** vysvětlil v\_cíli příbramské rally Vojtěch Štajf a\_dodal: **„My jsme dopoledne trochu zariskovali s\_výběrem pneumatik a\_po nedávné konzultaci s\_Vaškem Pechem nasadili středně tvrdou směs\nUrčitě to nebyla špatná volba, ale odpoledne už jsme s\_vyšší teplotou vsadili raději na tvrdé pneumatiky\nTy se nám hodily i\_pro udržení pozice před stále zrychlujícími Vencou Kopáčkem a\_Petrem Pickou\nTakže za nás je třetí místo v\_cíli hezkým výsledkem a\_pro mě je to možná důvod k\_zamyšlení, zdali se s\_celkově dosaženým počtem bodů ještě do Poháru 2+ se soudobým vozem trochu více nevrátit\nNicméně soutěže historiků jsou i\_nadále naší prioritou.“**\n"
+    image: >-
+      https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392591/01-rally-pribram-24-5816_glxvd7.jpg
+    gallery:
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392595/rally-pribram-24-05147_iqrbgn.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392598/rally-pribram-24-05263_uvc6y5.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392602/rally-pribram-24-05492_yyhpg1.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392591/01-rally-pribram-24-5816_glxvd7.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392588/rally-pribram-24-9721_caikyb.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392584/rally-pribram-24-9715_rgbemq.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392574/rally-pribram-24-9241_yecipl.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392578/rally-pribram-24-9587_kltwhr.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392581/rally-pribram-24-9704_fbkvth.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392571/rally-pribram-24-9219_f6kaih.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392567/rally-pribram-24-08926_auc3fm.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392564/rally-pribram-24-08810_l8bcje.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392571/rally-pribram-24-9219_f6kaih.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392561/rally-pribram-24-8550_d2dumx.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392558/rally-pribram-24-8535_azpaqi.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392554/rally-pribram-24-8369_ahs5qh.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392551/rally-pribram-24-8314_cu4lvs.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392548/rally-pribram-24-05496_j2wwsa.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392544/rally-pribram-24-4040_ouef8j.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392551/rally-pribram-24-8314_cu4lvs.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392541/rally-pribram-24-2717_dkptev.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392538/rally-pribram-24-2352_gktyis.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392535/rally-pribram-24-2333_ftuljp.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392532/rally-pribram-24-1959_mppxfq.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392528/rally-pribram-24-1954_dnnkk8.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392525/rally-pribram-24-1951_cyf5b4.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392541/rally-pribram-24-2717_dkptev.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392522/rally-pribram-24-1881_ko9lln.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392519/rally-pribram-24-1070_fsgzwz.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392515/rally-pribram-24-0646_ccrbwf.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392509/rally-pribram-24-0620_ki5eia.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392512/rally-pribram-24-0636_pfo6nd.jpg
   - name: Prolomí Štajf konečně příbramské bronzové zakletí?
     slug: prolomi-stajf-konecne-pribramske-bronzove-zakleti
     date: 2024-07-23T23:00:00.000Z
