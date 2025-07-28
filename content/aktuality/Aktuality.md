@@ -1125,6 +1125,49 @@ aktuality:
     date: 2024-04-22T23:00:00.000Z
     shortDescription: "Posádka týmu ACCR Racing21 Vojtěch Štajf a&nbsp;Veronika Havelková předvedla s\_vozem Toyota Celica GT-Four na trati 32   ročníku Historic Vltava Rallye o&nbsp;uplynulém víkendu brilantní jízdu, suverénně zvítězila v\_je..."
     longDescription: "**Posádka týmu ACCR Racing21 Vojtěch Štajf a\_Veronika Havelková předvedla s\_vozem Toyota Celica GT-Four na trati 32\nročníku Historic Vltava Rallye o\_uplynulém víkendu brilantní jízdu, suverénně zvítězila v\_jejím absolutním pořadí a\_zaznamenala tak po dlouhých 13 letech vítězství pro české barvy v\_domácí soutěži evropského šampionátu historiků\nTaké druhá posádka týmu Jan Bejvl s\_Janem Hlistou se mohla radovat z\_výrazného úspěchu.**      Velmi nevlídné šumavské zimní počasí, dokonce s\_občasnými sněhovými přeháňkami, přivítalo téměř 75 soutěžních posádek letošního ročníku Historic Vltava Rallye soupeřících částečně v\_evropském, ale i\_českém šampionátu historických vozů\nSoutěž měla na programu celkem dvanáct rychlostních zkoušek o\_celkové délce 145 kilometrů\nVlivem několika havárií startujících posádek, daných extrémní obtížností tratě, však byly tři měřené úseky v\_délce 32 kilometrů nakonec zrušeny\nPrávě posádky započítávané do\_klasifikace seriálu FIA European Historic Rally Championship se již v\_pátek postaraly na velmi náročné trati o\_dramatické souboje, které se však bohužel neobešly bez vážných havárií\nZejména o\_průběžné vedení v\_absolutní klasifikaci soutěže se tak rozhořel ostrý souboj\nV\_něm měla nejprve navrch maďarská posádka Érdi – Kerék, která zvítězila v\_loňském ročníku\nDoslova v\_patách mu však byla posádka týmu ACCR Vojtěch Štajf s\_Veronikou Havelkovou, která však soutěž začala s\_mírným respektem\nPořadí se ale obrátilo v\_odpoledních a\_večerních rychlostních zkouškách, kdy Štajf dokázal výrazně zrychlit a\_odsunul do té doby vedoucího Érdiho na druhou příčku se ztrátou téměř 9 sekund\nSobotní ráno však trochu naznačilo, že společná cesta Štajfa a\_Havelkové za šumavským triumfem by mohla být o\_něco snazší, neboť z\_bojů odstoupili po technické závadě největší soupeři, Maďaři Érdi s\_Kerékem na Fordu Sierra\nS\_celkem sedmi vyhranými rychlostními zkouškami a\_velmi vyrovnaným výkonem poté dovezli Štajf s\_Havelkovou svoji skvěle připravenou Toyotu Celica GT-Four vítězně na cílovou rampu v\_Klatovech\nSe zlatými poháry tak přicházejí pro české reprezentanty rovněž první cenné mistrovské body do evropského šampionátu historiků\n***„Máme oba s\_Veronikou z\_vítězství velkou radost, protože se jednalo skutečně o\_velmi těžkou soutěž z\_pohledu obtížnosti tratě i\_panujícího počasí\nPrávě vytrvalý déšť určil použití pouze mokrých pneumatik na celý závod\nPneumatiky na sucho jsme měli obuté jen na testovací zkoušce, naopak připravené zimní jsme nakonec nevyužili\nV\_pátek jsme k\_bojům na trati přistoupili nejprve opatrněji, ale postupně jsme se zrychlovali\nToyota jela skutečně skvěle, děkuji mechanikům za její přípravu.“*** řekl v\_cíli Vojtěch Štajf a\_dodal: ***„Pokud jsme chtěli myslet na vítězství, museli jsme být maďarské posádce Érdi – Kerék stále nablízku\nBěhem pátečního večera ale přišla možnost zaútočit na vedení v\_soutěži, a\_to se nám podařilo\nNa první sobotní ranní erzetě jsme ještě hodně tlačili na výkon, protože jsme o\_technickém problému maďarských soupeřů nevěděli\nPo zbytek dne až do cíle jsme už ale měli situaci plně pod kontrolou\nChceme však také vyjádřit upřímnou lítost na smutnými následky havárií během obou soutěžních dnů.“***          Z\_velmi kvalitního výsledku se v\_cíli radovala i\_druhá posádka týmu ACCR Racing21 Jan Bejvl s\_Janem Hlistou\nV\_klasifikaci českého šampionátu historiků skončili na pátém místě a\_na cílově rampě si převzali poháry za vítězství v\_pro rok 2024 v\_EHRC nově vypsaných kategoriích FWD (vozy s\_předním náhonem) a\_Trofeji 1600 (vozy s\_objemem válců do 1600 cm³)\n***„Byla to strašně těžká soutěž, ale mám z\_ní dobrý pocit\nMy jsme si v\_pátek pořádně zazávodili jen na dvou erzetách, protože ostatní museli pořadatelé soutěže po haváriích na trati zrušit\nJá jsem klatovským rodákem, a\_tak jsem mohl zejména v\_sobotu alespoň trochu využít znalosti zdejšího prostředí za volantem naší Fiesty\nTeď musíme s\_mým navigátorem a\_týmem Racing21 nastavit náš další sportovní program,“*** prozradil v\_cíli spokojený Jan Bejvl.\n"
+    image: >-
+      https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753688072/rallye-sumava-24-2082_zzjseg.jpg
+    gallery:
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753688144/rallye-sumava-24-34946_s9jt0e.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753688136/rallye-sumava-24-9279_bsolhn.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753688129/rallye-sumava-24-9203_t7blve.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753688122/rallye-sumava-24-8018_lkfdt6.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753688115/rallye-sumava-24-8015_lek393.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753688108/rallye-sumava-24-8013_dxk3hm.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753688101/rallye-sumava-24-6667_peunen.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753688093/rallye-sumava-24-6651_ecdrpb.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753688086/rallye-sumava-24-3947_sbd930.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753688079/rallye-sumava-24-3884_tz0t9p.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753688072/rallye-sumava-24-2082_zzjseg.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753688065/rallye-sumava-24-1977_etwh03.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753688058/rallye-sumava-24-1971_iabtte.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753688051/rallye-sumava-24-1959_hk9kda.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753688044/rallye-sumava-24-0852_dpibcr.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753688037/img-20240420-wa0007_oe02kj.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753688030/img-20240420-wa0006_lrvgcn.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753688023/03-rallye-sumava-24-3733_rioray.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753688016/02-rallye-sumava-24-3829_festq3.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753688009/01-rallye-sumava-24-3802_olvgso.jpg
   - name: "Racing21 cílí v\_roce 2024 na pódium historiků v&nbsp;Evropě"
     slug: racing21-cili-vroce-2024-na-podium-historiku-vnbspevrope
     date: 2024-04-17T23:00:00.000Z
