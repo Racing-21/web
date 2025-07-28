@@ -515,6 +515,37 @@ aktuality:
     date: 2024-10-29T23:00:00.000Z
     shortDescription: "Soutěžní tým ACCR Racing21, reprezentující Českou republiku na letošním ročníku FIA Motorsport Games ve španělské Valencii, přiváží stejně jako v\_roce 2022 vytoužené medaile z\_cenného kovu   Držiteli těch letošních bro..."
     longDescription: "**Soutěžní tým ACCR Racing21, reprezentující Českou republiku na letošním ročníku FIA Motorsport Games ve španělské Valencii, přiváží stejně jako v\_roce 2022 vytoužené medaile z\_cenného kovu\nDržiteli těch letošních bronzových se o\_uplynulém víkendu stali Vojtěch Štajf a\_Veronika Havelková.**\n\nPo dvou letech se vrátil do sportovního kalendáře mezinárodní automobilové federace již třetí ročník souboje národů pod označením FIA Motorsport Games, konaný v\_termínu 23 – 27 října\nLetošním hostitelem ´olympiády v\_motorsportu´ se stala Valencie, třetí největší město Španělska a\_oproti minulému ročníku se počet soutěžních kategorií výrazně zvýšil z\_deseti na sedmadvacet\nStejně jako před dvěma roky byla součástí programu kategorie Historic Rally\nNově však byla tato kategorie vypsána vedle celkové klasifikace historiků samostatně i\_pro soutěže na šotolinovém a\_asfaltovém povrchu\nNa start byly přijaty historické soutěžní vozy kategorií 2 a\_3 s\_homologací FIA mezi roky 1970–1981\n\nStejně jako před dvěma roky, byl Autoklubem ČR jmenován startujícím kapitánem českého reprezentačního týmu jezdec Vojtěch Štajf\nV\_soutěžním voze Opel Ascona A\_ho na trati doplnila navigátorka Veronika Havelková, pro kterou však byl start v\_letošním ročníku FIA Motorsport Games premiérový\nHned v\_úvodním dni zmíněného souboje národů se podařilo české smíšené posádce, v\_poměrně těžkých podmínkách na trati, obsadit celkové třetí místo samostatně klasifikované soutěže na převážně šotolinové povrchu\nPosádka týmu ACCR Racing21 tak opět po dvou letech získala na této prestižní soutěži cenné kovy\nBronzové medaile Štajfa a\_Havelkové byly zároveň těmi prvními, které česká reprezentační výprava na FIA Motorsport Games ve Valencii získala\n\nBěhem závěru druhého soutěžního dne s\_převážně asfaltovými rychlostními zkouškami se však projevily na voze Opel Ascona z\_roku 1972 technické potíže spojené s\_funkcí převodovky\nV\_situaci, kdy měla česká posádka ACCR Racing21 doslova na dosah zisk dalších bronzových medailí v\_celkové klasifikaci Rally Historic, ji zmíněná závada na technice neumožnila nadále pokračovat v\_tomto soutěžním klání národů z\_celého světa\n\n***„Primárním cílem pro letošní FIA Motorsport Games byl opětovný zisk medailí\nTo jsme s\_Veronikou dokázali hned během prvního dne soutěže, a\_dokonce jako první z\_české reprezentace\nPrávě páteční velmi náročné tratě s\_převážně šotolinovým povrchem a\_zdejší vydatné dešťové přeháňky často připomínaly obtížnost, kterou si náš Opel Ascona prošel během legendární East African Safari Classic Rally v\_minulém roce,“*** připomenul Vojtěch Štajf nedávné úspěšné dobrodružství na africkém kontinentě a\_dodal: ***„Věděli jsme, že tratě prvního dne budou tady ve Španělsku našemu autu více sedět, protože robustní Ascona má sice vyšší hmotnost a\_nižší výkon motoru, ale stejně tak disponuje mimořádnou odolností v\_těžkém terénu\nA\_to nakonec rozhodlo o\_našem cenném bronzu\nJízdu s\_touto legendou sedmdesátých let jsme si tady s\_Verčou hodně užívali\nO\_to víc nás samozřejmě mrzí následné odstoupení ze soutěže vlivem potíží s\_převodovkou, a\_to zrovna ve chvíli, kdy jsme byli blízko dalšímu úspěchu\nAle takový je motorsport\nChtěli bychom také tímto pogratulovat i\_dalším držitelům medailí z\_hojně zastoupené české reprezentace.“***\n\nTým ACCR Racing21 bude i\_nadále směřovat své aktivity především do světa soutěží historických vozů a\_plánuje navíc rozšíření počtu vozů pro účely pronájmu: ***„Celková popularita evropského šampionátu historiků, který letos s\_Veronikou absolvujeme, ale i\_toho domácího, jasně potvrzuje správnou orientaci našeho týmu do budoucna\nV\_naší dílně už proto připravujeme další soutěžní vůz Toyota Celica GT-Four ST165 a\_k\_pronájmu ji v\_příští sezóně nabídneme vedle obou úspěšných vozů Opel – Kadetta i\_Ascony,“*** potvrdil týmové plány na další roky Vojtěch Štajf.\n"
+    image: >-
+      https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392034/01-stajf-havelkova_wbwfb0.jpg
+    gallery:
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392056/14_uon3mv.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392055/13_hqj6ld.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392053/12_jk5fq0.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392051/11_krqh0m.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392049/10_jjzith.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392048/09_iksuwo.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392046/08_ceiypf.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392044/07_wsnqc4.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392042/06_en2c7o.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392041/05_au03mb.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392039/04_mcsora.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392037/03-stajf-havelkova_fw1m94.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392036/02_ryblan.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392034/01-stajf-havelkova_wbwfb0.jpg
   - name: Ze Sanrema na španělskou olympiádu v motorsportu
     slug: olymipada-motorsportu-2024
     date: 2024-10-23T22:00:00.000Z
