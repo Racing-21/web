@@ -975,6 +975,25 @@ aktuality:
     date: 2024-06-18T23:00:00.000Z
     shortDescription: "Stejně jako v\_roce 2022 se týmu ACCR Racing21 nevydařil úvod letošního ročníku maďarské soutěže Mecsek Rallye   Soutěžní vůz Toyota Celica GT-Four ST165 letos vůbec poprvé donutil posádku Vojtěch Štajf – Veronika Havel..."
     longDescription: "**Stejně jako v\_roce 2022 se týmu ACCR Racing21 nevydařil úvod letošního ročníku maďarské soutěže Mecsek Rallye\nSoutěžní vůz Toyota Celica GT-Four ST165 letos vůbec poprvé donutil posádku Vojtěch Štajf – Veronika Havelková k\_odstoupení ze soutěže vlivem nečekané a\_dosud nevyjasněné technické závady na elektroinstalaci.**        Tým ACCR Racing21, posilněný úspěchy ve dvou předešlých soutěžích, odjížděl do Maďarska s\_cílem získat další body do celkové klasifikace seriálu FIA European Historic Rally Championship a\_minimálně udržet dosavadní celkovou třetí příčku v\_průběžném bodování šampionátu\nPřípravě proto věnoval velkou pozornost a\_po jednodenním testu, ještě před odjezdem do dějiště soutěže, pracovali mechanici týmu na nastavení vozu Toyota Celica GT-Four mnohem intenzivněji než před jinými podniky\nAni to však na zamýšlený zisk bodů v\_již tradiční maďarské soutěži s\_celkem dvanácti rychlostními zkouškami bohužel nestačilo\nPřed dvěma roky, kdy na Mecsek Rallye startovala posádka týmu ACCR Racing21 ještě ve složení Vojtěch Štajf a\_Vladimír Zelinka, způsobil odstoupení ze soutěže poškozený stálý převod v\_předním diferenciálu Toyoty Celica GT-Four na startu první rychlostní zkoušky\nV\_letošním 57\nročníku opět v\_samém úvodu na stejném voze, stejném měřeném úseku i\_se stejným jezdcem, avšak již s\_navigátorkou Veronikou Havelkovou, se situace opakovala\nTentokrát však stála za potížemi dosud nezjištěná závada na elektroinstalaci vozu\nK\_tomuto technickému problému se navíc přidalo silné nachlazení navigátorky Veroniky Havelkové, která nastupovala do soutěže s\_hlasovou indispozicí, což komplikovalo vzájemnou komunikaci posádky v\_kokpitu\nPo zralém uvážení se tak tým ACCR Racing21 nakonec rozhodl svoji účast v\_Maďarsku ukončit, nenastoupit do druhé etapy a\_zaměřit se na další zahraniční soutěž\n***„Pro mě byl letošní start v\_Maďarsku jedno velké déjà vu, snad jen s\_tím rozdílem, že oproti roku 2022 se první rychlostní zkouška letos jela v\_opačném směru\nTento úvodní měřený úsek jsme sice dojeli na třetím místě, ale už na přejezdu měl motor Toyoty neustále tendenci zhasnout\nKdyž se tak v\_jednom okamžiku bohužel stalo, už ho startér opětovně nenastartoval\nPůvodně jsme měli podezření na vadný alternátor, ale to se nakonec nepotvrdilo a\_vinu proto přičítáme závadě na elektroinstalaci\nPřesnou příčinu ale musíme ještě analyzovat na dílně,“*** komentoval kritický okamžik na Mecsek Rallye Vojtěch Štajf a\_dodal: ***„Mrzí nás tohle dosud jediné letošní odstoupení i\_proto, že mechanici měli po domácím testu na Toyotě výrazně více práce s\_její přípravou\nK\_tomu všemu se ještě přidaly potíže s\_hlasivkami u\_nachlazené Verči, což bylo hlavně pro ni, ale i\_pro mě obtížné z\_pohledu navigace na trati\nKonečné rozhodnutí odstoupit ze soutěže tak bylo samozřejmě nechtěným, ale jediným řešením\nVšichni tak směřujeme své úsilí na následující soutěže.“***                   Dalším startem týmu ACCR Racing21 bude Rally Plzeň, kde bude posádka Vojtěch Štajf a\_František Rajnoha obhajovat absolutní prvenství z\_loňského ročníku a\_představí se se soudobým vozem ŠKODA Fabia R5\nSoutěž se koná ve dnech 28.-29\nčervna 2024\nNásledně se tým vrátí do evropského šampionátu historiků\nNa rakouské soutěži Rallye Weiz, která proběhne ve dnech 11.-13\nčervence 2024, odstartují Vojtěch Štajf s\_Veronikou Havelkovou opět s\_vozem Toyota Celica GT-Four.\n"
+    image: >-
+      https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753686567/07_stpspl.jpg
+    gallery:
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753686724/04_kopie_rewctn.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753686602/06_ubmorv.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753686597/05_hdcnfr.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753686588/03_bexxod.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753686582/02_mghlve.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753686576/01_mjbhg3.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753686571/08_yzpbgl.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753686567/07_stpspl.jpg
   - name: "Přidá Vojtěch Štajf v\_Maďarsku další pódium?"
     slug: prida-vojtech-stajf-vmadarsku-dalsi-podium
     date: 2024-06-10T23:00:00.000Z
