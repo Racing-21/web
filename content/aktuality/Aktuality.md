@@ -1103,6 +1103,23 @@ aktuality:
     date: 2024-05-13T23:00:00.000Z
     shortDescription: "Evropský šampionát automobilových soutěží historických vozů se z\_České republiky přestěhuje o&nbsp;nadcházejícím víkendu do slunného Španělska   V\_jubilejním 15   ročníku Historic Rally of Asturias se další body do cel..."
     longDescription: "**Evropský šampionát automobilových soutěží historických vozů se z\_České republiky přestěhuje o\_nadcházejícím víkendu do slunného Španělska\nV\_jubilejním 15\nročníku Historic Rally of Asturias se další body do celkové klasifikace letošního seriálu FIA EHRC pokusí získat posádka týmu ACCR Racing21 Vojtěch Štajf a\_Veronika Havelková.**  Tato úspěšná česká posádka, která zvítězila v\_absolutním pořadí na nedávné Historic Vltava Rallye, se i\_ve Španělsku bude spoléhat na kvality svého soutěžního vozu Toyota Celica GT-Four ST165\nTeprve třetí podnik evropského šampionátu Historic Rally of Asturias je situován na sever Španělska a\_nabídne třem desítkám startujících posádek atraktivní tratě deseti rychlostních zkoušek o\_celkové délce 130 kilometrů rozdělených do čtyřech sekcí\nOd výrazného úspěchu Vojtěcha Štajfa a\_Veroniky Havelkové v\_Klatovech věnoval tým ACCR Racing21 velkou pozornost přípravě soutěžního vozu Toyota Celica, který v\_Čechách nasadil vysokou laťku nejen ve výkonu, ale především ve spolehlivosti\nS\_cílem udržet tuto úroveň prošel vůz v\_dílnách Racing21 opět důkladnou kontrolou a\_významné vylepšení prodělal podvozek, jehož finálnímu nastavení byl věnován mimo jiné i\_rozsáhlý jízdní test v\_závěru minulého týdne nedaleko Plzně\n***„Pro nás s\_Veronikou je start na Historic Rally of Asturias v\_podstatě krokem do neznáma\nNikdy jsme zde nestartovali, i\_proto jsme si prohlédli alespoň rychlostní zkoušky na videích poskytnutých pořadatelem, a\_většinu úprav a\_testování přesunuli do Čech na trať podobnou tomu, co jsme viděli na těchto videích\nU\_Toyoty jsme se na pátečním testu zaměřili především na jinou charakteristiku pružin, která bude doufejme zdejšímu povrchu tratě více vyhovovat,“*** odhalil zákulisí předsoutěžních testů jezdec Vojtěch Štajf a\_dodal: ***„Na jihu Španělska jsme s\_Vláďou Zelinkou před třemi roky rozhodli o\_našem triumfu v\_evropském šampionátu historiků kategorie 2 na voze\_Opel Kadett\nNyní máme s\_Veronikou cíl získat maximální počet bodů do nově vypsané celkové klasifikace letošního mistrovství Evropy historiků\nVzhledem k\_silnější konkurenci vozů s\_pohonem všech kol to nebude jednoduché, ale naopak proti tradičně startujícím dvoukolkám si po české soutěži s\_Celicou více věříme\nRozhodovat bude i\_počasí, které může mít aprílovou podobu, a\_proto vezeme hned dva typy a\_několik směsí pneumatik značky Pirelli.“***                     Posádka týmu ACCR Racing21 Vojtěch Štajf s\_Veronikou Havelkovou odstartuje do letošního ročníku soutěže Historic Rally of Asturias **v\_pátek 17\nkvětna v\_15 hodin z\_centra Parque Sabino Moutas v\_severošpanělském městě Pravia.** Cíl soutěže je situován na stejné místo o\_den později, a\_to ve 20 hodin\nZmíněné zahraniční soutěže se dle původních plánů měla zúčastnit také druhá posádka týmu ACCR Racing21 ve složení Jan Bejvl a\_Jan Hlista na voze Ford Fiesta XR2 Mk1\nVzhledem k\_akutním zdravotním problémům jezdce se bohužel vítězové Trofeje 1600 a\_Trofeje FWD z\_Historic Vltava Rallye nemohou nakonec španělské soutěže zúčastnit a\_pořadateli byla již odeslána omluvenka\nJejich další sportovní program tým včas zveřejní.\n"
+    image: >-
+      https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753687889/01-toyota-celica_tjd9jw.jpg
+    gallery:
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753687930/07-test-servis_huzro6.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753687923/06-toyota-celica_x6ckdi.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753687916/05-toyota-celica_msitx9.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753687909/04-veronika-havelkova_ienntg.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753687903/03-vojtech-stajf_xlzdwm.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753687896/02-vojtech-stajf_s2hc6o.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753687889/01-toyota-celica_tjd9jw.jpg
   - name: Štajf slavil triumf na historické Vltavě
     slug: stajf-slavil-triumf-na-historicke-vltave
     date: 2024-04-22T23:00:00.000Z
