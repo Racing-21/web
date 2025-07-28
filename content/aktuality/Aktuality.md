@@ -624,6 +624,22 @@ aktuality:
     gallery:
       - >-
         https://res.cloudinary.com/dkhdp7qmd/image/upload/v1730450939/toyota_8_z1rpqq.webp
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392171/09_gmafvf.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392168/08_fkyhdy.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392166/07_rclubk.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392163/05_eae8sa.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392161/04_drufwb.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392159/03_iuhcys.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392157/02_yfz3iv.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392155/01_tviiv9.jpg
   - name: Pro chybějící body na Sanremo Rally Storico
     slug: pro-chybejici-body-na-sanremo-rally-storico
     date: 2024-09-15T23:00:00.000Z
