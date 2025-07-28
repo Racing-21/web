@@ -999,6 +999,21 @@ aktuality:
     date: 2024-06-10T23:00:00.000Z
     shortDescription: "Tým ACCR Racing21 se již o&nbsp;následujícícm víkendu zúčastní čtvrtého podniku seriálu FIA European Historic Rally Championship   Vojtěch Štajf s\_Veronikou Havelkovou budou na trati 57   ročníku maďarské Mecsek Rallye..."
     longDescription: "**Tým ACCR Racing21 se již o\_následujícícm víkendu zúčastní čtvrtého podniku seriálu FIA European Historic Rally Championship\nVojtěch Štajf s\_Veronikou Havelkovou budou na trati 57\nročníku maďarské Mecsek Rallye usilovat s\_Toyotou Celica GT-Four o\_pódiové umístění v\_celkové klasifikaci.**   Stejně jako v\_minulých ročnících bude tato soutěž, pořádaná nedaleko maďarského města Pécs, zápolením soudobých i\_historických soutěžních vozů\nMezi přihlášenými posádkami je rovněž dvacítka účastníků evropského šampionátu historiků\nVe dvou dnech a\_pěti sekcích absolvují posádky dvanáct rychlostních zkoušek s\_celkovou délkou 165 km\nVojtěch Štajf se na trať této populární maďarské soutěže vrací po dvou letech\nA\_zatímco v\_roce 2021 si zde dojeli s\_Vladimírem Zelinkou na\_voze Opel Kadett C GT/E pro páté místo absolutně a\_vítězství ve třídě, o\_rok později se stejným navigátorem, avšak již se současnou\_Toyotou Celica, skončili pro technické potíže již v\_samotném úvodu soutěže\nV\_letošním ročníku směřují Štajf s\_Havelkovou svůj výsledek na pódium celkové klasifikace\nSoutěžní vůz Toyota Celica GT-Four ST165 vykazoval na uplynulých dvou letošních soutěžích vysokou míru spolehlivosti, na kterou se posádka týmu ACCR Racing21 bude opět spoléhat i\_v\_rámci 57\nročníku Mecsek Rallye\nJeště před odjezdem na seznamovací jízdy do Maďarska pak Štajf s\_Havelkovou absolvují s\_vozem krátký předsoutěžní test\n\_\_\_\_\_\_\_\_\_\_\_\_             ***„Do Maďarska se s\_Veronikou hodně těšíme\nPro mě to není neznámé místo, jako tomu bylo během minulé soutěže ve Španělsku\nMinimálně tři erzety znám z\_minulých ročníků, takže by to pro nás mělo být celkově příjemnější\nMusíme však vzít v\_potaz i\_silnou konkurenci v\_podobě posádek Zippo – Arena, ale především domácí matadory Érdiho jr\ns\_Kerékem, kteří tady v\_posledních dvou ročnících zvítězili a\_budou mít podporu domácího publika,“*** předpovídá před odjezdem do Maďarska Vojtěch Štajf a\_dodává: ***„Aktuálně držíme třetí příčku průběžného pořadí celkové klasifikace evropského šampionátu s\_padesáti body a\_věřím, že máme šanci naše bodové konto pódiovým umístěním ještě navýšit\nVzhledem k\_tomu, že dosavadní naše letošní starty často poznamenaly vydatné dešťové přeháňky, přáli bychom si na blížící se Mecsek Rallye vzájemné souboje se soupeři na suché trati\nSnad to tedy tentokrát vyjde.“***  Historické vozy letošního ročníku populární Mecsek Rallye slavnostně odstartují do soutěže již tento pátek 14\nčervna v\_16,15 hod\nna náměstí Széchenyi v\_historickém centru města Pécs.\n"
+    image: >-
+      https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753687441/kopie4_ndwfr1.jpg
+    gallery:
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753687458/kopie1_ogrphw.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753687452/kopie2_p1siie.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753687446/kopie3_evo2vt.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753687441/kopie4_ndwfr1.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753686891/img-4521_petnxf.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753686888/dia2-_3_-kopie_rl78z6.jpg
   - name: Deštěm smáčený bronz v&nbsp;Asturias
     slug: destem-smaceny-bronz-vnbspasturias
     date: 2024-05-20T23:00:00.000Z
