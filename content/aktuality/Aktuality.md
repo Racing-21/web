@@ -1019,6 +1019,85 @@ aktuality:
     date: 2024-05-20T23:00:00.000Z
     shortDescription: "Třetí místo v\_celkové klasifikaci FIA European Historic Rally Championship a&nbsp;o jednu příčku vyšší umístění v\_kategorii 4 si ze španělské Rally de Asturias Histórico přiváží posádka týmu ACCR Racing21 startující na..."
     longDescription: "**Třetí místo v\_celkové klasifikaci FIA European Historic Rally Championship a\_o jednu příčku vyšší umístění v\_kategorii 4 si ze španělské Rally de Asturias Histórico přiváží posádka týmu ACCR Racing21 startující na voze Toyota Celica GT-Four ST165 – Vojtěch Štajf a\_Veronika Havelková.** \n\nZávod v\_severní části Španelska u\_Atlantického oceánu byl letos prvním podnikem ze dvou, kde posádky získávají za účast deset bonusových bodů – po zkrácení bodů z\_Rallye Vltava na polovinu kvůli pravidlu o\_rušených rychlostních zkouškách a\_poměru odjetých/plánovaných kilometrů tak byla vzhledem k\_celkovým ambicím reprezentantů Štajfa s\_Havelkovou v\_letošní historické „Evropě“ účast na tomto věhlasném podniku nutností. A\_zatímco většina Pyrenejského poloostrova byla o\_víkendu tradičně oslněna slunečním svitem, právě sever země v\_okolí měst Oviedo a\_Gijón poznamenaly vydatné dešťové přeháňky, které už tak těsné souboje soutěžních posádek dokázaly ještě zdramatizovat.\n\nVojtěch Štajf s\_Veronikou Havelkovou, kteří v\_pátek odstartovali se svým vozem Toyota Celica do prvních dvou sekcí soutěže, chtěli potvrdit svou rychlost a\_zároveň spolehlivost, a\_maximálním možným způsobem navázat na své celkové vítezství při nedávné domácí soutěži Historic Vltava Rallye.\nZásadním rozdílem však byla neznalost zdejších tratí, navíc poznamenaných zmíněným „aprílovým“ počasím. I\_proto zvolil Vojtěch Štajf pro úvodní část opatrnější tempo.\n\nSoutěž sice česká dvojice zahájila slibným třetím časem absolutně, do dalších pátečních výkonů na jednotlivých měřených úsecích ale negativně promluvily potíže s\_brzdami, ty se totiž vždy v\_druhé polovině zdejších technických a\_na brzdy náročných úsecích přehřívaly. I\_přes to dokázal Vojtěch Štajf navigovaný Veronikou Havelkovou udržet po prvním dnu páté místo celkového pořadí klasifikace evropského šampionátu.\n\nV\_sobotní deštivé etapě, zkrácené kvůli havárii předjezdce o\_jednu rychlostní zkoušku, se jezdec týmu ACCR Racing21 bohužel nevyhnul drobné jezdecké chybě hned v\_prvním testu dne. I\_když nedošlo k\_žádnému poškození závodního vozu, asi dvacetisekundová ztráta znamenala okamžitý propad v\_celkovém pořadí o\_dvě místa níže. Opět se tím česká posádka ocitla v\_souboji s\_Maďary Érdim Jr a\_Kerékem, podobně jako na domácí soutěži v\_Klatovech. Následnými časy mezi pěti nejrychlejšími posádkami se však Štajf s\_Havelkovou opět vrátili na původní pozici. Dramatický závěr ovlivnily nejen jejich skvělé výkony v\_podobě třetích nejrychlejších časů na posledních dvou rychlostních zkouškách, ale také problémy soupeřících posádek. Ve výsledku mohli Štajf s\_Havelkovou s\_radostí oslavit celkové třetí místo na pódiu, které zároveň znamená výrazné bodové zhodnocení pro evropský šampionát. Bronz v\_absolutní klasifikaci doplnily ještě stříbrné poháry za druhé místo v\_kategorii 4.\n\n***„Jsme s\_Verčou z\_celkového bronzu v\_Asturiasu hodně nadšení. Byla to náročná soutěž kombinující těžkou a\_pro nás neznámou trať se střídajícím se počasím, a\_to doslova v\_minutách. Hodně jsme na to doplatili už na druhé erzetě, kde asi dvoukilometrový úsek spláchla voda z\_lokálního mraku jen nám a\_za námi startujícímu Érdimu s\_Kerékem. Velké díky patří i\_našim mechanikům, kteří dokázali v\_servisu vyřešit potíže s\_brzdami před sobotní etapou a\_také opravit nefunkční vyhřívání pravé poloviny čelního skla. Za těch dešťů jsme s\_Verčou moc z\_auta neviděli a\_uvnitř to bylo chvíli jak v\_ponorce,“*** odhalil potíže první fáze soutěže Vojtěch Štajf a\_dodal: ***„V sobotu jsem ráno udělal drobnou chybu a\_přetočil Toyotu v\_jedné ze zatáček. Opakovaným couváním z\_příkopu jsme bohužel ztratili nějaký čas, ale hned jsme tenhle deficit zase dohnali. Museli jsme si hlídat soupeře za zády, ale poslední dvě erzety nám nabídly možnost dotáhnout soutěž na podium a\_tu jsme bez zaváhání využili. Opět se potvrdila spolehlivost naší Toyoty a\_já jen doufám, že se na ní budeme moci opět spolehnout i\_na následující soutěži v\_Maďarsku.“***\n\nPo třech závodech z\_celkových devíti letošního FIA Mistrovství Evropy v\_historicích patří posádce ACCR Racing 21 týmu průběžné druhé místo v\_kategorii 4 a\_třetí v\_celkovém hodnocení.\n"
+    image: >-
+      https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753687695/-58a5457_bdgu4z.jpg
+    gallery:
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753687791/-w2a5925_euw9ta.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753687784/-w2a5911_elan09.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753687776/-w2a5882_fwxtsk.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753687769/-w2a5836_suo0su.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753687762/-w2a5835_vj0saw.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753687756/-w2a5824_llcoal.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753687749/-w2a5822_o8ty6w.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753687742/-w2a5805_qbncix.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753687735/-w2a5803_onic7t.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753687728/-58a6132_wrovrt.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753687722/-58a6104_i1g7wj.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753687715/-58a6039_h7rswv.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753687708/-58a5710_ergiww.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753687701/-58a5467_npmc9m.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753687695/-58a5457_bdgu4z.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753687688/-58a4973_i0qn2i.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753687681/-58a4527_xxebmp.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753687674/-58a4522_xjhcwe.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753687668/-58a4517_b4wv0s.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753687661/-58a4154_ug2utp.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753687655/-58a4142_oh5zvg.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753687648/-58a3557_sgfhdd.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753687641/-58a2655_opiw81.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753687635/-58a2645_cpozwp.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753687615/-58a2455_bmrzcg.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753687622/-58a2515_yiwqqn.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753687628/-58a2631_alkpwo.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753687595/-58a2425_dw0wkw.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753687602/-58a2444_q7fetp.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753687609/-58a2445_aptsyk.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753687589/-58a2401_vzwzxk.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753687583/-58a2388_zrxc7c.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753687576/-58a2375_agem3m.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753687556/-58a2346_gkeb9w.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753687563/-58a2350_mcwtgc.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753687569/-58a2372_t2zoqt.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753687550/-58a2228_j7iyyd.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753687545/-01_rbnfhb.jpg
   - name: Naváže Štajf ve Španělsku na domácí úspěch?
     slug: navaze-stajf-ve-spanelsku-na-domaci-uspech
     date: 2024-05-13T23:00:00.000Z
