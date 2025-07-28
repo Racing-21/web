@@ -485,6 +485,31 @@ aktuality:
     date: 2024-11-27T23:00:00.000Z
     shortDescription: "Stejně jako v minulých letech je posledním bodem letošního sportovního programu týmu ACCR Racing21 start na tradičním TipCars Pražském Rallysprintu   O\_nadcházející sobotě se při loučení s\_rally sezónou představí posád..."
     longDescription: "**Stejně jako v\_minulých letech je posledním bodem letošního sportovního programu týmu ACCR Racing21 start na tradičním TipCars Pražském Rallysprintu\nO\_nadcházející sobotě se při loučení s\_rally sezónou představí posádka Vojtěch Štajf a\_Radim Kotlář s\_vozem ŠKODA Fabia RS Rally2.**   Divácky tradičně velmi atraktivní podívanou, kombinující zábavu se špičkovými výkony jezdců za volanty přibližně šedesátky soutěžních vozů, hostí letos hlavní město Praha již po devětadvacáté\nPořadatel akce připravil v\_podstatě již tradiční program TipCars Pražského Rallysprintu zahrnující celkem pět rychlostních zkoušek o\_celkové délce 35 kilometrů doplněný závěrečným slavnostním epilogem, ve kterém však už nebude posádkám měřen čas\nA\_zatímco první dva měřené úseky se odehrají na trati v\_blízkosti Řeporyjí a\_Zadní Kopaniny, zbytek soutěžního programu potěší diváky stejně jako v\_minulých letech v\_oblasti pražských Strahovských stadionů\n\nVojtěch Štajf je již tradičním účastníkem pražského zimního klání a\_již počtvrté se bude v\_této soutěži spoléhat na svého navigátora Radima Kotláře, se kterým vloni obsadili páté místo v\_celkovém pořadí\nTipCars Pražský Rallysprint je v\_posledních ročnících pro Vojtěcha Štajfa mimo jiné i\_vhodnou příležitostí představit zajímavé soutěžní vozy\nEvropskou soutěžní premiéru zbrusu nového vozu Polo GTI R5 zde realizoval s\_Karlem Janečkem v\_roce 2018 a\_o čtyři roky později si v\_Praze vyzkoušeli s\_Lilií Khousnoutdinovou Hyundai i20 WRC\nV\_letošním roce vsadí posádka ACCR Racing21 Štajf – Kotlář na kvalitu a\_spolehlivost vozu ŠKODA Fabia RS Rally2, tedy na nejnovější specifikaci soutěžního speciálu mladoboleslavské automobilky\nStart s\_tímto vozem je součástí spolupráce se soutěžním\_týmem zkušeného automobilového jezdce Petra Nešetřila\n\nSoučástí příprav na 29\nTipCars Pražský Rallysprint byl také krátký test nedaleko Mladé Boleslavi, během kterého si Vojtěch Štajf a\_Radim Kotlář soutěžní vůz ŠKODA Fabia RS Rally2 poprvé vyzkoušeli\n***„Jsem velmi rád, že můžeme díky Petrovi Nešetřilovi novou Fabii okusit nejen tady na testu, ale hlavně v\_sobotu v\_okolí Prahy a\_samozřejmě ji ukázat v\_akci i\_divákům na Strahově\nI\_přes dnešní deštivé počasí jsem s\_výsledkem testu hodně spokojený\nUž po prvních kilometrech s\_Fabií RS Rally2 jsem jasně pocítil značný rozdíl oproti mým minulým vozům, a\_to jak Fabii R5, tak i\_Polu GTI R5\nVývoj soutěžních vozů jde skutečně mílovými kroky dopředu,“*** potvrdil v\_rámci testu Vojtěch Štajf a\_dodal: ***„Samozřejmě s\_tímto vozem mám za sebou jen pár najetých kilometrů, což může být v\_sobotu trochu hendikep, ale pro nás s\_Radimem to nic nemění na tom, že byť máme startovní číslo čtyři, budeme směřovat k\_pódiovému umístění\nChceme tak především poděkovat našim fanouškům a\_týmovým partnerům, ale startem s\_tímto vozem neskrývám ani své zvažování plánů nad příští sezónou\nTěšíme se opět na zcela jedinečnou atmosféru Pražského Rallysprintu.“***\n\nTým ACCR Racing21 bude v\_rámci 29 TipCars Pražského Rallysprintu reprezentovat také druhá posádka ve složení Jan Bejvl – Zdeněk Václavíček\nJejich historický Opel Ascona A\_z\_roku 1972 bude mít startovní číslo #48\nSoutěž startuje v\_sobotu 30\nlistopadu v\_7:30 hod\nv\_Praze na Strahově.\n"
+    image: >-
+      https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753391909/sta-8399-vylepsene-nr_ag2q7s.jpg
+    gallery:
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753391909/sta-8399-vylepsene-nr_ag2q7s.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753391907/sta-8396_jrax1k.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753391906/sta-8382_nz42qr.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753391904/sta-8368_rykthc.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753391903/sta-8359_n5twlz.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753391902/sta-8353-vylepsene-nr_me252r.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753391901/sta-8349_i7uyps.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753391900/sta-8330-vylepsene-nr_j0lonl.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753391898/sta-8329_imophb.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753391898/sta-8328_vpbopv.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753391897/20211224-192316_wxxm8t.jpg
   - name: "Z klání národů po dvou letech opět s\_medailemi"
     slug: z-klani-narodu-po-dvou-letech-opet-snbspmedailemi
     date: 2024-10-29T23:00:00.000Z
