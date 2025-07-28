@@ -779,6 +779,17 @@ aktuality:
       ŠKODA Fabia R5 uskuteční v&nbsp;rámci jednodenní soutěže SILMET 43   Rally
       P...
     longDescription: "\\*\\*Po nedávné vítězné soutěži v\_Plzni se druhý letošní start posádky ACCR Racing21 Vojtěch Štajf a\_František Rajnoha se soudobým vozem ŠKODA Fabia R5 uskuteční v\_rámci jednodenní soutěže SILMET 43\nRally Příbram, která startuje již o\_nadcházejícím víkendu\n\\*\\*  Přes osm desítek přihlášených posádek v\_klasifikaci soudobých vozů Rallysprint série a\_Poháru 2+ změří své síly na letošním ročníku Rally Příbram s\_osmi náročnými rychlostními zkouškami v\_okolí Sedlčan o\_celkové délce 73 kilometrů\nStart až patnácti vozů kategorie R5/Rally2 je mimo jiné příslibem atraktivní podívané pro diváky na trati sobotního rallysprintu\n\nPoměrně velmi vyrovnanou bilanci v\_této soutěži, tradičně zapsané v\_kalendáři domácích podniků, má pražský jezdec Vojtěch Štajf\nV\_posledních šesti ročnících zde pětkrát startoval se současným navigátorem Františkem Rajnohou a\_pouze jednou společně nedojeli\nV\_sezóně 2020 je totiž havárie v\_závěru soutěže připravila o\_jisté vítezství\nVe všech ostatních ročnících zmíněného období si posádka týmu ACCR Racing21 odvážela z\_Příbrami pokaždé bronzové poháry za třetí místo v\_celkovém pořadí\n\nS cílem dosáhnout konečně vyššího stupínku na pódiu v\_cíli se Vojtěch Štajf věnuje intenzivní přípravě na 43\nročník příbramské soutěže\nSoučástí přípravy bude také čtvrteční celodenní test vozu ŠKODA Fabia R5, který Štajf absolvuje opět ve spolupráci s\_týmem Duck Racing\n\n**„Rally Příbram je pro nás skoro domácí soutěží, kterou máme hodně rádi\nTo je i\_důvod naší pravidelné účasti na tomto již tradičním podniku\nS\_trochou nadsázky si ale říkám, že tu máme s\_Frantou minimálně dva nevyřízené účty\nTím prvním je jakýmsi magnetem přitahovaný celkový bronz v\_cíli několika ročníků nazpět a\_tím druhým je náprava nešťastně ztraceného vítězství před čtyřmi roky\nTehdy nás vyjetí z\_tratě a\_náraz do stromu s\_Frantou hodně mrzel\nTeď máme v\_Příbrami šanci tyto naše dluhy splatit,“** vzpomíná na minulé ročníky příbramské soutěže Vojtěch Štajf a\_dodává:\\*\\* „Věřím, že i\_plánovaný test vozu Fabia R5 na podobném povrchu tratě, jaký očekáváme v\_sobotu, nám pomůže k\_co nejlepšímu výsledku\nPravdou ale zůstává, že stejně jako v\_Plzni si s\_Frantou jedeme také soutěž v\_Příbrami především společně užít a\_potěšit jízdou fanoušky rally na trati\nPořadatel nám letos přidělil startovní číslo čtyři.“\\*\\*                       Start SILMET 43\nRally Příbram se uskuteční v\_sobotu 27\nčervence 2024 v\_9 hodin na náměstí T.G\nMasaryka v\_Příbrami\nNa stejném místě dojde v\_17 hodin ke slavnostnímu vyhlášení výsledků soutěže.\n"
+    image: >-
+      https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392674/02-fabia-r5-duck-racing_dxewig.jpg
+    gallery:
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392681/04-fabia-r5-duck-racing_orymtu.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392678/03-frantisek-rajnoha_oyiivl.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392674/02-fabia-r5-duck-racing_dxewig.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392671/01-vojtech-stajf_jjpii3.jpg
   - name: "S\_větrnou smrští a&nbsp;deštěm za čtvrtým místem"
     slug: svetrnou-smrsti-anbspdestem-za-ctvrtym-mistem
     date: 2024-07-15T23:00:00.000Z
