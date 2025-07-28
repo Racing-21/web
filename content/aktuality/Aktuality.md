@@ -795,6 +795,47 @@ aktuality:
     date: 2024-07-15T23:00:00.000Z
     shortDescription: "Letošní ročník Rallye Weiz, jehož průběh byl o&nbsp;tomto víkendu výrazně poznamenán rozmary počasí, dokončila posádka týmu ACCR Racing21 Vojtěch Štajf a&nbsp;Veronika Havelková s\_vozem Toyota Celica GT-Four na čtvrtém..."
     longDescription: "**Letošní ročník Rallye Weiz, jehož průběh byl o\_tomto víkendu výrazně poznamenán rozmary počasí, dokončila posádka týmu ACCR Racing21 Vojtěch Štajf a\_Veronika Havelková s\_vozem Toyota Celica GT-Four na čtvrtém místě celkové klasifikace evropského šampionátu historických vozů a\_zároveň se mohla radovat za bronz ve skupině 4 a\_třídě E3.**   Páteční přerušení rakouské soutěže Rallye Weiz, vlivem silné vichřice a\_vydatného deště nejen nad tratí, ale zejména v\_servisní zóně s\_velkými materiálními škodami, zkrátilo její celkový program o\_dva měřené úseky\nTéměř tři desítky startujících posádek, jejichž výsledky se započítávaly do průběžné klasifikace seriálu FIA European Historic Rally Championship, tak změřilo své síly na celkem jedenácti rychlostních zkouškách\nČeské barvy na této soutěži hájila také posádka týmu ACCR Racing21 Vojtěch Štajf a\_Veronika Havelková, která se po technických problémech v\_minulé soutěži v\_Maďarsku snažila získat co největší počet bodů do průběžné klasifikace evropského šampionátu historiků\nV\_obou dnech soutěže však do celkového výkonu této posádky negativně promluvily především volba pneumatik a\_také drobné technické potíže\nPřesto se Vojtěch Štajf držel za volantem Toyoty Celica v\_závěru prvního dne zkrácené soutěže jen těsně za pěticí nejrychlejších vozů na celkovém šestém místě se ztrátou dvou desetin sekundy\nV\_sobotu pokračovala soutěž již dle stanoveného programu a\_třetí nejrychlejší čas na osmé rychlostní zkoušce pomohl Štajfovi a\_Havelkové stabilizovat jejich průběžnou pátou pozici\nSoutěž poznamenaly na velmi obtížné trati také havárie konkurenčních posádek a\_jedna\_z\_nich v\_samotném závěru posunula zmíněnou českou posádku na konečné čtvrté místo v\_cíli\nV\_centru rakouského města Weiz se tak Štajf s\_Havelkovou nakonec radovali na cílové rampě mimo jiné i\_z\_bronzové příčky v\_kategorii 4 a\_třídě E3\n***„Přestože jsme tady v\_Rakousku pomýšleli s\_Veronikou na celkové pódium, bereme dosaženou bramborovou medaili s\_pokorou a\_spokojeností\nV\_lepším výkonu nám zabránily špatně zvolené sady pneumatik, a\_to bohužel v\_obou dnech vedle několika drobných technických problémů\nCelkově šlo o\_velmi náročnou soutěž, zejména díky zdejší páteční přeháňkové smršti, která způsobila značné škody v\_servisu, ale bez vážných zranění účastníků\nPři našem pátečním odjezdu ze servisu jsme viděli doslova pohromu,“*** komentuje páteční dramatické okamžiky Vojtěch Štajf a\_dodává: ***„S výběrem pneumatik jsem asi dal příliš na různá doporučení\nUž v\_pátek jsme se volbou netrefili a\_na místy dost kluzký asfalt po diskuzích nasadili střední směs namísto tvrdé\nV\_sobotu nám zkušenosti ze seznamovacích jízd velely nasadit po předešlém nočním dešti pneumatiky do mokra\nTrať ale bohužel ráno hodně rychle vyschla, což byl pro nás opět problém\nOdpoledne navíc ukázal meteo radar srážky nad rychlostními zkouškami, ale tato předpověď se vůbec nenaplnila\nSnaha o\_zlepšení naší pozice s\_případným bojem o\_bronz s\_Erniem a\_Annou Grahamovými tímto bohužel definitivně padla\nAle jsme nakonec za dosažené body do průběžné klasifikace rádi a\_těšíme se už na Elbu.“***                         Příští soutěží této smíšené posádky týmu ACCR Racing21 v\_seriálu FIA EHRC bude XXXVI\nRallye Elba Storico, která se uskuteční v\_termínu 26\n\n* 28\n  září 2024.\n"
+    image: >-
+      https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392758/dsc-0520_bxigwd.jpg
+    gallery:
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392815/dsc-9785_pcmbfd.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392811/dsc-9783_r2zq7x.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392807/dsc-9683_ftxnv0.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392804/dsc-9681_mes76w.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392800/dsc-9472_t8zix3.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392796/dsc-9215_yg8cde.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392792/dsc-9203_dyk8wx.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392788/dsc-8792_lvn8zy.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392784/dsc-8791_lcmaxn.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392780/dsc-1166_e3fjp2.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392776/dsc-1165_jw8qtq.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392773/dsc-1147_mgexkq.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392769/dsc-1146_jo9zs7.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392765/dsc-0893_wumhmx.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392761/dsc-0528_q55edq.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392758/dsc-0520_bxigwd.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392754/dsc-0136_qb4gff.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392750/dsc-0135_q7nk0b.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392746/01_lmzix1.jpg
   - name: Pro potřebné body do rakouských hor
     slug: pro-potrebne-body-do-rakouskych-hor
     date: 2024-07-11T23:00:00.000Z
