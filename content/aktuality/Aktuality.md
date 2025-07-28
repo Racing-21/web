@@ -421,6 +421,65 @@ aktuality:
     date: 2024-12-02T23:00:00.000Z
     shortDescription: "Dosavadním nejlepším umístěním v\_celkové klasifikaci skončil 29   ročník TipCars Pražského Rallysprintu pro soutěžní tým ACCR Racing21   Jeho posádka Vojtěch Štajf a\_Radim Kotlář, premiérově startující s\_vozem ŠKODA Fa..."
     longDescription: "**Dosavadním nejlepším umístěním v\_celkové klasifikaci skončil 29\nročník TipCars Pražského Rallysprintu pro soutěžní tým ACCR Racing21\nJeho posádka Vojtěch Štajf a\_Radim Kotlář, premiérově startující s\_vozem ŠKODA Fabia RS Rally2, obsadila celkově druhé místo a\_dominovala mezi speciály kategorie Rally2.**\n\nUplynulá sobota nabídla velkému počtu fanoušků motorsportu důstojné rozloučení s\_letošní sezónou v\_automobilových soutěžích Letošní 29\nročník TipCars Pražského Rallysprintu charakterizovalo sice zimní, ale slunečné počasí a\_vytvořilo tak skvělou kulisu k\_dramatickým soubojům téměř šesti desítek posádek se soutěžními vozy, a\_to jak soudobými, tak i\_historickými\nV\_brzkých ranních hodinách se celé startovní pole přesunulo na dvě rychlostní zkoušky vedoucí od cementárny v\_Radotíně k\_Řeporyjím\nZbylé tři měřené úseky poté už hostil tradiční okruh okolo sportovních stadiónů v\_Praze na Strahově\nOdměnou všem příznivcům rally byl již neměřený závěrečný epilog s\_množstvím smyků a\_jezdeckých kreací\n\nVojtěch Štajf využil tento závěrečný volný podnik na pražském Strahově k\_premiérovému startu s\_vozem ŠKODA Fabia RS Rally2, který měl zapůjčený z\_týmu zkušeného jezdce Petra Nešetřila\nStejně jako vloni usedl na sedadlo navigátora Radim Kotlář a\_byl to jeho již čtvrtý start se Štajfem na Pražském Rallysprintu\nI\_když měl pražský jezdec se zapůjčeným speciálem za sebou pouhých několik testovacích kilometrů, sobotního rána se na kluzké trati okolo Radotínského potoka nezalekl a\_s\_Kotlářem se po dvou rychlostních zkouškách průběžně zařadili v\_početné konkurenci mezi trojici absolutně nejrychlejších posádek\nBez zásadních chyb si posádka týmu ACCR Racing 21 počínala i\_na zbylých třech měřených úsecích na Strahově a\_skvělým druhý místem v\_poslední RZ5 se nakonec posunuli na celkové stříbro\nTěšit navíc mohla Štajfa s\_Kotlářem i\_pozice nejrychlejší posádky s\_vozem kategorie Rally2\n\n***„Letošní Pražský Rallysprint nám s\_Radimem udělal velkou radost\nPro nás oba to byl nejlepší výsledek, který jsme tady v\_Praze zatím dosáhli\nJá jsem letos, vzhledem k\_náročnému programu s\_historiky, startoval jen třikrát se soudobým\_vozem kategorie Rally2\nPo zlaté Plzni a\_již tradičně bronzové Příbrami s\_Frantou Rajnohou jsme tady na Strahově s\_Radimem doplnili sbírku kovů o\_cenné stříbro\nMoc jsem si přál zakončit sezónu pěkným svezením s\_nejmodernější dostupnou technikou, a\_to se mi díky kamarádské nabídce Petra Nešetřila splnilo,“*** řekl v\_cíli letošního Pražského Rallysprintu Vojtěch Štajf a\_dodal: ***„Oba nás dlouhodobě spojuje nadšení pro značku Porsche, a\_nakonec v\_létě přišla výborná myšlenka představit v\_Praze jak jeho dosavadní Porsche 997 GT3, tak i\_novinku jeho týmu v\_podobě Fabie RS Rally2\nJejí nejnovější specifikace se mi řídila moc hezky, ale například na jiné převody oproti starší Fabii R5 jsem si zvykal postupně\nV\_závěru soutěže jsem se ale už dostával tomuhle autu ´pod kůži´\nByla to příjemná zkušenost, za kterou Petrovi moc děkuji!“***\n\nTipCars Pražský Rallysprint je každoročně nejen bilancí uplynulé sezóny, ale i\_místem pro plány na další rok\n***„I dnešní moc pěkný výsledek v\_Praze mě vlastně nutí k\_zamyšlení, jak seskládat příští sezónu\nSoučasnou Toyotu Celica jsme nabídli k\_prodeji, neboť pravidla FIA umožňují od roku 2026 historické vozy s\_homologací do roku 2000 a\_my bychom této změny rádi využili postavením mladšího auta\nSoučasně mě ale stále lákají starty se soudobým autem, třeba v\_jednodenních soutěžích\nTakže pro příští rok budeme nakonec z\_několika variant hledat ten nejlepší kompromis,“*** prozradil Vojtěch Štajf\n\nDruhá posádka týmu ACCR Racing21 Jan Bejvl a\_Zdeněk Václavíček změnila ještě před startem letošního TipCars Pražského Rallysprintu svůj historický soutěžní vůz\nSázka na v\_minulosti úspěšný Opel Kadett C GT/E se této posádce vyplatila a\_průběžným zrychlením na trati s\_vylepšením své pozice obsadila nakonec v\_cíli celkové čtvrté místo v\_klasifikaci historických vozů.\n"
+    image: >-
+      https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753391769/01_kiyneq.jpg
+    gallery:
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753391787/prazsky-rallysprint-24-8262_vznaru.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753391786/prazsky-rallysprint-24-8251_diz5wr.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753391785/prazsky-rallysprint-24-7583_pgzdyc.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753391783/prazsky-rallysprint-24-7104_n8shsa.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753391783/prazsky-rallysprint-24-6701_ijkprw.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753391781/prazsky-rallysprint-24-6630_cdo5fc.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753391780/prazsky-rallysprint-24-6397_sb4t37.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753391779/prazsky-rallysprint-24-6389_puyzvx.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753391778/prazsky-rallysprint-24-4913_mib6hm.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753391777/prazsky-rallysprint-24-4473_bfmyw4.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753391776/prazsky-rallysprint-24-3321_aff3rl.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753391775/prazsky-rallysprint-24-3279_gesrrf.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753391774/prazsky-rallysprint-24-3254_zmd57o.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753391773/prazsky-rallysprint-24-3168_aq7bdu.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753391771/prazsky-rallysprint-24-1532_fecyim.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753391770/prazsky-rallysprint-24-0727_a1sdc3.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753391769/01_kiyneq.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753391698/prazsky-rallysprint-24-9321_l6a8bl.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753391697/prazsky-rallysprint-24-9320_wohgfl.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753391696/prazsky-rallysprint-24-9319_xdrvor.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753391691/prazsky-rallysprint-24-8282_qtuvgz.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753391691/prazsky-rallysprint-24-8510_nyylq3.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753391692/prazsky-rallysprint-24-9305_gf6xy5.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753391692/prazsky-rallysprint-24-9126_b5w2ny.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753391693/prazsky-rallysprint-24-9315_zckstg.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753391694/prazsky-rallysprint-24-9316_w6klfx.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753391695/prazsky-rallysprint-24-9317_mbypqb.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753391695/prazsky-rallysprint-24-9318_zxhvhs.jpg
   - name: Štajf ozdobí pražský Strahov nejnovější Fabií RS Rally2
     slug: stajf-ozdobi-prazsky-strahov-nejnovejsi-fabii-rs-rally2
     date: 2024-11-27T23:00:00.000Z
