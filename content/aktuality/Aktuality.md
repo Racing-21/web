@@ -841,6 +841,19 @@ aktuality:
     date: 2024-07-11T23:00:00.000Z
     shortDescription: "Jezdec týmu ACCR Racing21 Vojtěch Štajf se vrací po nedávném plzeňském úspěchu se soudobým vozem do kokpitu historické Toyoty Celica GT-Four   S\_tradiční navigátorkou Veronikou Havelkovou se budou ucházet o&nbsp;další ..."
     longDescription: "**Jezdec týmu ACCR Racing21 Vojtěch Štajf se vrací po nedávném plzeňském úspěchu se soudobým vozem do kokpitu historické Toyoty Celica GT-Four\nS\_tradiční navigátorkou Veronikou Havelkovou se budou ucházet o\_další body do seriálu European Historic Rally Championship, a\_to na blížící se rakouské soutěži Rallye Weiz.**    Soutěž situovaná v\_okolí stejnojmenného města, severovýchodně od Štýrského Hradce, druhého největšího města Rakouska, nabídne o\_nadcházejícím víkendu více než pětadvaceti soutěžním posádkám pátého podniku evropského šampionátu historiků atraktivní trať s\_třinácti rychlostními zkouškami o\_celkové délce 152 kilometrů\nPro Vojtěcha Štajfa nejsou zdejší tratě s\_typickými horskými serpentýnami i\_rychlými horizonty žádnou novinkou\nPremiéru si zde odbyl již v\_roce 2017, tehdy se soudobým vozem Škoda Fabia R5 a\_navigátorkou Markétou Skácelovou\nA\_přestože se jednalo o\_první start na Rallye Weiz a\_druhou soutěž se zmíněnou navigátorkou, obsadila tato smíšená česká posádka celkové šesté místo, avšak současně zde svedla velmi těsný souboj o\_vítězství v\_klasifikaci\_tehdejšího seriálu Central European Rally Trophy\nV\_letošním ročníku Rallye Weiz se musí posádka týmu ACCR Racing21 Štajf – Havelková, startující na voze Toyota Celica GT-Four ST165, zaměřit na zisk důležitých bodů a\_po odstoupení pro technickou závadu na předchozím podniku v\_Maďarsku pokusit o\_návrat do první pětice nejlepších posádek průběžného absolutního pořadí seriálu FIA EHRC 2024\n***„Po oslavné sprše šampaňského na plzeňském náměstí s\_Františkem se vracím zpět k\_Veronice do naší historické Toyoty Celica, abychom společně odčinili nepovedený úvod soutěže v\_Maďarsku\nPevně věřím, že jsme si smůlu v\_podobě technických problémů už vybrali a\_vrátíme se do kondice, kterou jsme ukázali jak na Vltavě, tak i\_následně ve Španělsku\nNa Rallye Weiz chceme opět směřovat své cíle na pódium v\_celkové klasifikaci,“*** odhalil své plány před rakouskou soutěží Vojtěch Štajf a\_dodal: ***„Je to velmi atraktivní soutěž svojí polohou i\_tratěmi, avšak musíme si dávat pozor na zdejší, někdy až nepředvídatelně kluzký asfaltový povrch některých erzet\nDobře si pamatuji na souboj s\_Ondrou Bisahou v\_evropské zónové klasifikaci soudobých vozů před sedmi lety, ten byl skutečnou ozdobou celé soutěže a\_bavil nás i\_diváky\nPro letošní ročník si s\_Verčou přejeme v\_klasifikaci historiků úplně to samé – především skvělé souboje na trati a\_průjezd cílovou rampou!“***                   Rakouská soutěž Rallye Weiz odstartuje ve stejnojmenném městě do úvodní rychlostní zkoušky v\_pátek 12\nčervence krátce po 13\nhodině\nO\_den později bude slavnostně ukončena na cílové rampě ve stejném místě v\_19 hodin.\n"
+    image: >-
+      https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753685712/02_x5jpu2.jpg
+    gallery:
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753685973/03_kopie_cnnycd.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753685723/05_mboh7g.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753685718/04_tgwdu9.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753685711/01_potsby.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753685712/02_x5jpu2.jpg
   - name: "Štajf s\_Rajnohou v\_Plzni opět triumfovali"
     slug: stajf-srajnohou-vplzni-opet-triumfovali
     date: 2024-06-30T23:00:00.000Z
