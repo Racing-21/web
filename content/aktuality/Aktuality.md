@@ -859,6 +859,97 @@ aktuality:
     date: 2024-06-30T23:00:00.000Z
     shortDescription: "Ve svém 53   společném startu v\_automobilových soutěžích dokázali Vojtěch Štajf a&nbsp;František Rajnoha získat skvělým výkonem ve voze ŠKODA Fabia R5 celkové vítězství na letošním XVIII   ročníku LAK Racing Rallye Plz..."
     longDescription: "**Ve svém 53\nspolečném startu v\_automobilových soutěžích dokázali Vojtěch Štajf a\_František Rajnoha získat skvělým výkonem ve voze ŠKODA Fabia R5 celkové vítězství na letošním XVIII\nročníku LAK Racing Rallye Plzeň\nJako držitelé Poháru 2+ v\_sezóně 2023 tak o\_uplynulém víkendu obhájili i\_zdejší loňské celkové prvenství.**    Letní slunečné počasí s\_místy až tropickými teplotami přes 30 °C přivítalo v\_Plzni více než stovku soutěžních posádek na osmi rychlostních zkouškách s\_celkovou délkou 72 kilometrů\nMezi účastníky nechyběla ani posádka týmu ACCR Racing21 ve složení Vojtěch Štajf a\_František Rajnoha, kteří spolu naposledy startovali v\_loňském roce ve Vsetíně, kde také zpečetili celkové vítězství v\_Poháru 2+ pro rok 2023\nVloni tato posádka na Rallye Plzeň celkově zvítězila a\_letošní obhajoba tak byla jednou z\_motivací se na atraktivní tratě západních Čech vrátit, a\_to ve společné dvanácté sezóně v\_rally\nStejně jako vloni vsadili Štajf s\_Rajnohou na kvalitně připravený vůz ŠKODA Fabia R5 z\_dílen týmu Duck Racing a\_jeho finální nastavení realizoval pražský jezdec v\_rámci krátkého předsoutěžního testu\nHned první rychlostní zkouška, kde Štajf s\_Rajnohou zaznamenali nejrychlejší čas, ukázala šance na kvalitní výsledek\nAž do konce sobotní dopolední části soutěže se však museli spokojit s\_průběžným druhým místem, a\_to i\_po drobných jezdeckých chybách na druhém měřeném úseku\nOd zkušené domácí posádky Pech – Uhel, která navíc v\_Plzni představila novou moderní soutěžní techniku, však dělil posádku ACCR Racing21 odstup pouhých 5,5 sekundy\nTo dávalo naději na těsný vzájemný souboj v\_odpolední časti\nTuto predikci potvrzovaly mimo jiné i\_těsné odstupy obou jezdců na dvou dopoledních měřených úsecích v\_řádu necelé jedné sekundy\nHned první test odpolední sekce, druhý průjezd zkouškou Slatina-Úněšov, opět opanoval Vojtěch Štajf a\_snížil náskok Václava Pecha na 4,5 sekundy\nKe zdramatizování souboje o\_vítězství však nakonec nedošlo, vzhledem k\_odstoupení favorizované plzeňské posádky v\_šestém měřeném úseku\nNejrychlejší časy ve třech odpoledních rychlostních zkouškách však umožnily Vojtěchu Štajfovi s\_Františkem Rajnohou zcela kontrolovat situaci a\_dojet si tak po roce opět pro celkové prvenství v\_soutěži s\_náskokem 12 sekund\n***„Máme s\_Frantou z\_opětovného vítězství samozřejmě velkou radost\nJako úřadující držitelé loňského Poháru 2+ jsme si přijeli do Plzně tuto soutěž především užít a\_zase si po dlouhých měsících oživit jízdu s\_vozem kategorie R5\nAle samozřejmě jsme věděli, že obhajovat zdejší vítězství při účasti Vaška Pecha s\_Petrem Uhlem na nové a\_modernější technice bude nesmírně těžké,“*** řekl v\_cíli spokojený Vojtěch Štajf a\_dodal: ***„My jsme ráno nasadili nejtvrdší směs pneumatik, a\_přestože se to zpočátku jevilo jako odvážné řešení, byl jsem s\_touto volbou nakonec velmi spokojený\nMožná i\_proto se v\_průběhu soutěže ukázalo, že bychom se mohli o\_zdramatizování v\_jejím\_závěru přeci jen alespoň pokusit\nVlivem odstoupení Vaška k\_tomu však už nedošlo\nNás ale hodně potěšilo, že skvěle připravená Fabia R5 od týmu Duck Racing nám umožnila porazit posádky startující na výrazně modernějších vozech specifikace Rally2\nUrčitě bychom soutěžní vůz v\_této nejmodernější vývojové fázi v\_budoucnu na české soutěži také rádi vyzkoušeli.“***\n"
+    image: >-
+      https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753686117/01-rally-plzen-24-1892_un61ui.jpg
+    gallery:
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753686320/rally-plzen-24-1850_hs9u9h.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753686315/rally-plzen-24-1816_qlfztb.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753686310/rally-plzen-24-1793_hzud7b.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753686306/rally-plzen-24-1786_jsarxh.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753686299/rally-plzen-24-1771_xgcqd3.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753686296/rally-plzen-24-1762_jumsvf.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753686288/rallye-plzen-24-9578_sx5hvo.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753686283/rallye-plzen-24-9563_e91xt9.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753686278/rallye-plzen-24-9556_uptmhd.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753686273/rallye-plzen-24-9411_wloxz6.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753686267/rallye-plzen-24-9385_zv2bvc.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753686264/rallye-plzen-24-9375_fb5xv8.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753686273/rallye-plzen-24-9411_wloxz6.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753686257/rallye-plzen-24-9360_bertfk.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753686252/rallye-plzen-24-7942_opvapj.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753686246/rallye-plzen-24-7939_srynex.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753686242/rallye-plzen-24-7929_d36xmj.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753686236/rallye-plzen-24-7768_lidgjb.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753686232/rallye-plzen-24-7743_qpetbs.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753686225/rallye-plzen-24-7736_kpvjgp.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753686220/rallye-plzen-24-7699_d8ta0h.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753686215/rallye-plzen-24-7647_qay6nv.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753686209/rallye-plzen-24-7180_fevywh.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753686206/rallye-plzen-24-7176_rz858p.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753686199/rallye-plzen-24-7078_jwbnd9.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753686196/rallye-plzen-24-4445_ghnaos.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753686189/rallye-plzen-24-4407_qxdrsj.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753686185/rallye-plzen-24-4378_ei8kzg.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753686178/rallye-plzen-24-3533_xc4kqv.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753686174/rallye-plzen-24-3366_damm9m.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753686168/rallye-plzen-24-3197_dq15lc.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753686164/rallye-plzen-24-3190_lovfln.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753686158/rallye-plzen-24-1843_ads2n9.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753686154/rallye-plzen-24-1837_nitp9s.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753686147/rallye-plzen-24-1826_r4aw2z.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753686144/rallye-plzen-24-1815_gsk508.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753686137/rallye-plzen-24-0913_xtdszh.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753686134/rallye-plzen-24-0691_mwhnna.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753686127/rallye-plzen-24-0687_ukuab6.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753686123/rallye-plzen-24-0440_sfwfxv.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753686117/01-rally-plzen-24-1892_un61ui.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753686114/rally-plzen-24-2701_ub3xfg.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753686107/rally-plzen-24-2367_qdk7cl.jpg
+      - >-
+        https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753686105/rally-plzen-24-1883_xtjbji.jpg
   - name: "Obhájí Vojtěch Štajf v\_Plzni loňské zlato?"
     slug: obhaji-vojtech-stajf-vplzni-lonske-zlato
     date: 2024-06-26T23:00:00.000Z
