@@ -695,7 +695,7 @@ aktuality:
       - >-
         https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753392423/05-toyota-celica-gt-four_hwrelu.jpg
   - name: Štajf s Rajnohou dodrželi příbramskou tradici
-    slug: stajf-snbsprajnohou-dodrzeli-pribramskou-tradici
+    slug: stajf-s-rajnohou-dodrzeli-pribramskou-tradici
     date: 2024-07-29T23:00:00.000Z
     shortDescription: >-
       Třetí místo v absolutní klasifikaci oslavili v cíli 43. SILMET Rally
