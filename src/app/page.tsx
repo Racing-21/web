@@ -45,7 +45,7 @@ export default async function Home() {
 			{/* Logo cloud */}
 			<div className={"bg-gray-200 flex justify-center items-center py-4"}>
 				<p className={"text-gray-700 m-auto font-bold text-center text-xl"}>
-					Zakladatelem týmu je matematik Karel Janeček a Vojtěch Štajf
+					Zakladateli týmu jsou matematik Karel Janeček a Vojtěch Štajf
 				</p>
 			</div>
 			<HomepageLogoCloud partners={partners.partners.partner} />
