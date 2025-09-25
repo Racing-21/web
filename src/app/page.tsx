@@ -37,13 +37,19 @@ export default async function Home() {
 			{/* Hero card */}
 			<HeroSection
 				image={
-					"https://res.cloudinary.com/dkhdp7qmd/image/upload/v1729847729/toyota_1_hhratb.webp"
+					"https://res.cloudinary.com/dkhdp7qmd/image/upload/v1758791598/DSC01117_udzjsb.jpg"
 				}
 				title={"Racing 21"}
 				subtitle={"Nejen soutěžní rally tým"}
 			/>
 			{/* Logo cloud */}
+			<div className={"bg-gray-200 flex justify-center items-center py-4"}>
+				<p className={"text-gray-700 m-auto font-bold text-center text-xl"}>
+					Zakladatelem týmu je matematik Karel Janeček a Vojtěch Štajf
+				</p>
+			</div>
 			<HomepageLogoCloud partners={partners.partners.partner} />
+
 			<PageLayout>
 				<div className="bg-grayPrimary rounded-lg">
 					<div className="mx-auto max-w-7xl py-12 sm:px-2 sm:py-16 lg:px-4">
