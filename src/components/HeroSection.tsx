@@ -22,7 +22,7 @@ export const HeroSection = ({ image, title, subtitle, content }: HeroSectionProp
             before:opacity-90 md:before:opacity-80"
 			>
 				<Image
-					alt="People working on laptops"
+					alt={`${title}, ${subtitle}`}
 					src={image}
 					height={450}
 					width={800}
