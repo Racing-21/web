@@ -59,6 +59,9 @@ priceList:
   sections:
     - title: 'Servis '
       items:
+        - name: 'Zajištění STK ( dle druhu motoru ) '
+          priceFrom: 1500
+          priceTo: 6000
         - name: 'Odstranění závad - hodinová sazba '
           price: 1000
         - name: Kompletní kontrola vozidla ( před prodejem )
