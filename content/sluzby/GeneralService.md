@@ -74,9 +74,8 @@ priceList:
           priceTo: 2000
         - name: Vyvážení kol (1 kolo)
           price: 200
-        - name: Oprava defektu
-          priceFrom: 200
-          priceTo: 500
+        - name: Oprava defektu ( dle typu poškození )
+          price: 500
     - title: Diagnostika a elektronika
       items:
         - name: Kompletní diagnostika
