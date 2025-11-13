@@ -69,9 +69,9 @@ priceList:
           priceTo: 2500
     - title: Pneumatiky a kola
       items:
-        - name: Přezutí pneumatik (4 kola)
-          priceFrom: 800
-          priceTo: 1200
+        - name: Přezutí pneumatik (4 kola) - dle rozměru
+          priceFrom: 1000
+          priceTo: 2000
         - name: Vyvážení kol (1 kolo)
           price: 150
         - name: Oprava defektu
