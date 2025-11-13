@@ -59,6 +59,8 @@ priceList:
   sections:
     - title: Karoserie / lak
       items:
+        - name: 'Výměna autoskla - dle typu skla, lepení'
+          priceFrom: 4000
         - name: Antikorozní ochrana - dle velikosti vozu
           priceFrom: 3500
         - name: 'Lakování části karoserie - dle plochy, druhu laku'
