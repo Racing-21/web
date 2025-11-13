@@ -59,7 +59,7 @@ priceList:
   sections:
     - title: 'Podvozek a brzdy '
       items:
-        - name: 'Výměna brzdových destiček '
+        - name: Výměna brzdových destiček + materiál
           price: 1000
         - name: Diagnostika
           priceFrom: 500
