@@ -82,7 +82,7 @@ priceList:
           price: 200
         - name: Oprava defektu ( dle typu poškození )
           price: 500
-    - title: 'Servis '
+    - title: Servisní práce
       items:
         - name: Plnění klimatizace - dle množství chladiva a typu systému
           priceFrom: 1500
