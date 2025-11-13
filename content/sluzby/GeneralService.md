@@ -61,7 +61,7 @@ priceList:
       items:
         - name: Kompletní kontrola vozidla ( před prodejem )
           price: 2000
-        - name: Kontrola a příprava na STK
+        - name: Kontrola a příprava na STK ( dle stavu vozidla )
           priceFrom: 1000
     - title: 'Podvozek a brzdy '
       items:
