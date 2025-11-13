@@ -73,7 +73,7 @@ priceList:
           priceFrom: 1000
           priceTo: 2000
         - name: Vyvážení kol (1 kolo)
-          price: 150
+          price: 200
         - name: Oprava defektu
           priceFrom: 200
           priceTo: 500
