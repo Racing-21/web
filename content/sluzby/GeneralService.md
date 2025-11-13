@@ -57,10 +57,10 @@ categories:
 priceList:
   title: Ceník služeb
   sections:
-    - title: Základní servis
+    - title: 'Podvozek a brzdy '
       items:
-        - name: Výměna oleje
-          price: 800
+        - name: 'Výměna brzdových destiček '
+          price: 1000
         - name: Diagnostika
           priceFrom: 500
           priceTo: 1500
