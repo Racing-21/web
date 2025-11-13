@@ -69,6 +69,8 @@ priceList:
           priceTo: 2500
     - title: Pneumatiky a kola
       items:
+        - name: Ráfek 20“
+          price: 1750
         - name: Ráfek 19“
           price: 1500
         - name: Ráfek 18“
