@@ -63,9 +63,8 @@ priceList:
           price: 1000
         - name: Výměna brzdových destiček + kotoučů (+ materiál)
           price: 2000
-        - name: Výměna brzdových destiček (přední)
-          priceFrom: 1200
-          priceTo: 2500
+        - name: Výměna brzdové kapaliny ( včetně materiálu )
+          price: 2000
     - title: Pneumatiky a kola
       items:
         - name: 'Uskladnění pneumatik ( 6 měsíců,sada )'
