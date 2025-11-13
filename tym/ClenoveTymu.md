@@ -1,6 +1,6 @@
 ---
 teamMember:
-  - name: 'MECHANIC - Tomáš Křivánek '
+  - name: 'Tomáš Křivánek '
     role:
       - acceptanceMechanic
     sex:
