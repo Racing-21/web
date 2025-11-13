@@ -61,9 +61,8 @@ priceList:
       items:
         - name: Výměna brzdových destiček + materiál
           price: 1000
-        - name: Diagnostika
-          priceFrom: 500
-          priceTo: 1500
+        - name: Výměna brzdových destiček + kotoučů (+ materiál)
+          price: 2000
         - name: Výměna brzdových destiček (přední)
           priceFrom: 1200
           priceTo: 2500
