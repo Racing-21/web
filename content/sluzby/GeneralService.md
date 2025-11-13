@@ -57,69 +57,6 @@ categories:
 priceList:
   title: Ceník služeb
   sections:
-    - title: Leštění a keramika
-      items:
-        - name: >-
-            Premium (5-8) krokové leštění + mytí exteriéru + povrchové čištění
-            interiéru + korekční faktor
-          price: 18000
-        - name: Standard (2-4) krokové leštění
-          price: 12000
-        - name: Ekonomické - 1 krokové leštění
-          price: 5500
-    - title: Karoserie / lak
-      items:
-        - name: 'Výměna autoskla - dle typu skla, lepení'
-          priceFrom: 4000
-        - name: Antikorozní ochrana - dle velikosti vozu
-          priceFrom: 3500
-        - name: 'Lakování části karoserie - dle plochy, druhu laku'
-          priceFrom: 8000
-        - name: Opravy karoserie menší - podle rozsahu poškození
-          priceFrom: 5000
-    - title: Motor & servisní práce
-      items:
-        - name: 'Kontrola chlazení - včetně tlaku, kapaliny'
-          priceFrom: 500
-          priceTo: 1000
-        - name: 'Výměna rozvodů - dle motorizace, počtu válců'
-          priceFrom: 5000
-        - name: Opravy motoru - rozsah závisí na poruše
-          priceFrom: 5000
-        - name: Diagnostika motoru ( základní až pokročilá )
-          priceFrom: 500
-          priceTo: 1500
-        - name: 'Výměna oleje + filtrů ( dle objemu motoru, typu oleje )'
-          priceFrom: 1000
-    - title: 'Servis '
-      items:
-        - name: Plnění klimatizace - dle množství chladiva a typu systému
-          priceFrom: 1500
-        - name: Kontrola osvětlení ( kontrola / seřízení světlometů )
-          priceFrom: 200
-          priceTo: 1000
-        - name: 'Měření emisí ( dle motoru, typu paliva )'
-          priceFrom: 1500
-          priceTo: 6000
-        - name: 'Zajištění STK ( dle druhu motoru ) '
-          priceFrom: 1500
-          priceTo: 6000
-        - name: 'Odstranění závad - hodinová sazba '
-          price: 1000
-        - name: Kompletní kontrola vozidla ( před prodejem )
-          price: 2000
-        - name: Kontrola a příprava na STK ( dle stavu vozidla )
-          priceFrom: 1000
-    - title: 'Podvozek a brzdy '
-      items:
-        - name: Oprava podvozku /ramen ( dle rozsahu opravy )
-          priceFrom: 2500
-        - name: Výměna brzdových destiček + materiál
-          price: 1000
-        - name: Výměna brzdových destiček + kotoučů (+ materiál)
-          price: 2000
-        - name: Výměna brzdové kapaliny ( včetně materiálu )
-          price: 2000
     - title: Pneumatiky a kola
       items:
         - name: 'Uskladnění pneumatik ( 6 měsíců,sada )'
@@ -145,6 +82,49 @@ priceList:
           price: 200
         - name: Oprava defektu ( dle typu poškození )
           price: 500
+    - title: 'Servis '
+      items:
+        - name: Plnění klimatizace - dle množství chladiva a typu systému
+          priceFrom: 1500
+        - name: Kontrola osvětlení ( kontrola / seřízení světlometů )
+          priceFrom: 200
+          priceTo: 1000
+        - name: 'Měření emisí ( dle motoru, typu paliva )'
+          priceFrom: 1500
+          priceTo: 6000
+        - name: 'Zajištění STK ( dle druhu motoru ) '
+          priceFrom: 1500
+          priceTo: 6000
+        - name: 'Odstranění závad - hodinová sazba '
+          price: 1000
+        - name: Kompletní kontrola vozidla ( před prodejem )
+          price: 2000
+        - name: Kontrola a příprava na STK ( dle stavu vozidla )
+          priceFrom: 1000
+    - title: Motor & servisní práce
+      items:
+        - name: 'Kontrola chlazení - včetně tlaku, kapaliny'
+          priceFrom: 500
+          priceTo: 1000
+        - name: 'Výměna rozvodů - dle motorizace, počtu válců'
+          priceFrom: 5000
+        - name: Opravy motoru - rozsah závisí na poruše
+          priceFrom: 5000
+        - name: Diagnostika motoru ( základní až pokročilá )
+          priceFrom: 500
+          priceTo: 1500
+        - name: 'Výměna oleje + filtrů ( dle objemu motoru, typu oleje )'
+          priceFrom: 1000
+    - title: 'Podvozek a brzdy '
+      items:
+        - name: Oprava podvozku /ramen ( dle rozsahu opravy )
+          priceFrom: 2500
+        - name: Výměna brzdových destiček + materiál
+          price: 1000
+        - name: Výměna brzdových destiček + kotoučů (+ materiál)
+          price: 2000
+        - name: Výměna brzdové kapaliny ( včetně materiálu )
+          price: 2000
     - title: Diagnostika a elektronika
       items:
         - name: Kompletní diagnostika
@@ -153,5 +133,25 @@ priceList:
           price: 500
         - name: Programování řídicí jednotky - dle typu vozidla
           priceFrom: 2000
+    - title: Karoserie / lak
+      items:
+        - name: 'Výměna autoskla - dle typu skla, lepení'
+          priceFrom: 4000
+        - name: Antikorozní ochrana - dle velikosti vozu
+          priceFrom: 3500
+        - name: 'Lakování části karoserie - dle plochy, druhu laku'
+          priceFrom: 8000
+        - name: Opravy karoserie menší - podle rozsahu poškození
+          priceFrom: 5000
+    - title: Leštění a keramika
+      items:
+        - name: >-
+            Premium (5-8) krokové leštění + mytí exteriéru + povrchové čištění
+            interiéru + korekční faktor
+          price: 18000
+        - name: Standard (2-4) krokové leštění
+          price: 12000
+        - name: Ekonomické - 1 krokové leštění
+          price: 5500
 ---
 
