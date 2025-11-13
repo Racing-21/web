@@ -59,6 +59,9 @@ priceList:
   sections:
     - title: Motor & servisní práce
       items:
+        - name: 'Kontrola chlazení - včetně tlaku, kapaliny'
+          priceFrom: 500
+          priceTo: 1000
         - name: 'Výměna rozvodů - dle motorizace, počtu válců'
           priceFrom: 5000
         - name: Opravy motoru - rozsah závisí na poruše
