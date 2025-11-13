@@ -59,6 +59,10 @@ priceList:
   sections:
     - title: Leštění a keramika
       items:
+        - name: >-
+            Premium (5-8) krokové leštění + mytí exteriéru + povrchové čištění
+            interiéru + korekční faktor
+          price: 18000
         - name: Standard (2-4) krokové leštění
           price: 12000
         - name: Ekonomické - 1 krokové leštění
