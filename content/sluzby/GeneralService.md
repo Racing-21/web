@@ -59,6 +59,8 @@ priceList:
   sections:
     - title: 'Servis '
       items:
+        - name: Kompletní kontrola vozidla ( před prodejem )
+          price: 2000
         - name: Kontrola a příprava na STK
           priceFrom: 1000
     - title: 'Podvozek a brzdy '
