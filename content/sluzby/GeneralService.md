@@ -131,8 +131,7 @@ priceList:
           price: 1500
         - name: Reset servisních intervalů
           price: 500
-        - name: Programování řídicí jednotky
+        - name: Programování řídicí jednotky - dle typu vozidla
           priceFrom: 2000
-          priceTo: 5000
 ---
 
