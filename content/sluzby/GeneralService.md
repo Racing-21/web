@@ -101,7 +101,7 @@ priceList:
           price: 2000
         - name: Kontrola a příprava na STK ( dle stavu vozidla )
           priceFrom: 1000
-    - title: Motor & servisní práce
+    - title: 'Motor '
       items:
         - name: 'Kontrola chlazení - včetně tlaku, kapaliny'
           priceFrom: 500
