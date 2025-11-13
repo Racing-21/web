@@ -59,6 +59,9 @@ priceList:
   sections:
     - title: 'Servis '
       items:
+        - name: 'Měření emisí ( dle motoru, typu paliva )'
+          priceFrom: 1500
+          priceTo: 6000
         - name: 'Zajištění STK ( dle druhu motoru ) '
           priceFrom: 1500
           priceTo: 6000
