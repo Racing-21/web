@@ -43,6 +43,7 @@ export default function ContactSection() {
 								<dt className="sr-only">Provozovna</dt>
 								<dd>
 									<p className={"text-gray-200"}>Hájecká 47</p>
+									<p className={"text-gray-200"}>(Příjezd z ulice Za Statkem)</p>
 									<p className={"text-gray-200"}>Červený Újezd, 273 51</p>
 								</dd>
 							</div>
