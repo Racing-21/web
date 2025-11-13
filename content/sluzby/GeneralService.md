@@ -59,6 +59,8 @@ priceList:
   sections:
     - title: Karoserie / lak
       items:
+        - name: 'Lakování části karoserie - dle plochy, druhu laku'
+          priceFrom: 8000
         - name: Opravy karoserie menší - podle rozsahu poškození
           priceFrom: 5000
     - title: Motor & servisní práce
