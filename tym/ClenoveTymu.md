@@ -260,10 +260,6 @@ teamMember:
     image: >-
       https://res.cloudinary.com/dkhdp7qmd/image/upload/v1733495932/frantisekRajnoha_hys2id.jpg
     _template: racingTeam
-  - name: Jakub Závora
-    role:
-      - chiefMechanic
-    _template: backOffice
   - name: Vladimír Zelinka
     role:
       - scout
