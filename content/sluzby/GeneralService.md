@@ -59,7 +59,7 @@ priceList:
   sections:
     - title: Leštění a keramika
       items:
-        - name: Ekonomické
+        - name: Ekonomické - 1 krokové leštění
           price: 5500
     - title: Karoserie / lak
       items:
