@@ -59,6 +59,9 @@ priceList:
   sections:
     - title: 'Servis '
       items:
+        - name: Kontrola osvětlení ( kontrola / seřízení světlometů )
+          priceFrom: 200
+          priceTo: 1000
         - name: 'Měření emisí ( dle motoru, typu paliva )'
           priceFrom: 1500
           priceTo: 6000
