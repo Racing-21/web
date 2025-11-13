@@ -84,23 +84,23 @@ priceList:
           price: 2400
     - title: Servisní práce
       items:
+        - name: 'Odstranění závad - hodinová sazba '
+          price: 1000
+        - name: Kompletní kontrola vozidla ( před prodejem )
+          price: 2000
         - name: Plnění klimatizace - dle množství chladiva a typu systému
           priceFrom: 1500
         - name: Kontrola osvětlení ( kontrola / seřízení světlometů )
           priceFrom: 200
           priceTo: 1000
-        - name: 'Měření emisí ( dle motoru, typu paliva )'
-          priceFrom: 1500
-          priceTo: 6000
+        - name: Kontrola a příprava na STK ( dle stavu vozidla )
+          priceFrom: 1000
         - name: 'Zajištění STK ( dle druhu motoru ) '
           priceFrom: 1500
           priceTo: 6000
-        - name: 'Odstranění závad - hodinová sazba '
-          price: 1000
-        - name: Kompletní kontrola vozidla ( před prodejem )
-          price: 2000
-        - name: Kontrola a příprava na STK ( dle stavu vozidla )
-          priceFrom: 1000
+        - name: 'Měření emisí ( dle motoru, typu paliva )'
+          priceFrom: 1500
+          priceTo: 6000
     - title: 'Motor '
       items:
         - name: 'Kontrola chlazení - včetně tlaku, kapaliny'
