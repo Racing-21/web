@@ -1,8 +1,8 @@
 ---
 teamMember:
-  - name: 'Tomáš Křivánek '
+  - name: 'Viktor Berdar '
     role:
-      - acceptanceMechanic
+      - mechanic
     sex:
       - M
     _template: backOffice
@@ -284,6 +284,12 @@ teamMember:
     sex:
       - F
     _template: backOffice
+  - name: 'Tomáš Křivánek '
+    role:
+      - acceptanceMechanic
+    sex:
+      - M
+    _template: backOffice
   - name: Vojtěch Tymeš
     role:
       - mechanic
@@ -297,18 +303,6 @@ teamMember:
       - M
     _template: backOffice
   - name: Aleš Černý
-    role:
-      - mechanic
-    sex:
-      - M
-    _template: backOffice
-  - name: Milan Pálek
-    role:
-      - mechanic
-    sex:
-      - M
-    _template: backOffice
-  - name: Vladimír Závora
     role:
       - mechanic
     sex:
