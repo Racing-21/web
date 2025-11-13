@@ -1,10 +1,10 @@
 ---
 teamMember:
-  - name: 'Viktor Berdar '
+  - name: Markéta Pištěková
     role:
-      - mechanic
+      - teamCoordinator
     sex:
-      - M
+      - F
     _template: backOffice
   - name: Vojtěch Štajf
     sex:
@@ -290,7 +290,7 @@ teamMember:
     sex:
       - M
     _template: backOffice
-  - name: Vojtěch Tymeš
+  - name: Aleš Černý
     role:
       - mechanic
     sex:
@@ -302,7 +302,13 @@ teamMember:
     sex:
       - M
     _template: backOffice
-  - name: Aleš Černý
+  - name: 'Viktor Berdar '
+    role:
+      - mechanic
+    sex:
+      - M
+    _template: backOffice
+  - name: Vojtěch Tymeš
     role:
       - mechanic
     sex:
