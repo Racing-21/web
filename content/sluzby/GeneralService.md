@@ -59,6 +59,8 @@ priceList:
   sections:
     - title: Karoserie / lak
       items:
+        - name: Antikorozní ochrana - dle velikosti vozu
+          priceFrom: 3500
         - name: 'Lakování části karoserie - dle plochy, druhu laku'
           priceFrom: 8000
         - name: Opravy karoserie menší - podle rozsahu poškození
