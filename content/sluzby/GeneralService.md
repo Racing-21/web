@@ -59,7 +59,8 @@ priceList:
   sections:
     - title: Motor & servisní práce
       items:
-        - {}
+        - name: 'Výměna rozvodů - dle motorizace, počtu válců'
+          priceFrom: 5000
         - name: Opravy motoru - rozsah závisí na poruše
           priceFrom: 5000
         - name: Diagnostika motoru ( základní až pokročilá )
