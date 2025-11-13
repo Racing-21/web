@@ -69,6 +69,8 @@ priceList:
           priceTo: 2500
     - title: Pneumatiky a kola
       items:
+        - name: Ráfek - menší než 16“
+          price: 1000
         - name: Přezutí pneumatik (4 kola) - dle rozměru
           priceFrom: 1000
           priceTo: 2000
