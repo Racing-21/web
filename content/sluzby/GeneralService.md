@@ -59,29 +59,29 @@ priceList:
   sections:
     - title: Pneumatiky a kola
       items:
-        - name: 'Uskladnění pneumatik ( 6 měsíců,sada )'
-          price: 2400
-        - name: 'Runflat '
-          price: 2000
-        - name: Ráfek - větší než 20“
-          price: 2000
-        - name: Ráfek 20“
-          price: 1750
-        - name: Ráfek 19“
-          price: 1500
-        - name: Ráfek 18“
-          price: 1250
-        - name: Ráfek 17“
-          price: 1300
-        - name: Ráfek - menší než 16“
-          price: 1000
         - name: Přezutí pneumatik (4 kola) - dle rozměru
           priceFrom: 1000
           priceTo: 2000
+        - name: Ráfek - menší než 16“
+          price: 1000
+        - name: Ráfek 17“
+          price: 1300
+        - name: Ráfek 18“
+          price: 1250
+        - name: Ráfek 19“
+          price: 1500
+        - name: Ráfek 20“
+          price: 1750
+        - name: Ráfek - větší než 20“
+          price: 2000
+        - name: 'Runflat '
+          price: 2000
         - name: Vyvážení kol (1 kolo)
           price: 200
         - name: Oprava defektu ( dle typu poškození )
           price: 500
+        - name: 'Uskladnění pneumatik ( 6 měsíců,sada )'
+          price: 2400
     - title: Servisní práce
       items:
         - name: Plnění klimatizace - dle množství chladiva a typu systému
