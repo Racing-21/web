@@ -59,6 +59,9 @@ priceList:
   sections:
     - title: Motor & servisní práce
       items:
+        - name: Diagnostika motoru ( základní až pokročilá )
+          priceFrom: 500
+          priceTo: 1500
         - name: 'Výměna oleje + filtrů ( dle objemu motoru, typu oleje )'
           priceFrom: 1000
     - title: 'Servis '
