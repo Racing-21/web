@@ -69,6 +69,8 @@ priceList:
           priceTo: 2500
     - title: Pneumatiky a kola
       items:
+        - name: 'Uskladnění pneumatik ( 6 měsíců,sada )'
+          price: 2400
         - name: 'Runflat '
           price: 2000
         - name: Ráfek - větší než 20“
