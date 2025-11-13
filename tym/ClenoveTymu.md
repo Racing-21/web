@@ -1,5 +1,11 @@
 ---
 teamMember:
+  - name: 'MECHANIC - Tomáš Křivánek '
+    role:
+      - acceptanceMechanic
+    sex:
+      - M
+    _template: backOffice
   - name: Vojtěch Štajf
     sex:
       - M
