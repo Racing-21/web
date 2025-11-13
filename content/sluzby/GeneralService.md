@@ -57,6 +57,10 @@ categories:
 priceList:
   title: Ceník služeb
   sections:
+    - title: Karoserie / lak
+      items:
+        - name: Opravy karoserie menší - podle rozsahu poškození
+          priceFrom: 5000
     - title: Motor & servisní práce
       items:
         - name: 'Kontrola chlazení - včetně tlaku, kapaliny'
