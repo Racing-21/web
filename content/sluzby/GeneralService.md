@@ -57,6 +57,10 @@ categories:
 priceList:
   title: Ceník služeb
   sections:
+    - title: Leštění a keramika
+      items:
+        - name: Ekonomické
+          price: 5500
     - title: Karoserie / lak
       items:
         - name: 'Výměna autoskla - dle typu skla, lepení'
