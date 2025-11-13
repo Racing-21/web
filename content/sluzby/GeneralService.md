@@ -57,6 +57,10 @@ categories:
 priceList:
   title: Ceník služeb
   sections:
+    - title: 'Servis '
+      items:
+        - name: Kontrola a příprava na STK
+          priceFrom: 1000
     - title: 'Podvozek a brzdy '
       items:
         - name: Oprava podvozku /ramen ( dle rozsahu opravy )
