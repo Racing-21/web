@@ -73,6 +73,8 @@ priceList:
           priceFrom: 1000
     - title: 'Servis '
       items:
+        - name: Plnění klimatizace - dle množství chladiva a typu systému
+          priceFrom: 1500
         - name: Kontrola osvětlení ( kontrola / seřízení světlometů )
           priceFrom: 200
           priceTo: 1000
