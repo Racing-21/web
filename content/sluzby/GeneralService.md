@@ -59,6 +59,8 @@ priceList:
   sections:
     - title: 'Servis '
       items:
+        - name: 'Odstranění závad - hodinová sazba '
+          price: 1000
         - name: Kompletní kontrola vozidla ( před prodejem )
           price: 2000
         - name: Kontrola a příprava na STK ( dle stavu vozidla )
