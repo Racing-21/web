@@ -59,6 +59,9 @@ priceList:
   sections:
     - title: Motor & servisní práce
       items:
+        - {}
+        - name: Opravy motoru - rozsah závisí na poruše
+          priceFrom: 5000
         - name: Diagnostika motoru ( základní až pokročilá )
           priceFrom: 500
           priceTo: 1500
