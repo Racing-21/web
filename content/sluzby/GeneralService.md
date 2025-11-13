@@ -57,6 +57,10 @@ categories:
 priceList:
   title: Ceník služeb
   sections:
+    - title: Motor & servisní práce
+      items:
+        - name: 'Výměna oleje + filtrů ( dle objemu motoru, typu oleje )'
+          priceFrom: 1000
     - title: 'Servis '
       items:
         - name: Kontrola osvětlení ( kontrola / seřízení světlometů )
