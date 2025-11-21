@@ -59,6 +59,8 @@ priceList:
   sections:
     - title: Pneumatiky a kola
       items:
+        - name: 'C - pneumatiky '
+          price: 1500
         - name: Přezutí pneumatik (4 kola) - dle rozměru
           priceFrom: 1000
           priceTo: 2000
