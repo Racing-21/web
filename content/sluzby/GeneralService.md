@@ -105,8 +105,6 @@ priceList:
           priceTo: 6000
     - title: 'Motor '
       items:
-        - name: Dekarbonizace
-          priceFrom: 2000
         - name: 'Výměna oleje + filtrů ( dle objemu motoru, typu oleje )'
           priceFrom: 1000
         - name: Diagnostika motoru ( základní až pokročilá )
@@ -119,6 +117,8 @@ priceList:
         - name: 'Kontrola chlazení - včetně tlaku, kapaliny'
           priceFrom: 500
           priceTo: 1000
+        - name: Dekarbonizace
+          priceFrom: 2000
     - title: 'Podvozek a brzdy '
       items:
         - name: Oprava podvozku /ramen ( dle rozsahu opravy )
