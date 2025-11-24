@@ -59,8 +59,6 @@ priceList:
   sections:
     - title: Pneumatiky a kola
       items:
-        - name: 'C - pneumatiky '
-          price: 1500
         - name: Přezutí pneumatik (4 kola) - dle rozměru
           priceFrom: 1000
           priceTo: 2000
@@ -78,6 +76,8 @@ priceList:
           price: 2000
         - name: 'Runflat '
           price: 2000
+        - name: 'C - pneumatiky '
+          price: 1500
         - name: Vyvážení kol (1 kolo)
           price: 200
         - name: Oprava defektu ( dle typu poškození )
