@@ -35,7 +35,7 @@ const PARTNER_SITES = [
 	{
 		id: 2,
 		name: "Turatello",
-		href: "https://www.turatello.cz",
+		href: "https://www.turatello-privesy.cz",
 		subheadline: "Kryté přívěsy a návěsy italského výrobce TURATELLO",
 		products: [
 			{
