@@ -308,12 +308,6 @@ teamMember:
     sex:
       - M
     _template: backOffice
-  - name: Markéta Pištěková
-    role:
-      - teamCoordinator
-    sex:
-      - F
-    _template: backOffice
   - name: Tomáš Vaněk
     role:
       - prManager
