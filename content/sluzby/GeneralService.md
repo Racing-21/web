@@ -67,7 +67,7 @@ priceList:
         - name: Ráfek 20“
           price: 1950
         - name: Ráfek - větší než 20“
-          price: 2000
+          price: 2200
         - name: 'Runflat '
           price: 2000
         - name: 'C - pneumatiky '
