@@ -73,7 +73,7 @@ priceList:
         - name: 'C - pneumatiky '
           price: 1700
         - name: Vyvážení kol (1 kolo)
-          price: 200
+          price: 250
         - name: Oprava defektu ( dle typu poškození )
           price: 500
         - name: 'Uskladnění pneumatik ( 6 měsíců,sada )'
