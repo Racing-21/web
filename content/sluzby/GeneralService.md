@@ -91,7 +91,7 @@ priceList:
           priceFrom: 300
           priceTo: 1100
         - name: Kontrola a příprava na STK ( dle stavu vozidla )
-          priceFrom: 1000
+          priceFrom: 1200
         - name: 'Zajištění STK ( dle druhu motoru ) '
           priceFrom: 1500
           priceTo: 6000
