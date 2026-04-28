@@ -69,7 +69,7 @@ priceList:
         - name: Ráfek - větší než 20“
           price: 2200
         - name: 'Runflat '
-          price: 2000
+          price: 2200
         - name: 'C - pneumatiky '
           price: 1500
         - name: Vyvážení kol (1 kolo)
