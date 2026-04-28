@@ -61,7 +61,7 @@ priceList:
         - name: Ráfek 17“
           price: 1300
         - name: Ráfek 18“
-          price: 1250
+          price: 1400
         - name: Ráfek 19“
           price: 1500
         - name: Ráfek 20“
