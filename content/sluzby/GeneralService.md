@@ -71,7 +71,7 @@ priceList:
         - name: 'Runflat '
           price: 2200
         - name: 'C - pneumatiky '
-          price: 1500
+          price: 1700
         - name: Vyvážení kol (1 kolo)
           price: 200
         - name: Oprava defektu ( dle typu poškození )
