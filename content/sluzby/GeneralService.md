@@ -117,7 +117,7 @@ priceList:
     - title: 'Podvozek a brzdy '
       items:
         - name: Oprava podvozku /ramen ( dle rozsahu opravy )
-          priceFrom: 2500
+          priceFrom: 2600
         - name: Výměna brzdových destiček + materiál
           price: 1000
         - name: Výměna brzdových destiček + kotoučů (+ materiál)
