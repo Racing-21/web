@@ -1,5 +1,8 @@
 ---
 partner:
+  - name: SAG
+    link: 'https://www.sag.cz/'
+    logo: 'https://res.cloudinary.com/dkhdp7qmd/image/upload/v1777370253/SAG_logo_krivky_1_zhhuzo.svg'
   - name: Lak Racing
     description: ''
     link: 'https://www.lakracing.cz/'
