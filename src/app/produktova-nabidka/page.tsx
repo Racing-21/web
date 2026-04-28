@@ -61,7 +61,6 @@ const PARTNER_SITES = [
 	{
 		id: 5,
 		name: "Sonax",
-		href: "https://www.sonax.cz",
 		subheadline: "Kvalitní německá autokosmetika SONAX",
 		products: [
 			{
