@@ -65,7 +65,7 @@ priceList:
         - name: Ráfek 19“
           price: 1600
         - name: Ráfek 20“
-          price: 1750
+          price: 1950
         - name: Ráfek - větší než 20“
           price: 2000
         - name: 'Runflat '
