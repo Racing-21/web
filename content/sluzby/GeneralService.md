@@ -110,8 +110,8 @@ priceList:
         - name: 'Výměna rozvodů - dle motorizace, počtu válců'
           priceFrom: 5000
         - name: 'Kontrola chlazení - včetně tlaku, kapaliny'
-          priceFrom: 500
-          priceTo: 1000
+          priceFrom: 550
+          priceTo: 1200
         - name: Dekarbonizace
           priceFrom: 2000
     - title: 'Podvozek a brzdy '
