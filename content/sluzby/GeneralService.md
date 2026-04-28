@@ -82,7 +82,7 @@ priceList:
     - title: Servisní práce
       items:
         - name: 'Odstranění závad - hodinová sazba '
-          price: 1000
+          price: 1200
         - name: Kompletní kontrola vozidla ( před prodejem )
           price: 2000
         - name: Plnění klimatizace - dle množství chladiva a typu systému
