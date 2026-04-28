@@ -103,8 +103,8 @@ priceList:
         - name: 'Výměna oleje + filtrů ( dle objemu motoru, typu oleje )'
           priceFrom: 1200
         - name: Diagnostika motoru ( základní až pokročilá )
-          priceFrom: 500
-          priceTo: 1500
+          priceFrom: 600
+          priceTo: 1800
         - name: Opravy motoru - rozsah závisí na poruše
           priceFrom: 5000
         - name: 'Výměna rozvodů - dle motorizace, počtu válců'
