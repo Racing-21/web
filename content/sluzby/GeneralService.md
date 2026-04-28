@@ -77,8 +77,8 @@ priceList:
         - name: Oprava defektu ( dle typu poškození )
           priceFrom: 300
           priceTo: 600
-        - name: 'Uskladnění pneumatik ( 6 měsíců,sada )'
-          price: 2400
+        - name: 'Uskladnění pneumatik ( 6 měsíců, sada )'
+          price: 2500
     - title: Servisní práce
       items:
         - name: 'Odstranění závad - hodinová sazba '
