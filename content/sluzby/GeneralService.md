@@ -84,7 +84,7 @@ priceList:
         - name: 'Odstranění závad - hodinová sazba '
           price: 1200
         - name: Kompletní kontrola vozidla ( před prodejem )
-          price: 2000
+          price: 2300
         - name: Plnění klimatizace - dle množství chladiva a typu systému
           priceFrom: 1500
         - name: Kontrola osvětlení ( kontrola / seřízení světlometů )
