@@ -1,8 +1,7 @@
 ---
 categories:
   - name: Pneumatiky a kola
-    image: >-
-      https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752135044/STA_2311_hmizvn.jpg
+    image: 'https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752135044/STA_2311_hmizvn.jpg'
     features:
       - value: Výměna pneumatik
       - value: Vyvážení kol
@@ -10,8 +9,7 @@ categories:
       - value: Kontrola tlaku
       - value: Uskladnění pneumatik
   - name: Podvozek a brzdy
-    image: >-
-      https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752135050/STA_2375a_fuev14.jpg
+    image: 'https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752135050/STA_2375a_fuev14.jpg'
     features:
       - value: Výměna brzdových destiček
       - value: Kontrola tlumičů
@@ -19,8 +17,7 @@ categories:
       - value: Výměna brzdové kapaliny
       - value: Oprava podvozkových částí
   - name: Kontrola a příprava na STK
-    image: >-
-      https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753020700/DSC05662_wrffwy.jpg
+    image: 'https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753020700/DSC05662_wrffwy.jpg'
     features:
       - value: Kompletní kontrola vozidla
       - value: Odstranění závad
@@ -28,8 +25,7 @@ categories:
       - value: Měření emisí
       - value: Kontrola osvětlení
   - name: Motor a další servisní práce
-    image: >-
-      https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752135044/STA_2264_au2lhh.jpg
+    image: 'https://res.cloudinary.com/dkhdp7qmd/image/upload/v1752135044/STA_2264_au2lhh.jpg'
     features:
       - value: Výměna oleje a filtrů
       - value: Diagnostika motoru
@@ -37,8 +33,7 @@ categories:
       - value: Výměna rozvodů
       - value: Kontrola chlazení
   - name: Diagnostika
-    image: >-
-      https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753020701/DSC04368_z1ndbk.jpg
+    image: 'https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753020701/DSC04368_z1ndbk.jpg'
     features:
       - value: Počítačová diagnostika
       - value: Kontrola elektroniky
@@ -46,8 +41,7 @@ categories:
       - value: Reset servisních intervalů
       - value: Programování řídicích jednotek
   - name: Karoserie
-    image: >-
-      https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753020703/DSC04691_dqgwwr.jpg
+    image: 'https://res.cloudinary.com/dkhdp7qmd/image/upload/v1753020703/DSC04691_dqgwwr.jpg'
     features:
       - value: Opravy karoserie
       - value: Lakování
@@ -60,8 +54,8 @@ priceList:
     - title: Pneumatiky a kola
       items:
         - name: Přezutí pneumatik (4 kola) - dle rozměru
-          priceFrom: 1000
-          priceTo: 2000
+          priceFrom: 1150
+          priceTo: 2200
         - name: Ráfek - menší než 16“
           price: 1000
         - name: Ráfek 17“
@@ -149,9 +143,7 @@ priceList:
           priceFrom: 5000
     - title: Leštění a keramika
       items:
-        - name: >-
-            Premium (5-8) krokové leštění + mytí exteriéru + povrchové čištění
-            interiéru + korekční faktor
+        - name: Premium (5-8) krokové leštění + mytí exteriéru + povrchové čištění interiéru + korekční faktor
           price: 18000
         - name: Standard (2-4) krokové leštění
           price: 12000
