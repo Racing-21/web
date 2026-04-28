@@ -49,7 +49,7 @@ categories:
       - value: Výměna skel
       - value: Opravy po nehodách
 priceList:
-  title: Ceník služeb
+  title: Ceník služeb - Ceny jsou uvedené bez DPH
   sections:
     - title: Pneumatiky a kola
       items:
