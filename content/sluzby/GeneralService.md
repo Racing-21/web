@@ -75,7 +75,8 @@ priceList:
         - name: Vyvážení kol (1 kolo)
           price: 250
         - name: Oprava defektu ( dle typu poškození )
-          price: 500
+          priceFrom: 300
+          priceTo: 600
         - name: 'Uskladnění pneumatik ( 6 měsíců,sada )'
           price: 2400
     - title: Servisní práce
