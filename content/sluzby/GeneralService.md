@@ -88,8 +88,8 @@ priceList:
         - name: Plnění klimatizace - dle množství chladiva a typu systému
           priceFrom: 1500
         - name: Kontrola osvětlení ( kontrola / seřízení světlometů )
-          priceFrom: 200
-          priceTo: 1000
+          priceFrom: 300
+          priceTo: 1100
         - name: Kontrola a příprava na STK ( dle stavu vozidla )
           priceFrom: 1000
         - name: 'Zajištění STK ( dle druhu motoru ) '
