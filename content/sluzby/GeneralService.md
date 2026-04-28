@@ -123,7 +123,7 @@ priceList:
         - name: Výměna brzdových destiček + kotoučů (+ materiál)
           price: 2100
         - name: Výměna brzdové kapaliny ( včetně materiálu )
-          price: 2000
+          price: 2100
     - title: Diagnostika a elektronika
       items:
         - name: Kompletní diagnostika
